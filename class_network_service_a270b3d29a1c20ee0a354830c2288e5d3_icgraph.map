@@ -1,0 +1,12 @@
+<map id="NetworkService::cleanupSocketConnection" name="NetworkService::cleanupSocketConnection">
+<area shape="rect" id="Node000001" title="ソケット接続をクリーンアップします。" alt="" coords="594,39,803,79"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="352,5,546,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="579,46,547,41,547,36,579,40"/>
+<area shape="rect" id="Node000005" href="$class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="354,71,544,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="579,77,545,81,544,76,579,72"/>
+<area shape="rect" id="Node000003" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="103,46,304,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,44,303,48,303,43,336,38"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="メイン関数、プログラムのエントリポイント。" alt="" coords="5,46,55,72"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,62,55,62,55,56,87,56"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="338,79,304,75,305,70,339,74"/>
+</map>

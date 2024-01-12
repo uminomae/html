@@ -1,0 +1,22 @@
+<map id="srcs/components/Portmapping.cpp" name="srcs/components/Portmapping.cpp">
+<area shape="rect" id="Node000001" title="ポートのマップを管理するクラスの実装。" alt="" coords="50,5,274,31"/>
+<area shape="rect" id="Node000002" href="$_port_mapping_8hpp_source.html" title=" " alt="" coords="102,79,222,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,31,165,63,159,63,159,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,226,52,252"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="153,107,52,217,48,213,149,103"/>
+<area shape="rect" id="Node000004" href="$helper_8hpp_source.html" title=" " alt="" coords="210,153,290,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="178,103,225,141,222,145,175,107"/>
+<area shape="poly" id="edge8_Node000004_Node000003" title=" " alt="" coords="212,181,67,228,66,223,211,176"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="76,226,147,252"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="228,181,150,221,147,216,225,177"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="170,226,239,252"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="245,180,222,215,218,212,240,177"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="263,226,328,252"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="260,177,282,212,277,215,255,180"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="352,226,409,252"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="273,177,347,216,344,221,271,181"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="434,226,487,252"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="286,176,420,221,418,226,285,181"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="512,226,572,252"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="291,174,497,223,496,228,290,179"/>
+</map>

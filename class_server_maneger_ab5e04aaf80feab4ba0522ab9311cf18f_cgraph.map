@@ -1,0 +1,17 @@
+<map id="ServerManeger::setupServers" name="ServerManeger::setupServers">
+<area shape="rect" id="Node000001" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="5,161,200,187"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="248,121,432,161"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,158,232,153,232,159,199,163"/>
+<area shape="rect" id="Node000008" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="253,186,427,227"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="201,185,238,190,237,195,200,190"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234" title="サーバーソケットにアドレスをバインドします。" alt="" coords="493,5,666,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="363,118,415,79,479,41,497,34,499,39,481,46,417,83,367,122"/>
+<area shape="rect" id="Node000004" href="$class_network_service.html#abb307c95e97d912803bff29f67f533ca" title="サーバーアドレスを設定します。" alt="" coords="492,55,667,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="416,117,487,98,489,103,418,123"/>
+<area shape="rect" id="Node000005" href="$class_network_service.html#acf04155926d7461e63432034869d23b7" title="サーバーソケットを作成します。" alt="" coords="482,121,678,161"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="433,138,466,138,466,144,433,144"/>
+<area shape="rect" id="Node000006" href="$class_network_service.html#a9e89f1cabbeac6f1b6f8fd5c2fdc49df" title="サーバーソケットをリスニング状態に設定します。" alt="" coords="483,185,677,211"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="428,159,508,179,507,184,427,164"/>
+<area shape="rect" id="Node000007" href="$class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="480,235,679,276"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="410,159,434,172,449,185,458,197,467,209,482,221,489,226,486,230,478,226,463,213,454,201,445,188,430,176,408,164"/>
+</map>

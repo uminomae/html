@@ -1,0 +1,44 @@
+<map id="ServerManeger::runServerLoop" name="ServerManeger::runServerLoop">
+<area shape="rect" id="Node000001" title="サーバーのメインループを実行します。" alt="" coords="5,197,207,223"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="268,103,462,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,194,254,152,275,146,276,151,256,158,143,199"/>
+<area shape="rect" id="Node000009" href="$class_network_service.html#a79b34078f8a4e6c978ab8fae8e4769db" title="poll()を使用してファイルディスクリプタのイベントを待ちます。" alt="" coords="274,168,456,193"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="207,196,258,190,259,195,207,201"/>
+<area shape="rect" id="Node000010" href="$class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="270,217,460,258"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="207,218,254,223,254,228,207,223"/>
+<area shape="rect" id="Node000013" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,282,475,308"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="137,221,192,244,255,267,284,275,283,280,254,272,190,249,135,225"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a270b3d29a1c20ee0a354830c2288e5d3" title="ソケット接続をクリーンアップします。" alt="" coords="524,131,732,171"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="463,131,508,136,508,141,462,136"/>
+<area shape="rect" id="Node000004" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="527,65,729,106"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="462,107,511,100,512,105,463,112"/>
+<area shape="rect" id="Node000005" href="$class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="794,48,963,89"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="729,76,779,73,779,78,729,81"/>
+<area shape="rect" id="Node000008" href="$class_network_service.html#ae0ba832af9234d9c640ae10fa323af87" title="ソケットからメッセージを受信します。" alt="" coords="780,113,977,139"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="730,99,779,107,778,112,729,104"/>
+<area shape="rect" id="Node000006" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="1032,5,1217,46"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="963,51,1016,42,1017,47,964,56"/>
+<area shape="rect" id="Node000007" href="$class_http_transaction.html#ac3b0816e83d73326e10ba91bfdaf539b" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="1040,71,1209,111"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="963,73,1024,79,1024,84,963,79"/>
+<area shape="poly" id="edge10_Node000010_Node000003" title=" " alt="" coords="442,214,474,203,522,181,539,174,541,179,524,185,476,208,444,219"/>
+<area shape="rect" id="Node000011" href="$class_network_service.html#ac1e259c831c5ec4ae0b96633f1480ca6" title="クライアントソケットへの応答メッセージを送信します。" alt="" coords="523,196,732,221"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="460,224,507,219,508,224,461,230"/>
+<area shape="rect" id="Node000012" href="$class_network_service.html#ab0244f33afb37171b6fe2c73c4077663" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="531,245,725,286"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="461,245,515,251,515,256,460,250"/>
+<area shape="rect" id="Node000014" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="531,310,725,336"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="476,304,515,308,515,314,475,309"/>
+<area shape="rect" id="Node000015" href="$class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="786,279,971,319"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="725,311,771,307,771,312,726,316"/>
+<area shape="rect" id="Node000021" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="791,344,966,385"/>
+<area shape="poly" id="edge21_Node000014_Node000021" title=" " alt="" coords="710,334,776,345,775,350,709,339"/>
+<area shape="rect" id="Node000016" href="$class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234" title="サーバーソケットにアドレスをバインドします。" alt="" coords="1038,164,1211,189"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="903,276,957,237,1024,199,1043,192,1045,197,1026,204,960,242,907,280"/>
+<area shape="rect" id="Node000017" href="$class_network_service.html#abb307c95e97d912803bff29f67f533ca" title="サーバーアドレスを設定します。" alt="" coords="1037,213,1212,254"/>
+<area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="957,275,1030,256,1031,261,958,281"/>
+<area shape="rect" id="Node000018" href="$class_network_service.html#acf04155926d7461e63432034869d23b7" title="サーバーソケットを作成します。" alt="" coords="1026,279,1223,319"/>
+<area shape="poly" id="edge18_Node000015_Node000018" title=" " alt="" coords="971,296,1010,296,1010,302,971,302"/>
+<area shape="rect" id="Node000019" href="$class_network_service.html#a9e89f1cabbeac6f1b6f8fd5c2fdc49df" title="サーバーソケットをリスニング状態に設定します。" alt="" coords="1027,344,1222,369"/>
+<area shape="poly" id="edge19_Node000015_Node000019" title=" " alt="" coords="969,317,1052,337,1050,342,968,323"/>
+<area shape="rect" id="Node000020" href="$class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="1025,393,1224,434"/>
+<area shape="poly" id="edge20_Node000015_Node000020" title=" " alt="" coords="954,318,978,330,993,343,1003,355,1012,368,1026,379,1034,384,1031,388,1023,384,1008,371,998,359,989,347,975,335,952,322"/>
+</map>

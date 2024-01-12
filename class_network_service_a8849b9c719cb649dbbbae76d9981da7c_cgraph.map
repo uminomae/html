@@ -1,0 +1,9 @@
+<map id="NetworkService::handleSendResponses" name="NetworkService::handleSendResponses">
+<area shape="rect" id="Node000001" title="クライアントへの応答を処理します。" alt="" coords="5,63,196,103"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a270b3d29a1c20ee0a354830c2288e5d3" title="ソケット接続をクリーンアップします。" alt="" coords="244,5,453,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,59,242,48,243,53,192,65"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#ac1e259c831c5ec4ae0b96633f1480ca6" title="クライアントソケットへの応答メッセージを送信します。" alt="" coords="244,70,453,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,80,228,80,228,86,196,86"/>
+<area shape="rect" id="Node000004" href="$class_network_service.html#ab0244f33afb37171b6fe2c73c4077663" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="251,120,446,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,101,243,113,242,118,191,107"/>
+</map>

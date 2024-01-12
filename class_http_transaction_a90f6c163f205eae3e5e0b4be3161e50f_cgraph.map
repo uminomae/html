@@ -1,0 +1,7 @@
+<map id="HttpTransaction::processHttpRequest" name="HttpTransaction::processHttpRequest">
+<area shape="rect" id="Node000001" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,39,174,79"/>
+<area shape="rect" id="Node000002" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,44,206,39,206,44,174,49"/>
+<area shape="rect" id="Node000003" href="$class_http_transaction.html#ac3b0816e83d73326e10ba91bfdaf539b" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="229,71,399,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,68,214,74,214,79,174,74"/>
+</map>

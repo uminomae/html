@@ -1,0 +1,5 @@
+<map id="PortMapping::getListenPort" name="PortMapping::getListenPort">
+<area shape="rect" id="Node000001" title="指定されたサーバーソケットのリッスンポート番号を取得します。" alt="" coords="5,5,185,31"/>
+<area shape="rect" id="Node000002" href="$class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="233,5,432,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,16,217,16,217,21,185,21"/>
+</map>

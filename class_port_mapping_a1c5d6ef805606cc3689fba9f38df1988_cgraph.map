@@ -1,0 +1,5 @@
+<map id="PortMapping::getConnectedServicePort" name="PortMapping::getConnectedServicePort">
+<area shape="rect" id="Node000001" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="5,5,189,46"/>
+<area shape="rect" id="Node000002" href="$class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="237,13,436,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,23,221,23,221,28,189,28"/>
+</map>
