@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "輝く未来をHugっとネ!Happy Go Lucky!ドキドキ!ドキュメント!", "index.html", [
+  [ "輝く未来をHugっとネ!Happy Go Lucky!ドキドキドキュメント!", "index.html", [
     [ "作業のルール的なもの・使い方", "md__r_e_a_d_m_e.html", [
       [ "コンパイル時のターゲット", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
       [ "連絡用ディレクトリ", "md__r_e_a_d_m_e.html#autotoc_md2", null ]
