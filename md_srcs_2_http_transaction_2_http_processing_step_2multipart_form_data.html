@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>輝く未来をHugっとネ!Happy Go Lucky!ドキドキドキュメント!: multipartFormData</title>
+<title>輝く未来をHugっとネ!Happy Go Lucky!ドキドキ!ドキュメント!: multipartFormData</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">輝く未来をHugっとネ!Happy Go Lucky!ドキドキドキュメント!
+   <div id="projectname">輝く未来をHugっとネ!Happy Go Lucky!ドキドキ!ドキュメント!
    </div>
   </td>
  </tr>
@@ -97,18 +97,18 @@ $(function(){initNavTree('md_srcs_2_http_transaction_2_http_processing_step_2mul
 <div class="textblock"><ul>
 <li>パーサーが追加で必要</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3"></a>
+<h1><a class="anchor" id="autotoc_md4"></a>
 要件：multipart/form-data関連</h1>
-<h2><a class="anchor" id="autotoc_md4"></a>
+<h2><a class="anchor" id="autotoc_md5"></a>
 処理の流れ</h2>
-<h3><a class="anchor" id="autotoc_md5"></a>
+<h3><a class="anchor" id="autotoc_md6"></a>
 ヘッダー解析　if (headerに　Content-Type: multipart/form-data　があったら)</h3>
 <div class="fragment"><div class="line">ex. Content-Type: multipart/form-data; boundary=--&lt;バウンダリ文字列&gt;\r\n</div>
 </div><!-- fragment --><ul>
 <li>バウンダリをsubstr()で格納する <br  />
 </li>
 </ul>
-<h3><a class="anchor" id="autotoc_md6"></a>
+<h3><a class="anchor" id="autotoc_md7"></a>
 複数のパート解析　次にContent-Dispositionを探す</h3>
 <div class="fragment"><div class="line">ex. Content-Disposition: form-data; name=&quot;&lt;1つ目の名前&gt;&quot;\r\n</div>
 </div><!-- fragment --><p> getlineしながら、</p><ul>
@@ -125,7 +125,7 @@ $(function(){initNavTree('md_srcs_2_http_transaction_2_http_processing_step_2mul
 </li>
 <li>空行の前はテキスト、後はバイナリ</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md7"></a>
+<h3><a class="anchor" id="autotoc_md8"></a>
 data</h3>
 <ul>
 <li>複数の"データ"を入れるvector&lt;struct&gt;</li>
@@ -136,7 +136,7 @@ data</h3>
 <div class="line">}</div>
 </div><!-- fragment --></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md9"></a>
 ↓具体的には、これをレキサー＆パーサー　　</h1>
 <ul>
 <li>sample <div class="fragment"><div class="line">--&lt;バウンダリ文字列&gt;\r\n</div>

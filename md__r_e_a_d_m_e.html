@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>輝く未来をHugっとネ!Happy Go Lucky!ドキドキドキュメント!: 作業のルール的なもの・使い方</title>
+<title>輝く未来をHugっとネ!Happy Go Lucky!ドキドキ!ドキュメント!: 作業のルール的なもの・使い方</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">輝く未来をHugっとネ!Happy Go Lucky!ドキドキドキュメント!
+   <div id="projectname">輝く未来をHugっとネ!Happy Go Lucky!ドキドキ!ドキュメント!
    </div>
   </td>
  </tr>
@@ -115,11 +115,37 @@ $(function(){initNavTree('md__r_e_a_d_m_e.html',''); initResizable(); });
 </ul>
 </li>
 <li>make qh<ul>
-<li>hacoishiさん用</li>
+<li>hacoishiさん用　　</li>
 </ul>
 </li>
 </ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
+doxygenのドキュメント出力の仕方　　</h1>
+<ol type="1">
+<li>(初回だけ)先に、webservと同じ階層に、webserv_doxygen_docという名称のディレクトリをつくる。※Makefileの一つ上の階層です。</li>
+</ol>
+<ol type="1">
+<li>make q で GUIから"doxygen Doxyfile"を実行するとたくさんファイルができる。 <br  />
+</li>
+</ol>
+<ol type="1">
+<li>そのindex.htmlをfinderから開くとローカルで見れる 　　</li>
+</ol>
+<ul>
+<li>設定<ul>
+<li>EXTRACT_PRIVATE = NO <br  />
+<ul>
+<li>private methodもドキュメント化されない。</li>
+</ul>
+</li>
+<li>SHOW_FILES = NO<ul>
+<li>cppのソースが表示されない</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
 連絡用ディレクトリ</h1>
 <ul>
 <li>./連絡/google test用見本 </li>
