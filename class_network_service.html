@@ -111,9 +111,9 @@ Collaboration diagram for NetworkService:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad56b28e64608c0f9d2e582f4b9c0a8f8" id="r_ad56b28e64608c0f9d2e582f4b9c0a8f8"><td class="memItemLeft" align="right" valign="top"><a id="ad56b28e64608c0f9d2e582f4b9c0a8f8" name="ad56b28e64608c0f9d2e582f4b9c0a8f8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>NetworkService</b> (std::vector&lt; <a class="el" href="class_server_directive.html">ServerDirective</a> &gt; &amp;ServerDirectives, <a class="el" href="class_port_mapping.html">PortMapping</a> &amp;portMapping, <a class="el" href="class_i_rate_limiter.html">IRateLimiter</a> &amp;limiter, std::map&lt; int, <a class="el" href="class_socket_state.html">SocketState</a> &gt; &amp;socketStates, <a class="el" href="class_mime_type.html">MimeType</a> &amp;mimeType)</td></tr>
-<tr class="separator:ad56b28e64608c0f9d2e582f4b9c0a8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb2511e130b738602bd44742d874d3b6" id="r_acb2511e130b738602bd44742d874d3b6"><td class="memItemLeft" align="right" valign="top"><a id="acb2511e130b738602bd44742d874d3b6" name="acb2511e130b738602bd44742d874d3b6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>NetworkService</b> (std::vector&lt; <a class="el" href="class_server_directive.html">ServerDirective</a> &gt; &amp;ServerDirectives, <a class="el" href="class_port_mapping.html">PortMapping</a> &amp;portMapping, <a class="el" href="class_i_counter.html">ICounter</a> &amp;limiter, <a class="el" href="class_i_counter.html">ICounter</a> &amp;errorCounter, std::map&lt; int, <a class="el" href="class_socket_state.html">SocketState</a> &gt; &amp;socketStates, <a class="el" href="class_mime_type.html">MimeType</a> &amp;mimeType)</td></tr>
+<tr class="separator:acb2511e130b738602bd44742d874d3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa669d89eac68ea824c823701a63c6030" id="r_aa669d89eac68ea824c823701a63c6030"><td class="memItemLeft" align="right" valign="top"><a id="aa669d89eac68ea824c823701a63c6030" name="aa669d89eac68ea824c823701a63c6030"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>initNetworkService</b> ()</td></tr>
 <tr class="memdesc:aa669d89eac68ea824c823701a63c6030"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワークサービスを初期化します。 <br /></td></tr>
@@ -296,7 +296,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>すべてのクライアントソケットからのリクエストを処理します。 </p>
-<p>この関数は、pollセットにあるすべてのクライアントファイルディスクリプタを反復処理し、POLLINイベントが設定されたソケットからのリクエストを読み込んで、std::map&lt;int, SocketState&gt;&amp;_socketStates;に格納します。 </p>
+<p>この関数は、pollセットにあるすべてのクライアントファイルディスクリプタを反復処理し、POLLINイベントが設定されたソケットからのリクエストを読み込んで、std::map&lt;int, SocketState&gt;&amp;_socketStates;に格納します。 </p><dl class="section note"><dt>Note</dt><dd>エラーの許容最大数を超えた場合はサーバーをリセットするためにthrowします。 </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

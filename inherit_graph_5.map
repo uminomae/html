@@ -1,13 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_i_http_processing_step.html" title=" " alt="" coords="5,104,148,130"/>
-<area shape="rect" id="Node000001" href="$class_cgi_execution_state.html" title=" " alt="" coords="212,5,343,31"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="106,92,147,65,195,40,222,29,224,34,197,45,150,70,109,97"/>
-<area shape="rect" id="Node000002" href="$class_content_extraction_state.html" title=" " alt="" coords="199,55,356,80"/>
-<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="146,97,221,78,223,84,148,102"/>
-<area shape="rect" id="Node000003" href="$class_file_path_generation_state.html" title=" " alt="" coords="196,104,359,130"/>
-<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="164,114,195,114,195,120,164,120"/>
-<area shape="rect" id="Node000004" href="$class_parsing_state.html" title=" " alt="" coords="229,153,326,179"/>
-<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="147,131,229,152,228,157,146,137"/>
-<area shape="rect" id="Node000005" href="$class_response_str_build_state.html" title=" " alt="" coords="199,203,356,228"/>
-<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="109,137,150,164,197,189,224,200,222,205,195,194,147,168,106,141"/>
+<area shape="rect" id="Node000000" href="$class_i_counter.html" title=" " alt="" coords="5,31,77,56"/>
+<area shape="rect" id="Node000001" href="$class_base_counter.html" title=" " alt="" coords="125,31,222,56"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="92,41,124,41,124,46,92,46"/>
+<area shape="rect" id="Node000002" href="$class_error_counter.html" title=" " alt="" coords="270,5,365,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="237,30,269,24,270,29,238,35"/>
+<area shape="rect" id="Node000003" href="$class_rate_limiter.html" title=" " alt="" coords="274,55,362,80"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="238,52,274,58,273,63,237,57"/>
 </map>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['filepathgenerationstate_0',['FilePathGenerationState',['../class_file_path_generation_state.html',1,'']]]
+  ['cgiexecutionstate_0',['CgiExecutionState',['../class_cgi_execution_state.html',1,'']]],
+  ['contentextractionstate_1',['ContentExtractionState',['../class_content_extraction_state.html',1,'']]]
 ];

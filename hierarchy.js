@@ -5,6 +5,12 @@ var hierarchy =
     [ "HttpRequest", "struct_http_request.html", null ],
     [ "HttpResponse", "struct_http_response.html", null ],
     [ "HttpTransaction", "class_http_transaction.html", null ],
+    [ "ICounter", "class_i_counter.html", [
+      [ "BaseCounter", "class_base_counter.html", [
+        [ "ErrorCounter", "class_error_counter.html", null ],
+        [ "RateLimiter", "class_rate_limiter.html", null ]
+      ] ]
+    ] ],
     [ "IHttpProcessingStep", "class_i_http_processing_step.html", [
       [ "CgiExecutionState", "class_cgi_execution_state.html", null ],
       [ "ContentExtractionState", "class_content_extraction_state.html", null ],
@@ -14,9 +20,6 @@ var hierarchy =
     ] ],
     [ "IHttpWorkflowManager", "class_i_http_workflow_manager.html", [
       [ "HttpWorkflowManager", "class_http_workflow_manager.html", null ]
-    ] ],
-    [ "IRateLimiter", "class_i_rate_limiter.html", [
-      [ "RateLimiter", "class_rate_limiter.html", null ]
     ] ],
     [ "LocationDirective", "class_location_directive.html", null ],
     [ "MimeType", "class_mime_type.html", null ],

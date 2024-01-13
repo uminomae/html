@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['作業のルール的なもの・使い方_0',['作業のルール的なもの・使い方',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['_7ehttptransaction_0',['~HttpTransaction',['../class_http_transaction.html#a46d0113f96bf8c9bf8ee5674f693b3a9',1,'HttpTransaction']]]
 ];

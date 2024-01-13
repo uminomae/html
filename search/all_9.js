@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['networkservice_0',['NetworkService',['../class_network_service.html',1,'']]]
+  ['locationdirective_0',['LocationDirective',['../class_location_directive.html',1,'']]]
 ];

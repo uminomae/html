@@ -1,0 +1,9 @@
+<map id="ICounter" name="ICounter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="216,5,305,111"/>
+<area shape="rect" id="Node000002" href="$class_base_counter.html" title=" " alt="" coords="144,159,377,304"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,126,263,159,258,159,258,126"/>
+<area shape="rect" id="Node000003" href="$class_error_counter.html" title=" " alt="" coords="5,352,252,437"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,317,164,354,160,351,191,314"/>
+<area shape="rect" id="Node000004" href="$class_rate_limiter.html" title=" " alt="" coords="277,352,509,437"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="331,314,361,351,357,354,327,317"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="BaseCounter::isLimited" name="BaseCounter::isLimited">
+<area shape="rect" id="Node000001" title="現在の秒数を基にして、その秒に対するカウント数が設定された最大数を超えているかをチェックします。" alt="" coords="216,5,373,31"/>
+<area shape="rect" id="Node000002" href="$class_base_counter.html#ab6fb34ba4724a9d5b65b6227c6217048" title="カウント数が最大数を超えていなければカウント数を一つ増やします。" alt="" coords="5,5,168,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,21,168,21,168,16,200,16"/>
+</map>
