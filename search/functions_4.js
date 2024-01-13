@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['increment_0',['increment',['../class_base_counter.html#ab6fb34ba4724a9d5b65b6227c6217048',1,'BaseCounter']]],
-  ['initializerequest_1',['initializeRequest',['../class_http_transaction.html#ac3b0816e83d73326e10ba91bfdaf539b',1,'HttpTransaction']]],
-  ['initnetworkservice_2',['initNetworkService',['../class_network_service.html#aa669d89eac68ea824c823701a63c6030',1,'NetworkService']]],
-  ['islimited_3',['isLimited',['../class_base_counter.html#ac0889a99701ce0d315b04887a1da5de4',1,'BaseCounter']]]
+  ['getconnectedserviceport_0',['getConnectedServicePort',['../class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988',1,'PortMapping']]],
+  ['getlistenport_1',['getListenPort',['../class_port_mapping.html#af2565580060648e513ff1096677d5d83',1,'PortMapping']]],
+  ['getportfrommap_2',['getPortFromMap',['../class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490',1,'PortMapping']]]
 ];

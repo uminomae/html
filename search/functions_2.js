@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['getconnectedserviceport_0',['getConnectedServicePort',['../class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988',1,'PortMapping']]],
-  ['getlistenport_1',['getListenPort',['../class_port_mapping.html#af2565580060648e513ff1096677d5d83',1,'PortMapping']]],
-  ['getportfrommap_2',['getPortFromMap',['../class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490',1,'PortMapping']]]
+  ['closeandcleanupsocket_0',['closeAndCleanupSocket',['../class_network_service.html#a16ed9bd4de8e026601eca26611647507',1,'NetworkService']]],
+  ['closeandresetallsockets_1',['closeAndResetAllSockets',['../class_network_service.html#a2cf75b7a3d9f4f6ffb04501be4a4f151',1,'NetworkService']]]
 ];

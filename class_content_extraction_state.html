@@ -122,18 +122,68 @@ Collaboration diagram for ContentExtractionState:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a127f220bca1ccb5923933c272c6cefe0" id="r_a127f220bca1ccb5923933c272c6cefe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a127f220bca1ccb5923933c272c6cefe0">handle</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memdesc:a127f220bca1ccb5923933c272c6cefe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTPリクエストに基づいてコンテンツ抽出処理を実行します。  <br /></td></tr>
 <tr class="separator:a127f220bca1ccb5923933c272c6cefe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a477ae29cd5285bc1fdacf361c17f161d" id="r_a477ae29cd5285bc1fdacf361c17f161d"><td class="memItemLeft" align="right" valign="top"><a id="a477ae29cd5285bc1fdacf361c17f161d" name="a477ae29cd5285bc1fdacf361c17f161d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>findValidFilePath</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memitem:a477ae29cd5285bc1fdacf361c17f161d" id="r_a477ae29cd5285bc1fdacf361c17f161d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a477ae29cd5285bc1fdacf361c17f161d">findValidFilePath</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memdesc:a477ae29cd5285bc1fdacf361c17f161d"><td class="mdescLeft">&#160;</td><td class="mdescRight">有効なファイルパスを探索します。  <br /></td></tr>
 <tr class="separator:a477ae29cd5285bc1fdacf361c17f161d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c744c5c3ce77056db86b407f9b645a4" id="r_a9c744c5c3ce77056db86b407f9b645a4"><td class="memItemLeft" align="right" valign="top"><a id="a9c744c5c3ce77056db86b407f9b645a4" name="a9c744c5c3ce77056db86b407f9b645a4"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>readFileContentToResponseBody</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memitem:a9c744c5c3ce77056db86b407f9b645a4" id="r_a9c744c5c3ce77056db86b407f9b645a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c744c5c3ce77056db86b407f9b645a4">readFileContentToResponseBody</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memdesc:a9c744c5c3ce77056db86b407f9b645a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルの内容をHTTPレスポンスボディに読み込みます。  <br /></td></tr>
 <tr class="separator:a9c744c5c3ce77056db86b407f9b645a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a477ae29cd5285bc1fdacf361c17f161d" name="a477ae29cd5285bc1fdacf361c17f161d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a477ae29cd5285bc1fdacf361c17f161d">&#9670;&#160;</a></span>findValidFilePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ContentExtractionState::findValidFilePath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>有効なファイルパスを探索します。 </p>
+<p>絶対ファイルパスのリストを調べ、有効なファイルパスを見つけた場合はtrueを返します。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>有効なファイルパスが見つかった場合はtrue、そうでない場合はfalse。 </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_content_extraction_state_a477ae29cd5285bc1fdacf361c17f161d_icgraph.png" border="0" usemap="#aclass_content_extraction_state_a477ae29cd5285bc1fdacf361c17f161d_icgraph" alt=""/></div>
+<map name="aclass_content_extraction_state_a477ae29cd5285bc1fdacf361c17f161d_icgraph" id="aclass_content_extraction_state_a477ae29cd5285bc1fdacf361c17f161d_icgraph">
+<area shape="rect" title="有効なファイルパスを探索します。" alt="" coords="659,5,817,46"/>
+<area shape="rect" href="class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="454,5,611,46"/>
+<area shape="poly" title=" " alt="" coords="644,28,612,28,612,23,644,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a127f220bca1ccb5923933c272c6cefe0" name="a127f220bca1ccb5923933c272c6cefe0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a127f220bca1ccb5923933c272c6cefe0">&#9670;&#160;</a></span>handle()</h2>
 
@@ -157,7 +207,91 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>readFileContentToRespo
 </table>
 </div><div class="memdoc">
 
+<p>HTTPリクエストに基づいてコンテンツ抽出処理を実行します。 </p>
+<p>有効なファイルパスを探索し、ファイルの内容をHTTPレスポンスボディに読み込みます。 ファイルが見つからない場合は、404エラーの処理を行います。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implements <a class="el" href="class_i_http_processing_step.html">IHttpProcessingStep</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_content_extraction_state_a127f220bca1ccb5923933c272c6cefe0_cgraph.png" border="0" usemap="#aclass_content_extraction_state_a127f220bca1ccb5923933c272c6cefe0_cgraph" alt=""/></div>
+<map name="aclass_content_extraction_state_a127f220bca1ccb5923933c272c6cefe0_cgraph" id="aclass_content_extraction_state_a127f220bca1ccb5923933c272c6cefe0_cgraph">
+<area shape="rect" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="5,71,163,111"/>
+<area shape="rect" href="class_content_extraction_state.html#a477ae29cd5285bc1fdacf361c17f161d" title="有効なファイルパスを探索します。" alt="" coords="244,5,402,46"/>
+<area shape="poly" title=" " alt="" coords="160,68,231,48,232,53,161,73"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="244,71,402,111"/>
+<area shape="poly" title=" " alt="" coords="163,88,228,88,228,94,163,94"/>
+<area shape="rect" href="class_content_extraction_state.html#a9c744c5c3ce77056db86b407f9b645a4" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="211,136,435,177"/>
+<area shape="poly" title=" " alt="" coords="161,109,232,129,231,134,160,114"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_content_extraction_state_a127f220bca1ccb5923933c272c6cefe0_icgraph.png" border="0" usemap="#aclass_content_extraction_state_a127f220bca1ccb5923933c272c6cefe0_icgraph" alt=""/></div>
+<map name="aclass_content_extraction_state_a127f220bca1ccb5923933c272c6cefe0_icgraph" id="aclass_content_extraction_state_a127f220bca1ccb5923933c272c6cefe0_icgraph">
+<area shape="rect" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="454,5,611,46"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9c744c5c3ce77056db86b407f9b645a4" name="a9c744c5c3ce77056db86b407f9b645a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c744c5c3ce77056db86b407f9b645a4">&#9670;&#160;</a></span>readFileContentToResponseBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ContentExtractionState::readFileContentToResponseBody </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルの内容をHTTPレスポンスボディに読み込みます。 </p>
+<p>指定されたファイルパスからファイルの内容を読み込み、HttpTransactionのレスポンスボディに設定します。 ファイルが見つからない場合は404ステータスコードを返します。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>処理の結果に応じたHTTPステータスコード。 </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_content_extraction_state_a9c744c5c3ce77056db86b407f9b645a4_icgraph.png" border="0" usemap="#aclass_content_extraction_state_a9c744c5c3ce77056db86b407f9b645a4_icgraph" alt=""/></div>
+<map name="aclass_content_extraction_state_a9c744c5c3ce77056db86b407f9b645a4_icgraph" id="aclass_content_extraction_state_a9c744c5c3ce77056db86b407f9b645a4_icgraph">
+<area shape="rect" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="659,5,884,46"/>
+<area shape="rect" href="class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="454,5,611,46"/>
+<area shape="poly" title=" " alt="" coords="644,28,612,28,612,23,644,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
 
 </div>
 </div>
