@@ -108,13 +108,59 @@ Collaboration diagram for UtilHttpProcessingStep:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2981180233e55296d44cbc638401f067" id="r_a2981180233e55296d44cbc638401f067"><td class="memItemLeft" align="right" valign="top"><a id="a2981180233e55296d44cbc638401f067" name="a2981180233e55296d44cbc638401f067"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>handleErrorResponse</b> (const <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;transaction, int errorCode)</td></tr>
+<tr class="memitem:a2981180233e55296d44cbc638401f067" id="r_a2981180233e55296d44cbc638401f067"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2981180233e55296d44cbc638401f067">handleErrorResponse</a> (const <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;transaction, int errorCode)</td></tr>
+<tr class="memdesc:a2981180233e55296d44cbc638401f067"><td class="mdescLeft">&#160;</td><td class="mdescRight">404や500など、ステータスコードに対応するエラーページの内容を返します。  <br /></td></tr>
 <tr class="separator:a2981180233e55296d44cbc638401f067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af10e309722ea7df58f019f0124b62865" id="r_af10e309722ea7df58f019f0124b62865"><td class="memItemLeft" align="right" valign="top"><a id="af10e309722ea7df58f019f0124b62865" name="af10e309722ea7df58f019f0124b62865"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>debugPutResultParse</b> (const <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
 <tr class="separator:af10e309722ea7df58f019f0124b62865"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2981180233e55296d44cbc638401f067" name="a2981180233e55296d44cbc638401f067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2981180233e55296d44cbc638401f067">&#9670;&#160;</a></span>handleErrorResponse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string UtilHttpProcessingStep::handleErrorResponse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>errorCode</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>404や500など、ステータスコードに対応するエラーページの内容を返します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td><a class="el" href="class_http_transaction.html">HttpTransaction</a> クラスのインスタンス。 </td></tr>
+    <tr><td class="paramname">errorCode</td><td>エラーコード。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>エラーページの内容を含む文字列。 </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>エラーページファイルが開けない場合に発生。 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/http/HttpProcessingStep/<a class="el" href="_util_http_processing_step_8hpp_source.html">UtilHttpProcessingStep.hpp</a></li>
 <li>srcs/HttpTransaction/HttpProcessingStep/<b>UtilHttpProcessingStep.cpp</b></li>

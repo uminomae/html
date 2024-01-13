@@ -1,5 +1,5 @@
 <map id="NetworkService::handleSendResponses" name="NetworkService::handleSendResponses">
 <area shape="rect" id="Node000001" title="クライアントへの応答を処理します。" alt="" coords="5,5,196,46"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a270b3d29a1c20ee0a354830c2288e5d3" title="ソケット接続をクリーンアップします。" alt="" coords="244,5,452,46"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="244,5,420,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,23,228,23,228,28,196,28"/>
 </map>

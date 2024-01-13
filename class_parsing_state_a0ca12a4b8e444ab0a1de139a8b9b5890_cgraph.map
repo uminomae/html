@@ -1,0 +1,15 @@
+<map id="ParsingState::handle" name="ParsingState::handle">
+<area shape="rect" id="Node000001" title="HTTPリクエストの解析を行います。" alt="" coords="5,136,148,161"/>
+<area shape="rect" id="Node000002" href="$class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="214,5,393,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,133,135,96,194,57,209,50,211,55,197,61,138,100,94,137"/>
+<area shape="rect" id="Node000003" href="$class_parsing_state.html#a524ae3fb626aac04daa7680bb7a992b3" title="URIからクエリ文字列を抽出します。" alt="" coords="214,71,393,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,132,205,113,206,118,131,137"/>
+<area shape="rect" id="Node000004" href="$class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="196,136,411,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,146,180,146,180,151,148,151"/>
+<area shape="rect" id="Node000006" href="$class_parsing_state.html#a55e71332b300ff96e8b9a73a6a4d97f3" title="HTTPリクエストヘッダーを解析します。" alt="" coords="211,185,396,226"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="131,159,206,178,205,184,130,164"/>
+<area shape="rect" id="Node000007" href="$class_parsing_state.html#a68cb940389c1b0e5920dfabc927533b9" title="HTTPリクエストラインを解析します。" alt="" coords="199,250,408,276"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="93,160,137,198,166,218,197,235,215,242,212,247,195,240,163,222,134,202,90,164"/>
+<area shape="rect" id="Node000005" href="$class_parsing_state.html#a7f5789e4470fffb0106e3268c67b7807" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="459,128,651,169"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="411,146,444,146,444,151,411,151"/>
+</map>

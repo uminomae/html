@@ -1,7 +1,21 @@
 <map id="HttpTransaction::processHttpRequest" name="HttpTransaction::processHttpRequest">
-<area shape="rect" id="Node000001" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,39,174,79"/>
-<area shape="rect" id="Node000002" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,44,206,39,206,44,174,49"/>
-<area shape="rect" id="Node000003" href="$class_http_transaction.html#ac3b0816e83d73326e10ba91bfdaf539b" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="229,71,399,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,68,214,74,214,79,174,74"/>
+<area shape="rect" id="Node000001" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,161,174,202"/>
+<area shape="rect" id="Node000002" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,128,406,169"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,167,206,162,206,167,174,172"/>
+<area shape="rect" id="Node000010" href="$class_http_transaction.html#ac3b0816e83d73326e10ba91bfdaf539b" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="229,193,399,234"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="174,191,214,197,214,202,174,196"/>
+<area shape="rect" id="Node000003" href="$class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,136,596,161"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="406,146,439,146,439,151,406,151"/>
+<area shape="rect" id="Node000004" href="$class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="663,5,841,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="539,133,583,96,643,57,658,50,660,55,646,61,587,100,542,137"/>
+<area shape="rect" id="Node000005" href="$class_parsing_state.html#a524ae3fb626aac04daa7680bb7a992b3" title="URIからクエリ文字列を抽出します。" alt="" coords="663,71,841,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="578,132,653,113,655,118,580,137"/>
+<area shape="rect" id="Node000006" href="$class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="644,136,860,161"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="597,146,629,146,629,151,597,151"/>
+<area shape="rect" id="Node000008" href="$class_parsing_state.html#a55e71332b300ff96e8b9a73a6a4d97f3" title="HTTPリクエストヘッダーを解析します。" alt="" coords="659,185,845,226"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="580,159,655,178,653,184,578,164"/>
+<area shape="rect" id="Node000009" href="$class_parsing_state.html#a68cb940389c1b0e5920dfabc927533b9" title="HTTPリクエストラインを解析します。" alt="" coords="647,250,857,276"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="542,160,586,198,615,218,645,235,663,242,661,247,643,240,612,222,583,202,538,164"/>
+<area shape="rect" id="Node000007" href="$class_parsing_state.html#a7f5789e4470fffb0106e3268c67b7807" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="908,128,1100,169"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="860,146,892,146,892,151,860,151"/>
 </map>

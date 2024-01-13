@@ -17,7 +17,7 @@ var annotated_dup =
     [ "LocationDirective", "class_location_directive.html", null ],
     [ "MimeType", "class_mime_type.html", null ],
     [ "NetworkService", "class_network_service.html", "class_network_service" ],
-    [ "ParsingState", "class_parsing_state.html", null ],
+    [ "ParsingState", "class_parsing_state.html", "class_parsing_state" ],
     [ "PortMapping", "class_port_mapping.html", "class_port_mapping" ],
     [ "RateLimiter", "class_rate_limiter.html", null ],
     [ "ResponseStrBuildState", "class_response_str_build_state.html", null ],

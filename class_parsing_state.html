@@ -122,27 +122,29 @@ Collaboration diagram for ParsingState:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ca12a4b8e444ab0a1de139a8b9b5890" id="r_a0ca12a4b8e444ab0a1de139a8b9b5890"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ca12a4b8e444ab0a1de139a8b9b5890">handle</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memdesc:a0ca12a4b8e444ab0a1de139a8b9b5890"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTPリクエストの解析を行います。  <br /></td></tr>
 <tr class="separator:a0ca12a4b8e444ab0a1de139a8b9b5890"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a68cb940389c1b0e5920dfabc927533b9" id="r_a68cb940389c1b0e5920dfabc927533b9"><td class="memItemLeft" align="right" valign="top"><a id="a68cb940389c1b0e5920dfabc927533b9" name="a68cb940389c1b0e5920dfabc927533b9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseRequestLine</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransakution)</td></tr>
+<tr class="memitem:a68cb940389c1b0e5920dfabc927533b9" id="r_a68cb940389c1b0e5920dfabc927533b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68cb940389c1b0e5920dfabc927533b9">parseRequestLine</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransakution)</td></tr>
+<tr class="memdesc:a68cb940389c1b0e5920dfabc927533b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTPリクエストラインを解析します。  <br /></td></tr>
 <tr class="separator:a68cb940389c1b0e5920dfabc927533b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55e71332b300ff96e8b9a73a6a4d97f3" id="r_a55e71332b300ff96e8b9a73a6a4d97f3"><td class="memItemLeft" align="right" valign="top"><a id="a55e71332b300ff96e8b9a73a6a4d97f3" name="a55e71332b300ff96e8b9a73a6a4d97f3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseRequestHeader</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memitem:a55e71332b300ff96e8b9a73a6a4d97f3" id="r_a55e71332b300ff96e8b9a73a6a4d97f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55e71332b300ff96e8b9a73a6a4d97f3">parseRequestHeader</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memdesc:a55e71332b300ff96e8b9a73a6a4d97f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTPリクエストヘッダーを解析します。  <br /></td></tr>
 <tr class="separator:a55e71332b300ff96e8b9a73a6a4d97f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f5789e4470fffb0106e3268c67b7807" id="r_a7f5789e4470fffb0106e3268c67b7807"><td class="memItemLeft" align="right" valign="top"><a id="a7f5789e4470fffb0106e3268c67b7807" name="a7f5789e4470fffb0106e3268c67b7807"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>paraseRequestChunk</b> (std::string &amp;body, <a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState)</td></tr>
+<tr class="memitem:a7f5789e4470fffb0106e3268c67b7807" id="r_a7f5789e4470fffb0106e3268c67b7807"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5789e4470fffb0106e3268c67b7807">paraseRequestChunk</a> (std::string &amp;body, <a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState)</td></tr>
+<tr class="memdesc:a7f5789e4470fffb0106e3268c67b7807"><td class="mdescLeft">&#160;</td><td class="mdescRight">チャンクエンコーディングの際のリクエストボディを解析します  <br /></td></tr>
 <tr class="separator:a7f5789e4470fffb0106e3268c67b7807"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5902265976392a4bdc3d15cbc83fe6c" id="r_ae5902265976392a4bdc3d15cbc83fe6c"><td class="memItemLeft" align="right" valign="top"><a id="ae5902265976392a4bdc3d15cbc83fe6c" name="ae5902265976392a4bdc3d15cbc83fe6c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseRequestBody</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memitem:ae5902265976392a4bdc3d15cbc83fe6c" id="r_ae5902265976392a4bdc3d15cbc83fe6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5902265976392a4bdc3d15cbc83fe6c">parseRequestBody</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memdesc:ae5902265976392a4bdc3d15cbc83fe6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTPリクエストボディを解析します。 <br  />
+  <br /></td></tr>
 <tr class="separator:ae5902265976392a4bdc3d15cbc83fe6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a524ae3fb626aac04daa7680bb7a992b3" id="r_a524ae3fb626aac04daa7680bb7a992b3"><td class="memItemLeft" align="right" valign="top"><a id="a524ae3fb626aac04daa7680bb7a992b3" name="a524ae3fb626aac04daa7680bb7a992b3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseExtractQueryFromUri</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memitem:a524ae3fb626aac04daa7680bb7a992b3" id="r_a524ae3fb626aac04daa7680bb7a992b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a524ae3fb626aac04daa7680bb7a992b3">parseExtractQueryFromUri</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memdesc:a524ae3fb626aac04daa7680bb7a992b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">URIからクエリ文字列を抽出します。  <br /></td></tr>
 <tr class="separator:a524ae3fb626aac04daa7680bb7a992b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab18ab5cde5c9a8cc12eb449130952b83" id="r_ab18ab5cde5c9a8cc12eb449130952b83"><td class="memItemLeft" align="right" valign="top"><a id="ab18ab5cde5c9a8cc12eb449130952b83" name="ab18ab5cde5c9a8cc12eb449130952b83"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parceExtractExtention</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memitem:ab18ab5cde5c9a8cc12eb449130952b83" id="r_ab18ab5cde5c9a8cc12eb449130952b83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab18ab5cde5c9a8cc12eb449130952b83">parceExtractExtention</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memdesc:ab18ab5cde5c9a8cc12eb449130952b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">リクエストURIから拡張子を抽出します。  <br /></td></tr>
 <tr class="separator:ab18ab5cde5c9a8cc12eb449130952b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -169,7 +171,432 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>parceExtractExtention
 </table>
 </div><div class="memdoc">
 
+<p>HTTPリクエストの解析を行います。 </p>
+<p>リクエストライン、ヘッダー、ボディの解析を行います。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>ABNF <div class="fragment"><div class="line">header-field = field-name <span class="stringliteral">&quot;:&quot;</span> OWS field-value OWS  </div>
+<div class="line">http-URI = <span class="stringliteral">&quot;http://&quot;</span> authority path-abempty [ <span class="stringliteral">&quot;?&quot;</span> query ] [ <span class="stringliteral">&quot;#&quot;</span> fragment ]  </div>
+<div class="line">message-body = *OCTET  </div>
+<div class="line">method = token  </div>
+</div><!-- fragment --> </li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><ul>
+<li>ABNF<ul>
+<li>参考:【RFC 5234: Augmented BNF for Syntax Specifications: ABNF】 <a href="https://www.rfc-editor.org/rfc/rfc5234#appendix-B">https://www.rfc-editor.org/rfc/rfc5234#appendix-B</a> <br  />
+</li>
+<li>参考:【SoftLibRFC/src/main/resources/net/siisise/abnf/rfc/HTTP7230.abnf at master · okomeki/SoftLibRFC】 <a href="https://github.com/okomeki/SoftLibRFC/blob/master/src/main/resources/net/siisise/abnf/rfc/HTTP7230.abnf">https://github.com/okomeki/SoftLibRFC/blob/master/src/main/resources/net/siisise/abnf/rfc/HTTP7230.abnf</a></li>
+</ul>
+</li>
+<li>Message Syntax and Routing <br  />
+<ul>
+<li>参考:【RFC 7230 - Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing】 <a href="https://datatracker.ietf.org/doc/html/rfc7230#section-5">https://datatracker.ietf.org/doc/html/rfc7230#section-5</a> </li>
+</ul>
+</li>
+</ul>
+</dd></dl>
+
 <p>Implements <a class="el" href="class_i_http_processing_step.html">IHttpProcessingStep</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_parsing_state_a0ca12a4b8e444ab0a1de139a8b9b5890_cgraph.png" border="0" usemap="#aclass_parsing_state_a0ca12a4b8e444ab0a1de139a8b9b5890_cgraph" alt=""/></div>
+<map name="aclass_parsing_state_a0ca12a4b8e444ab0a1de139a8b9b5890_cgraph" id="aclass_parsing_state_a0ca12a4b8e444ab0a1de139a8b9b5890_cgraph">
+<area shape="rect" title="HTTPリクエストの解析を行います。" alt="" coords="5,136,148,161"/>
+<area shape="rect" href="class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="214,5,393,46"/>
+<area shape="poly" title=" " alt="" coords="90,133,135,96,194,57,209,50,211,55,197,61,138,100,94,137"/>
+<area shape="rect" href="class_parsing_state.html#a524ae3fb626aac04daa7680bb7a992b3" title="URIからクエリ文字列を抽出します。" alt="" coords="214,71,393,111"/>
+<area shape="poly" title=" " alt="" coords="130,132,205,113,206,118,131,137"/>
+<area shape="rect" href="class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="196,136,411,161"/>
+<area shape="poly" title=" " alt="" coords="148,146,180,146,180,151,148,151"/>
+<area shape="rect" href="class_parsing_state.html#a55e71332b300ff96e8b9a73a6a4d97f3" title="HTTPリクエストヘッダーを解析します。" alt="" coords="211,185,396,226"/>
+<area shape="poly" title=" " alt="" coords="131,159,206,178,205,184,130,164"/>
+<area shape="rect" href="class_parsing_state.html#a68cb940389c1b0e5920dfabc927533b9" title="HTTPリクエストラインを解析します。" alt="" coords="199,250,408,276"/>
+<area shape="poly" title=" " alt="" coords="93,160,137,198,166,218,197,235,215,242,212,247,195,240,163,222,134,202,90,164"/>
+<area shape="rect" href="class_parsing_state.html#a7f5789e4470fffb0106e3268c67b7807" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="459,128,651,169"/>
+<area shape="poly" title=" " alt="" coords="411,146,444,146,444,151,411,151"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_parsing_state_a0ca12a4b8e444ab0a1de139a8b9b5890_icgraph.png" border="0" usemap="#aclass_parsing_state_a0ca12a4b8e444ab0a1de139a8b9b5890_icgraph" alt=""/></div>
+<map name="aclass_parsing_state_a0ca12a4b8e444ab0a1de139a8b9b5890_icgraph" id="aclass_parsing_state_a0ca12a4b8e444ab0a1de139a8b9b5890_icgraph">
+<area shape="rect" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7f5789e4470fffb0106e3268c67b7807" name="a7f5789e4470fffb0106e3268c67b7807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f5789e4470fffb0106e3268c67b7807">&#9670;&#160;</a></span>paraseRequestChunk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParsingState::paraseRequestChunk </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>body</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_socket_state.html">SocketState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>socketState</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>チャンクエンコーディングの際のリクエストボディを解析します </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">body</td><td>解析するリクエストボディへの参照。 </td></tr>
+    <tr><td class="paramname">socketState</td><td>ソケットの状態情報を含むSocketStateオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><br  />
+<ul>
+<li>test case <div class="fragment"><div class="line">curl -H <span class="stringliteral">&quot;Transfer-Encoding: chunked&quot;</span> -d @test/chunk.txt http:<span class="comment">//192.168.10.140  </span></div>
+</div><!-- fragment --></li>
+<li>sample <div class="fragment"><div class="line">POST sample.cgi HTTP/1.1  </div>
+<div class="line">Transfer-Encoding: chunked  </div>
+<div class="line">7\r\n  </div>
+<div class="line">Mozilla\r\n  </div>
+<div class="line">0\r\n  </div>
+<div class="line">\r\n  </div>
+</div><!-- fragment --> </li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><br  />
+<ul>
+<li>参考:【Transfer-Encoding - HTTP | MDN】 <a href="https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Transfer-Encoding">https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Transfer-Encoding</a></li>
+<li>参考:【RFC 7230 - Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing】 <a href="https://datatracker.ietf.org/doc/html/rfc7230#section-3.3.1">https://datatracker.ietf.org/doc/html/rfc7230#section-3.3.1</a> <br  />
+</li>
+<li>参考:【RFC 7230 - Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing】 <a href="https://datatracker.ietf.org/doc/html/rfc7230#section-4">https://datatracker.ietf.org/doc/html/rfc7230#section-4</a> <br  />
+ </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_parsing_state_a7f5789e4470fffb0106e3268c67b7807_icgraph.png" border="0" usemap="#aclass_parsing_state_a7f5789e4470fffb0106e3268c67b7807_icgraph" alt=""/></div>
+<map name="aclass_parsing_state_a7f5789e4470fffb0106e3268c67b7807_icgraph" id="aclass_parsing_state_a7f5789e4470fffb0106e3268c67b7807_icgraph">
+<area shape="rect" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="908,5,1100,46"/>
+<area shape="rect" href="class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="644,13,860,39"/>
+<area shape="poly" title=" " alt="" coords="892,28,860,28,860,23,892,23"/>
+<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
+<area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab18ab5cde5c9a8cc12eb449130952b83" name="ab18ab5cde5c9a8cc12eb449130952b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab18ab5cde5c9a8cc12eb449130952b83">&#9670;&#160;</a></span>parceExtractExtention()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParsingState::parceExtractExtention </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>リクエストURIから拡張子を抽出します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_parsing_state_ab18ab5cde5c9a8cc12eb449130952b83_icgraph.png" border="0" usemap="#aclass_parsing_state_ab18ab5cde5c9a8cc12eb449130952b83_icgraph" alt=""/></div>
+<map name="aclass_parsing_state_ab18ab5cde5c9a8cc12eb449130952b83_icgraph" id="aclass_parsing_state_ab18ab5cde5c9a8cc12eb449130952b83_icgraph">
+<area shape="rect" title="リクエストURIから拡張子を抽出します。" alt="" coords="644,5,823,46"/>
+<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
+<area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a524ae3fb626aac04daa7680bb7a992b3" name="a524ae3fb626aac04daa7680bb7a992b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a524ae3fb626aac04daa7680bb7a992b3">&#9670;&#160;</a></span>parseExtractQueryFromUri()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParsingState::parseExtractQueryFromUri </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>URIからクエリ文字列を抽出します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>クエリコンポーネントは、階層的でないデータを含み、パスコンポーネント（セクション3.3）のデータとともに、URIのスキームや命名権限（もしあれば）の範囲内でリソースを識別するために使われます。クエリコンポーネントは、最初の疑問符（"?"）で示され、ナンバーサイン（"#") またはURIの終わりによって終了されます。</li>
+<li>スラッシュ（"/"）と疑問符（"?"）は、クエリコンポーネント内のデータを表すことができます。しかし、古い、誤った実装の一部では、これらのデータを相対参照の基本URIとして使用するときに、正しく処理されないことに注意してください（セクション5.1）。これは、階層的な区切りを探すときに、クエリデータとパスデータを区別できないためのようです。しかし、クエリコンポーネントはしばしば "key=value" の形式で識別情報を運ぶために使用され、よく使われる値の一つに他のURIへの参照があるため、これらの文字をパーセントエンコーディングで回避することが使いやすさのために時には良いでしょう。</li>
+<li>ABNF <div class="fragment"><div class="line">query      = *( pchar / <span class="stringliteral">&quot;/&quot;</span> / <span class="stringliteral">&quot;?&quot;</span> )</div>
+</div><!-- fragment --> </li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><ul>
+<li>参考:【RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax】 <a href="https://datatracker.ietf.org/doc/html/rfc3986#section-3.4">https://datatracker.ietf.org/doc/html/rfc3986#section-3.4</a> <br  />
+</li>
+<li>参考:【Uniform Resource Identifier - Wikipedia】 <a href="https://ja.wikipedia.org/wiki/Uniform_Resource_Identifier">https://ja.wikipedia.org/wiki/Uniform_Resource_Identifier</a> <br  />
+ </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_parsing_state_a524ae3fb626aac04daa7680bb7a992b3_icgraph.png" border="0" usemap="#aclass_parsing_state_a524ae3fb626aac04daa7680bb7a992b3_icgraph" alt=""/></div>
+<map name="aclass_parsing_state_a524ae3fb626aac04daa7680bb7a992b3_icgraph" id="aclass_parsing_state_a524ae3fb626aac04daa7680bb7a992b3_icgraph">
+<area shape="rect" title="URIからクエリ文字列を抽出します。" alt="" coords="644,5,823,46"/>
+<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
+<area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae5902265976392a4bdc3d15cbc83fe6c" name="ae5902265976392a4bdc3d15cbc83fe6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5902265976392a4bdc3d15cbc83fe6c">&#9670;&#160;</a></span>parseRequestBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParsingState::parseRequestBody </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HTTPリクエストボディを解析します。 <br  />
+ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><br  />
+<ul>
+<li>ABNF <div class="fragment"><div class="line">message-body = *OCTET  </div>
+</div><!-- fragment --> </li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><ul>
+<li>参考:【RFC 3875 - The Common Gateway Interface (CGI) Version 1.1 日本語訳】 <a href="https://tex2e.github.io/rfc-translater/html/rfc3875.html">https://tex2e.github.io/rfc-translater/html/rfc3875.html</a> </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_parsing_state_ae5902265976392a4bdc3d15cbc83fe6c_cgraph.png" border="0" usemap="#aclass_parsing_state_ae5902265976392a4bdc3d15cbc83fe6c_cgraph" alt=""/></div>
+<map name="aclass_parsing_state_ae5902265976392a4bdc3d15cbc83fe6c_cgraph" id="aclass_parsing_state_ae5902265976392a4bdc3d15cbc83fe6c_cgraph">
+<area shape="rect" title="HTTPリクエストボディを解析します。" alt="" coords="5,13,221,39"/>
+<area shape="rect" href="class_parsing_state.html#a7f5789e4470fffb0106e3268c67b7807" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="269,5,461,46"/>
+<area shape="poly" title=" " alt="" coords="221,23,253,23,253,28,221,28"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_parsing_state_ae5902265976392a4bdc3d15cbc83fe6c_icgraph.png" border="0" usemap="#aclass_parsing_state_ae5902265976392a4bdc3d15cbc83fe6c_icgraph" alt=""/></div>
+<map name="aclass_parsing_state_ae5902265976392a4bdc3d15cbc83fe6c_icgraph" id="aclass_parsing_state_ae5902265976392a4bdc3d15cbc83fe6c_icgraph">
+<area shape="rect" title="HTTPリクエストボディを解析します。" alt="" coords="644,13,860,39"/>
+<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
+<area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a55e71332b300ff96e8b9a73a6a4d97f3" name="a55e71332b300ff96e8b9a73a6a4d97f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55e71332b300ff96e8b9a73a6a4d97f3">&#9670;&#160;</a></span>parseRequestHeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParsingState::parseRequestHeader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HTTPリクエストヘッダーを解析します。 </p>
+<p>リクエストヘッダーを解析し、HttpTransactionオブジェクトのヘッダーマップに設定します。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><br  />
+<ul>
+<li>ABNF <br  />
+ header-field = field-name ":" OWS field-value OWS <br  />
+</li>
+<li>ex. <br  />
+ <div class="fragment"><div class="line">Host: 192.168.10.140  </div>
+<div class="line">Transfer-Encoding: chunked  </div>
+<div class="line">Connection: close  </div>
+</div><!-- fragment --> </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_parsing_state_a55e71332b300ff96e8b9a73a6a4d97f3_icgraph.png" border="0" usemap="#aclass_parsing_state_a55e71332b300ff96e8b9a73a6a4d97f3_icgraph" alt=""/></div>
+<map name="aclass_parsing_state_a55e71332b300ff96e8b9a73a6a4d97f3_icgraph" id="aclass_parsing_state_a55e71332b300ff96e8b9a73a6a4d97f3_icgraph">
+<area shape="rect" title="HTTPリクエストヘッダーを解析します。" alt="" coords="644,5,830,46"/>
+<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
+<area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a68cb940389c1b0e5920dfabc927533b9" name="a68cb940389c1b0e5920dfabc927533b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68cb940389c1b0e5920dfabc927533b9">&#9670;&#160;</a></span>parseRequestLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParsingState::parseRequestLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HTTPリクエストラインを解析します。 </p>
+<p>メソッド、URI、HTTPバージョンを解析し、HttpTransactionオブジェクトに設定します。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>ex. <div class="fragment"><div class="line">GET index.html HTTP/1.1</div>
+</div><!-- fragment --> </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_parsing_state_a68cb940389c1b0e5920dfabc927533b9_icgraph.png" border="0" usemap="#aclass_parsing_state_a68cb940389c1b0e5920dfabc927533b9_icgraph" alt=""/></div>
+<map name="aclass_parsing_state_a68cb940389c1b0e5920dfabc927533b9_icgraph" id="aclass_parsing_state_a68cb940389c1b0e5920dfabc927533b9_icgraph">
+<area shape="rect" title="HTTPリクエストラインを解析します。" alt="" coords="644,13,854,39"/>
+<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
+<area shape="poly" title=" " alt="" coords="629,28,596,28,596,23,629,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
 
 </div>
 </div>

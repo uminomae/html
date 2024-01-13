@@ -140,9 +140,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>initNetworkService</b
 <tr class="memitem:aad44e39b437301bb2b6ff79e2065d217" id="r_aad44e39b437301bb2b6ff79e2065d217"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad44e39b437301bb2b6ff79e2065d217">handleClientRecvRequests</a> ()</td></tr>
 <tr class="memdesc:aad44e39b437301bb2b6ff79e2065d217"><td class="mdescLeft">&#160;</td><td class="mdescRight">すべてのクライアントソケットからのリクエストを処理します。  <br /></td></tr>
 <tr class="separator:aad44e39b437301bb2b6ff79e2065d217"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a270b3d29a1c20ee0a354830c2288e5d3" id="r_a270b3d29a1c20ee0a354830c2288e5d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a270b3d29a1c20ee0a354830c2288e5d3">cleanupSocketConnection</a> (std::vector&lt; struct pollfd &gt;::iterator &amp;it)</td></tr>
-<tr class="memdesc:a270b3d29a1c20ee0a354830c2288e5d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケット接続をクリーンアップします。  <br /></td></tr>
-<tr class="separator:a270b3d29a1c20ee0a354830c2288e5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ed9bd4de8e026601eca26611647507" id="r_a16ed9bd4de8e026601eca26611647507"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16ed9bd4de8e026601eca26611647507">closeAndCleanupSocket</a> (std::vector&lt; struct pollfd &gt;::iterator &amp;it)</td></tr>
+<tr class="memdesc:a16ed9bd4de8e026601eca26611647507"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケットを閉じ、関連するリソースをクリーンアップします。  <br /></td></tr>
+<tr class="separator:a16ed9bd4de8e026601eca26611647507"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8849b9c719cb649dbbbae76d9981da7c" id="r_a8849b9c719cb649dbbbae76d9981da7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8849b9c719cb649dbbbae76d9981da7c">handleSendResponses</a> ()</td></tr>
 <tr class="memdesc:a8849b9c719cb649dbbbae76d9981da7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントへの応答を処理します。  <br /></td></tr>
 <tr class="separator:a8849b9c719cb649dbbbae76d9981da7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,14 +238,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a270b3d29a1c20ee0a354830c2288e5d3" name="a270b3d29a1c20ee0a354830c2288e5d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a270b3d29a1c20ee0a354830c2288e5d3">&#9670;&#160;</a></span>cleanupSocketConnection()</h2>
+<a id="a16ed9bd4de8e026601eca26611647507" name="a16ed9bd4de8e026601eca26611647507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16ed9bd4de8e026601eca26611647507">&#9670;&#160;</a></span>closeAndCleanupSocket()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void NetworkService::cleanupSocketConnection </td>
+          <td class="memname">void NetworkService::closeAndCleanupSocket </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; struct pollfd &gt;::iterator &amp;</td>          <td class="paramname"><span class="paramname"><em>it</em></span></td><td>)</td>
           <td></td>
@@ -253,25 +253,24 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>ソケット接続をクリーンアップします。 </p>
-<p>この関数は、ソケット接続を閉じ、_socketStatesからその状態を削除し、_pollfdsから対応するpollfdを削除します。</p>
+<p>ソケットを閉じ、関連するリソースをクリーンアップします。 </p>
+<p>この関数は指定されたソケットを閉じ、ソケットに関連付けられた状態情報をクリアし、 監視リストから該当するpollfd構造体を削除します。これにより、ソケットと それに関連するリソースが適切に解放されます。</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">it</td><td>クリーンアップ対象のpollfdを指すベクターのイテレータ。</td></tr>
+    <tr><td class="paramname">it</td><td>クリーンアップ対象のソケットを指すpollfdベクターのイテレータ。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>この関数は erase() を使用してイテレーターを進めます。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_network_service_a270b3d29a1c20ee0a354830c2288e5d3_icgraph.png" border="0" usemap="#aclass_network_service_a270b3d29a1c20ee0a354830c2288e5d3_icgraph" alt=""/></div>
-<map name="aclass_network_service_a270b3d29a1c20ee0a354830c2288e5d3_icgraph" id="aclass_network_service_a270b3d29a1c20ee0a354830c2288e5d3_icgraph">
-<area shape="rect" title="ソケット接続をクリーンアップします。" alt="" coords="497,39,705,79"/>
+<div class="center"><img src="class_network_service_a16ed9bd4de8e026601eca26611647507_icgraph.png" border="0" usemap="#aclass_network_service_a16ed9bd4de8e026601eca26611647507_icgraph" alt=""/></div>
+<map name="aclass_network_service_a16ed9bd4de8e026601eca26611647507_icgraph" id="aclass_network_service_a16ed9bd4de8e026601eca26611647507_icgraph">
+<area shape="rect" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="497,39,673,79"/>
 <area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
-<area shape="poly" title=" " alt="" coords="481,46,449,41,450,36,482,40"/>
+<area shape="poly" title=" " alt="" coords="481,47,449,42,450,37,482,42"/>
 <area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="257,71,447,111"/>
-<area shape="poly" title=" " alt="" coords="482,77,448,81,447,76,481,72"/>
+<area shape="poly" title=" " alt="" coords="482,76,448,81,447,75,481,71"/>
 <area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
 <area shape="poly" title=" " alt="" coords="239,44,206,48,205,43,239,38"/>
 <area shape="poly" title=" " alt="" coords="241,79,207,75,208,70,241,74"/>
@@ -303,7 +302,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_network_service_aad44e39b437301bb2b6ff79e2065d217_cgraph.png" border="0" usemap="#aclass_network_service_aad44e39b437301bb2b6ff79e2065d217_cgraph" alt=""/></div>
 <map name="aclass_network_service_aad44e39b437301bb2b6ff79e2065d217_cgraph" id="aclass_network_service_aad44e39b437301bb2b6ff79e2065d217_cgraph">
 <area shape="rect" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="5,5,200,46"/>
-<area shape="rect" href="class_network_service.html#a270b3d29a1c20ee0a354830c2288e5d3" title="ソケット接続をクリーンアップします。" alt="" coords="248,5,456,46"/>
+<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="248,5,424,46"/>
 <area shape="poly" title=" " alt="" coords="200,23,232,23,232,28,200,28"/>
 </map>
 </div>
@@ -385,7 +384,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>クライアントへの応答を処理します。 </p>
-<p>この関数は _pollfds を反復処理し、POLLOUT が設定されたクライアントに応答を送信します。 ソケットを閉じる必要があるかどうかもチェックし、必要であればソケット接続をクリーンアップします。 </p><dl class="section note"><dt>Note</dt><dd>※※※ segv注意: <a class="el" href="#a270b3d29a1c20ee0a354830c2288e5d3" title="ソケット接続をクリーンアップします。">cleanupSocketConnection()</a>の中でイテレーターが一つ進みます ※※※ <br  />
+<p>この関数は _pollfds を反復処理し、POLLOUT が設定されたクライアントに応答を送信します。 ソケットを閉じる必要があるかどうかもチェックし、必要であればソケット接続をクリーンアップします。 </p><dl class="section note"><dt>Note</dt><dd>※※※ segv注意: <a class="el" href="#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。">closeAndCleanupSocket()</a>の中でイテレーターが一つ進みます ※※※ <br  />
  デクリメント（&ndash;itPollFd）と同様の効果を得るためにcontinueを行います </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -393,7 +392,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph.png" border="0" usemap="#aclass_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph" alt=""/></div>
 <map name="aclass_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph" id="aclass_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph">
 <area shape="rect" title="クライアントへの応答を処理します。" alt="" coords="5,5,196,46"/>
-<area shape="rect" href="class_network_service.html#a270b3d29a1c20ee0a354830c2288e5d3" title="ソケット接続をクリーンアップします。" alt="" coords="244,5,452,46"/>
+<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="244,5,420,46"/>
 <area shape="poly" title=" " alt="" coords="196,23,228,23,228,28,196,28"/>
 </map>
 </div>
@@ -606,6 +605,12 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><br  />
+<ul>
+<li>参考:【fcntl(2) - Linux manual page】 <a href="https://man7.org/linux/man-pages/man2/fcntl.2.html">https://man7.org/linux/man-pages/man2/fcntl.2.html</a></li>
+<li>参考:【ノンブロッキングI/Oと非同期I/Oの違いを理解する】 <a href="https://blog.takanabe.tokyo/2015/03/%E3%83%8E%E3%83%B3%E3%83%96%E3%83%AD%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0i/o%E3%81%A8%E9%9D%9E%E5%90%8C%E6%9C%9Fi/o%E3%81%AE%E9%81%95%E3%81%84%E3%82%92%E7%90%86%E8%A7%A3%E3%81%99%E3%82%8B/">https://blog.takanabe.tokyo/2015/03/%E3%83%8E%E3%83%B3%E3%83%96%E3%83%AD%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0i/o%E3%81%A8%E9%9D%9E%E5%90%8C%E6%9C%9Fi/o%E3%81%AE%E9%81%95%E3%81%84%E3%82%92%E7%90%86%E8%A7%A3%E3%81%99%E3%82%8B/</a> </li>
+</ul>
+</dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

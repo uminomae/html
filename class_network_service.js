@@ -1,7 +1,7 @@
 var class_network_service =
 [
     [ "acceptNewConnection", "class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d", null ],
-    [ "cleanupSocketConnection", "class_network_service.html#a270b3d29a1c20ee0a354830c2288e5d3", null ],
+    [ "closeAndCleanupSocket", "class_network_service.html#a16ed9bd4de8e026601eca26611647507", null ],
     [ "closeAndResetAllSockets", "class_network_service.html#a2cf75b7a3d9f4f6ffb04501be4a4f151", null ],
     [ "handleClientRecvRequests", "class_network_service.html#aad44e39b437301bb2b6ff79e2065d217", null ],
     [ "handlePoll", "class_network_service.html#a79b34078f8a4e6c978ab8fae8e4769db", null ],
