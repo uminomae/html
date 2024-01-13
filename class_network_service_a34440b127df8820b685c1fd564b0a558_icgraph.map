@@ -1,9 +1,14 @@
 <map id="NetworkService::switchToNonBlockingSocket" name="NetworkService::switchToNonBlockingSocket">
-<area shape="rect" id="Node000001" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="765,5,940,46"/>
-<area shape="rect" id="Node000002" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
-<area shape="rect" id="Node000003" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
-<area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+<area shape="rect" id="Node000001" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="765,35,940,75"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="526,5,714,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="749,45,714,40,715,35,750,39"/>
+<area shape="rect" id="Node000005" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,70,717,96"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="750,70,718,74,717,69,750,65"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="266,5,464,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="510,28,465,28,465,23,510,23"/>
+<area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,42,207,68"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="251,41,207,46,207,41,250,36"/>
+<area shape="rect" id="Node000006" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,70,475,96"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="507,86,476,86,476,80,507,80"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="239,72,207,69,207,63,239,67"/>
 </map>

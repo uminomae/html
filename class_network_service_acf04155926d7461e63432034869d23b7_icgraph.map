@@ -1,14 +1,11 @@
 <map id="NetworkService::createServerSocket" name="NetworkService::createServerSocket">
-<area shape="rect" id="Node000001" title="サーバーソケットを作成します。" alt="" coords="1095,5,1291,46"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="863,5,1047,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1080,28,1047,28,1047,23,1080,23"/>
-<area shape="rect" id="Node000003" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="620,13,815,39"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="847,28,815,28,815,23,847,23"/>
-<area shape="rect" id="Node000004" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="メイン関数、プログラムのエントリポイント。" alt="" coords="5,13,55,39"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="605,28,55,28,55,23,605,23"/>
-<area shape="rect" id="Node000005" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="352,38,572,64"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="605,40,573,43,573,37,604,34"/>
-<area shape="rect" id="Node000006" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="103,38,304,64"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="336,54,304,54,304,48,336,48"/>
-<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="96,38,55,32,56,27,97,33"/>
+<area shape="rect" id="Node000001" title="サーバーソケットを作成します。" alt="" coords="998,5,1194,46"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="982,28,950,28,950,23,982,23"/>
+<area shape="rect" id="Node000003" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
+<area shape="rect" id="Node000004" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
+<area shape="rect" id="Node000005" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>

@@ -1,0 +1,7 @@
+<map id="NetworkService::restartNetworkService" name="NetworkService::restartNetworkService">
+<area shape="rect" id="Node000001" title="ネットワークサービスを再起動します。" alt="" coords="5,39,214,79"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a2cf75b7a3d9f4f6ffb04501be4a4f151" title="すべてのソケットの接続を閉じ、関係するデータを削除します。" alt="" coords="268,5,444,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,42,252,37,252,42,215,48"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#aa669d89eac68ea824c823701a63c6030" title="ネットワークサービスを初期化します。" alt="" coords="262,71,450,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,70,246,74,246,79,214,75"/>
+</map>

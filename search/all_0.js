@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['applicationlogger_0',['ApplicationLogger',['../class_application_logger.html',1,'']]]
+  ['acceptnewconnection_0',['acceptNewConnection',['../class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d',1,'NetworkService']]],
+  ['applicationlogger_1',['ApplicationLogger',['../class_application_logger.html',1,'']]]
 ];

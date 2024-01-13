@@ -1,0 +1,5 @@
+<map id="NetworkService::acceptNewConnection" name="NetworkService::acceptNewConnection">
+<area shape="rect" id="Node000001" title="新しいクライアント接続を受け入れます。" alt="" coords="5,5,194,46"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="242,5,416,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,23,226,23,226,28,194,28"/>
+</map>

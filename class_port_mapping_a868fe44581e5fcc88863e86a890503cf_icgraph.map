@@ -1,0 +1,5 @@
+<map id="PortMapping::setClientSocketListenPortMap" name="PortMapping::setClientSocketListenPortMap">
+<area shape="rect" id="Node000001" title="クライアントソケットとリッスンポートのマッピングを設定します。" alt="" coords="235,5,430,46"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="5,5,187,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
+</map>

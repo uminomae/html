@@ -17,7 +17,7 @@ var annotated_dup =
     [ "NetworkService", "class_network_service.html", "class_network_service" ],
     [ "ParsingState", "class_parsing_state.html", null ],
     [ "PortMapping", "class_port_mapping.html", "class_port_mapping" ],
-    [ "RateLimiter", "class_rate_limiter.html", null ],
+    [ "RateLimiter", "class_rate_limiter.html", "class_rate_limiter" ],
     [ "ResponseStrBuildState", "class_response_str_build_state.html", null ],
     [ "ServerDirective", "class_server_directive.html", null ],
     [ "ServerLoopController", "class_server_loop_controller.html", null ],

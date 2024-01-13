@@ -1,0 +1,7 @@
+<map id="NetworkService::handleServerEvents" name="NetworkService::handleServerEvents">
+<area shape="rect" id="Node000001" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="5,5,204,46"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="252,5,440,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,23,236,23,236,28,204,28"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="488,5,662,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="440,23,473,23,473,28,440,28"/>
+</map>

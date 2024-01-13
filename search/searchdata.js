@@ -1,9 +1,9 @@
 var indexSectionsWithContent =
 {
-  0: "acdfghilmnprstu↓コヘ作処複要連",
+  0: "acdfghilmnprsu~コ作連",
   1: "acfhilmnprsu",
-  2: "cghiprs",
-  3: "m作"
+  2: "acghiprs~",
+  3: "作"
 };
 
 var indexSectionNames =

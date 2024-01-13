@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['processhttprequest_0',['processHttpRequest',['../class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f',1,'HttpTransaction']]]
+  ['_7ehttptransaction_0',['~HttpTransaction',['../class_http_transaction.html#a46d0113f96bf8c9bf8ee5674f693b3a9',1,'HttpTransaction']]]
 ];

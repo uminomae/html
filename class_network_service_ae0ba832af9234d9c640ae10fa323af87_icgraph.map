@@ -1,11 +1,9 @@
 <map id="NetworkService::recvRequest" name="NetworkService::recvRequest">
-<area shape="rect" id="Node000001" title="ソケットからメッセージを受信します。" alt="" coords="845,13,1041,39"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="594,5,797,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="829,28,797,28,797,23,829,23"/>
-<area shape="rect" id="Node000003" href="$class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="352,5,546,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="579,28,547,28,547,23,579,23"/>
-<area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="103,13,304,39"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="336,28,305,28,305,23,336,23"/>
-<area shape="rect" id="Node000005" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="メイン関数、プログラムのエントリポイント。" alt="" coords="5,13,55,39"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,28,55,28,55,23,87,23"/>
+<area shape="rect" id="Node000001" title="ソケットからメッセージを受信します。" alt="" coords="747,13,944,39"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="732,28,700,28,700,23,732,23"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="482,28,449,28,449,23,482,23"/>
+<area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>

@@ -103,9 +103,9 @@ Inheritance diagram for RateLimiter:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_rate_limiter__inherit__graph.png" border="0" usemap="#a_rate_limiter_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_rate_limiter_inherit__map" id="a_rate_limiter_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,159,196,384"/>
-<area shape="rect" href="class_i_rate_limiter.html" title=" " alt="" coords="45,5,156,111"/>
-<area shape="poly" title=" " alt="" coords="103,126,103,159,98,159,98,126"/>
+<area shape="rect" title=" " alt="" coords="5,139,196,244"/>
+<area shape="rect" href="class_i_rate_limiter.html" title=" " alt="" coords="45,5,156,91"/>
+<area shape="poly" title=" " alt="" coords="103,106,103,139,98,139,98,106"/>
 </map>
 </div>
 <div class="dynheader">
@@ -113,75 +113,28 @@ Collaboration diagram for RateLimiter:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_rate_limiter__coll__graph.png" border="0" usemap="#a_rate_limiter_coll__map" alt="Collaboration graph"/></div>
 <map name="a_rate_limiter_coll__map" id="a_rate_limiter_coll__map">
-<area shape="rect" title=" " alt="" coords="5,159,196,384"/>
-<area shape="rect" href="class_i_rate_limiter.html" title=" " alt="" coords="45,5,156,111"/>
-<area shape="poly" title=" " alt="" coords="103,126,103,159,98,159,98,126"/>
+<area shape="rect" title=" " alt="" coords="5,139,196,244"/>
+<area shape="rect" href="class_i_rate_limiter.html" title=" " alt="" coords="45,5,156,91"/>
+<area shape="poly" title=" " alt="" coords="103,106,103,139,98,139,98,106"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad87547b7ba40f49fda595dcf8fee14fa" id="r_ad87547b7ba40f49fda595dcf8fee14fa"><td class="memItemLeft" align="right" valign="top"><a id="ad87547b7ba40f49fda595dcf8fee14fa" name="ad87547b7ba40f49fda595dcf8fee14fa"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>RateLimiter</b> (int config_maxPerSec, int config_maxPerMin)</td></tr>
-<tr class="separator:ad87547b7ba40f49fda595dcf8fee14fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f94d0c202d9889139f6ebe88c98d638" id="r_a5f94d0c202d9889139f6ebe88c98d638"><td class="memItemLeft" align="right" valign="top"><a id="a5f94d0c202d9889139f6ebe88c98d638" name="a5f94d0c202d9889139f6ebe88c98d638"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>RateLimiter</b> (int config_maxPerSec)</td></tr>
+<tr class="separator:a5f94d0c202d9889139f6ebe88c98d638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfdb7b39efbecccbe5ada95f7ef5732d" id="r_acfdb7b39efbecccbe5ada95f7ef5732d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfdb7b39efbecccbe5ada95f7ef5732d">isLimited</a> ()</td></tr>
+<tr class="memdesc:acfdb7b39efbecccbe5ada95f7ef5732d"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のリクエストレートが設定された制限を超えているかどうかを判定します。  <br /></td></tr>
 <tr class="separator:acfdb7b39efbecccbe5ada95f7ef5732d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1fad46d625dd33c2639f082aa37e4bd" id="r_aa1fad46d625dd33c2639f082aa37e4bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1fad46d625dd33c2639f082aa37e4bd">cleanUp</a> (long long currentTime, long long currentMin)</td></tr>
-<tr class="separator:aa1fad46d625dd33c2639f082aa37e4bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c040b05aabcf917fedd9743fb743c66" id="r_a4c040b05aabcf917fedd9743fb743c66"><td class="memItemLeft" align="right" valign="top"><a id="a4c040b05aabcf917fedd9743fb743c66" name="a4c040b05aabcf917fedd9743fb743c66"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setMaxPerSec</b> (int value)</td></tr>
-<tr class="separator:a4c040b05aabcf917fedd9743fb743c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a372321d1b33bb8d124926b40429b68" id="r_a4a372321d1b33bb8d124926b40429b68"><td class="memItemLeft" align="right" valign="top"><a id="a4a372321d1b33bb8d124926b40429b68" name="a4a372321d1b33bb8d124926b40429b68"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setMaxPerMin</b> (int value)</td></tr>
-<tr class="separator:a4a372321d1b33bb8d124926b40429b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84f9c0f1d83c7e4281386b2518a4d402" id="r_a84f9c0f1d83c7e4281386b2518a4d402"><td class="memItemLeft" align="right" valign="top"><a id="a84f9c0f1d83c7e4281386b2518a4d402" name="a84f9c0f1d83c7e4281386b2518a4d402"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getMaxPerSec</b> () const</td></tr>
-<tr class="separator:a84f9c0f1d83c7e4281386b2518a4d402"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dadb0e9a14600a902fb52789fc0f3a6" id="r_a0dadb0e9a14600a902fb52789fc0f3a6"><td class="memItemLeft" align="right" valign="top"><a id="a0dadb0e9a14600a902fb52789fc0f3a6" name="a0dadb0e9a14600a902fb52789fc0f3a6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getMaxPerMin</b> () const</td></tr>
-<tr class="separator:a0dadb0e9a14600a902fb52789fc0f3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a84910c6ad14b5044288e9b212473974a" id="r_a84910c6ad14b5044288e9b212473974a"><td class="memItemLeft" align="right" valign="top"><a id="a84910c6ad14b5044288e9b212473974a" name="a84910c6ad14b5044288e9b212473974a"></a>
-static const int&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_MAX_PER_SEC</b> = 100</td></tr>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_MAX_PER_SEC</b> = 50</td></tr>
 <tr class="separator:a84910c6ad14b5044288e9b212473974a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fdae7a67442cc835c71eddf93d33083" id="r_a5fdae7a67442cc835c71eddf93d33083"><td class="memItemLeft" align="right" valign="top"><a id="a5fdae7a67442cc835c71eddf93d33083" name="a5fdae7a67442cc835c71eddf93d33083"></a>
-static const int&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_MAX_PER_MIN</b> = 3000</td></tr>
-<tr class="separator:a5fdae7a67442cc835c71eddf93d33083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa1fad46d625dd33c2639f082aa37e4bd" name="aa1fad46d625dd33c2639f082aa37e4bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1fad46d625dd33c2639f082aa37e4bd">&#9670;&#160;</a></span>cleanUp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RateLimiter::cleanUp </td>
-          <td>(</td>
-          <td class="paramtype">long long</td>          <td class="paramname"><span class="paramname"><em>currentTime</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">long long</td>          <td class="paramname"><span class="paramname"><em>currentMin</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_i_rate_limiter.html">IRateLimiter</a>.</p>
-
-</div>
-</div>
 <a id="acfdb7b39efbecccbe5ada95f7ef5732d" name="acfdb7b39efbecccbe5ada95f7ef5732d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acfdb7b39efbecccbe5ada95f7ef5732d">&#9670;&#160;</a></span>isLimited()</h2>
 
@@ -204,6 +157,11 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_M
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>現在のリクエストレートが設定された制限を超えているかどうかを判定します。 </p>
+<p>現在の秒数を基にして、その秒に対するリクエスト数が設定された最大リクエスト数を超えているかをチェックします。</p>
+<dl class="section return"><dt>Returns</dt><dd>リクエスト数が最大数を超えていればtrue、そうでなければfalse。 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>要件外の機能。負荷テスト時の挙動チェック用。 </dd></dl>
 
 <p>Implements <a class="el" href="class_i_rate_limiter.html">IRateLimiter</a>.</p>
 

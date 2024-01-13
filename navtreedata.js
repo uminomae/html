@@ -30,16 +30,6 @@ var NAVTREE =
       [ "doxygenのドキュメント出力の仕方　　", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
       [ "連絡用ディレクトリ", "md__r_e_a_d_m_e.html#autotoc_md3", null ]
     ] ],
-    [ "multipartFormData", "md_srcs_2_http_transaction_2_http_processing_step_2multipart_form_data.html", [
-      [ "要件：multipart/form-data関連", "md_srcs_2_http_transaction_2_http_processing_step_2multipart_form_data.html#autotoc_md4", [
-        [ "処理の流れ", "md_srcs_2_http_transaction_2_http_processing_step_2multipart_form_data.html#autotoc_md5", [
-          [ "ヘッダー解析　if (headerに　Content-Type: multipart/form-data　があったら)", "md_srcs_2_http_transaction_2_http_processing_step_2multipart_form_data.html#autotoc_md6", null ],
-          [ "複数のパート解析　次にContent-Dispositionを探す", "md_srcs_2_http_transaction_2_http_processing_step_2multipart_form_data.html#autotoc_md7", null ],
-          [ "data", "md_srcs_2_http_transaction_2_http_processing_step_2multipart_form_data.html#autotoc_md8", null ]
-        ] ]
-      ] ],
-      [ "↓具体的には、これをレキサー＆パーサー　　", "md_srcs_2_http_transaction_2_http_processing_step_2multipart_form_data.html#autotoc_md9", null ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['handleclientrecvrequests_0',['handleClientRecvRequests',['../class_network_service.html#aad44e39b437301bb2b6ff79e2065d217',1,'NetworkService']]],
-  ['handlehttpprocessingstep_1',['handleHttpProcessingStep',['../class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8',1,'HttpWorkflowManager']]],
-  ['handlepoll_2',['handlePoll',['../class_network_service.html#a79b34078f8a4e6c978ab8fae8e4769db',1,'NetworkService']]],
-  ['handlesendresponses_3',['handleSendResponses',['../class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c',1,'NetworkService']]]
+  ['getconnectedserviceport_0',['getConnectedServicePort',['../class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988',1,'PortMapping']]],
+  ['getlistenport_1',['getListenPort',['../class_port_mapping.html#af2565580060648e513ff1096677d5d83',1,'PortMapping']]],
+  ['getportfrommap_2',['getPortFromMap',['../class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490',1,'PortMapping']]]
 ];

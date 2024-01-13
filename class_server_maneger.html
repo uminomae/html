@@ -156,15 +156,21 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_server_maneger_a104f42d342bf9d6af9c45c200d22facd_cgraph.png" border="0" usemap="#aclass_server_maneger_a104f42d342bf9d6af9c45c200d22facd_cgraph" alt=""/></div>
 <map name="aclass_server_maneger_a104f42d342bf9d6af9c45c200d22facd_cgraph" id="aclass_server_maneger_a104f42d342bf9d6af9c45c200d22facd_cgraph">
-<area shape="rect" title="サーバーのループを再起動します。" alt="" coords="5,46,226,72"/>
-<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="274,46,468,72"/>
-<area shape="poly" title=" " alt="" coords="226,56,258,56,258,62,226,62"/>
-<area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="516,5,700,46"/>
-<area shape="poly" title=" " alt="" coords="467,43,500,38,501,43,467,48"/>
-<area shape="rect" href="class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="521,71,695,111"/>
-<area shape="poly" title=" " alt="" coords="469,70,506,75,505,80,468,75"/>
-<area shape="rect" href="class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="748,5,948,46"/>
-<area shape="poly" title=" " alt="" coords="701,23,733,23,733,28,701,28"/>
+<area shape="rect" title="サーバーのループを再起動します。" alt="" coords="5,112,226,137"/>
+<area shape="rect" href="class_network_service.html#a54ae0e59338c8ffd4aabd39866bbf549" title="ネットワークサービスを再起動します。" alt="" coords="274,71,482,111"/>
+<area shape="poly" title=" " alt="" coords="221,108,258,104,259,109,222,114"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="281,144,475,169"/>
+<area shape="poly" title=" " alt="" coords="227,135,265,140,265,145,226,140"/>
+<area shape="rect" href="class_network_service.html#a2cf75b7a3d9f4f6ffb04501be4a4f151" title="すべてのソケットの接続を閉じ、関係するデータを削除します。" alt="" coords="536,5,712,46"/>
+<area shape="poly" title=" " alt="" coords="457,67,529,48,531,53,458,73"/>
+<area shape="rect" href="class_network_service.html#aa669d89eac68ea824c823701a63c6030" title="ネットワークサービスを初期化します。" alt="" coords="530,71,718,111"/>
+<area shape="poly" title=" " alt="" coords="483,88,514,88,514,94,483,94"/>
+<area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="532,136,716,177"/>
+<area shape="poly" title=" " alt="" coords="475,154,516,154,516,159,475,159"/>
+<area shape="rect" href="class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="537,201,711,242"/>
+<area shape="poly" title=" " alt="" coords="430,167,531,194,530,199,428,172"/>
+<area shape="rect" href="class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="766,136,966,177"/>
+<area shape="poly" title=" " alt="" coords="717,154,750,154,750,159,717,159"/>
 </map>
 </div>
 <div class="dynheader">
@@ -196,8 +202,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>サーバーのメインループを実行します。 </p>
-<p>無限ループ内でサーバーのメインイベント処理を実行します。 <br  />
- 例外が発生した場合はサーバーのループを再起動します。 <br  />
+<p>例外が発生した場合はサーバーのループを再起動します。 <br  />
  HOT_RELOAD_CONFIGが定義されている場合、設定のホットリロードの初期化を行います。 <br  />
 </p>
 <dl class="section note"><dt>Note</dt><dd>一度のpollで二つのフラグを立てることはできないので、一度のループでPOLLINとPOLLOUTをそれぞれ見ます。 <br  />
@@ -207,26 +212,37 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_server_maneger_aa1a8f96cfe9f844cafc8fc5e36255ed7_cgraph.png" border="0" usemap="#aclass_server_maneger_aa1a8f96cfe9f844cafc8fc5e36255ed7_cgraph" alt=""/></div>
 <map name="aclass_server_maneger_aa1a8f96cfe9f844cafc8fc5e36255ed7_cgraph" id="aclass_server_maneger_aa1a8f96cfe9f844cafc8fc5e36255ed7_cgraph">
-<area shape="rect" title="サーバーのメインループを実行します。" alt="" coords="5,100,207,125"/>
-<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="268,5,462,46"/>
-<area shape="poly" title=" " alt="" coords="141,96,254,55,275,48,276,53,256,60,143,101"/>
+<area shape="rect" title="サーバーのメインループを実行します。" alt="" coords="5,128,207,153"/>
+<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="268,120,462,161"/>
+<area shape="poly" title=" " alt="" coords="207,138,252,138,252,143,207,143"/>
 <area shape="rect" href="class_network_service.html#a79b34078f8a4e6c978ab8fae8e4769db" title="poll()を使用してファイルディスクリプタのイベントを待ちます。" alt="" coords="274,70,456,96"/>
-<area shape="poly" title=" " alt="" coords="207,98,258,92,259,98,207,104"/>
-<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="270,120,460,161"/>
-<area shape="poly" title=" " alt="" coords="207,121,254,126,254,131,207,126"/>
+<area shape="poly" title=" " alt="" coords="167,124,288,97,289,102,168,129"/>
+<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="270,5,460,46"/>
+<area shape="poly" title=" " alt="" coords="126,125,182,91,254,55,269,49,271,54,256,60,185,96,129,129"/>
+<area shape="rect" href="class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="266,236,464,277"/>
+<area shape="poly" title=" " alt="" coords="129,151,185,185,256,221,275,228,273,233,254,225,182,190,126,156"/>
 <area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,185,475,211"/>
-<area shape="poly" title=" " alt="" coords="137,123,192,146,255,170,284,178,283,183,254,175,190,151,135,128"/>
-<area shape="rect" href="class_network_service.html#a270b3d29a1c20ee0a354830c2288e5d3" title="ソケット接続をクリーンアップします。" alt="" coords="523,63,731,103"/>
-<area shape="poly" title=" " alt="" coords="462,44,517,56,516,61,460,49"/>
-<area shape="poly" title=" " alt="" coords="460,117,516,105,517,110,461,122"/>
+<area shape="poly" title=" " alt="" coords="168,151,289,178,288,183,167,156"/>
+<area shape="rect" href="class_network_service.html#a270b3d29a1c20ee0a354830c2288e5d3" title="ソケット接続をクリーンアップします。" alt="" coords="523,24,731,65"/>
+<area shape="poly" title=" " alt="" coords="441,117,474,106,566,69,568,74,476,111,442,122"/>
+<area shape="poly" title=" " alt="" coords="461,30,508,33,507,38,460,35"/>
+<area shape="rect" href="class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="533,237,721,278"/>
+<area shape="poly" title=" " alt="" coords="464,254,517,254,517,260,464,260"/>
+<area shape="rect" href="class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="786,239,961,279"/>
+<area shape="poly" title=" " alt="" coords="722,256,771,256,771,261,722,261"/>
+<area shape="rect" href="class_network_service.html#a54ae0e59338c8ffd4aabd39866bbf549" title="ネットワークサービスを再起動します。" alt="" coords="523,108,731,149"/>
+<area shape="poly" title=" " alt="" coords="426,182,474,170,542,151,544,156,476,175,427,187"/>
 <area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="530,185,724,211"/>
 <area shape="poly" title=" " alt="" coords="476,195,514,195,514,200,476,200"/>
-<area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="779,144,964,185"/>
-<area shape="poly" title=" " alt="" coords="724,182,763,176,764,182,725,187"/>
-<area shape="rect" href="class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="784,209,959,250"/>
-<area shape="poly" title=" " alt="" coords="725,208,769,214,768,219,724,213"/>
-<area shape="rect" href="class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="1012,144,1211,185"/>
-<area shape="poly" title=" " alt="" coords="964,162,996,162,996,167,964,167"/>
+<area shape="rect" href="class_network_service.html#a2cf75b7a3d9f4f6ffb04501be4a4f151" title="すべてのソケットの接続を閉じ、関係するデータを削除します。" alt="" coords="785,108,962,149"/>
+<area shape="poly" title=" " alt="" coords="732,126,770,126,770,131,732,131"/>
+<area shape="rect" href="class_network_service.html#aa669d89eac68ea824c823701a63c6030" title="ネットワークサービスを初期化します。" alt="" coords="779,43,968,83"/>
+<area shape="poly" title=" " alt="" coords="706,105,779,85,780,90,707,110"/>
+<area shape="poly" title=" " alt="" coords="683,209,775,232,774,237,681,214"/>
+<area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="781,173,966,214"/>
+<area shape="poly" title=" " alt="" coords="725,193,766,193,766,198,725,199"/>
+<area shape="rect" href="class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="1016,173,1215,214"/>
+<area shape="poly" title=" " alt="" coords="966,191,1000,191,1000,196,966,196"/>
 </map>
 </div>
 

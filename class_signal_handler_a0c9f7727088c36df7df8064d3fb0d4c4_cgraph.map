@@ -1,0 +1,5 @@
+<map id="SignalHandler::handleSignal" name="SignalHandler::handleSignal">
+<area shape="rect" id="Node000001" title="sigaction構造体を使用してSIGINTシグナルのハンドラを設定します。" alt="" coords="5,13,190,39"/>
+<area shape="rect" id="Node000002" href="$class_signal_handler.html#a3ce88a2e5cb8f42256f5487dcb3e6ec3" title="特定のシグナルタイプに対するハンドラを設定します。" alt="" coords="238,5,416,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,23,222,23,222,28,190,28"/>
+</map>
