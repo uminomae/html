@@ -1,5 +1,5 @@
-<map id="ParsingState::parseExtractQueryFromUri" name="ParsingState::parseExtractQueryFromUri">
-<area shape="rect" id="Node000001" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="644,5,823,46"/>
+<map id="ParsingState::parseCgiPathAndExtractQueryFromUri" name="ParsingState::parseCgiPathAndExtractQueryFromUri">
+<area shape="rect" id="Node000001" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="644,5,828,46"/>
 <area shape="rect" id="Node000002" href="$class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
 <area shape="rect" id="Node000003" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>

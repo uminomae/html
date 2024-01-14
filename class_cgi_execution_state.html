@@ -304,10 +304,17 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>CGIスクリプトを実行します。 </p>
+<p>指定されたHTTPトランザクションに基づいてCGIスクリプトを実行します。スクリプトのパスと環境変数が指定され、 スクリプトの存在と実行可能性をチェックした後、execveを使用してCGIスクリプトを実行します。</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
     <tr><td class="paramname">envChar</td><td>環境変数を格納する文字配列へのポインタのベクター。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>スクリプトの存在または実行権限のチェックに失敗した場合に発生。 </td></tr>
   </table>
   </dd>
 </dl>

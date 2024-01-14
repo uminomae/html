@@ -103,9 +103,9 @@ Inheritance diagram for ParsingState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_parsing_state__inherit__graph.png" border="0" usemap="#a_parsing_state_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_parsing_state_inherit__map" id="a_parsing_state_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,139,193,324"/>
-<area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="19,5,179,91"/>
-<area shape="poly" title=" " alt="" coords="102,105,102,139,97,139,97,105"/>
+<area shape="rect" title=" " alt="" coords="5,139,208,339"/>
+<area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="27,5,187,91"/>
+<area shape="poly" title=" " alt="" coords="109,106,109,139,104,139,104,106"/>
 </map>
 </div>
 <div class="dynheader">
@@ -113,9 +113,9 @@ Collaboration diagram for ParsingState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_parsing_state__coll__graph.png" border="0" usemap="#a_parsing_state_coll__map" alt="Collaboration graph"/></div>
 <map name="a_parsing_state_coll__map" id="a_parsing_state_coll__map">
-<area shape="rect" title=" " alt="" coords="5,139,193,324"/>
-<area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="19,5,179,91"/>
-<area shape="poly" title=" " alt="" coords="102,105,102,139,97,139,97,105"/>
+<area shape="rect" title=" " alt="" coords="5,139,208,339"/>
+<area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="27,5,187,91"/>
+<area shape="poly" title=" " alt="" coords="109,106,109,139,104,139,104,106"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -140,9 +140,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:ae5902265976392a4bdc3d15cbc83fe6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTPリクエストボディを解析します。 <br  />
   <br /></td></tr>
 <tr class="separator:ae5902265976392a4bdc3d15cbc83fe6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a524ae3fb626aac04daa7680bb7a992b3" id="r_a524ae3fb626aac04daa7680bb7a992b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a524ae3fb626aac04daa7680bb7a992b3">parseExtractQueryFromUri</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
-<tr class="memdesc:a524ae3fb626aac04daa7680bb7a992b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">URIからクエリ文字列を抽出します。  <br /></td></tr>
-<tr class="separator:a524ae3fb626aac04daa7680bb7a992b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0532803f91744abd9808b24583c99b9" id="r_ae0532803f91744abd9808b24583c99b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0532803f91744abd9808b24583c99b9">parseCgiPathAndExtractQueryFromUri</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="memdesc:ae0532803f91744abd9808b24583c99b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">URIから".cgi"が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します  <br /></td></tr>
+<tr class="separator:ae0532803f91744abd9808b24583c99b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab18ab5cde5c9a8cc12eb449130952b83" id="r_ab18ab5cde5c9a8cc12eb449130952b83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab18ab5cde5c9a8cc12eb449130952b83">parceExtractExtention</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
 <tr class="memdesc:ab18ab5cde5c9a8cc12eb449130952b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">リクエストURIから拡張子を抽出します。  <br /></td></tr>
 <tr class="separator:ab18ab5cde5c9a8cc12eb449130952b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,7 +211,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="HTTPリクエストの解析を行います。" alt="" coords="5,136,148,161"/>
 <area shape="rect" href="class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="214,5,393,46"/>
 <area shape="poly" title=" " alt="" coords="90,133,135,96,194,57,209,50,211,55,197,61,138,100,94,137"/>
-<area shape="rect" href="class_parsing_state.html#a524ae3fb626aac04daa7680bb7a992b3" title="URIからクエリ文字列を抽出します。" alt="" coords="214,71,393,111"/>
+<area shape="rect" href="class_parsing_state.html#ae0532803f91744abd9808b24583c99b9" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="212,71,395,111"/>
 <area shape="poly" title=" " alt="" coords="130,132,205,113,206,118,131,137"/>
 <area shape="rect" href="class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="196,136,411,161"/>
 <area shape="poly" title=" " alt="" coords="148,146,180,146,180,151,148,151"/>
@@ -361,8 +361,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a524ae3fb626aac04daa7680bb7a992b3" name="a524ae3fb626aac04daa7680bb7a992b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a524ae3fb626aac04daa7680bb7a992b3">&#9670;&#160;</a></span>parseExtractQueryFromUri()</h2>
+<a id="ae0532803f91744abd9808b24583c99b9" name="ae0532803f91744abd9808b24583c99b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0532803f91744abd9808b24583c99b9">&#9670;&#160;</a></span>parseCgiPathAndExtractQueryFromUri()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -371,7 +371,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ParsingState::parseExtractQueryFromUri </td>
+          <td class="memname">void ParsingState::parseCgiPathAndExtractQueryFromUri </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
           <td></td>
@@ -384,7 +384,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>URIからクエリ文字列を抽出します。 </p>
+<p>URIから".cgi"が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照。 </td></tr>
@@ -392,9 +392,8 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd><ul>
-<li>クエリコンポーネントは、階層的でないデータを含み、パスコンポーネント（セクション3.3）のデータとともに、URIのスキームや命名権限（もしあれば）の範囲内でリソースを識別するために使われます。クエリコンポーネントは、最初の疑問符（"?"）で示され、ナンバーサイン（"#") またはURIの終わりによって終了されます。</li>
-<li>スラッシュ（"/"）と疑問符（"?"）は、クエリコンポーネント内のデータを表すことができます。しかし、古い、誤った実装の一部では、これらのデータを相対参照の基本URIとして使用するときに、正しく処理されないことに注意してください（セクション5.1）。これは、階層的な区切りを探すときに、クエリデータとパスデータを区別できないためのようです。しかし、クエリコンポーネントはしばしば "key=value" の形式で識別情報を運ぶために使用され、よく使われる値の一つに他のURIへの参照があるため、これらの文字をパーセントエンコーディングで回避することが使いやすさのために時には良いでしょう。</li>
-<li>ABNF <div class="fragment"><div class="line">query      = *( pchar / <span class="stringliteral">&quot;/&quot;</span> / <span class="stringliteral">&quot;?&quot;</span> )</div>
+<li>クエリコンポーネントは、最初の疑問符（"?"）で示され、ナンバーサイン（"#") またはURIの終わりによって終了されます。</li>
+<li>ABNF <div class="fragment"><div class="line">query    = *( pchar / <span class="stringliteral">&quot;/&quot;</span> / <span class="stringliteral">&quot;?&quot;</span> )  </div>
 </div><!-- fragment --><ul>
 <li></li>
 </ul>
@@ -403,24 +402,25 @@ Here is the caller graph for this function:</div>
 </dd>
 <dd>
 <ul>
-<li>The path is terminated by the first question mark ("?") or number sign ("#") character, or by the end of the URI. <br  />
+<li>「パス情報（path info）」という概念は、URIやHTTPに関する基本的なRFCドキュメントでは明確には取り扱われていません <br  />
  </li>
 </ul>
 </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><ul>
 <li>参考:【RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax】 <a href="https://datatracker.ietf.org/doc/html/rfc3986#section-3.3">https://datatracker.ietf.org/doc/html/rfc3986#section-3.3</a></li>
-<li>参考:【RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax】 <a href="https://datatracker.ietf.org/doc/html/rfc3986#section-3.4">https://datatracker.ietf.org/doc/html/rfc3986#section-3.4</a> <br  />
-</li>
+<li>参考:【RFC 3986: Uniform Resource Identifier (URI): Generic Syntax】 <a href="https://www.rfc-editor.org/rfc/rfc3986#section-3.3">https://www.rfc-editor.org/rfc/rfc3986#section-3.3</a></li>
 <li>参考:【Uniform Resource Identifier - Wikipedia】 <a href="https://ja.wikipedia.org/wiki/Uniform_Resource_Identifier">https://ja.wikipedia.org/wiki/Uniform_Resource_Identifier</a> <br  />
- </li>
+</li>
+<li>参考:【std::basic_string&lt;CharT,Traits,Allocator&gt;::find - cppreference.com】 <a href="https://en.cppreference.com/w/cpp/string/basic_string/find">https://en.cppreference.com/w/cpp/string/basic_string/find</a></li>
+<li>参考:【std::basic_string&lt;CharT,Traits,Allocator&gt;::substr - cppreference.com】 <a href="https://en.cppreference.com/w/cpp/string/basic_string/substr">https://en.cppreference.com/w/cpp/string/basic_string/substr</a> </li>
 </ul>
 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_parsing_state_a524ae3fb626aac04daa7680bb7a992b3_icgraph.png" border="0" usemap="#aclass_parsing_state_a524ae3fb626aac04daa7680bb7a992b3_icgraph" alt=""/></div>
-<map name="aclass_parsing_state_a524ae3fb626aac04daa7680bb7a992b3_icgraph" id="aclass_parsing_state_a524ae3fb626aac04daa7680bb7a992b3_icgraph">
-<area shape="rect" title="URIからクエリ文字列を抽出します。" alt="" coords="644,5,823,46"/>
+<div class="center"><img src="class_parsing_state_ae0532803f91744abd9808b24583c99b9_icgraph.png" border="0" usemap="#aclass_parsing_state_ae0532803f91744abd9808b24583c99b9_icgraph" alt=""/></div>
+<map name="aclass_parsing_state_ae0532803f91744abd9808b24583c99b9_icgraph" id="aclass_parsing_state_ae0532803f91744abd9808b24583c99b9_icgraph">
+<area shape="rect" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="644,5,828,46"/>
 <area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
 <area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
 <area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>

@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="HTTPリクエストの解析を行います。" alt="" coords="5,136,148,161"/>
 <area shape="rect" id="Node000002" href="$class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="214,5,393,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,133,135,96,194,57,209,50,211,55,197,61,138,100,94,137"/>
-<area shape="rect" id="Node000003" href="$class_parsing_state.html#a524ae3fb626aac04daa7680bb7a992b3" title="URIからクエリ文字列を抽出します。" alt="" coords="214,71,393,111"/>
+<area shape="rect" id="Node000003" href="$class_parsing_state.html#ae0532803f91744abd9808b24583c99b9" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="212,71,395,111"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,132,205,113,206,118,131,137"/>
 <area shape="rect" id="Node000004" href="$class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="196,136,411,161"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,146,180,146,180,151,148,151"/>
