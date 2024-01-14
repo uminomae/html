@@ -1,0 +1,5 @@
+<map id="ResponseStrBuildState::buildResponseBody" name="ResponseStrBuildState::buildResponseBody">
+<area shape="rect" id="Node000001" title="レスポンスボディを構築します。" alt="" coords="5,5,163,46"/>
+<area shape="rect" id="Node000002" href="$class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="211,5,369,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,23,195,23,195,28,163,28"/>
+</map>

@@ -1,9 +1,14 @@
 <map id="UtilHttpProcessingStep::handleErrorResponse" name="UtilHttpProcessingStep::handleErrorResponse">
-<area shape="rect" id="Node000001" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="659,5,818,46"/>
-<area shape="rect" id="Node000002" href="$class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="454,5,611,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="644,28,612,28,612,23,644,23"/>
-<area shape="rect" id="Node000003" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
-<area shape="rect" id="Node000004" href="$class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+<area shape="rect" id="Node000001" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="865,39,1023,79"/>
+<area shape="rect" id="Node000002" href="$class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="659,8,817,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="849,48,817,43,817,37,850,42"/>
+<area shape="rect" id="Node000006" href="$class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="454,71,611,111"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="850,69,612,88,611,82,849,64"/>
+<area shape="rect" id="Node000003" href="$class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="454,5,611,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="644,30,612,29,612,24,644,24"/>
+<area shape="rect" id="Node000004" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,39,406,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="439,43,407,48,406,42,438,37"/>
+<area shape="rect" id="Node000005" href="$class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,39,174,79"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="206,62,174,62,174,56,206,56"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="438,80,406,75,407,70,439,75"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="ResponseStrBuildState::buildResponseHeader" name="ResponseStrBuildState::buildResponseHeader">
+<area shape="rect" id="Node000001" title="レスポンスヘッダを構築します。" alt="" coords="5,5,163,46"/>
+<area shape="rect" id="Node000002" href="$class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="211,5,368,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,23,195,23,195,28,163,28"/>
+</map>

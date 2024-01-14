@@ -1,0 +1,11 @@
+<map id="ResponseStrBuildState::shouldCloseSocket" name="ResponseStrBuildState::shouldCloseSocket">
+<area shape="rect" id="Node000001" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="865,5,1022,46"/>
+<area shape="rect" id="Node000002" href="$class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="659,5,817,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="849,28,817,28,817,23,849,23"/>
+<area shape="rect" id="Node000003" href="$class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="454,5,611,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="644,28,612,28,612,23,644,23"/>
+<area shape="rect" id="Node000004" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
+<area shape="rect" id="Node000005" href="$class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>

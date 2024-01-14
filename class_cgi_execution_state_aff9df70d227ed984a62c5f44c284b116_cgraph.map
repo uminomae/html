@@ -1,0 +1,5 @@
+<map id="CgiExecutionState::handleParentProcess" name="CgiExecutionState::handleParentProcess">
+<area shape="rect" id="Node000001" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="5,5,151,46"/>
+<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html#a87dd9281aa48ff54b9c767bc58007601" title="フォークされたプロセスの終了を非ブロッキングで待ちます。" alt="" coords="199,5,337,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,23,183,23,183,28,151,28"/>
+</map>

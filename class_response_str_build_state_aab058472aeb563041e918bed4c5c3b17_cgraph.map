@@ -1,0 +1,13 @@
+<map id="ResponseStrBuildState::handle" name="ResponseStrBuildState::handle">
+<area shape="rect" id="Node000001" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="5,71,163,111"/>
+<area shape="rect" id="Node000002" href="$class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="221,5,378,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,68,214,49,216,54,154,73"/>
+<area shape="rect" id="Node000004" href="$class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="221,71,378,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,88,205,88,205,94,163,94"/>
+<area shape="rect" id="Node000006" href="$class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="211,136,388,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="154,109,216,128,214,133,152,114"/>
+<area shape="rect" id="Node000003" href="$class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="436,5,594,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="378,23,420,23,420,28,378,28"/>
+<area shape="rect" id="Node000005" href="$class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="437,71,594,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="378,88,421,88,421,94,378,94"/>
+</map>

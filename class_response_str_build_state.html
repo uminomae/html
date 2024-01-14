@@ -103,7 +103,7 @@ Inheritance diagram for ResponseStrBuildState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state__inherit__graph.png" border="0" usemap="#a_response_str_build_state_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_response_str_build_state_inherit__map" id="a_response_str_build_state_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,139,185,284"/>
+<area shape="rect" title=" " alt="" coords="5,139,185,304"/>
 <area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="15,5,175,91"/>
 <area shape="poly" title=" " alt="" coords="98,106,98,139,93,139,93,106"/>
 </map>
@@ -113,7 +113,7 @@ Collaboration diagram for ResponseStrBuildState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state__coll__graph.png" border="0" usemap="#a_response_str_build_state_coll__map" alt="Collaboration graph"/></div>
 <map name="a_response_str_build_state_coll__map" id="a_response_str_build_state_coll__map">
-<area shape="rect" title=" " alt="" coords="5,139,185,284"/>
+<area shape="rect" title=" " alt="" coords="5,139,185,304"/>
 <area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="15,5,175,91"/>
 <area shape="poly" title=" " alt="" coords="98,106,98,139,93,139,93,106"/>
 </map>
@@ -122,6 +122,7 @@ Collaboration diagram for ResponseStrBuildState:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aab058472aeb563041e918bed4c5c3b17" id="r_aab058472aeb563041e918bed4c5c3b17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab058472aeb563041e918bed4c5c3b17">handle</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;<a class="el" href="class_http_transaction.html">HttpTransaction</a>)</td></tr>
+<tr class="memdesc:aab058472aeb563041e918bed4c5c3b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントにsend()するレスポンスメッセージを構築します。  <br /></td></tr>
 <tr class="separator:aab058472aeb563041e918bed4c5c3b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c94d724877e3fb3c61a5d3e1a61176" id="r_ad1c94d724877e3fb3c61a5d3e1a61176"><td class="memItemLeft" align="right" valign="top"><a id="ad1c94d724877e3fb3c61a5d3e1a61176" name="ad1c94d724877e3fb3c61a5d3e1a61176"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>putDebugCGI</b> (std::string s1, std::string s2, std::string color)</td></tr>
@@ -129,17 +130,220 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>putDebugCGI</b> (std:
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa2383bb6b46c166581999fb4880efa82" id="r_aa2383bb6b46c166581999fb4880efa82"><td class="memItemLeft" align="right" valign="top"><a id="aa2383bb6b46c166581999fb4880efa82" name="aa2383bb6b46c166581999fb4880efa82"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>buildResponseStatusLine</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
+<tr class="memitem:aa2383bb6b46c166581999fb4880efa82" id="r_aa2383bb6b46c166581999fb4880efa82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2383bb6b46c166581999fb4880efa82">buildResponseStatusLine</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
+<tr class="memdesc:aa2383bb6b46c166581999fb4880efa82"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスのステータスライン(1行目)を構築します。  <br /></td></tr>
 <tr class="separator:aa2383bb6b46c166581999fb4880efa82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b42e27ed61acd89b4f47445991861e1" id="r_a2b42e27ed61acd89b4f47445991861e1"><td class="memItemLeft" align="right" valign="top"><a id="a2b42e27ed61acd89b4f47445991861e1" name="a2b42e27ed61acd89b4f47445991861e1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>buildResponseHeader</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
+<tr class="memitem:a14df6589f1fcc543ec7bc8c4b99892bc" id="r_a14df6589f1fcc543ec7bc8c4b99892bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14df6589f1fcc543ec7bc8c4b99892bc">shouldCloseSocket</a> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState)</td></tr>
+<tr class="memdesc:a14df6589f1fcc543ec7bc8c4b99892bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントのリクエストヘッダーに "Connection: close" が存在するか確認します。  <br /></td></tr>
+<tr class="separator:a14df6589f1fcc543ec7bc8c4b99892bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b42e27ed61acd89b4f47445991861e1" id="r_a2b42e27ed61acd89b4f47445991861e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b42e27ed61acd89b4f47445991861e1">buildResponseHeader</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
+<tr class="memdesc:a2b42e27ed61acd89b4f47445991861e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスヘッダを構築します。  <br /></td></tr>
 <tr class="separator:a2b42e27ed61acd89b4f47445991861e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21958ec54de1c2b2206854c9cec4c749" id="r_a21958ec54de1c2b2206854c9cec4c749"><td class="memItemLeft" align="right" valign="top"><a id="a21958ec54de1c2b2206854c9cec4c749" name="a21958ec54de1c2b2206854c9cec4c749"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>buildResponseBody</b> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
+<tr class="memitem:a21958ec54de1c2b2206854c9cec4c749" id="r_a21958ec54de1c2b2206854c9cec4c749"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21958ec54de1c2b2206854c9cec4c749">buildResponseBody</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
+<tr class="memdesc:a21958ec54de1c2b2206854c9cec4c749"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスボディを構築します。  <br /></td></tr>
 <tr class="separator:a21958ec54de1c2b2206854c9cec4c749"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a21958ec54de1c2b2206854c9cec4c749" name="a21958ec54de1c2b2206854c9cec4c749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21958ec54de1c2b2206854c9cec4c749">&#9670;&#160;</a></span>buildResponseBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResponseStrBuildState::buildResponseBody </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostringstream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>レスポンスボディを構築します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照 </td></tr>
+    <tr><td class="paramname">resOss</td><td>出力用のostringstreamオブジェクト </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>500の場合、ステータスコードに応じたレスポンスボディを構築します。 <br  />
+ </li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><br  />
+<ul>
+<li>参考:【RFC 7231 - Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content】 <a href="https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.1">https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.1</a> <br  />
+ </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph.png" border="0" usemap="#aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph" id="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph">
+<area shape="rect" title="レスポンスボディを構築します。" alt="" coords="5,5,163,46"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="211,5,369,46"/>
+<area shape="poly" title=" " alt="" coords="163,23,195,23,195,28,163,28"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_icgraph" id="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_icgraph">
+<area shape="rect" title="レスポンスボディを構築します。" alt="" coords="659,5,817,46"/>
+<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="454,5,611,46"/>
+<area shape="poly" title=" " alt="" coords="644,28,612,28,612,23,644,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2b42e27ed61acd89b4f47445991861e1" name="a2b42e27ed61acd89b4f47445991861e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b42e27ed61acd89b4f47445991861e1">&#9670;&#160;</a></span>buildResponseHeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResponseStrBuildState::buildResponseHeader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostringstream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>レスポンスヘッダを構築します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照 </td></tr>
+    <tr><td class="paramname">resOss</td><td>出力用のostringstreamオブジェクト </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>必要に応じて、Content-TypeやConnectionなどのヘッダを構築します。 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph.png" border="0" usemap="#aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph" id="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph">
+<area shape="rect" title="レスポンスヘッダを構築します。" alt="" coords="5,5,163,46"/>
+<area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="211,5,368,46"/>
+<area shape="poly" title=" " alt="" coords="163,23,195,23,195,28,163,28"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_icgraph" id="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_icgraph">
+<area shape="rect" title="レスポンスヘッダを構築します。" alt="" coords="659,5,817,46"/>
+<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="454,5,611,46"/>
+<area shape="poly" title=" " alt="" coords="644,28,612,28,612,23,644,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa2383bb6b46c166581999fb4880efa82" name="aa2383bb6b46c166581999fb4880efa82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2383bb6b46c166581999fb4880efa82">&#9670;&#160;</a></span>buildResponseStatusLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResponseStrBuildState::buildResponseStatusLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostringstream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>レスポンスのステータスライン(1行目)を構築します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照 </td></tr>
+    <tr><td class="paramname">resOss</td><td>出力用のostringstreamオブジェクト </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>ステータスラインのフォーマットは <code>HTTP-version SP status-code SP reason-phrase CRLF</code> です。</li>
+<li>ABNF <div class="fragment"><div class="line">status-line = HTTP-version SP status-code SP reason-phrase CRLF; ex.HTTP1.1  </div>
+<div class="line">status-code = 3DIGIT; ex.200  </div>
+<div class="line">reason-phrase  = *( HTAB / SP / VCHAR / obs-text ); ex.OK  </div>
+</div><!-- fragment --> </li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><ul>
+<li>参考:【RFC 7230: Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing】 <a href="https://www.rfc-editor.org/rfc/rfc7230.html#section-3.1.2">https://www.rfc-editor.org/rfc/rfc7230.html#section-3.1.2</a> </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_response_str_build_state_aa2383bb6b46c166581999fb4880efa82_icgraph.png" border="0" usemap="#aclass_response_str_build_state_aa2383bb6b46c166581999fb4880efa82_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_aa2383bb6b46c166581999fb4880efa82_icgraph" id="aclass_response_str_build_state_aa2383bb6b46c166581999fb4880efa82_icgraph">
+<area shape="rect" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="659,5,837,46"/>
+<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="454,5,611,46"/>
+<area shape="poly" title=" " alt="" coords="644,28,612,28,612,23,644,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="aab058472aeb563041e918bed4c5c3b17" name="aab058472aeb563041e918bed4c5c3b17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab058472aeb563041e918bed4c5c3b17">&#9670;&#160;</a></span>handle()</h2>
 
@@ -152,7 +356,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>buildResponseBody</b>
         <tr>
           <td class="memname">void ResponseStrBuildState::handle </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>HttpTransaction</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -163,7 +367,101 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>buildResponseBody</b>
 </table>
 </div><div class="memdoc">
 
+<p>クライアントにsend()するレスポンスメッセージを構築します。 </p>
+<p>ステータスライン、ヘッダ、ボディを組み立て、HttpTransactionオブジェクトに設定します。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>HttpTransactionオブジェクトへの参照 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>_stateIsPossibleToSend が true の場合、send()されます </li>
+</ul>
+</dd></dl>
+
 <p>Implements <a class="el" href="class_i_http_processing_step.html">IHttpProcessingStep</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph.png" border="0" usemap="#aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph" id="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph">
+<area shape="rect" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="5,71,163,111"/>
+<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="221,5,378,46"/>
+<area shape="poly" title=" " alt="" coords="152,68,214,49,216,54,154,73"/>
+<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="221,71,378,111"/>
+<area shape="poly" title=" " alt="" coords="163,88,205,88,205,94,163,94"/>
+<area shape="rect" href="class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="211,136,388,177"/>
+<area shape="poly" title=" " alt="" coords="154,109,216,128,214,133,152,114"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="436,5,594,46"/>
+<area shape="poly" title=" " alt="" coords="378,23,420,23,420,28,378,28"/>
+<area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="437,71,594,111"/>
+<area shape="poly" title=" " alt="" coords="378,88,421,88,421,94,378,94"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_icgraph.png" border="0" usemap="#aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_icgraph" id="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_icgraph">
+<area shape="rect" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="454,5,611,46"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a14df6589f1fcc543ec7bc8c4b99892bc" name="a14df6589f1fcc543ec7bc8c4b99892bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14df6589f1fcc543ec7bc8c4b99892bc">&#9670;&#160;</a></span>shouldCloseSocket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ResponseStrBuildState::shouldCloseSocket </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_socket_state.html">SocketState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>socketState</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クライアントのリクエストヘッダーに "Connection: close" が存在するか確認します。 </p>
+<p>この関数は、_socketStatesに格納されたソケットヘッダーを調べることで、クライアントのリクエストに"Connection: close" ヘッダーが存在するかどうかを確認します。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">socketFd</td><td>確認するソケットのファイルディスクリプタ。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>"Connection: close" が見つかれば true、それ以外は false。 </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_response_str_build_state_a14df6589f1fcc543ec7bc8c4b99892bc_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a14df6589f1fcc543ec7bc8c4b99892bc_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a14df6589f1fcc543ec7bc8c4b99892bc_icgraph" id="aclass_response_str_build_state_a14df6589f1fcc543ec7bc8c4b99892bc_icgraph">
+<area shape="rect" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="865,5,1022,46"/>
+<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="659,5,817,46"/>
+<area shape="poly" title=" " alt="" coords="849,28,817,28,817,23,849,23"/>
+<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="454,5,611,46"/>
+<area shape="poly" title=" " alt="" coords="644,28,612,28,612,23,644,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" title=" " alt="" coords="439,28,406,28,406,23,439,23"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>
+</div>
 
 </div>
 </div>

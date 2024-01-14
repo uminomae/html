@@ -119,9 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3b0816e83d73326e10ba91bfdaf539b" id="r_ac3b0816e83d73326e10ba91bfdaf539b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3b0816e83d73326e10ba91bfdaf539b">initializeRequest</a> (std::string &amp;recvData, int clientSocketFd)</td></tr>
 <tr class="memdesc:ac3b0816e83d73326e10ba91bfdaf539b"><td class="mdescLeft">&#160;</td><td class="mdescRight">受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。  <br /></td></tr>
 <tr class="separator:ac3b0816e83d73326e10ba91bfdaf539b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90f6c163f205eae3e5e0b4be3161e50f" id="r_a90f6c163f205eae3e5e0b4be3161e50f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90f6c163f205eae3e5e0b4be3161e50f">processHttpRequest</a> (std::string &amp;recvData, int clientSocketFd)</td></tr>
-<tr class="memdesc:a90f6c163f205eae3e5e0b4be3161e50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。  <br /></td></tr>
-<tr class="separator:a90f6c163f205eae3e5e0b4be3161e50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a365f59eea6458586b660e4425eff5263" id="r_a365f59eea6458586b660e4425eff5263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a365f59eea6458586b660e4425eff5263">processHttpRequest</a> (std::string &amp;recvData, int clientSocketFd)</td></tr>
+<tr class="memdesc:a365f59eea6458586b660e4425eff5263"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。  <br /></td></tr>
+<tr class="separator:a365f59eea6458586b660e4425eff5263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9787f34644da3c45a40c701cfcda836a" id="r_a9787f34644da3c45a40c701cfcda836a"><td class="memItemLeft" align="right" valign="top"><a id="a9787f34644da3c45a40c701cfcda836a" name="a9787f34644da3c45a40c701cfcda836a"></a>
 std::vector&lt; <a class="el" href="class_server_directive.html">ServerDirective</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getServerDirectives</b> () const</td></tr>
 <tr class="separator:a9787f34644da3c45a40c701cfcda836a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,9 +164,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getResBodyStr<
 <tr class="memitem:ab1d9cec5333ff3685268d28e5870cc89" id="r_ab1d9cec5333ff3685268d28e5870cc89"><td class="memItemLeft" align="right" valign="top"><a id="ab1d9cec5333ff3685268d28e5870cc89" name="ab1d9cec5333ff3685268d28e5870cc89"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getResContentType</b> () const</td></tr>
 <tr class="separator:ab1d9cec5333ff3685268d28e5870cc89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eb3acfcd763a9a7d3860c156e06704a" id="r_a1eb3acfcd763a9a7d3860c156e06704a"><td class="memItemLeft" align="right" valign="top"><a id="a1eb3acfcd763a9a7d3860c156e06704a" name="a1eb3acfcd763a9a7d3860c156e06704a"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getResponseStr</b> () const</td></tr>
-<tr class="separator:a1eb3acfcd763a9a7d3860c156e06704a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c4fb4e1fdc15aaefb189c2f5ab6aa2" id="r_a22c4fb4e1fdc15aaefb189c2f5ab6aa2"><td class="memItemLeft" align="right" valign="top"><a id="a22c4fb4e1fdc15aaefb189c2f5ab6aa2" name="a22c4fb4e1fdc15aaefb189c2f5ab6aa2"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getResContentLength</b> () const</td></tr>
+<tr class="separator:a22c4fb4e1fdc15aaefb189c2f5ab6aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf89223f8904e64f462e18dc2b3bfc71" id="r_acf89223f8904e64f462e18dc2b3bfc71"><td class="memItemLeft" align="right" valign="top"><a id="acf89223f8904e64f462e18dc2b3bfc71" name="acf89223f8904e64f462e18dc2b3bfc71"></a>
 const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getResAbsPaths</b> () const</td></tr>
 <tr class="separator:acf89223f8904e64f462e18dc2b3bfc71"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,24 +185,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setResBodyStr</b> (co
 <tr class="memitem:a918445ca18be0509446a734b70cedcef" id="r_a918445ca18be0509446a734b70cedcef"><td class="memItemLeft" align="right" valign="top"><a id="a918445ca18be0509446a734b70cedcef" name="a918445ca18be0509446a734b70cedcef"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setResContentType</b> (const std::string &amp;contentType)</td></tr>
 <tr class="separator:a918445ca18be0509446a734b70cedcef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3c2b2020b314801758138aa383ff11e" id="r_ad3c2b2020b314801758138aa383ff11e"><td class="memItemLeft" align="right" valign="top"><a id="ad3c2b2020b314801758138aa383ff11e" name="ad3c2b2020b314801758138aa383ff11e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setResponseStr</b> (const std::string &amp;response)</td></tr>
-<tr class="separator:ad3c2b2020b314801758138aa383ff11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2adced623976817a25d0a1e54634ce" id="r_afa2adced623976817a25d0a1e54634ce"><td class="memItemLeft" align="right" valign="top"><a id="afa2adced623976817a25d0a1e54634ce" name="afa2adced623976817a25d0a1e54634ce"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setResContentLength</b> (const std::string &amp;contentLength)</td></tr>
+<tr class="separator:afa2adced623976817a25d0a1e54634ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a491f118a6531171700ddf414e74ca41c" id="r_a491f118a6531171700ddf414e74ca41c"><td class="memItemLeft" align="right" valign="top"><a id="a491f118a6531171700ddf414e74ca41c" name="a491f118a6531171700ddf414e74ca41c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addResAbsPaths</b> (std::string &amp;resAbsPath)</td></tr>
 <tr class="separator:a491f118a6531171700ddf414e74ca41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0927369a2e6ffa6e4c550d9305dab3b" id="r_ac0927369a2e6ffa6e4c550d9305dab3b"><td class="memItemLeft" align="right" valign="top"><a id="ac0927369a2e6ffa6e4c550d9305dab3b" name="ac0927369a2e6ffa6e4c550d9305dab3b"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getResonPhrase</b> (int statusCode) const</td></tr>
 <tr class="separator:ac0927369a2e6ffa6e4c550d9305dab3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2f600dc7f4adde251199057ff4e3c2e" id="r_aa2f600dc7f4adde251199057ff4e3c2e"><td class="memItemLeft" align="right" valign="top"><a id="aa2f600dc7f4adde251199057ff4e3c2e" name="aa2f600dc7f4adde251199057ff4e3c2e"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getCgiContentLength</b> () const</td></tr>
-<tr class="separator:aa2f600dc7f4adde251199057ff4e3c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af56c38a27cdb7bf7682cf5ac4cdc7b58" id="r_af56c38a27cdb7bf7682cf5ac4cdc7b58"><td class="memItemLeft" align="right" valign="top"><a id="af56c38a27cdb7bf7682cf5ac4cdc7b58" name="af56c38a27cdb7bf7682cf5ac4cdc7b58"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>getTimeoutCgiSeconds</b> () const</td></tr>
 <tr class="separator:af56c38a27cdb7bf7682cf5ac4cdc7b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ec761d16999798c1e63d966e75aa2e5" id="r_a7ec761d16999798c1e63d966e75aa2e5"><td class="memItemLeft" align="right" valign="top"><a id="a7ec761d16999798c1e63d966e75aa2e5" name="a7ec761d16999798c1e63d966e75aa2e5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setContentLength</b> (const std::string &amp;contentLength)</td></tr>
-<tr class="separator:a7ec761d16999798c1e63d966e75aa2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e926a5ea0e5001645905ec16414e5b4" id="r_a8e926a5ea0e5001645905ec16414e5b4"><td class="memItemLeft" align="right" valign="top"><a id="a8e926a5ea0e5001645905ec16414e5b4" name="a8e926a5ea0e5001645905ec16414e5b4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setTimeoutCgiSeconds</b> (int timeoutCgiSeconds)</td></tr>
 <tr class="separator:a8e926a5ea0e5001645905ec16414e5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,21 +236,21 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_http_transaction_ac3b0816e83d73326e10ba91bfdaf539b_icgraph.png" border="0" usemap="#aclass_http_transaction_ac3b0816e83d73326e10ba91bfdaf539b_icgraph" alt=""/></div>
 <map name="aclass_http_transaction_ac3b0816e83d73326e10ba91bfdaf539b_icgraph" id="aclass_http_transaction_ac3b0816e83d73326e10ba91bfdaf539b_icgraph">
 <area shape="rect" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="222,5,391,46"/>
-<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
 <area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a90f6c163f205eae3e5e0b4be3161e50f" name="a90f6c163f205eae3e5e0b4be3161e50f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90f6c163f205eae3e5e0b4be3161e50f">&#9670;&#160;</a></span>processHttpRequest()</h2>
+<a id="a365f59eea6458586b660e4425eff5263" name="a365f59eea6458586b660e4425eff5263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a365f59eea6458586b660e4425eff5263">&#9670;&#160;</a></span>processHttpRequest()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string HttpTransaction::processHttpRequest </td>
+          <td class="memname">void HttpTransaction::processHttpRequest </td>
           <td>(</td>
           <td class="paramtype">std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>recvData</em>, </span></td>
         </tr>
@@ -282,53 +276,82 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_http_transaction_a90f6c163f205eae3e5e0b4be3161e50f_cgraph.png" border="0" usemap="#aclass_http_transaction_a90f6c163f205eae3e5e0b4be3161e50f_cgraph" alt=""/></div>
-<map name="aclass_http_transaction_a90f6c163f205eae3e5e0b4be3161e50f_cgraph" id="aclass_http_transaction_a90f6c163f205eae3e5e0b4be3161e50f_cgraph">
-<area shape="rect" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,300,174,341"/>
-<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,267,406,307"/>
-<area shape="poly" title=" " alt="" coords="174,305,206,300,206,306,174,310"/>
-<area shape="rect" href="class_http_transaction.html#ac3b0816e83d73326e10ba91bfdaf539b" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="229,332,399,373"/>
-<area shape="poly" title=" " alt="" coords="174,330,214,335,214,341,174,335"/>
-<area shape="rect" href="class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="457,104,614,145"/>
-<area shape="poly" title=" " alt="" coords="342,264,492,152,496,156,345,268"/>
-<area shape="rect" href="class_file_path_generation_state.html#ab0ba54092d87b6d02c1211f41e2b2d32" title="HTTPリクエストに基づいてファイルパス生成処理を実行します。" alt="" coords="454,267,617,307"/>
-<area shape="poly" title=" " alt="" coords="406,284,438,284,438,290,406,290"/>
-<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="465,498,607,524"/>
-<area shape="poly" title=" " alt="" coords="387,306,408,318,448,357,481,402,507,446,525,483,521,485,502,449,477,405,444,361,404,322,385,310"/>
-<area shape="rect" href="class_content_extraction_state.html#a477ae29cd5285bc1fdacf361c17f161d" title="有効なファイルパスを探索します。" alt="" coords="699,5,856,46"/>
-<area shape="poly" title=" " alt="" coords="573,101,664,57,685,49,687,54,666,61,575,106"/>
-<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="698,71,857,111"/>
-<area shape="poly" title=" " alt="" coords="614,111,683,101,683,107,615,116"/>
-<area shape="rect" href="class_content_extraction_state.html#a9c744c5c3ce77056db86b407f9b645a4" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="665,136,890,177"/>
-<area shape="poly" title=" " alt="" coords="615,132,650,137,649,142,614,137"/>
-<area shape="rect" href="class_file_path_generation_state.html#a87ce0b65b78ab5a4500237198415c220" title="HTTPリクエストに基づいて可能なすべて( open()を試行する複数 )の絶対ファイルパスを構築します。" alt="" coords="696,201,859,242"/>
-<area shape="poly" title=" " alt="" coords="613,264,684,244,685,249,614,269"/>
-<area shape="rect" href="class_file_path_generation_state.html#ac27b43d9ea8d423dba1f0ec3a003bd87" title="クライアントが接続しているサーバーを識別します。" alt="" coords="691,267,864,307"/>
-<area shape="poly" title=" " alt="" coords="618,284,676,284,676,290,618,290"/>
-<area shape="rect" href="class_file_path_generation_state.html#a5ba9caa04cd2c302b9a474e9f80189fc" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="667,332,888,373"/>
-<area shape="poly" title=" " alt="" coords="614,305,685,325,684,330,613,310"/>
-<area shape="rect" href="class_file_path_generation_state.html#a88acccf01aed99018d80ff34799555b0" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="958,201,1122,242"/>
-<area shape="poly" title=" " alt="" coords="860,219,942,219,942,224,860,224"/>
-<area shape="rect" href="class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="948,267,1132,307"/>
-<area shape="poly" title=" " alt="" coords="864,284,933,284,933,290,864,290"/>
-<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="1190,274,1389,300"/>
-<area shape="poly" title=" " alt="" coords="1132,284,1174,284,1174,290,1132,290"/>
-<area shape="rect" href="class_file_path_generation_state.html#a3f7deede089c59d492e8e3d9693e7bfe" title="一致する LocationDirective を見つけます。" alt="" coords="938,332,1142,373"/>
-<area shape="poly" title=" " alt="" coords="889,350,922,350,922,355,889,355"/>
-<area shape="rect" href="class_file_path_generation_state.html#a8f4ebec579dc2e2d67d74ea8777943b8" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="1208,332,1371,373"/>
-<area shape="poly" title=" " alt="" coords="1142,350,1193,350,1193,355,1142,355"/>
-<area shape="rect" href="class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="688,397,867,438"/>
-<area shape="poly" title=" " alt="" coords="561,495,664,449,686,441,688,446,666,453,564,500"/>
-<area shape="rect" href="class_parsing_state.html#a524ae3fb626aac04daa7680bb7a992b3" title="URIからクエリ文字列を抽出します。" alt="" coords="688,463,867,503"/>
-<area shape="poly" title=" " alt="" coords="607,500,673,492,673,498,608,505"/>
-<area shape="rect" href="class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="670,528,885,553"/>
-<area shape="poly" title=" " alt="" coords="608,517,655,523,654,528,607,522"/>
-<area shape="rect" href="class_parsing_state.html#a55e71332b300ff96e8b9a73a6a4d97f3" title="HTTPリクエストヘッダーを解析します。" alt="" coords="685,577,870,618"/>
-<area shape="poly" title=" " alt="" coords="567,522,666,563,686,570,684,575,664,568,565,527"/>
-<area shape="rect" href="class_parsing_state.html#a68cb940389c1b0e5920dfabc927533b9" title="HTTPリクエストラインを解析します。" alt="" coords="673,642,882,668"/>
-<area shape="poly" title=" " alt="" coords="549,523,596,574,630,603,667,627,682,634,679,639,664,632,626,607,593,578,545,526"/>
-<area shape="rect" href="class_parsing_state.html#a7f5789e4470fffb0106e3268c67b7807" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="944,520,1136,561"/>
-<area shape="poly" title=" " alt="" coords="886,538,928,538,928,543,886,543"/>
+<div class="center"><img src="class_http_transaction_a365f59eea6458586b660e4425eff5263_cgraph.png" border="0" usemap="#aclass_http_transaction_a365f59eea6458586b660e4425eff5263_cgraph" alt=""/></div>
+<map name="aclass_http_transaction_a365f59eea6458586b660e4425eff5263_cgraph" id="aclass_http_transaction_a365f59eea6458586b660e4425eff5263_cgraph">
+<area shape="rect" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,532,174,573"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,499,406,539"/>
+<area shape="poly" title=" " alt="" coords="174,537,206,532,206,538,174,542"/>
+<area shape="rect" href="class_http_transaction.html#ac3b0816e83d73326e10ba91bfdaf539b" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="229,564,399,605"/>
+<area shape="poly" title=" " alt="" coords="174,562,214,567,214,573,174,567"/>
+<area shape="rect" href="class_cgi_execution_state.html#aecf27444a140a66641a2b9a35327fca5" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="467,217,605,258"/>
+<area shape="poly" title=" " alt="" coords="327,497,380,421,452,327,503,268,507,271,456,330,385,424,331,500"/>
+<area shape="rect" href="class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="457,340,614,381"/>
+<area shape="poly" title=" " alt="" coords="342,496,492,388,495,392,345,500"/>
+<area shape="rect" href="class_file_path_generation_state.html#a4ee6c300ff2d365526e49a3a32cf0f11" title="HTTPリクエストに基づいてファイルパス生成処理を実行します。" alt="" coords="454,663,617,703"/>
+<area shape="poly" title=" " alt="" coords="384,538,407,550,438,573,466,599,511,649,507,652,462,602,435,577,405,555,382,542"/>
+<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="465,926,607,952"/>
+<area shape="poly" title=" " alt="" coords="392,538,408,550,424,571,434,590,443,627,447,667,457,714,527,911,522,913,451,716,441,667,438,628,429,592,420,574,404,554,389,542"/>
+<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="457,499,614,539"/>
+<area shape="poly" title=" " alt="" coords="406,516,441,516,441,522,406,522"/>
+<area shape="rect" href="class_cgi_execution_state.html#ac2ce6937814bad9d326cb72e28457bdd" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="672,188,883,229"/>
+<area shape="poly" title=" " alt="" coords="605,227,657,220,657,226,605,232"/>
+<area shape="rect" href="class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a" title="環境変数をstd::stringからchar*に変換します。" alt="" coords="962,5,1123,46"/>
+<area shape="poly" title=" " alt="" coords="794,186,852,122,892,87,936,57,948,50,951,55,939,61,896,92,856,126,798,189"/>
+<area shape="rect" href="class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="973,71,1112,111"/>
+<area shape="poly" title=" " alt="" coords="813,185,870,154,937,122,957,114,959,119,939,127,872,158,815,190"/>
+<area shape="rect" href="class_cgi_execution_state.html#af7a2830b1943e93db5a6e57ad1711498" title="CGIスクリプトを実行します。" alt="" coords="973,136,1112,177"/>
+<area shape="poly" title=" " alt="" coords="883,185,957,170,958,175,884,190"/>
+<area shape="rect" href="class_cgi_execution_state.html#aff9df70d227ed984a62c5f44c284b116" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="970,201,1115,242"/>
+<area shape="poly" title=" " alt="" coords="883,211,954,215,954,220,883,216"/>
+<area shape="rect" href="class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="938,267,1147,307"/>
+<area shape="poly" title=" " alt="" coords="850,227,957,259,956,264,848,232"/>
+<area shape="rect" href="class_cgi_execution_state.html#ad69e96a830c5ade8aa774703694a4413" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="953,332,1132,373"/>
+<area shape="poly" title=" " alt="" coords="871,227,891,240,909,259,916,279,924,299,939,317,946,322,943,326,936,321,919,301,911,281,904,262,888,244,868,232"/>
+<area shape="rect" href="class_cgi_execution_state.html#a87dd9281aa48ff54b9c767bc58007601" title="フォークされたプロセスの終了を非ブロッキングで待ちます。" alt="" coords="1226,201,1364,242"/>
+<area shape="poly" title=" " alt="" coords="1116,219,1210,219,1210,224,1116,224"/>
+<area shape="rect" href="class_content_extraction_state.html#a477ae29cd5285bc1fdacf361c17f161d" title="有効なファイルパスを探索します。" alt="" coords="699,253,856,294"/>
+<area shape="poly" title=" " alt="" coords="591,337,664,310,700,297,702,302,666,315,593,342"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="963,421,1122,462"/>
+<area shape="poly" title=" " alt="" coords="615,345,675,339,745,336,818,341,890,354,916,366,939,382,991,411,989,416,936,387,913,370,889,359,818,346,745,342,676,344,615,350"/>
+<area shape="rect" href="class_content_extraction_state.html#a9c744c5c3ce77056db86b407f9b645a4" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="665,368,890,409"/>
+<area shape="poly" title=" " alt="" coords="615,367,650,371,650,376,614,372"/>
+<area shape="rect" href="class_file_path_generation_state.html#a87ce0b65b78ab5a4500237198415c220" title="HTTPリクエストに基づいて可能なすべて( open()を試行する複数 )の絶対ファイルパスを構築します。" alt="" coords="696,629,859,670"/>
+<area shape="poly" title=" " alt="" coords="618,669,680,660,681,666,618,674"/>
+<area shape="rect" href="class_file_path_generation_state.html#ac27b43d9ea8d423dba1f0ec3a003bd87" title="クライアントが接続しているサーバーを識別します。" alt="" coords="691,695,864,735"/>
+<area shape="poly" title=" " alt="" coords="618,691,676,699,676,704,618,696"/>
+<area shape="rect" href="class_file_path_generation_state.html#a5ba9caa04cd2c302b9a474e9f80189fc" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="667,760,888,801"/>
+<area shape="poly" title=" " alt="" coords="576,701,666,745,687,752,685,757,664,749,573,706"/>
+<area shape="rect" href="class_file_path_generation_state.html#a88acccf01aed99018d80ff34799555b0" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="960,629,1125,670"/>
+<area shape="poly" title=" " alt="" coords="860,647,944,647,944,652,860,652"/>
+<area shape="rect" href="class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="951,695,1134,735"/>
+<area shape="poly" title=" " alt="" coords="864,712,935,712,935,718,864,718"/>
+<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="1195,702,1394,728"/>
+<area shape="poly" title=" " alt="" coords="1135,712,1180,712,1180,718,1135,718"/>
+<area shape="rect" href="class_file_path_generation_state.html#a3f7deede089c59d492e8e3d9693e7bfe" title="一致する LocationDirective を見つけます。" alt="" coords="940,760,1145,801"/>
+<area shape="poly" title=" " alt="" coords="888,778,925,778,925,783,888,783"/>
+<area shape="rect" href="class_file_path_generation_state.html#a8f4ebec579dc2e2d67d74ea8777943b8" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="1213,760,1376,801"/>
+<area shape="poly" title=" " alt="" coords="1145,778,1198,778,1198,783,1145,783"/>
+<area shape="rect" href="class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="688,825,867,866"/>
+<area shape="poly" title=" " alt="" coords="561,923,664,877,686,869,688,874,666,881,564,928"/>
+<area shape="rect" href="class_parsing_state.html#a524ae3fb626aac04daa7680bb7a992b3" title="URIからクエリ文字列を抽出します。" alt="" coords="688,891,867,931"/>
+<area shape="poly" title=" " alt="" coords="607,928,673,920,673,926,608,933"/>
+<area shape="rect" href="class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="670,956,885,981"/>
+<area shape="poly" title=" " alt="" coords="608,945,655,951,654,956,607,950"/>
+<area shape="rect" href="class_parsing_state.html#a55e71332b300ff96e8b9a73a6a4d97f3" title="HTTPリクエストヘッダーを解析します。" alt="" coords="685,1005,870,1046"/>
+<area shape="poly" title=" " alt="" coords="567,950,666,991,686,998,684,1003,664,996,565,955"/>
+<area shape="rect" href="class_parsing_state.html#a68cb940389c1b0e5920dfabc927533b9" title="HTTPリクエストラインを解析します。" alt="" coords="673,1070,882,1096"/>
+<area shape="poly" title=" " alt="" coords="549,951,596,1002,630,1031,667,1055,682,1062,679,1067,664,1060,626,1035,593,1006,545,954"/>
+<area shape="rect" href="class_parsing_state.html#a7f5789e4470fffb0106e3268c67b7807" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="946,948,1139,989"/>
+<area shape="poly" title=" " alt="" coords="885,966,931,966,931,971,885,971"/>
+<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="699,433,856,474"/>
+<area shape="poly" title=" " alt="" coords="613,496,684,476,685,481,614,501"/>
+<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="699,499,856,539"/>
+<area shape="poly" title=" " alt="" coords="615,516,684,516,684,522,615,522"/>
+<area shape="rect" href="class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="689,564,866,605"/>
+<area shape="poly" title=" " alt="" coords="614,537,685,557,684,562,613,542"/>
+<area shape="poly" title=" " alt="" coords="857,447,948,443,948,449,857,453"/>
+<area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="964,499,1121,539"/>
+<area shape="poly" title=" " alt="" coords="857,516,948,516,948,522,857,522"/>
 </map>
 </div>
 

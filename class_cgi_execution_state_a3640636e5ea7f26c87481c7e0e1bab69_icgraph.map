@@ -1,0 +1,11 @@
+<map id="CgiExecutionState::createPipeAndFork" name="CgiExecutionState::createPipeAndFork">
+<area shape="rect" id="Node000001" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="899,5,1037,46"/>
+<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html#ac2ce6937814bad9d326cb72e28457bdd" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="640,5,851,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="883,28,851,28,851,23,883,23"/>
+<area shape="rect" id="Node000003" href="$class_cgi_execution_state.html#aecf27444a140a66641a2b9a35327fca5" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="454,5,592,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="625,28,592,28,592,23,625,23"/>
+<area shape="rect" id="Node000004" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="438,28,407,28,407,23,438,23"/>
+<area shape="rect" id="Node000005" href="$class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+</map>

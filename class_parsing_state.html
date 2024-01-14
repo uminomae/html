@@ -231,7 +231,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
 <area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
 <area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
-<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
 <area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
 </map>
 </div>
@@ -307,7 +307,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
 <area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
 <area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
-<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
 <area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
 </map>
 </div>
@@ -354,7 +354,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
 <area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
 <area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
-<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
 <area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
 </map>
 </div>
@@ -395,10 +395,20 @@ Here is the caller graph for this function:</div>
 <li>クエリコンポーネントは、階層的でないデータを含み、パスコンポーネント（セクション3.3）のデータとともに、URIのスキームや命名権限（もしあれば）の範囲内でリソースを識別するために使われます。クエリコンポーネントは、最初の疑問符（"?"）で示され、ナンバーサイン（"#") またはURIの終わりによって終了されます。</li>
 <li>スラッシュ（"/"）と疑問符（"?"）は、クエリコンポーネント内のデータを表すことができます。しかし、古い、誤った実装の一部では、これらのデータを相対参照の基本URIとして使用するときに、正しく処理されないことに注意してください（セクション5.1）。これは、階層的な区切りを探すときに、クエリデータとパスデータを区別できないためのようです。しかし、クエリコンポーネントはしばしば "key=value" の形式で識別情報を運ぶために使用され、よく使われる値の一つに他のURIへの参照があるため、これらの文字をパーセントエンコーディングで回避することが使いやすさのために時には良いでしょう。</li>
 <li>ABNF <div class="fragment"><div class="line">query      = *( pchar / <span class="stringliteral">&quot;/&quot;</span> / <span class="stringliteral">&quot;?&quot;</span> )</div>
-</div><!-- fragment --> </li>
+</div><!-- fragment --><ul>
+<li></li>
+</ul>
+</li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li>The path is terminated by the first question mark ("?") or number sign ("#") character, or by the end of the URI. <br  />
+ </li>
 </ul>
 </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><ul>
+<li>参考:【RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax】 <a href="https://datatracker.ietf.org/doc/html/rfc3986#section-3.3">https://datatracker.ietf.org/doc/html/rfc3986#section-3.3</a></li>
 <li>参考:【RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax】 <a href="https://datatracker.ietf.org/doc/html/rfc3986#section-3.4">https://datatracker.ietf.org/doc/html/rfc3986#section-3.4</a> <br  />
 </li>
 <li>参考:【Uniform Resource Identifier - Wikipedia】 <a href="https://ja.wikipedia.org/wiki/Uniform_Resource_Identifier">https://ja.wikipedia.org/wiki/Uniform_Resource_Identifier</a> <br  />
@@ -415,7 +425,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
 <area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
 <area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
-<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
 <area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
 </map>
 </div>
@@ -483,7 +493,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
 <area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
 <area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
-<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
 <area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
 </map>
 </div>
@@ -543,7 +553,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
 <area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
 <area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
-<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
 <area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
 </map>
 </div>
@@ -593,7 +603,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="629,28,596,28,596,23,629,23"/>
 <area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
 <area shape="poly" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
-<area shape="rect" href="class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
 <area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
 </map>
 </div>

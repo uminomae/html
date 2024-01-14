@@ -1,5 +1,5 @@
 <map id="HttpTransaction::initializeRequest" name="HttpTransaction::initializeRequest">
 <area shape="rect" id="Node000001" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="222,5,391,46"/>
-<area shape="rect" id="Node000002" href="$class_http_transaction.html#a90f6c163f205eae3e5e0b4be3161e50f" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
+<area shape="rect" id="Node000002" href="$class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
 </map>
