@@ -1,17 +1,27 @@
 <map id="ServerManeger::restartServerLoop" name="ServerManeger::restartServerLoop">
-<area shape="rect" id="Node000001" title="サーバーのループを再起動します。" alt="" coords="5,112,226,137"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a54ae0e59338c8ffd4aabd39866bbf549" title="ネットワークサービスを再起動します。" alt="" coords="274,71,482,111"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,108,258,104,259,109,222,114"/>
-<area shape="rect" id="Node000005" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="281,144,475,169"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="227,135,265,140,265,145,226,140"/>
-<area shape="rect" id="Node000003" href="$class_network_service.html#a2cf75b7a3d9f4f6ffb04501be4a4f151" title="すべてのソケットの接続を閉じ、関係するデータを削除します。" alt="" coords="536,5,712,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,67,529,48,531,53,458,73"/>
-<area shape="rect" id="Node000004" href="$class_network_service.html#aa669d89eac68ea824c823701a63c6030" title="ネットワークサービスを初期化します。" alt="" coords="530,71,718,111"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="483,88,514,88,514,94,483,94"/>
-<area shape="rect" id="Node000006" href="$class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="532,136,716,177"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="475,154,516,154,516,159,475,159"/>
-<area shape="rect" id="Node000008" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="537,201,711,242"/>
-<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="430,167,531,194,530,199,428,172"/>
-<area shape="rect" id="Node000007" href="$class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="766,136,966,177"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="717,154,750,154,750,159,717,159"/>
+<area shape="rect" id="Node000001" title="サーバーのループを再起動します。" alt="" coords="5,129,226,155"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a54ae0e59338c8ffd4aabd39866bbf549" title="ネットワークサービスを再起動します。" alt="" coords="274,88,482,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,126,258,121,259,126,222,131"/>
+<area shape="rect" id="Node000005" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="281,161,475,187"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="227,152,265,157,265,163,226,158"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a2cf75b7a3d9f4f6ffb04501be4a4f151" title="すべてのソケットの接続を閉じ、関係するデータを削除します。" alt="" coords="536,23,712,63"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,85,529,65,531,70,458,90"/>
+<area shape="rect" id="Node000004" href="$class_network_service.html#aa669d89eac68ea824c823701a63c6030" title="ネットワークサービスを初期化します。" alt="" coords="530,88,718,129"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="483,106,514,106,514,111,483,111"/>
+<area shape="rect" id="Node000006" href="$class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="532,153,716,194"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="475,171,516,171,516,176,475,176"/>
+<area shape="rect" id="Node000013" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="537,219,711,259"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="430,184,531,212,530,217,428,190"/>
+<area shape="rect" id="Node000007" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="774,5,958,46"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="698,151,717,138,733,118,740,98,747,77,764,56,769,52,773,56,768,60,752,79,745,100,737,121,720,142,701,155"/>
+<area shape="rect" id="Node000008" href="$class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234" title="サーバーソケットにアドレスをバインドします。" alt="" coords="779,70,953,96"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="689,150,717,138,741,122,765,106,784,98,786,103,768,111,744,126,720,143,691,155"/>
+<area shape="rect" id="Node000009" href="$class_network_service.html#abb307c95e97d912803bff29f67f533ca" title="サーバーアドレスを設定します。" alt="" coords="778,120,954,161"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="717,158,763,152,763,157,717,164"/>
+<area shape="rect" id="Node000010" href="$class_network_service.html#acf04155926d7461e63432034869d23b7" title="サーバーソケットを作成します。" alt="" coords="768,185,964,226"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="717,183,753,188,752,193,717,189"/>
+<area shape="rect" id="Node000011" href="$class_network_service.html#a9e89f1cabbeac6f1b6f8fd5c2fdc49df" title="サーバーソケットをリスニング状態に設定します。" alt="" coords="769,250,963,276"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="691,192,720,205,744,220,768,235,787,243,785,248,765,240,741,225,717,209,689,197"/>
+<area shape="rect" id="Node000012" href="$class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="766,300,966,341"/>
+<area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="701,192,720,205,737,226,745,247,752,267,768,286,773,290,769,294,764,290,747,270,740,249,733,229,717,209,698,197"/>
 </map>

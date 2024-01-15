@@ -1,5 +1,13 @@
 <map id="NetworkService::handleSendResponses" name="NetworkService::handleSendResponses">
-<area shape="rect" id="Node000001" title="クライアントへの応答を処理します。" alt="" coords="5,5,196,46"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="244,5,420,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,23,228,23,228,28,196,28"/>
+<area shape="rect" id="Node000001" title="クライアントへの応答を処理します。" alt="" coords="5,88,196,129"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="260,5,437,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,85,243,55,263,49,264,54,245,60,159,90"/>
+<area shape="rect" id="Node000004" href="$class_network_service.html#a7101de80b1b3b348f2012246c598b0e4" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="256,70,441,96"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="196,96,240,91,240,97,197,101"/>
+<area shape="rect" id="Node000005" href="$class_network_service.html#af9cd04add0e426e95a9fc680b06db23e" title="クライアントソケットへの応答メッセージを送信します。" alt="" coords="244,120,453,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,115,228,118,228,123,196,120"/>
+<area shape="rect" id="Node000006" href="$class_network_service.html#aa2dc5eec9dfb61797bd77abf5a44a218" title="クライアントのリクエストヘッダーに &quot;Connection: keep&#45;alive&quot; が存在するか確認します。" alt="" coords="253,169,444,210"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="162,127,245,155,265,162,263,167,243,160,160,132"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="501,13,720,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="437,23,486,23,486,28,437,28"/>
 </map>

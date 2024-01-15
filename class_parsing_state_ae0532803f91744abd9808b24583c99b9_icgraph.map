@@ -1,9 +1,15 @@
 <map id="ParsingState::parseCgiPathAndExtractQueryFromUri" name="ParsingState::parseCgiPathAndExtractQueryFromUri">
-<area shape="rect" id="Node000001" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="644,5,828,46"/>
-<area shape="rect" id="Node000002" href="$class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="454,13,596,39"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="629,28,597,28,597,23,629,23"/>
-<area shape="rect" id="Node000003" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="222,5,406,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="439,28,407,28,407,23,439,23"/>
-<area shape="rect" id="Node000004" href="$class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+<area shape="rect" id="Node000001" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="1386,5,1570,46"/>
+<area shape="rect" id="Node000002" href="$class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="1196,13,1338,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1371,28,1339,28,1339,23,1371,23"/>
+<area shape="rect" id="Node000003" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="964,5,1148,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1181,28,1149,28,1149,23,1181,23"/>
+<area shape="rect" id="Node000004" href="$class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="747,5,916,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="948,28,916,28,916,23,948,23"/>
+<area shape="rect" id="Node000005" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="732,28,700,28,700,23,732,23"/>
+<area shape="rect" id="Node000006" href="$class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="482,28,449,28,449,23,482,23"/>
+<area shape="rect" id="Node000007" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>

@@ -24,6 +24,8 @@ var hierarchy =
     [ "LocationDirective", "class_location_directive.html", null ],
     [ "MimeType", "class_mime_type.html", null ],
     [ "NetworkService", "class_network_service.html", null ],
+    [ "ngx_http_autoindex_entry_t", "structngx__http__autoindex__entry__t.html", null ],
+    [ "ngx_http_autoindex_loc_conf_t", "structngx__http__autoindex__loc__conf__t.html", null ],
     [ "PortMapping", "class_port_mapping.html", null ],
     [ "ServerDirective", "class_server_directive.html", null ],
     [ "ServerLoopController", "class_server_loop_controller.html", null ],

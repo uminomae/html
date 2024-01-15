@@ -94,6 +94,9 @@ $(function(){initNavTree('class_network_service.html',''); initResizable(); });
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_network_service-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">NetworkService Class Reference</div></div>
 </div><!--header-->
@@ -103,9 +106,13 @@ Collaboration diagram for NetworkService:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service__coll__graph.png" border="0" usemap="#a_network_service_coll__map" alt="Collaboration graph"/></div>
 <map name="a_network_service_coll__map" id="a_network_service_coll__map">
-<area shape="rect" title=" " alt="" coords="5,194,204,519"/>
-<area shape="rect" href="class_mime_type.html" title=" " alt="" coords="43,5,167,131"/>
-<area shape="poly" title=" " alt="" coords="107,131,107,177,102,177,102,131"/>
+<area shape="rect" title=" " alt="" coords="162,283,361,1023"/>
+<area shape="rect" href="class_port_mapping.html" title=" " alt="" coords="5,5,192,205"/>
+<area shape="poly" title=" " alt="" coords="130,204,160,302,155,303,125,206"/>
+<area shape="rect" href="class_i_counter.html" title=" " alt="" coords="217,53,306,158"/>
+<area shape="poly" title=" " alt="" coords="264,158,264,267,259,267,259,158"/>
+<area shape="rect" href="class_mime_type.html" title=" " alt="" coords="331,43,517,168"/>
+<area shape="poly" title=" " alt="" coords="408,168,368,304,363,302,403,167"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -180,6 +187,84 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_MimeTypeFileN
 <tr class="memitem:a819fb704e1701d18f7e5562bb63b3174" id="r_a819fb704e1701d18f7e5562bb63b3174"><td class="memItemLeft" align="right" valign="top"><a id="a819fb704e1701d18f7e5562bb63b3174" name="a819fb704e1701d18f7e5562bb63b3174"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>_pollTimeout</b></td></tr>
 <tr class="separator:a819fb704e1701d18f7e5562bb63b3174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:acf04155926d7461e63432034869d23b7" id="r_acf04155926d7461e63432034869d23b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf04155926d7461e63432034869d23b7">createServerSocket</a> ()</td></tr>
+<tr class="memdesc:acf04155926d7461e63432034869d23b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">サーバーソケットを作成します。  <br /></td></tr>
+<tr class="separator:acf04155926d7461e63432034869d23b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb307c95e97d912803bff29f67f533ca" id="r_abb307c95e97d912803bff29f67f533ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb307c95e97d912803bff29f67f533ca">configureServerAddress</a> ()</td></tr>
+<tr class="memdesc:abb307c95e97d912803bff29f67f533ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">サーバーアドレスを設定します。  <br /></td></tr>
+<tr class="separator:abb307c95e97d912803bff29f67f533ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76eb3eb24ee923721a827e11d5bf7234" id="r_a76eb3eb24ee923721a827e11d5bf7234"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76eb3eb24ee923721a827e11d5bf7234">bindAddr</a> ()</td></tr>
+<tr class="memdesc:a76eb3eb24ee923721a827e11d5bf7234"><td class="mdescLeft">&#160;</td><td class="mdescRight">サーバーソケットにアドレスをバインドします。  <br /></td></tr>
+<tr class="separator:a76eb3eb24ee923721a827e11d5bf7234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e89f1cabbeac6f1b6f8fd5c2fdc49df" id="r_a9e89f1cabbeac6f1b6f8fd5c2fdc49df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e89f1cabbeac6f1b6f8fd5c2fdc49df">listenSocket</a> (const <a class="el" href="class_server_directive.html">ServerDirective</a> &amp;config)</td></tr>
+<tr class="memdesc:a9e89f1cabbeac6f1b6f8fd5c2fdc49df"><td class="mdescLeft">&#160;</td><td class="mdescRight">サーバーソケットをリスニング状態に設定します。  <br /></td></tr>
+<tr class="separator:a9e89f1cabbeac6f1b6f8fd5c2fdc49df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63bbb5ebfaed19591fb547b3f0cfffc5" id="r_a63bbb5ebfaed19591fb547b3f0cfffc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63bbb5ebfaed19591fb547b3f0cfffc5">mapClientSocketToListeningPort</a> (int clientSocket, int serverIndex)</td></tr>
+<tr class="memdesc:a63bbb5ebfaed19591fb547b3f0cfffc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントソケットとリスニングポートのマッピングを設定します。  <br /></td></tr>
+<tr class="separator:a63bbb5ebfaed19591fb547b3f0cfffc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fecddc50e233048c7e1632913dff0b5" id="r_a6fecddc50e233048c7e1632913dff0b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fecddc50e233048c7e1632913dff0b5">addSocketToPollFd</a> (int socket, std::vector&lt; struct pollfd &gt; &amp;fd)</td></tr>
+<tr class="memdesc:a6fecddc50e233048c7e1632913dff0b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">新しいソケットを監視リストに追加します。  <br /></td></tr>
+<tr class="separator:a6fecddc50e233048c7e1632913dff0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ba832af9234d9c640ae10fa323af87" id="r_ae0ba832af9234d9c640ae10fa323af87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0ba832af9234d9c640ae10fa323af87">recvRequest</a> (int socketFd, std::string &amp;recvData, ssize_t &amp;recvMsgSize)</td></tr>
+<tr class="memdesc:ae0ba832af9234d9c640ae10fa323af87"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケットからメッセージを受信します。  <br /></td></tr>
+<tr class="separator:ae0ba832af9234d9c640ae10fa323af87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6605ad0ddb71f1fc7a87ff616cf872" id="r_a1b6605ad0ddb71f1fc7a87ff616cf872"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b6605ad0ddb71f1fc7a87ff616cf872">executeClientHttpSession</a> (int socketFd)</td></tr>
+<tr class="memdesc:a1b6605ad0ddb71f1fc7a87ff616cf872"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントのHTTPセッションを実行します。  <br /></td></tr>
+<tr class="separator:a1b6605ad0ddb71f1fc7a87ff616cf872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9cd04add0e426e95a9fc680b06db23e" id="r_af9cd04add0e426e95a9fc680b06db23e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9cd04add0e426e95a9fc680b06db23e">sendResponse</a> (int socketFd, const char *msg, size_t len)</td></tr>
+<tr class="memdesc:af9cd04add0e426e95a9fc680b06db23e"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントソケットへの応答メッセージを送信します。  <br /></td></tr>
+<tr class="separator:af9cd04add0e426e95a9fc680b06db23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0244f33afb37171b6fe2c73c4077663" id="r_ab0244f33afb37171b6fe2c73c4077663"><td class="memItemLeft" align="right" valign="top"><a id="ab0244f33afb37171b6fe2c73c4077663" name="ab0244f33afb37171b6fe2c73c4077663"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>shouldCloseSocket</b> (int socketFd)</td></tr>
+<tr class="separator:ab0244f33afb37171b6fe2c73c4077663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2dc5eec9dfb61797bd77abf5a44a218" id="r_aa2dc5eec9dfb61797bd77abf5a44a218"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2dc5eec9dfb61797bd77abf5a44a218">shouldKeepAlive</a> (int socketFd)</td></tr>
+<tr class="memdesc:aa2dc5eec9dfb61797bd77abf5a44a218"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントのリクエストヘッダーに "Connection: keep-alive" が存在するか確認します。  <br /></td></tr>
+<tr class="separator:aa2dc5eec9dfb61797bd77abf5a44a218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7101de80b1b3b348f2012246c598b0e4" id="r_a7101de80b1b3b348f2012246c598b0e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7101de80b1b3b348f2012246c598b0e4">isServerFd</a> (std::vector&lt; struct pollfd &gt;::iterator &amp;itPollFds)</td></tr>
+<tr class="memdesc:a7101de80b1b3b348f2012246c598b0e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数のイテレータがサーバーソケットを指しているかどうかを判断します。  <br /></td></tr>
+<tr class="separator:a7101de80b1b3b348f2012246c598b0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a648626623792dd4752c1daaffe876ffc" id="r_a648626623792dd4752c1daaffe876ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a648626623792dd4752c1daaffe876ffc">closeConnection</a> (int socketFd)</td></tr>
+<tr class="memdesc:a648626623792dd4752c1daaffe876ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたソケットの接続を閉じます。  <br /></td></tr>
+<tr class="separator:a648626623792dd4752c1daaffe876ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ae2db67bb7170de0f239abb8488cdb196" id="r_ae2db67bb7170de0f239abb8488cdb196"><td class="memItemLeft" align="right" valign="top"><a id="ae2db67bb7170de0f239abb8488cdb196" name="ae2db67bb7170de0f239abb8488cdb196"></a>
+std::vector&lt; <a class="el" href="class_server_directive.html">ServerDirective</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_serverDirectives</b></td></tr>
+<tr class="separator:ae2db67bb7170de0f239abb8488cdb196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd0e15a83d135bddfe8b508620538c1" id="r_aafd0e15a83d135bddfe8b508620538c1"><td class="memItemLeft" align="right" valign="top"><a id="aafd0e15a83d135bddfe8b508620538c1" name="aafd0e15a83d135bddfe8b508620538c1"></a>
+<a class="el" href="class_port_mapping.html">PortMapping</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_portMapping</b></td></tr>
+<tr class="separator:aafd0e15a83d135bddfe8b508620538c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2558411c6168f0f5f25b29ef72383d" id="r_a7c2558411c6168f0f5f25b29ef72383d"><td class="memItemLeft" align="right" valign="top"><a id="a7c2558411c6168f0f5f25b29ef72383d" name="a7c2558411c6168f0f5f25b29ef72383d"></a>
+<a class="el" href="class_i_counter.html">ICounter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_limiter</b></td></tr>
+<tr class="separator:a7c2558411c6168f0f5f25b29ef72383d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74a105b61a08ac668bd1648ac660e61" id="r_ad74a105b61a08ac668bd1648ac660e61"><td class="memItemLeft" align="right" valign="top"><a id="ad74a105b61a08ac668bd1648ac660e61" name="ad74a105b61a08ac668bd1648ac660e61"></a>
+<a class="el" href="class_i_counter.html">ICounter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_errorCounter</b></td></tr>
+<tr class="separator:ad74a105b61a08ac668bd1648ac660e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0127a0e28a6e25fd02f761bbe79a9b67" id="r_a0127a0e28a6e25fd02f761bbe79a9b67"><td class="memItemLeft" align="right" valign="top"><a id="a0127a0e28a6e25fd02f761bbe79a9b67" name="a0127a0e28a6e25fd02f761bbe79a9b67"></a>
+std::map&lt; int, <a class="el" href="class_socket_state.html">SocketState</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_socketStates</b></td></tr>
+<tr class="separator:a0127a0e28a6e25fd02f761bbe79a9b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb51072184b494e289eabc870324833c" id="r_aeb51072184b494e289eabc870324833c"><td class="memItemLeft" align="right" valign="top"><a id="aeb51072184b494e289eabc870324833c" name="aeb51072184b494e289eabc870324833c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>_servSockFd</b></td></tr>
+<tr class="separator:aeb51072184b494e289eabc870324833c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad327f651b40df4c62c73b417e847669b" id="r_ad327f651b40df4c62c73b417e847669b"><td class="memItemLeft" align="right" valign="top"><a id="ad327f651b40df4c62c73b417e847669b" name="ad327f651b40df4c62c73b417e847669b"></a>
+unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>_servPort</b></td></tr>
+<tr class="separator:ad327f651b40df4c62c73b417e847669b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919ae831a0f02a8f41970374ae6c2529" id="r_a919ae831a0f02a8f41970374ae6c2529"><td class="memItemLeft" align="right" valign="top"><a id="a919ae831a0f02a8f41970374ae6c2529" name="a919ae831a0f02a8f41970374ae6c2529"></a>
+struct sockaddr_in&#160;</td><td class="memItemRight" valign="bottom"><b>_servAddr</b></td></tr>
+<tr class="separator:a919ae831a0f02a8f41970374ae6c2529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b821f1ea812c2e2d83d4aa0f3a888e0" id="r_a6b821f1ea812c2e2d83d4aa0f3a888e0"><td class="memItemLeft" align="right" valign="top"><a id="a6b821f1ea812c2e2d83d4aa0f3a888e0" name="a6b821f1ea812c2e2d83d4aa0f3a888e0"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_response</b></td></tr>
+<tr class="separator:a6b821f1ea812c2e2d83d4aa0f3a888e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:af15798c8fcab11b500eaf93997780d67" id="r_af15798c8fcab11b500eaf93997780d67"><td class="memItemLeft" align="right" valign="top"><a id="af15798c8fcab11b500eaf93997780d67" name="af15798c8fcab11b500eaf93997780d67"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>RCVBUFSIZE</b> = 1024</td></tr>
+<tr class="separator:af15798c8fcab11b500eaf93997780d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a18b7f72724577a0fba37802fb36d8e7d" name="a18b7f72724577a0fba37802fb36d8e7d"></a>
@@ -218,9 +303,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_a18b7f72724577a0fba37802fb36d8e7d_cgraph.png" border="0" usemap="#aclass_network_service_a18b7f72724577a0fba37802fb36d8e7d_cgraph" alt=""/></div>
 <map name="aclass_network_service_a18b7f72724577a0fba37802fb36d8e7d_cgraph" id="aclass_network_service_a18b7f72724577a0fba37802fb36d8e7d_cgraph">
-<area shape="rect" title="新しいクライアント接続を受け入れます。" alt="" coords="5,5,194,46"/>
-<area shape="rect" href="class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="242,5,416,46"/>
-<area shape="poly" title=" " alt="" coords="194,23,226,23,226,28,194,28"/>
+<area shape="rect" title="新しいクライアント接続を受け入れます。" alt="" coords="5,71,194,111"/>
+<area shape="rect" href="class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="242,5,426,46"/>
+<area shape="poly" title=" " alt="" coords="174,68,243,48,244,53,175,73"/>
+<area shape="rect" href="class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="243,71,425,111"/>
+<area shape="poly" title=" " alt="" coords="194,88,228,88,228,94,194,94"/>
+<area shape="rect" href="class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="247,136,421,177"/>
+<area shape="poly" title=" " alt="" coords="175,109,244,129,243,134,174,114"/>
+<area shape="rect" href="class_port_mapping.html#af2565580060648e513ff1096677d5d83" title="指定されたサーバーソケットのリッスンポート番号を取得します。" alt="" coords="482,50,661,76"/>
+<area shape="poly" title=" " alt="" coords="425,78,466,73,467,78,425,83"/>
+<area shape="rect" href="class_port_mapping.html#a868fe44581e5fcc88863e86a890503cf" title="クライアントソケットとリッスンポートのマッピングを設定します。" alt="" coords="474,100,669,141"/>
+<area shape="poly" title=" " alt="" coords="425,100,459,104,458,109,425,105"/>
+<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="717,50,917,76"/>
+<area shape="poly" title=" " alt="" coords="662,60,702,60,702,66,662,66"/>
 </map>
 </div>
 <div class="dynheader">
@@ -231,6 +326,129 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="新しいクライアント接続を受け入れます。" alt="" coords="501,5,689,46"/>
 <area shape="rect" href="class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="255,5,453,46"/>
 <area shape="poly" title=" " alt="" coords="485,28,454,28,454,23,485,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6fecddc50e233048c7e1632913dff0b5" name="a6fecddc50e233048c7e1632913dff0b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fecddc50e233048c7e1632913dff0b5">&#9670;&#160;</a></span>addSocketToPollFd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::addSocketToPollFd </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>socket</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; struct pollfd &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>fds</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>新しいソケットを監視リストに追加します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">socket</td><td>追加するソケットのファイルディスクリプタ。 </td></tr>
+    <tr><td class="paramname">fds</td><td>監視対象のソケットを保持するpollfd構造体のベクタ。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><br  />
+ pollfd: 構造体で、監視対象のソケットとイベントタイプ（POLLIN=読み取り可能）を指定 <br  />
+ struct pollfd { <br  />
+ int fd; ファイル記述子 <br  />
+ short events; 検索するイベント <br  />
+ short revents; 返されたイベント <br  />
+ }; <br  />
+ POLLIN 読み出し可能なデータがある。 revents 要素は出力パラメータで、実際に起こったイベントがカーネルにより設定される。 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://ja.manpages.org/poll/2">https://ja.manpages.org/poll/2</a> </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a6fecddc50e233048c7e1632913dff0b5_icgraph.png" border="0" usemap="#aclass_network_service_a6fecddc50e233048c7e1632913dff0b5_icgraph" alt=""/></div>
+<map name="aclass_network_service_a6fecddc50e233048c7e1632913dff0b5_icgraph" id="aclass_network_service_a6fecddc50e233048c7e1632913dff0b5_icgraph">
+<area shape="rect" title="新しいソケットを監視リストに追加します。" alt="" coords="1002,39,1186,79"/>
+<area shape="rect" href="class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="765,5,954,46"/>
+<area shape="poly" title=" " alt="" coords="986,46,954,42,955,36,987,41"/>
+<area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="767,71,952,111"/>
+<area shape="poly" title=" " alt="" coords="987,76,953,81,952,76,986,71"/>
+<area shape="rect" href="class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="266,7,464,47"/>
+<area shape="poly" title=" " alt="" coords="750,29,464,29,464,24,750,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,45,207,71"/>
+<area shape="poly" title=" " alt="" coords="251,43,207,48,207,43,250,38"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,74,717,100"/>
+<area shape="poly" title=" " alt="" coords="752,92,718,91,718,86,752,87"/>
+<area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,73,475,99"/>
+<area shape="poly" title=" " alt="" coords="507,89,476,89,476,84,507,84"/>
+<area shape="poly" title=" " alt="" coords="239,75,207,71,207,66,239,69"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a76eb3eb24ee923721a827e11d5bf7234" name="a76eb3eb24ee923721a827e11d5bf7234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76eb3eb24ee923721a827e11d5bf7234">&#9670;&#160;</a></span>bindAddr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::bindAddr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>サーバーソケットにアドレスをバインドします。 </p>
+<p>ソケットにsockaddr構造体を指定してbind()を呼び出します。 <br  />
+ bind()はソケットにIPアドレスとポート番号を関連付けます。 失敗した場合はリトライすることができます。 </p><dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>bind()の呼び出しに失敗した場合に発生。　　 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>失敗したらwaitSec時間待機して再度bind()を行います。最大retryMax回行います。</li>
+<li>テスト中によく起きるので特別にケアしました。原因：osがportを解放するまで時間がかかるため ※テスト時のport解放方法: lsof -i :80でpidを確認し、kill SIGINT "pid番号" で解放してください。 </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a76eb3eb24ee923721a827e11d5bf7234_icgraph.png" border="0" usemap="#aclass_network_service_a76eb3eb24ee923721a827e11d5bf7234_icgraph" alt=""/></div>
+<map name="aclass_network_service_a76eb3eb24ee923721a827e11d5bf7234_icgraph" id="aclass_network_service_a76eb3eb24ee923721a827e11d5bf7234_icgraph">
+<area shape="rect" title="サーバーソケットにアドレスをバインドします。" alt="" coords="998,13,1171,39"/>
+<area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
+<area shape="poly" title=" " alt="" coords="983,28,950,28,950,23,983,23"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
+<area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
+<area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
 <area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
 <area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>
@@ -262,6 +480,16 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a16ed9bd4de8e026601eca26611647507_cgraph.png" border="0" usemap="#aclass_network_service_a16ed9bd4de8e026601eca26611647507_cgraph" alt=""/></div>
+<map name="aclass_network_service_a16ed9bd4de8e026601eca26611647507_cgraph" id="aclass_network_service_a16ed9bd4de8e026601eca26611647507_cgraph">
+<area shape="rect" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="5,5,182,46"/>
+<area shape="rect" href="class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="230,13,449,39"/>
+<area shape="poly" title=" " alt="" coords="182,23,214,23,214,28,182,28"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_a16ed9bd4de8e026601eca26611647507_icgraph.png" border="0" usemap="#aclass_network_service_a16ed9bd4de8e026601eca26611647507_icgraph" alt=""/></div>
@@ -274,6 +502,308 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
 <area shape="poly" title=" " alt="" coords="239,44,206,48,205,43,239,38"/>
 <area shape="poly" title=" " alt="" coords="241,79,207,75,208,70,241,74"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a648626623792dd4752c1daaffe876ffc" name="a648626623792dd4752c1daaffe876ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a648626623792dd4752c1daaffe876ffc">&#9670;&#160;</a></span>closeConnection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::closeConnection </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>socketFd</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたソケットの接続を閉じます。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">socketFd</td><td>閉じるソケットのファイルディスクリプタ。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>socketFdが無効、またはclose()が失敗した場合に発生。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a648626623792dd4752c1daaffe876ffc_icgraph.png" border="0" usemap="#aclass_network_service_a648626623792dd4752c1daaffe876ffc_icgraph" alt=""/></div>
+<map name="aclass_network_service_a648626623792dd4752c1daaffe876ffc_icgraph" id="aclass_network_service_a648626623792dd4752c1daaffe876ffc_icgraph">
+<area shape="rect" title="指定されたソケットの接続を閉じます。" alt="" coords="721,46,941,72"/>
+<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="497,39,673,79"/>
+<area shape="poly" title=" " alt="" coords="706,62,674,62,674,56,706,56"/>
+<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
+<area shape="poly" title=" " alt="" coords="481,47,449,42,450,37,482,42"/>
+<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="257,71,447,111"/>
+<area shape="poly" title=" " alt="" coords="482,76,448,81,447,75,481,71"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
+<area shape="poly" title=" " alt="" coords="239,44,206,48,205,43,239,38"/>
+<area shape="poly" title=" " alt="" coords="241,79,207,75,208,70,241,74"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abb307c95e97d912803bff29f67f533ca" name="abb307c95e97d912803bff29f67f533ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb307c95e97d912803bff29f67f533ca">&#9670;&#160;</a></span>configureServerAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::configureServerAddress </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>サーバーアドレスを設定します。 </p>
+<p>sockaddr_in構造体を使用してサーバーアドレスを設定します。 AF_INETとINADDR_ANYを用いてIPv4アドレスを指定し、指定されたポート番号でバインドします。 </p><dl class="section note"><dt>Note</dt><dd><div class="fragment"><div class="line">AF_INET:IPv4アドレスの使用  </div>
+<div class="line">INADDR_ANY:任意のアドレスで受付  </div>
+<div class="line">htons:バイトオーダーをビッグエンディアン(最上位バイトが先)へ変更  </div>
+</div><!-- fragment --> </dd>
+<dd>
+<br  />
+<ul>
+<li>struct sockaddr_in について<ul>
+<li>sockAddrの後半8バイトを使わないのがsockAddr_in。Cスタイルでもキャスト可能。 </li>
+</ul>
+</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>参考:【sockaddr(3type) - Linux manual page】 <a href="https://man7.org/linux/man-pages/man3/sockaddr.3type.html">https://man7.org/linux/man-pages/man3/sockaddr.3type.html</a> </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_abb307c95e97d912803bff29f67f533ca_icgraph.png" border="0" usemap="#aclass_network_service_abb307c95e97d912803bff29f67f533ca_icgraph" alt=""/></div>
+<map name="aclass_network_service_abb307c95e97d912803bff29f67f533ca_icgraph" id="aclass_network_service_abb307c95e97d912803bff29f67f533ca_icgraph">
+<area shape="rect" title="サーバーアドレスを設定します。" alt="" coords="998,5,1173,46"/>
+<area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
+<area shape="poly" title=" " alt="" coords="983,28,950,28,950,23,983,23"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
+<area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
+<area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="acf04155926d7461e63432034869d23b7" name="acf04155926d7461e63432034869d23b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf04155926d7461e63432034869d23b7">&#9670;&#160;</a></span>createServerSocket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::createServerSocket </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>サーバーソケットを作成します。 </p>
+<p>socket()関数を使用してサーバーソケットを作成し、setsockopt()を使ってSO_REUSEADDRオプションを設定します。 これにより、同じポートを再利用可能にします。 </p><dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>ソケット作成またはオプション設定に失敗した場合に発生。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><div class="fragment"><div class="line">- TCPソケット:接続指向（接続後に通信）のサービス。OSIのトランスポート層に相当。  </div>
+<div class="line">- PF_INET:IPv4インターネットプロトコル  </div>
+<div class="line">- SOCK_STREAM:順序付けられた、双方向のバイトストリームを提供するTCPソケットを指定。フロー制御、輻輳（ふくそう）制御、接続の確立と終了  </div>
+<div class="line">- IPPROTO_TCP:TCPプロトコルを明示的に指定。</div>
+</div><!-- fragment --> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>参考:【getsockopt(2) - Linux manual page】 <a href="https://man7.org/linux/man-pages/man2/setsockopt.2.html">https://man7.org/linux/man-pages/man2/setsockopt.2.html</a> </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_acf04155926d7461e63432034869d23b7_icgraph.png" border="0" usemap="#aclass_network_service_acf04155926d7461e63432034869d23b7_icgraph" alt=""/></div>
+<map name="aclass_network_service_acf04155926d7461e63432034869d23b7_icgraph" id="aclass_network_service_acf04155926d7461e63432034869d23b7_icgraph">
+<area shape="rect" title="サーバーソケットを作成します。" alt="" coords="998,5,1194,46"/>
+<area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
+<area shape="poly" title=" " alt="" coords="982,28,950,28,950,23,982,23"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
+<area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
+<area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1b6605ad0ddb71f1fc7a87ff616cf872" name="a1b6605ad0ddb71f1fc7a87ff616cf872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b6605ad0ddb71f1fc7a87ff616cf872">&#9670;&#160;</a></span>executeClientHttpSession()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::executeClientHttpSession </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>socketFd</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クライアントのHTTPセッションを実行します。 </p>
+<p>この関数はクライアントの完全なHTTPセッションを処理します。ソケットからデータを受信し、 HTTPリクエストを処理し、適切なレスポンスを作成までを行います。 ※send()は別のloopでPOLLOUTを確認してから行います。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">socketFd</td><td>クライアントソケットのファイルディスクリプタ。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<p><a class="el" href="class_socket_state.html">SocketState</a>&amp; socketState: 全clientのデータを持つmapから該当socketのデータを渡すために取得</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_cgraph.png" border="0" usemap="#aclass_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_cgraph" alt=""/></div>
+<map name="aclass_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_cgraph" id="aclass_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_cgraph">
+<area shape="rect" title="クライアントのHTTPセッションを実行します。" alt="" coords="5,561,208,602"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="270,532,438,573"/>
+<area shape="poly" title=" " alt="" coords="208,567,254,561,255,567,208,572"/>
+<area shape="rect" href="class_network_service.html#ae0ba832af9234d9c640ae10fa323af87" title="ソケットからメッセージを受信します。" alt="" coords="256,597,452,623"/>
+<area shape="poly" title=" " alt="" coords="208,590,240,594,240,599,208,596"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="500,499,684,539"/>
+<area shape="poly" title=" " alt="" coords="438,538,484,531,485,537,439,543"/>
+<area shape="rect" href="class_http_transaction.html#ac3b0816e83d73326e10ba91bfdaf539b" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="508,564,677,605"/>
+<area shape="poly" title=" " alt="" coords="439,561,492,568,492,574,438,566"/>
+<area shape="rect" href="class_cgi_execution_state.html#aecf27444a140a66641a2b9a35327fca5" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="745,217,883,258"/>
+<area shape="poly" title=" " alt="" coords="605,497,659,421,730,327,781,268,785,271,734,330,663,424,610,500"/>
+<area shape="rect" href="class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="735,340,893,381"/>
+<area shape="poly" title=" " alt="" coords="621,496,770,388,773,392,624,500"/>
+<area shape="rect" href="class_file_path_generation_state.html#a4ee6c300ff2d365526e49a3a32cf0f11" title="HTTPリクエストに基づいてファイルパス生成処理を実行します。" alt="" coords="732,663,896,703"/>
+<area shape="poly" title=" " alt="" coords="662,538,686,550,716,573,745,599,790,649,786,652,741,602,713,577,683,555,660,542"/>
+<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="743,926,885,952"/>
+<area shape="poly" title=" " alt="" coords="671,538,686,550,702,571,713,590,722,627,725,667,735,714,805,911,800,913,730,716,720,667,716,628,708,592,698,574,682,554,667,542"/>
+<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="735,499,893,539"/>
+<area shape="poly" title=" " alt="" coords="685,516,720,516,720,522,685,522"/>
+<area shape="rect" href="class_cgi_execution_state.html#ac2ce6937814bad9d326cb72e28457bdd" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="951,188,1161,229"/>
+<area shape="poly" title=" " alt="" coords="883,227,935,220,936,226,884,232"/>
+<area shape="rect" href="class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a" title="環境変数をstd::stringからchar*に変換します。" alt="" coords="1241,5,1401,46"/>
+<area shape="poly" title=" " alt="" coords="1072,186,1131,122,1171,87,1215,57,1226,50,1229,55,1217,61,1174,92,1135,126,1076,189"/>
+<area shape="rect" href="class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="1252,71,1390,111"/>
+<area shape="poly" title=" " alt="" coords="1091,185,1148,154,1215,122,1236,114,1237,119,1217,127,1151,158,1094,190"/>
+<area shape="rect" href="class_cgi_execution_state.html#af7a2830b1943e93db5a6e57ad1711498" title="CGIスクリプトを実行します。" alt="" coords="1252,136,1390,177"/>
+<area shape="poly" title=" " alt="" coords="1161,185,1236,170,1237,175,1162,190"/>
+<area shape="rect" href="class_cgi_execution_state.html#aff9df70d227ed984a62c5f44c284b116" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="1248,201,1393,242"/>
+<area shape="poly" title=" " alt="" coords="1162,211,1232,215,1232,220,1161,216"/>
+<area shape="rect" href="class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="1216,267,1425,307"/>
+<area shape="poly" title=" " alt="" coords="1128,227,1236,259,1234,264,1126,232"/>
+<area shape="rect" href="class_cgi_execution_state.html#ad69e96a830c5ade8aa774703694a4413" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="1231,332,1410,373"/>
+<area shape="poly" title=" " alt="" coords="1149,227,1170,240,1187,259,1195,279,1202,299,1218,317,1225,322,1222,326,1214,321,1197,301,1190,281,1182,262,1166,244,1146,232"/>
+<area shape="rect" href="class_cgi_execution_state.html#a87dd9281aa48ff54b9c767bc58007601" title="フォークされたプロセスの終了を非ブロッキングで待ちます。" alt="" coords="1519,201,1657,242"/>
+<area shape="poly" title=" " alt="" coords="1394,219,1503,219,1503,224,1394,224"/>
+<area shape="rect" href="class_cgi_execution_state.html#a0ea4850cd9670c360522e59d4315b88f" title="環境変数の文字列を結合して作成し、vectorに追加します" alt="" coords="1473,332,1703,373"/>
+<area shape="poly" title=" " alt="" coords="1411,350,1458,350,1458,355,1411,355"/>
+<area shape="rect" href="class_content_extraction_state.html#a477ae29cd5285bc1fdacf361c17f161d" title="有効なファイルパスを探索します。" alt="" coords="977,253,1135,294"/>
+<area shape="poly" title=" " alt="" coords="869,337,943,310,979,297,980,302,945,315,871,342"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="1242,421,1400,462"/>
+<area shape="poly" title=" " alt="" coords="893,345,954,339,1023,336,1097,341,1169,354,1194,366,1217,382,1270,411,1267,416,1215,387,1192,370,1167,359,1096,346,1023,342,954,344,893,350"/>
+<area shape="rect" href="class_content_extraction_state.html#a9c744c5c3ce77056db86b407f9b645a4" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="944,368,1168,409"/>
+<area shape="poly" title=" " alt="" coords="893,367,928,371,928,376,893,372"/>
+<area shape="rect" href="class_file_path_generation_state.html#a87ce0b65b78ab5a4500237198415c220" title="HTTPリクエストに基づいて可能なすべて( open()を試行する複数 )の絶対ファイルパスを構築します。" alt="" coords="974,629,1138,670"/>
+<area shape="poly" title=" " alt="" coords="896,669,958,660,959,666,897,674"/>
+<area shape="rect" href="class_file_path_generation_state.html#ac27b43d9ea8d423dba1f0ec3a003bd87" title="クライアントが接続しているサーバーを識別します。" alt="" coords="970,695,1142,735"/>
+<area shape="poly" title=" " alt="" coords="897,691,955,699,954,704,896,696"/>
+<area shape="rect" href="class_file_path_generation_state.html#a5ba9caa04cd2c302b9a474e9f80189fc" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="945,760,1167,801"/>
+<area shape="poly" title=" " alt="" coords="854,701,945,745,965,752,963,757,943,749,852,706"/>
+<area shape="rect" href="class_file_path_generation_state.html#a88acccf01aed99018d80ff34799555b0" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="1239,629,1403,670"/>
+<area shape="poly" title=" " alt="" coords="1138,647,1223,647,1223,652,1138,652"/>
+<area shape="rect" href="class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="1229,695,1412,735"/>
+<area shape="poly" title=" " alt="" coords="1143,712,1213,712,1213,718,1143,718"/>
+<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="1488,702,1688,728"/>
+<area shape="poly" title=" " alt="" coords="1413,712,1473,712,1473,718,1413,718"/>
+<area shape="rect" href="class_file_path_generation_state.html#a3f7deede089c59d492e8e3d9693e7bfe" title="一致する LocationDirective を見つけます。" alt="" coords="1219,760,1423,801"/>
+<area shape="poly" title=" " alt="" coords="1167,778,1203,778,1203,783,1167,783"/>
+<area shape="rect" href="class_file_path_generation_state.html#a8f4ebec579dc2e2d67d74ea8777943b8" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="1506,760,1670,801"/>
+<area shape="poly" title=" " alt="" coords="1423,778,1491,778,1491,783,1423,783"/>
+<area shape="rect" href="class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="967,825,1145,866"/>
+<area shape="poly" title=" " alt="" coords="840,923,943,877,964,869,966,874,945,881,842,928"/>
+<area shape="rect" href="class_parsing_state.html#ae0532803f91744abd9808b24583c99b9" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="964,891,1148,931"/>
+<area shape="poly" title=" " alt="" coords="885,928,949,921,949,926,886,933"/>
+<area shape="rect" href="class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="948,956,1164,981"/>
+<area shape="poly" title=" " alt="" coords="886,945,933,951,933,956,885,950"/>
+<area shape="rect" href="class_parsing_state.html#a55e71332b300ff96e8b9a73a6a4d97f3" title="HTTPリクエストヘッダーを解析します。" alt="" coords="963,1005,1149,1046"/>
+<area shape="poly" title=" " alt="" coords="845,950,945,991,964,998,962,1003,943,996,843,955"/>
+<area shape="rect" href="class_parsing_state.html#a68cb940389c1b0e5920dfabc927533b9" title="HTTPリクエストラインを解析します。" alt="" coords="951,1070,1161,1096"/>
+<area shape="poly" title=" " alt="" coords="828,951,875,1002,908,1031,945,1055,960,1062,958,1067,942,1060,905,1035,871,1006,824,954"/>
+<area shape="rect" href="class_parsing_state.html#a7f5789e4470fffb0106e3268c67b7807" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="1225,948,1417,989"/>
+<area shape="poly" title=" " alt="" coords="1164,966,1209,966,1209,971,1164,971"/>
+<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="977,433,1135,474"/>
+<area shape="poly" title=" " alt="" coords="891,496,962,476,964,481,892,501"/>
+<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="977,499,1135,539"/>
+<area shape="poly" title=" " alt="" coords="893,516,962,516,962,522,893,522"/>
+<area shape="rect" href="class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="967,564,1145,605"/>
+<area shape="poly" title=" " alt="" coords="892,537,964,557,962,562,891,542"/>
+<area shape="poly" title=" " alt="" coords="1135,447,1226,443,1226,449,1135,453"/>
+<area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="1242,499,1399,539"/>
+<area shape="poly" title=" " alt="" coords="1135,516,1226,516,1226,522,1135,522"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_icgraph.png" border="0" usemap="#aclass_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_icgraph" alt=""/></div>
+<map name="aclass_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_icgraph" id="aclass_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_icgraph">
+<area shape="rect" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>
+<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
+<area shape="poly" title=" " alt="" coords="482,28,449,28,449,23,482,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>
 </div>
 
@@ -301,9 +831,94 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_aad44e39b437301bb2b6ff79e2065d217_cgraph.png" border="0" usemap="#aclass_network_service_aad44e39b437301bb2b6ff79e2065d217_cgraph" alt=""/></div>
 <map name="aclass_network_service_aad44e39b437301bb2b6ff79e2065d217_cgraph" id="aclass_network_service_aad44e39b437301bb2b6ff79e2065d217_cgraph">
-<area shape="rect" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="5,5,200,46"/>
-<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="248,5,424,46"/>
-<area shape="poly" title=" " alt="" coords="200,23,232,23,232,28,200,28"/>
+<area shape="rect" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="5,536,200,577"/>
+<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="261,471,437,511"/>
+<area shape="poly" title=" " alt="" coords="181,533,254,513,255,518,183,538"/>
+<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="248,536,450,577"/>
+<area shape="poly" title=" " alt="" coords="200,554,232,554,232,559,200,559"/>
+<area shape="rect" href="class_network_service.html#a7101de80b1b3b348f2012246c598b0e4" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="256,601,442,627"/>
+<area shape="poly" title=" " alt="" coords="193,575,276,594,275,599,192,580"/>
+<area shape="rect" href="class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="498,478,717,504"/>
+<area shape="poly" title=" " alt="" coords="438,488,482,488,482,494,438,494"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="524,532,692,573"/>
+<area shape="poly" title=" " alt="" coords="450,552,508,551,508,557,450,557"/>
+<area shape="rect" href="class_network_service.html#ae0ba832af9234d9c640ae10fa323af87" title="ソケットからメッセージを受信します。" alt="" coords="510,597,706,623"/>
+<area shape="poly" title=" " alt="" coords="451,575,528,591,526,596,450,580"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="765,499,950,539"/>
+<area shape="poly" title=" " alt="" coords="692,538,749,531,750,536,693,544"/>
+<area shape="rect" href="class_http_transaction.html#ac3b0816e83d73326e10ba91bfdaf539b" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="773,564,942,605"/>
+<area shape="poly" title=" " alt="" coords="693,560,758,569,757,574,692,566"/>
+<area shape="rect" href="class_cgi_execution_state.html#aecf27444a140a66641a2b9a35327fca5" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="1010,217,1149,258"/>
+<area shape="poly" title=" " alt="" coords="871,497,924,421,996,327,1046,268,1051,271,1000,330,928,424,875,500"/>
+<area shape="rect" href="class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="1001,340,1158,381"/>
+<area shape="poly" title=" " alt="" coords="886,496,1036,388,1039,392,889,500"/>
+<area shape="rect" href="class_file_path_generation_state.html#a4ee6c300ff2d365526e49a3a32cf0f11" title="HTTPリクエストに基づいてファイルパス生成処理を実行します。" alt="" coords="998,661,1161,702"/>
+<area shape="poly" title=" " alt="" coords="928,538,951,550,981,572,1010,598,1055,647,1051,651,1006,602,978,577,948,555,925,542"/>
+<area shape="rect" href="class_parsing_state.html#a0ca12a4b8e444ab0a1de139a8b9b5890" title="HTTPリクエストの解析を行います。" alt="" coords="1008,926,1151,952"/>
+<area shape="poly" title=" " alt="" coords="936,538,952,550,968,571,978,590,987,626,990,666,1000,713,1070,911,1065,913,995,714,985,667,982,627,973,591,963,573,948,554,933,542"/>
+<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="1001,499,1158,539"/>
+<area shape="poly" title=" " alt="" coords="950,516,985,516,985,522,950,522"/>
+<area shape="rect" href="class_cgi_execution_state.html#ac2ce6937814bad9d326cb72e28457bdd" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="1216,188,1426,229"/>
+<area shape="poly" title=" " alt="" coords="1148,227,1200,220,1201,226,1149,232"/>
+<area shape="rect" href="class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a" title="環境変数をstd::stringからchar*に変換します。" alt="" coords="1506,5,1666,46"/>
+<area shape="poly" title=" " alt="" coords="1337,186,1396,122,1436,87,1480,57,1492,50,1494,55,1483,61,1439,92,1400,126,1341,189"/>
+<area shape="rect" href="class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="1517,71,1655,111"/>
+<area shape="poly" title=" " alt="" coords="1356,185,1414,154,1480,122,1501,114,1503,119,1482,127,1416,158,1359,190"/>
+<area shape="rect" href="class_cgi_execution_state.html#af7a2830b1943e93db5a6e57ad1711498" title="CGIスクリプトを実行します。" alt="" coords="1517,136,1655,177"/>
+<area shape="poly" title=" " alt="" coords="1426,185,1501,170,1502,175,1427,190"/>
+<area shape="rect" href="class_cgi_execution_state.html#aff9df70d227ed984a62c5f44c284b116" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="1513,201,1659,242"/>
+<area shape="poly" title=" " alt="" coords="1427,211,1498,215,1497,220,1427,216"/>
+<area shape="rect" href="class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="1481,267,1691,307"/>
+<area shape="poly" title=" " alt="" coords="1393,227,1501,259,1500,264,1392,232"/>
+<area shape="rect" href="class_cgi_execution_state.html#ad69e96a830c5ade8aa774703694a4413" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="1496,332,1676,373"/>
+<area shape="poly" title=" " alt="" coords="1414,227,1435,240,1452,259,1460,279,1467,299,1483,317,1490,322,1487,326,1480,321,1463,301,1455,281,1448,262,1432,244,1412,232"/>
+<area shape="rect" href="class_cgi_execution_state.html#a87dd9281aa48ff54b9c767bc58007601" title="フォークされたプロセスの終了を非ブロッキングで待ちます。" alt="" coords="1784,201,1923,242"/>
+<area shape="poly" title=" " alt="" coords="1659,219,1769,219,1769,224,1659,224"/>
+<area shape="rect" href="class_cgi_execution_state.html#a0ea4850cd9670c360522e59d4315b88f" title="環境変数の文字列を結合して作成し、vectorに追加します" alt="" coords="1739,332,1968,373"/>
+<area shape="poly" title=" " alt="" coords="1676,350,1723,350,1723,355,1676,355"/>
+<area shape="rect" href="class_content_extraction_state.html#a477ae29cd5285bc1fdacf361c17f161d" title="有効なファイルパスを探索します。" alt="" coords="1243,253,1400,294"/>
+<area shape="poly" title=" " alt="" coords="1135,337,1208,310,1244,297,1246,302,1210,315,1136,342"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="1507,421,1665,462"/>
+<area shape="poly" title=" " alt="" coords="1158,345,1219,339,1289,336,1362,341,1434,354,1460,366,1483,382,1535,411,1533,416,1480,387,1457,370,1433,359,1362,346,1289,342,1219,344,1159,350"/>
+<area shape="rect" href="class_content_extraction_state.html#a9c744c5c3ce77056db86b407f9b645a4" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="1209,368,1433,409"/>
+<area shape="poly" title=" " alt="" coords="1159,367,1194,371,1193,376,1158,372"/>
+<area shape="rect" href="class_file_path_generation_state.html#a87ce0b65b78ab5a4500237198415c220" title="HTTPリクエストに基づいて可能なすべて( open()を試行する複数 )の絶対ファイルパスを構築します。" alt="" coords="1240,629,1403,670"/>
+<area shape="poly" title=" " alt="" coords="1161,668,1224,660,1224,665,1162,673"/>
+<area shape="rect" href="class_file_path_generation_state.html#ac27b43d9ea8d423dba1f0ec3a003bd87" title="クライアントが接続しているサーバーを識別します。" alt="" coords="1235,695,1407,735"/>
+<area shape="poly" title=" " alt="" coords="1162,690,1220,698,1219,704,1161,696"/>
+<area shape="rect" href="class_file_path_generation_state.html#a5ba9caa04cd2c302b9a474e9f80189fc" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="1211,760,1432,801"/>
+<area shape="poly" title=" " alt="" coords="1119,700,1210,745,1230,752,1228,757,1208,749,1116,705"/>
+<area shape="rect" href="class_file_path_generation_state.html#a88acccf01aed99018d80ff34799555b0" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="1504,629,1668,670"/>
+<area shape="poly" title=" " alt="" coords="1403,647,1488,647,1488,652,1403,652"/>
+<area shape="rect" href="class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="1494,695,1678,735"/>
+<area shape="poly" title=" " alt="" coords="1408,712,1479,712,1479,718,1408,718"/>
+<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="1754,702,1953,728"/>
+<area shape="poly" title=" " alt="" coords="1678,712,1738,712,1738,718,1678,718"/>
+<area shape="rect" href="class_file_path_generation_state.html#a3f7deede089c59d492e8e3d9693e7bfe" title="一致する LocationDirective を見つけます。" alt="" coords="1484,760,1688,801"/>
+<area shape="poly" title=" " alt="" coords="1432,778,1468,778,1468,783,1432,783"/>
+<area shape="rect" href="class_file_path_generation_state.html#a8f4ebec579dc2e2d67d74ea8777943b8" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="1772,760,1935,801"/>
+<area shape="poly" title=" " alt="" coords="1689,778,1756,778,1756,783,1689,783"/>
+<area shape="rect" href="class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="1232,825,1410,866"/>
+<area shape="poly" title=" " alt="" coords="1105,923,1208,877,1230,869,1232,874,1210,881,1107,928"/>
+<area shape="rect" href="class_parsing_state.html#ae0532803f91744abd9808b24583c99b9" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="1230,891,1413,931"/>
+<area shape="poly" title=" " alt="" coords="1151,928,1214,921,1215,926,1151,933"/>
+<area shape="rect" href="class_parsing_state.html#ae5902265976392a4bdc3d15cbc83fe6c" title="HTTPリクエストボディを解析します。" alt="" coords="1214,956,1429,981"/>
+<area shape="poly" title=" " alt="" coords="1151,945,1199,951,1198,956,1151,950"/>
+<area shape="rect" href="class_parsing_state.html#a55e71332b300ff96e8b9a73a6a4d97f3" title="HTTPリクエストヘッダーを解析します。" alt="" coords="1229,1005,1414,1046"/>
+<area shape="poly" title=" " alt="" coords="1110,950,1210,991,1229,998,1228,1003,1208,996,1108,955"/>
+<area shape="rect" href="class_parsing_state.html#a68cb940389c1b0e5920dfabc927533b9" title="HTTPリクエストラインを解析します。" alt="" coords="1217,1070,1426,1096"/>
+<area shape="poly" title=" " alt="" coords="1093,951,1140,1002,1173,1031,1210,1055,1225,1062,1223,1067,1208,1060,1170,1035,1136,1006,1089,954"/>
+<area shape="rect" href="class_parsing_state.html#a7f5789e4470fffb0106e3268c67b7807" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="1490,948,1682,989"/>
+<area shape="poly" title=" " alt="" coords="1429,966,1475,966,1475,971,1429,971"/>
+<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="1243,433,1400,474"/>
+<area shape="poly" title=" " alt="" coords="1156,496,1227,476,1229,481,1158,501"/>
+<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="1243,499,1400,539"/>
+<area shape="poly" title=" " alt="" coords="1158,516,1227,516,1227,522,1158,522"/>
+<area shape="rect" href="class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="1233,564,1410,605"/>
+<area shape="poly" title=" " alt="" coords="1158,537,1229,557,1227,562,1156,542"/>
+<area shape="poly" title=" " alt="" coords="1400,447,1491,443,1491,449,1401,453"/>
+<area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="1507,499,1665,539"/>
+<area shape="poly" title=" " alt="" coords="1400,516,1492,516,1492,522,1400,522"/>
 </map>
 </div>
 <div class="dynheader">
@@ -391,9 +1006,17 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph.png" border="0" usemap="#aclass_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph" alt=""/></div>
 <map name="aclass_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph" id="aclass_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph">
-<area shape="rect" title="クライアントへの応答を処理します。" alt="" coords="5,5,196,46"/>
-<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="244,5,420,46"/>
-<area shape="poly" title=" " alt="" coords="196,23,228,23,228,28,196,28"/>
+<area shape="rect" title="クライアントへの応答を処理します。" alt="" coords="5,88,196,129"/>
+<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="260,5,437,46"/>
+<area shape="poly" title=" " alt="" coords="158,85,243,55,263,49,264,54,245,60,159,90"/>
+<area shape="rect" href="class_network_service.html#a7101de80b1b3b348f2012246c598b0e4" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="256,70,441,96"/>
+<area shape="poly" title=" " alt="" coords="196,96,240,91,240,97,197,101"/>
+<area shape="rect" href="class_network_service.html#af9cd04add0e426e95a9fc680b06db23e" title="クライアントソケットへの応答メッセージを送信します。" alt="" coords="244,120,453,145"/>
+<area shape="poly" title=" " alt="" coords="197,115,228,118,228,123,196,120"/>
+<area shape="rect" href="class_network_service.html#aa2dc5eec9dfb61797bd77abf5a44a218" title="クライアントのリクエストヘッダーに &quot;Connection: keep&#45;alive&quot; が存在するか確認します。" alt="" coords="253,169,444,210"/>
+<area shape="poly" title=" " alt="" coords="162,127,245,155,265,162,263,167,243,160,160,132"/>
+<area shape="rect" href="class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="501,13,720,39"/>
+<area shape="poly" title=" " alt="" coords="437,23,486,23,486,28,437,28"/>
 </map>
 </div>
 <div class="dynheader">
@@ -455,11 +1078,21 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_a79b80b9a51d73a85bb99b0ac0560a0c4_cgraph.png" border="0" usemap="#aclass_network_service_a79b80b9a51d73a85bb99b0ac0560a0c4_cgraph" alt=""/></div>
 <map name="aclass_network_service_a79b80b9a51d73a85bb99b0ac0560a0c4_cgraph" id="aclass_network_service_a79b80b9a51d73a85bb99b0ac0560a0c4_cgraph">
-<area shape="rect" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="5,5,204,46"/>
-<area shape="rect" href="class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="252,5,440,46"/>
-<area shape="poly" title=" " alt="" coords="204,23,236,23,236,28,204,28"/>
-<area shape="rect" href="class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="488,5,662,46"/>
-<area shape="poly" title=" " alt="" coords="440,23,473,23,473,28,440,28"/>
+<area shape="rect" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="5,71,204,111"/>
+<area shape="rect" href="class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="252,71,440,111"/>
+<area shape="poly" title=" " alt="" coords="204,88,236,88,236,94,204,94"/>
+<area shape="rect" href="class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="488,5,672,46"/>
+<area shape="poly" title=" " alt="" coords="420,68,489,48,490,53,422,73"/>
+<area shape="rect" href="class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="490,71,671,111"/>
+<area shape="poly" title=" " alt="" coords="440,88,474,88,474,94,440,94"/>
+<area shape="rect" href="class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="493,136,667,177"/>
+<area shape="poly" title=" " alt="" coords="422,109,490,129,489,134,420,114"/>
+<area shape="rect" href="class_port_mapping.html#af2565580060648e513ff1096677d5d83" title="指定されたサーバーソケットのリッスンポート番号を取得します。" alt="" coords="728,50,908,76"/>
+<area shape="poly" title=" " alt="" coords="671,78,713,73,713,78,672,83"/>
+<area shape="rect" href="class_port_mapping.html#a868fe44581e5fcc88863e86a890503cf" title="クライアントソケットとリッスンポートのマッピングを設定します。" alt="" coords="720,100,916,141"/>
+<area shape="poly" title=" " alt="" coords="672,100,705,104,704,109,671,105"/>
+<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="964,50,1163,76"/>
+<area shape="poly" title=" " alt="" coords="908,60,948,60,948,66,908,66"/>
 </map>
 </div>
 <div class="dynheader">
@@ -468,6 +1101,239 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_network_service_a79b80b9a51d73a85bb99b0ac0560a0c4_icgraph.png" border="0" usemap="#aclass_network_service_a79b80b9a51d73a85bb99b0ac0560a0c4_icgraph" alt=""/></div>
 <map name="aclass_network_service_a79b80b9a51d73a85bb99b0ac0560a0c4_icgraph" id="aclass_network_service_a79b80b9a51d73a85bb99b0ac0560a0c4_icgraph">
 <area shape="rect" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="255,5,453,46"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7101de80b1b3b348f2012246c598b0e4" name="a7101de80b1b3b348f2012246c598b0e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7101de80b1b3b348f2012246c598b0e4">&#9670;&#160;</a></span>isServerFd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NetworkService::isServerFd </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; struct pollfd &gt;::iterator &amp;</td>          <td class="paramname"><span class="paramname"><em>itPollFds</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>引数のイテレータがサーバーソケットを指しているかどうかを判断します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">itPollFds</td><td>ポーリングで使用するイテレータ。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>サーバーソケットであればtrue、そうでなければfalse。 </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a7101de80b1b3b348f2012246c598b0e4_icgraph.png" border="0" usemap="#aclass_network_service_a7101de80b1b3b348f2012246c598b0e4_icgraph" alt=""/></div>
+<map name="aclass_network_service_a7101de80b1b3b348f2012246c598b0e4_icgraph" id="aclass_network_service_a7101de80b1b3b348f2012246c598b0e4_icgraph">
+<area shape="rect" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="497,46,682,72"/>
+<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
+<area shape="poly" title=" " alt="" coords="481,46,449,42,450,37,482,41"/>
+<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="257,71,447,111"/>
+<area shape="poly" title=" " alt="" coords="482,76,448,81,447,76,481,71"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
+<area shape="poly" title=" " alt="" coords="239,44,206,48,205,43,239,38"/>
+<area shape="poly" title=" " alt="" coords="241,79,207,75,208,70,241,74"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9e89f1cabbeac6f1b6f8fd5c2fdc49df" name="a9e89f1cabbeac6f1b6f8fd5c2fdc49df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e89f1cabbeac6f1b6f8fd5c2fdc49df">&#9670;&#160;</a></span>listenSocket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::listenSocket </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_server_directive.html">ServerDirective</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>config</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>サーバーソケットをリスニング状態に設定します。 </p>
+<p>listen()を呼び出して、サーバーソケットをクライアントからの接続要求を受け付ける状態にします。 </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>サーバーの設定を含むServerDirectiveオブジェクト。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>listen()の呼び出しに失敗した場合に発生。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a9e89f1cabbeac6f1b6f8fd5c2fdc49df_icgraph.png" border="0" usemap="#aclass_network_service_a9e89f1cabbeac6f1b6f8fd5c2fdc49df_icgraph" alt=""/></div>
+<map name="aclass_network_service_a9e89f1cabbeac6f1b6f8fd5c2fdc49df_icgraph" id="aclass_network_service_a9e89f1cabbeac6f1b6f8fd5c2fdc49df_icgraph">
+<area shape="rect" title="サーバーソケットをリスニング状態に設定します。" alt="" coords="998,13,1192,39"/>
+<area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
+<area shape="poly" title=" " alt="" coords="982,28,950,28,950,23,982,23"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
+<area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
+<area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a63bbb5ebfaed19591fb547b3f0cfffc5" name="a63bbb5ebfaed19591fb547b3f0cfffc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63bbb5ebfaed19591fb547b3f0cfffc5">&#9670;&#160;</a></span>mapClientSocketToListeningPort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::mapClientSocketToListeningPort </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>clientSocket</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>serverIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クライアントソケットとリスニングポートのマッピングを設定します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clientSocket</td><td>クライアントソケットのファイルディスクリプタ。 </td></tr>
+    <tr><td class="paramname">serverIndex</td><td>リスニングサーバーのインデックス。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>getListenPort:_serverSocketPortMapからサーバーportを返す <br  />
+ ※ _serverSocketPortMap: key=サーバーソケットFD, value=サーバーポート番号 </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a63bbb5ebfaed19591fb547b3f0cfffc5_cgraph.png" border="0" usemap="#aclass_network_service_a63bbb5ebfaed19591fb547b3f0cfffc5_cgraph" alt=""/></div>
+<map name="aclass_network_service_a63bbb5ebfaed19591fb547b3f0cfffc5_cgraph" id="aclass_network_service_a63bbb5ebfaed19591fb547b3f0cfffc5_cgraph">
+<area shape="rect" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="5,27,187,68"/>
+<area shape="rect" href="class_port_mapping.html#af2565580060648e513ff1096677d5d83" title="指定されたサーバーソケットのリッスンポート番号を取得します。" alt="" coords="243,5,422,31"/>
+<area shape="poly" title=" " alt="" coords="187,34,227,29,228,34,187,39"/>
+<area shape="rect" href="class_port_mapping.html#a868fe44581e5fcc88863e86a890503cf" title="クライアントソケットとリッスンポートのマッピングを設定します。" alt="" coords="235,55,430,96"/>
+<area shape="poly" title=" " alt="" coords="187,56,219,59,219,65,187,61"/>
+<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="478,5,677,31"/>
+<area shape="poly" title=" " alt="" coords="423,16,463,16,463,21,423,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_a63bbb5ebfaed19591fb547b3f0cfffc5_icgraph.png" border="0" usemap="#aclass_network_service_a63bbb5ebfaed19591fb547b3f0cfffc5_icgraph" alt=""/></div>
+<map name="aclass_network_service_a63bbb5ebfaed19591fb547b3f0cfffc5_icgraph" id="aclass_network_service_a63bbb5ebfaed19591fb547b3f0cfffc5_icgraph">
+<area shape="rect" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="737,5,919,46"/>
+<area shape="rect" href="class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="501,5,689,46"/>
+<area shape="poly" title=" " alt="" coords="722,28,690,28,690,23,722,23"/>
+<area shape="rect" href="class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="255,5,453,46"/>
+<area shape="poly" title=" " alt="" coords="485,28,454,28,454,23,485,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae0ba832af9234d9c640ae10fa323af87" name="ae0ba832af9234d9c640ae10fa323af87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0ba832af9234d9c640ae10fa323af87">&#9670;&#160;</a></span>recvRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::recvRequest </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>socketFd</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>recvData</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ssize_t &amp;</td>          <td class="paramname"><span class="paramname"><em>recvMsgSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ソケットからメッセージを受信します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">socketFd</td><td>受信するソケットのファイルディスクリプタ。 </td></tr>
+    <tr><td class="paramname">recvData</td><td>受信したデータを格納する文字列への参照。 </td></tr>
+    <tr><td class="paramname">recvMsgSize</td><td>受信したメッセージのサイズへの参照。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>: <div class="fragment"><div class="line">recv()は正常に完了するとメッセージの長さを返します。メッセージが長すぎて指定のバッファに収まらない場合、メッセージを受信したソケットのタイプによっては超過分のバイトが破棄されることがあります (socket(2) を参照)。ソケットにメッセージが無い場合は、ソケットが非ブロッキング (fcntl(2) を参照) の場合を除き、呼び出しはメッセージが到着するのを待ちます。ソケットが非ブロッキングの場合、値 -1 が返され、外部変数 errno が EAGAIN に設定されます。通常、受信呼び出しは要求された量を受信するまで待たずに、 要求された量を上限として得られたデータを返します。</div>
+</div><!-- fragment --></dd></dl>
+<dl class="section see"><dt>See also</dt><dd>参考:【recv(2) manページ】 <a href="https://nxmnpg.lemoda.net/ja/2/recv">https://nxmnpg.lemoda.net/ja/2/recv</a> </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_ae0ba832af9234d9c640ae10fa323af87_icgraph.png" border="0" usemap="#aclass_network_service_ae0ba832af9234d9c640ae10fa323af87_icgraph" alt=""/></div>
+<map name="aclass_network_service_ae0ba832af9234d9c640ae10fa323af87_icgraph" id="aclass_network_service_ae0ba832af9234d9c640ae10fa323af87_icgraph">
+<area shape="rect" title="ソケットからメッセージを受信します。" alt="" coords="747,13,944,39"/>
+<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>
+<area shape="poly" title=" " alt="" coords="732,28,700,28,700,23,732,23"/>
+<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
+<area shape="poly" title=" " alt="" coords="482,28,449,28,449,23,482,23"/>
 <area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
 <area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>
@@ -519,6 +1385,73 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af9cd04add0e426e95a9fc680b06db23e" name="af9cd04add0e426e95a9fc680b06db23e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9cd04add0e426e95a9fc680b06db23e">&#9670;&#160;</a></span>sendResponse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NetworkService::sendResponse </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>socketFd</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>msg</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クライアントソケットへの応答メッセージを送信します。 </p>
+<p>この関数は、send() システムコールを使用して指定されたソケットにメッセージを送信します。 メッセージの長さは 'len' で指定されます。 メッセージが単一のパケットで送信できないほど長い場合、EMSGSIZE エラーコードを返し、メッセージを送信しません。</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">socketFd</td><td>送信先のソケットのファイルディスクリプタ。 </td></tr>
+    <tr><td class="paramname">msg</td><td>送信するメッセージ。 </td></tr>
+    <tr><td class="paramname">len</td><td>メッセージの長さ。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>ソケットFdが無効な場合またはsend()が失敗した場合。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>send() 関数および sendto() システムコールおよび sendmsg() システムコールは、メッセージを別のソケットに送信するのに使用されます。 <br  />
+ send() 関数は、ソケットが 接続された 状態にあるときにだけ使用できるメッセージの長さは len で指定します。 メッセージが長すぎて基層となるプロトコルを不可分に通過できない場合、 エラー EMSGSIZE を返し、メッセージを送信しません。 <br  />
+ 送信するメッセージを保持するスペースがソケットに無い場合 send() は通常ブロックします。 ただし、ソケットが非ブロッキング入出力モードに設定されている場合は別です。 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>send(2) man ページ: <a href="https://nxmnpg.lemoda.net/ja/2/send">https://nxmnpg.lemoda.net/ja/2/send</a> </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_af9cd04add0e426e95a9fc680b06db23e_icgraph.png" border="0" usemap="#aclass_network_service_af9cd04add0e426e95a9fc680b06db23e_icgraph" alt=""/></div>
+<map name="aclass_network_service_af9cd04add0e426e95a9fc680b06db23e_icgraph" id="aclass_network_service_af9cd04add0e426e95a9fc680b06db23e_icgraph">
+<area shape="rect" title="クライアントソケットへの応答メッセージを送信します。" alt="" coords="493,13,702,39"/>
+<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="255,5,445,46"/>
+<area shape="poly" title=" " alt="" coords="477,28,446,28,446,23,477,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a44006dbf443e41fff6a628d72e356dd3" name="a44006dbf443e41fff6a628d72e356dd3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44006dbf443e41fff6a628d72e356dd3">&#9670;&#160;</a></span>setupEachServer()</h2>
 
@@ -553,9 +1486,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_a44006dbf443e41fff6a628d72e356dd3_cgraph.png" border="0" usemap="#aclass_network_service_a44006dbf443e41fff6a628d72e356dd3_cgraph" alt=""/></div>
 <map name="aclass_network_service_a44006dbf443e41fff6a628d72e356dd3_cgraph" id="aclass_network_service_a44006dbf443e41fff6a628d72e356dd3_cgraph">
-<area shape="rect" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="5,5,190,46"/>
-<area shape="rect" href="class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="238,5,437,46"/>
-<area shape="poly" title=" " alt="" coords="190,23,222,23,222,28,190,28"/>
+<area shape="rect" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="5,153,190,194"/>
+<area shape="rect" href="class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="245,5,430,46"/>
+<area shape="poly" title=" " alt="" coords="117,151,168,103,201,78,236,55,246,50,249,55,239,60,204,82,172,107,120,155"/>
+<area shape="rect" href="class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234" title="サーバーソケットにアドレスをバインドします。" alt="" coords="251,70,424,96"/>
+<area shape="poly" title=" " alt="" coords="137,150,184,128,237,106,261,98,262,103,239,111,186,132,139,155"/>
+<area shape="rect" href="class_network_service.html#abb307c95e97d912803bff29f67f533ca" title="サーバーアドレスを設定します。" alt="" coords="250,120,425,161"/>
+<area shape="poly" title=" " alt="" coords="190,158,234,152,235,157,191,163"/>
+<area shape="rect" href="class_network_service.html#acf04155926d7461e63432034869d23b7" title="サーバーソケットを作成します。" alt="" coords="239,185,436,226"/>
+<area shape="poly" title=" " alt="" coords="191,183,224,188,223,193,190,189"/>
+<area shape="rect" href="class_network_service.html#a9e89f1cabbeac6f1b6f8fd5c2fdc49df" title="サーバーソケットをリスニング状態に設定します。" alt="" coords="240,250,435,276"/>
+<area shape="poly" title=" " alt="" coords="140,192,239,235,263,243,261,248,237,240,138,197"/>
+<area shape="rect" href="class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="238,300,437,341"/>
+<area shape="poly" title=" " alt="" coords="120,192,172,239,204,264,239,286,249,291,247,296,236,291,201,268,168,243,117,196"/>
 </map>
 </div>
 <div class="dynheader">
@@ -568,6 +1511,54 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
 <area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
 <area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa2dc5eec9dfb61797bd77abf5a44a218" name="aa2dc5eec9dfb61797bd77abf5a44a218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2dc5eec9dfb61797bd77abf5a44a218">&#9670;&#160;</a></span>shouldKeepAlive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NetworkService::shouldKeepAlive </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>socketFd</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クライアントのリクエストヘッダーに "Connection: keep-alive" が存在するか確認します。 </p>
+<p>クライアントのリクエストに"Connection: keep-alive" ヘッダーが存在するかどうかを確認します。 <br  />
+ </p><dl class="section note"><dt>Note</dt><dd>keep-aliveの場合、ソケットは閉じません。</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">socketFd</td><td>確認するソケットのファイルディスクリプタ。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>"Connection: close" が見つかれば true、それ以外は false。 </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_aa2dc5eec9dfb61797bd77abf5a44a218_icgraph.png" border="0" usemap="#aclass_network_service_aa2dc5eec9dfb61797bd77abf5a44a218_icgraph" alt=""/></div>
+<map name="aclass_network_service_aa2dc5eec9dfb61797bd77abf5a44a218_icgraph" id="aclass_network_service_aa2dc5eec9dfb61797bd77abf5a44a218_icgraph">
+<area shape="rect" title="クライアントのリクエストヘッダーに &quot;Connection: keep&#45;alive&quot; が存在するか確認します。" alt="" coords="493,5,683,46"/>
+<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="255,5,445,46"/>
+<area shape="poly" title=" " alt="" coords="477,28,445,28,445,23,477,23"/>
 <area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
 <area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>

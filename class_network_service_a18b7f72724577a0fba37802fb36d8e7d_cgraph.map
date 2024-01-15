@@ -1,5 +1,15 @@
 <map id="NetworkService::acceptNewConnection" name="NetworkService::acceptNewConnection">
-<area shape="rect" id="Node000001" title="新しいクライアント接続を受け入れます。" alt="" coords="5,5,194,46"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="242,5,416,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,23,226,23,226,28,194,28"/>
+<area shape="rect" id="Node000001" title="新しいクライアント接続を受け入れます。" alt="" coords="5,71,194,111"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="242,5,426,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,68,243,48,244,53,175,73"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="243,71,425,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,88,228,88,228,94,194,94"/>
+<area shape="rect" id="Node000007" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="247,136,421,177"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="175,109,244,129,243,134,174,114"/>
+<area shape="rect" id="Node000004" href="$class_port_mapping.html#af2565580060648e513ff1096677d5d83" title="指定されたサーバーソケットのリッスンポート番号を取得します。" alt="" coords="482,50,661,76"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="425,78,466,73,467,78,425,83"/>
+<area shape="rect" id="Node000006" href="$class_port_mapping.html#a868fe44581e5fcc88863e86a890503cf" title="クライアントソケットとリッスンポートのマッピングを設定します。" alt="" coords="474,100,669,141"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="425,100,459,104,458,109,425,105"/>
+<area shape="rect" id="Node000005" href="$class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="717,50,917,76"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="662,60,702,60,702,66,662,66"/>
 </map>

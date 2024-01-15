@@ -1,3 +1,17 @@
 <map id="HttpTransaction" name="HttpTransaction">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,157,271"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="509,1231,661,1557"/>
+<area shape="rect" id="Node000002" href="$class_port_mapping.html" title=" " alt="" coords="5,866,192,1066"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,1064,168,1118,206,1167,274,1227,350,1279,426,1321,495,1354,493,1359,424,1326,347,1283,271,1231,202,1170,164,1120,134,1067"/>
+<area shape="rect" id="Node000003" href="$class_mime_type.html" title=" " alt="" coords="216,903,403,1028"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="340,1027,375,1095,417,1167,501,1285,497,1288,412,1170,371,1098,336,1029"/>
+<area shape="rect" id="Node000004" href="$class_socket_state.html" title=" " alt="" coords="427,813,589,1118"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="535,1117,551,1207,552,1214,547,1215,546,1208,530,1118"/>
+<area shape="rect" id="Node000005" href="$struct_http_request.html" title=" " alt="" coords="614,913,789,1018"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="690,1019,636,1216,631,1214,685,1017"/>
+<area shape="rect" id="Node000006" href="$class_server_directive.html" title=" " alt="" coords="612,5,791,700"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="704,700,704,896,699,896,699,700"/>
+<area shape="rect" id="Node000007" href="$struct_http_response.html" title=" " alt="" coords="813,763,977,1168"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="815,1150,802,1170,741,1247,675,1316,671,1312,737,1244,798,1167,811,1147"/>
+<area shape="rect" id="Node000008" href="$struct_http_cgi.html" title=" " alt="" coords="1001,913,1169,1018"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1073,1019,1042,1095,1019,1134,991,1170,956,1204,918,1235,835,1289,753,1331,678,1363,676,1358,750,1327,833,1284,915,1231,953,1200,987,1167,1015,1131,1037,1092,1068,1017"/>
 </map>

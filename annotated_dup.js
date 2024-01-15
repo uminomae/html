@@ -17,6 +17,8 @@ var annotated_dup =
     [ "LocationDirective", "class_location_directive.html", null ],
     [ "MimeType", "class_mime_type.html", null ],
     [ "NetworkService", "class_network_service.html", "class_network_service" ],
+    [ "ngx_http_autoindex_entry_t", "structngx__http__autoindex__entry__t.html", null ],
+    [ "ngx_http_autoindex_loc_conf_t", "structngx__http__autoindex__loc__conf__t.html", null ],
     [ "ParsingState", "class_parsing_state.html", "class_parsing_state" ],
     [ "PortMapping", "class_port_mapping.html", "class_port_mapping" ],
     [ "RateLimiter", "class_rate_limiter.html", null ],

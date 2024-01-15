@@ -94,6 +94,7 @@ $(function(){initNavTree('class_base_counter.html',''); initResizable(); });
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_base_counter-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BaseCounter Class Reference</div></div>
 </div><!--header-->
@@ -103,11 +104,11 @@ Inheritance diagram for BaseCounter:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_base_counter__inherit__graph.png" border="0" usemap="#a_base_counter_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_base_counter_inherit__map" id="a_base_counter_inherit__map">
-<area shape="rect" title=" " alt="" coords="144,159,377,304"/>
-<area shape="rect" href="class_error_counter.html" title=" " alt="" coords="5,352,252,437"/>
-<area shape="poly" title=" " alt="" coords="195,317,164,354,160,351,191,314"/>
-<area shape="rect" href="class_rate_limiter.html" title=" " alt="" coords="277,352,509,437"/>
-<area shape="poly" title=" " alt="" coords="331,314,361,351,357,354,327,317"/>
+<area shape="rect" title=" " alt="" coords="144,159,377,364"/>
+<area shape="rect" href="class_error_counter.html" title=" " alt="" coords="5,412,252,497"/>
+<area shape="poly" title=" " alt="" coords="184,377,159,414,155,411,180,374"/>
+<area shape="rect" href="class_rate_limiter.html" title=" " alt="" coords="277,412,509,497"/>
+<area shape="poly" title=" " alt="" coords="341,374,366,411,362,414,337,377"/>
 <area shape="rect" href="class_i_counter.html" title=" " alt="" coords="216,5,305,111"/>
 <area shape="poly" title=" " alt="" coords="263,126,263,159,258,159,258,126"/>
 </map>
@@ -117,7 +118,7 @@ Collaboration diagram for BaseCounter:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_base_counter__coll__graph.png" border="0" usemap="#a_base_counter_coll__map" alt="Collaboration graph"/></div>
 <map name="a_base_counter_coll__map" id="a_base_counter_coll__map">
-<area shape="rect" title=" " alt="" coords="5,159,239,304"/>
+<area shape="rect" title=" " alt="" coords="5,159,239,364"/>
 <area shape="rect" href="class_i_counter.html" title=" " alt="" coords="77,5,167,111"/>
 <area shape="poly" title=" " alt="" coords="125,126,125,159,119,159,119,126"/>
 </map>
@@ -143,6 +144,18 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a99bc0ef12e397358de96b0f222cba015" id="r_a99bc0ef12e397358de96b0f222cba015"><td class="memItemLeft" align="right" valign="top"><a id="a99bc0ef12e397358de96b0f222cba015" name="a99bc0ef12e397358de96b0f222cba015"></a>
 static const int&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_BASE_MAX_PER_SEC</b> = 50</td></tr>
 <tr class="separator:a99bc0ef12e397358de96b0f222cba015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8b164fb103df306d86a7cfa55e878721" id="r_a8b164fb103df306d86a7cfa55e878721"><td class="memItemLeft" align="right" valign="top"><a id="a8b164fb103df306d86a7cfa55e878721" name="a8b164fb103df306d86a7cfa55e878721"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>_maxPerSec</b></td></tr>
+<tr class="separator:a8b164fb103df306d86a7cfa55e878721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64640623908ffc45cb7371f668bf6da" id="r_aa64640623908ffc45cb7371f668bf6da"><td class="memItemLeft" align="right" valign="top"><a id="aa64640623908ffc45cb7371f668bf6da" name="aa64640623908ffc45cb7371f668bf6da"></a>
+std::time_t&#160;</td><td class="memItemRight" valign="bottom"><b>_lastUpdateTime</b></td></tr>
+<tr class="separator:aa64640623908ffc45cb7371f668bf6da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada25aa14ebb44f7ce033b138c9569515" id="r_ada25aa14ebb44f7ce033b138c9569515"><td class="memItemLeft" align="right" valign="top"><a id="ada25aa14ebb44f7ce033b138c9569515" name="ada25aa14ebb44f7ce033b138c9569515"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>_count</b></td></tr>
+<tr class="separator:ada25aa14ebb44f7ce033b138c9569515"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab6fb34ba4724a9d5b65b6227c6217048" name="ab6fb34ba4724a9d5b65b6227c6217048"></a>

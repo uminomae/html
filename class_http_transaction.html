@@ -93,6 +93,8 @@ $(function(){initNavTree('class_http_transaction.html',''); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_http_transaction-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">HttpTransaction Class Reference</div></div>
 </div><!--header-->
@@ -102,7 +104,21 @@ Collaboration diagram for HttpTransaction:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_http_transaction__coll__graph.png" border="0" usemap="#a_http_transaction_coll__map" alt="Collaboration graph"/></div>
 <map name="a_http_transaction_coll__map" id="a_http_transaction_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,157,271"/>
+<area shape="rect" title=" " alt="" coords="509,1231,661,1557"/>
+<area shape="rect" href="class_port_mapping.html" title=" " alt="" coords="5,866,192,1066"/>
+<area shape="poly" title=" " alt="" coords="139,1064,168,1118,206,1167,274,1227,350,1279,426,1321,495,1354,493,1359,424,1326,347,1283,271,1231,202,1170,164,1120,134,1067"/>
+<area shape="rect" href="class_mime_type.html" title=" " alt="" coords="216,903,403,1028"/>
+<area shape="poly" title=" " alt="" coords="340,1027,375,1095,417,1167,501,1285,497,1288,412,1170,371,1098,336,1029"/>
+<area shape="rect" href="class_socket_state.html" title=" " alt="" coords="427,813,589,1118"/>
+<area shape="poly" title=" " alt="" coords="535,1117,551,1207,552,1214,547,1215,546,1208,530,1118"/>
+<area shape="rect" href="struct_http_request.html" title=" " alt="" coords="614,913,789,1018"/>
+<area shape="poly" title=" " alt="" coords="690,1019,636,1216,631,1214,685,1017"/>
+<area shape="rect" href="class_server_directive.html" title=" " alt="" coords="612,5,791,700"/>
+<area shape="poly" title=" " alt="" coords="704,700,704,896,699,896,699,700"/>
+<area shape="rect" href="struct_http_response.html" title=" " alt="" coords="813,763,977,1168"/>
+<area shape="poly" title=" " alt="" coords="815,1150,802,1170,741,1247,675,1316,671,1312,737,1244,798,1167,811,1147"/>
+<area shape="rect" href="struct_http_cgi.html" title=" " alt="" coords="1001,913,1169,1018"/>
+<area shape="poly" title=" " alt="" coords="1073,1019,1042,1095,1019,1134,991,1170,956,1204,918,1235,835,1289,753,1331,678,1363,676,1358,750,1327,833,1284,915,1231,953,1200,987,1167,1015,1131,1037,1092,1068,1017"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -200,6 +216,43 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>getTimeoutCgiSeconds</
 <tr class="memitem:a8e926a5ea0e5001645905ec16414e5b4" id="r_a8e926a5ea0e5001645905ec16414e5b4"><td class="memItemLeft" align="right" valign="top"><a id="a8e926a5ea0e5001645905ec16414e5b4" name="a8e926a5ea0e5001645905ec16414e5b4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setTimeoutCgiSeconds</b> (int timeoutCgiSeconds)</td></tr>
 <tr class="separator:a8e926a5ea0e5001645905ec16414e5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a437f2cf22b1c629b055421f0f9bc4973" id="r_a437f2cf22b1c629b055421f0f9bc4973"><td class="memItemLeft" align="right" valign="top"><a id="a437f2cf22b1c629b055421f0f9bc4973" name="a437f2cf22b1c629b055421f0f9bc4973"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>initStatusCodeMap</b> ()</td></tr>
+<tr class="memdesc:a437f2cf22b1c629b055421f0f9bc4973"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTPステータスコードとフレーズのmap作成。 <br /></td></tr>
+<tr class="separator:a437f2cf22b1c629b055421f0f9bc4973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1657c64484602063857b396c040c365f" id="r_a1657c64484602063857b396c040c365f"><td class="memItemLeft" align="right" valign="top"><a id="a1657c64484602063857b396c040c365f" name="a1657c64484602063857b396c040c365f"></a>
+<a class="el" href="class_port_mapping.html">PortMapping</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_portMapping</b></td></tr>
+<tr class="separator:a1657c64484602063857b396c040c365f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68673a670cd940829eefa1a5d0a306a1" id="r_a68673a670cd940829eefa1a5d0a306a1"><td class="memItemLeft" align="right" valign="top"><a id="a68673a670cd940829eefa1a5d0a306a1" name="a68673a670cd940829eefa1a5d0a306a1"></a>
+<a class="el" href="class_mime_type.html">MimeType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_mimeType</b></td></tr>
+<tr class="separator:a68673a670cd940829eefa1a5d0a306a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae52572e2389535e10fa337d16f6964a3" id="r_ae52572e2389535e10fa337d16f6964a3"><td class="memItemLeft" align="right" valign="top"><a id="ae52572e2389535e10fa337d16f6964a3" name="ae52572e2389535e10fa337d16f6964a3"></a>
+<a class="el" href="class_socket_state.html">SocketState</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_socketState</b></td></tr>
+<tr class="separator:ae52572e2389535e10fa337d16f6964a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a729da572c55c9abfd8668dfe2666fc5b" id="r_a729da572c55c9abfd8668dfe2666fc5b"><td class="memItemLeft" align="right" valign="top"><a id="a729da572c55c9abfd8668dfe2666fc5b" name="a729da572c55c9abfd8668dfe2666fc5b"></a>
+std::vector&lt; <a class="el" href="class_server_directive.html">ServerDirective</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_serverDirectives</b></td></tr>
+<tr class="separator:a729da572c55c9abfd8668dfe2666fc5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f021a75bce5b1795abf29cd6096cd1c" id="r_a9f021a75bce5b1795abf29cd6096cd1c"><td class="memItemLeft" align="right" valign="top"><a id="a9f021a75bce5b1795abf29cd6096cd1c" name="a9f021a75bce5b1795abf29cd6096cd1c"></a>
+struct <a class="el" href="struct_http_request.html">HttpRequest</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_httpRequest</b></td></tr>
+<tr class="separator:a9f021a75bce5b1795abf29cd6096cd1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc65e0f13ec63b93545433aeaef43906" id="r_abc65e0f13ec63b93545433aeaef43906"><td class="memItemLeft" align="right" valign="top"><a id="abc65e0f13ec63b93545433aeaef43906" name="abc65e0f13ec63b93545433aeaef43906"></a>
+struct <a class="el" href="struct_http_response.html">HttpResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_httpResponse</b></td></tr>
+<tr class="separator:abc65e0f13ec63b93545433aeaef43906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a764a063db0088ee5dd63e81c2c9666f8" id="r_a764a063db0088ee5dd63e81c2c9666f8"><td class="memItemLeft" align="right" valign="top"><a id="a764a063db0088ee5dd63e81c2c9666f8" name="a764a063db0088ee5dd63e81c2c9666f8"></a>
+struct <a class="el" href="struct_http_cgi.html">HttpCgi</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_httpCgi</b></td></tr>
+<tr class="separator:a764a063db0088ee5dd63e81c2c9666f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca094f476c949fbd7b17190c7b94cef2" id="r_aca094f476c949fbd7b17190c7b94cef2"><td class="memItemLeft" align="right" valign="top"><a id="aca094f476c949fbd7b17190c7b94cef2" name="aca094f476c949fbd7b17190c7b94cef2"></a>
+std::istringstream&#160;</td><td class="memItemRight" valign="bottom"><b>_reqIss</b></td></tr>
+<tr class="separator:aca094f476c949fbd7b17190c7b94cef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c1b136e43302f2a2c3dffac9ab40b0" id="r_ac8c1b136e43302f2a2c3dffac9ab40b0"><td class="memItemLeft" align="right" valign="top"><a id="ac8c1b136e43302f2a2c3dffac9ab40b0" name="ac8c1b136e43302f2a2c3dffac9ab40b0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>_clientSocket</b></td></tr>
+<tr class="separator:ac8c1b136e43302f2a2c3dffac9ab40b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac3b0816e83d73326e10ba91bfdaf539b" name="ac3b0816e83d73326e10ba91bfdaf539b"></a>
@@ -235,9 +288,15 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_http_transaction_ac3b0816e83d73326e10ba91bfdaf539b_icgraph.png" border="0" usemap="#aclass_http_transaction_ac3b0816e83d73326e10ba91bfdaf539b_icgraph" alt=""/></div>
 <map name="aclass_http_transaction_ac3b0816e83d73326e10ba91bfdaf539b_icgraph" id="aclass_http_transaction_ac3b0816e83d73326e10ba91bfdaf539b_icgraph">
-<area shape="rect" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="222,5,391,46"/>
-<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="5,5,174,46"/>
-<area shape="poly" title=" " alt="" coords="206,28,174,28,174,23,206,23"/>
+<area shape="rect" title="受信データを初期化し、このトランザクションのリクエストを処理する準備を行います。" alt="" coords="964,5,1133,46"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="747,5,916,46"/>
+<area shape="poly" title=" " alt="" coords="948,28,916,28,916,23,948,23"/>
+<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>
+<area shape="poly" title=" " alt="" coords="732,28,700,28,700,23,732,23"/>
+<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
+<area shape="poly" title=" " alt="" coords="482,28,449,28,449,23,482,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>
 </div>
 
@@ -307,8 +366,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="850,227,957,259,956,264,848,232"/>
 <area shape="rect" href="class_cgi_execution_state.html#ad69e96a830c5ade8aa774703694a4413" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="953,332,1132,373"/>
 <area shape="poly" title=" " alt="" coords="871,227,891,240,909,259,916,279,924,299,939,317,946,322,943,326,936,321,919,301,911,281,904,262,888,244,868,232"/>
-<area shape="rect" href="class_cgi_execution_state.html#a87dd9281aa48ff54b9c767bc58007601" title="フォークされたプロセスの終了を非ブロッキングで待ちます。" alt="" coords="1226,201,1364,242"/>
-<area shape="poly" title=" " alt="" coords="1116,219,1210,219,1210,224,1116,224"/>
+<area shape="rect" href="class_cgi_execution_state.html#a87dd9281aa48ff54b9c767bc58007601" title="フォークされたプロセスの終了を非ブロッキングで待ちます。" alt="" coords="1241,201,1379,242"/>
+<area shape="poly" title=" " alt="" coords="1116,219,1225,219,1225,224,1116,224"/>
+<area shape="rect" href="class_cgi_execution_state.html#a0ea4850cd9670c360522e59d4315b88f" title="環境変数の文字列を結合して作成し、vectorに追加します" alt="" coords="1195,332,1424,373"/>
+<area shape="poly" title=" " alt="" coords="1133,350,1180,350,1180,355,1133,355"/>
 <area shape="rect" href="class_content_extraction_state.html#a477ae29cd5285bc1fdacf361c17f161d" title="有効なファイルパスを探索します。" alt="" coords="699,253,856,294"/>
 <area shape="poly" title=" " alt="" coords="591,337,664,310,700,297,702,302,666,315,593,342"/>
 <area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="963,421,1122,462"/>
@@ -325,12 +386,12 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="860,647,944,647,944,652,860,652"/>
 <area shape="rect" href="class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="951,695,1134,735"/>
 <area shape="poly" title=" " alt="" coords="864,712,935,712,935,718,864,718"/>
-<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="1195,702,1394,728"/>
-<area shape="poly" title=" " alt="" coords="1135,712,1180,712,1180,718,1135,718"/>
+<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="1210,702,1409,728"/>
+<area shape="poly" title=" " alt="" coords="1134,712,1194,712,1194,718,1134,718"/>
 <area shape="rect" href="class_file_path_generation_state.html#a3f7deede089c59d492e8e3d9693e7bfe" title="一致する LocationDirective を見つけます。" alt="" coords="940,760,1145,801"/>
 <area shape="poly" title=" " alt="" coords="888,778,925,778,925,783,888,783"/>
-<area shape="rect" href="class_file_path_generation_state.html#a8f4ebec579dc2e2d67d74ea8777943b8" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="1213,760,1376,801"/>
-<area shape="poly" title=" " alt="" coords="1145,778,1198,778,1198,783,1145,783"/>
+<area shape="rect" href="class_file_path_generation_state.html#a8f4ebec579dc2e2d67d74ea8777943b8" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="1228,760,1391,801"/>
+<area shape="poly" title=" " alt="" coords="1145,778,1212,778,1212,783,1145,783"/>
 <area shape="rect" href="class_parsing_state.html#ab18ab5cde5c9a8cc12eb449130952b83" title="リクエストURIから拡張子を抽出します。" alt="" coords="688,825,867,866"/>
 <area shape="poly" title=" " alt="" coords="561,923,664,877,686,869,688,874,666,881,564,928"/>
 <area shape="rect" href="class_parsing_state.html#ae0532803f91744abd9808b24583c99b9" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="686,891,869,931"/>
@@ -352,6 +413,20 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="857,447,948,443,948,449,857,453"/>
 <area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="964,499,1121,539"/>
 <area shape="poly" title=" " alt="" coords="857,516,948,516,948,522,857,522"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_http_transaction_a365f59eea6458586b660e4425eff5263_icgraph.png" border="0" usemap="#aclass_http_transaction_a365f59eea6458586b660e4425eff5263_icgraph" alt=""/></div>
+<map name="aclass_http_transaction_a365f59eea6458586b660e4425eff5263_icgraph" id="aclass_http_transaction_a365f59eea6458586b660e4425eff5263_icgraph">
+<area shape="rect" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="747,5,916,46"/>
+<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>
+<area shape="poly" title=" " alt="" coords="732,28,700,28,700,23,732,23"/>
+<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
+<area shape="poly" title=" " alt="" coords="482,28,449,28,449,23,482,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>
 </div>
 

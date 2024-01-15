@@ -1,5 +1,11 @@
 <map id="PortMapping::getListenPort" name="PortMapping::getListenPort">
-<area shape="rect" id="Node000001" title="指定されたサーバーソケットのリッスンポート番号を取得します。" alt="" coords="235,13,414,39"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="5,5,187,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
+<area shape="rect" id="Node000001" title="指定されたサーバーソケットのリッスンポート番号を取得します。" alt="" coords="967,13,1146,39"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="737,5,919,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="951,28,919,28,919,23,951,23"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="501,5,689,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="722,28,690,28,690,23,722,23"/>
+<area shape="rect" id="Node000004" href="$class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="255,5,453,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="485,28,454,28,454,23,485,23"/>
+<area shape="rect" id="Node000005" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>
