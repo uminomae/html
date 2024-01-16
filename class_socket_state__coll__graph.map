@@ -1,3 +1,7 @@
 <map id="SocketState" name="SocketState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,168,311"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="119,763,281,1148"/>
+<area shape="rect" id="Node000002" href="$class_server_directive.html" title=" " alt="" coords="5,5,184,700"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,699,166,746,161,747,153,700"/>
+<area shape="rect" id="Node000003" href="$class_location_directive.html" title=" " alt="" coords="208,170,403,535"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="304,535,295,637,279,739,277,747,272,746,273,739,290,636,299,535"/>
 </map>

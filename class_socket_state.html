@@ -94,6 +94,7 @@ $(function(){initNavTree('class_socket_state.html',''); initResizable(); });
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_socket_state-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">SocketState Class Reference</div></div>
 </div><!--header-->
@@ -103,12 +104,28 @@ Collaboration diagram for SocketState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_socket_state__coll__graph.png" border="0" usemap="#a_socket_state_coll__map" alt="Collaboration graph"/></div>
 <map name="a_socket_state_coll__map" id="a_socket_state_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,168,311"/>
+<area shape="rect" title=" " alt="" coords="119,763,281,1148"/>
+<area shape="rect" href="class_server_directive.html" title=" " alt="" coords="5,5,184,700"/>
+<area shape="poly" title=" " alt="" coords="158,699,166,746,161,747,153,700"/>
+<area shape="rect" href="class_location_directive.html" title=" " alt="" coords="208,170,403,535"/>
+<area shape="poly" title=" " alt="" coords="304,535,295,637,279,739,277,747,272,746,273,739,290,636,299,535"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:acb39825303edc21e83ed4db9892e4e90" id="r_acb39825303edc21e83ed4db9892e4e90"><td class="memItemLeft" align="right" valign="top"><a id="acb39825303edc21e83ed4db9892e4e90" name="acb39825303edc21e83ed4db9892e4e90"></a>
+const <a class="el" href="class_server_directive.html">ServerDirective</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getConnectedServer</b> () const</td></tr>
+<tr class="separator:acb39825303edc21e83ed4db9892e4e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5e26e40e69b1bd9d35d2d9009a251dc" id="r_ad5e26e40e69b1bd9d35d2d9009a251dc"><td class="memItemLeft" align="right" valign="top"><a id="ad5e26e40e69b1bd9d35d2d9009a251dc" name="ad5e26e40e69b1bd9d35d2d9009a251dc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setConnectedServer</b> (<a class="el" href="class_server_directive.html">ServerDirective</a> *connectedServer)</td></tr>
+<tr class="separator:ad5e26e40e69b1bd9d35d2d9009a251dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3401b8c42bd65cfdb66aa29c8ca77891" id="r_a3401b8c42bd65cfdb66aa29c8ca77891"><td class="memItemLeft" align="right" valign="top"><a id="a3401b8c42bd65cfdb66aa29c8ca77891" name="a3401b8c42bd65cfdb66aa29c8ca77891"></a>
+const <a class="el" href="class_location_directive.html">LocationDirective</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getConnectedLocation</b> () const</td></tr>
+<tr class="separator:a3401b8c42bd65cfdb66aa29c8ca77891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7568eadd87eea8921644e3bd93cd55f8" id="r_a7568eadd87eea8921644e3bd93cd55f8"><td class="memItemLeft" align="right" valign="top"><a id="a7568eadd87eea8921644e3bd93cd55f8" name="a7568eadd87eea8921644e3bd93cd55f8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setConnectedLocation</b> (<a class="el" href="class_location_directive.html">LocationDirective</a> *connectedLocation)</td></tr>
+<tr class="separator:a7568eadd87eea8921644e3bd93cd55f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3289901458c05bfe7e671b8f644a203" id="r_ac3289901458c05bfe7e671b8f644a203"><td class="memItemLeft" align="right" valign="top"><a id="ac3289901458c05bfe7e671b8f644a203" name="ac3289901458c05bfe7e671b8f644a203"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>SocketState</b> (int socketFd)</td></tr>
 <tr class="separator:ac3289901458c05bfe7e671b8f644a203"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,15 +165,15 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_socketReqUri<
 <tr class="memitem:a861a322a08ad9a23f107500d6d220aa5" id="r_a861a322a08ad9a23f107500d6d220aa5"><td class="memItemLeft" align="right" valign="top"><a id="a861a322a08ad9a23f107500d6d220aa5" name="a861a322a08ad9a23f107500d6d220aa5"></a>
 std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_socketReqHeaders</b></td></tr>
 <tr class="separator:a861a322a08ad9a23f107500d6d220aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e8add59b8bffcd31856c16d9702875c" id="r_a2e8add59b8bffcd31856c16d9702875c"><td class="memItemLeft" align="right" valign="top"><a id="a2e8add59b8bffcd31856c16d9702875c" name="a2e8add59b8bffcd31856c16d9702875c"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_socketReqHostName</b></td></tr>
-<tr class="separator:a2e8add59b8bffcd31856c16d9702875c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2bb4c6304fc2a39740c31eb5045e719" id="r_ad2bb4c6304fc2a39740c31eb5045e719"><td class="memItemLeft" align="right" valign="top"><a id="ad2bb4c6304fc2a39740c31eb5045e719" name="ad2bb4c6304fc2a39740c31eb5045e719"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_socketReqBody</b></td></tr>
 <tr class="separator:ad2bb4c6304fc2a39740c31eb5045e719"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52404ebcde77d812021f6f1ac0d56dee" id="r_a52404ebcde77d812021f6f1ac0d56dee"><td class="memItemLeft" align="right" valign="top"><a id="a52404ebcde77d812021f6f1ac0d56dee" name="a52404ebcde77d812021f6f1ac0d56dee"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>_socketReqContentLength</b></td></tr>
 <tr class="separator:a52404ebcde77d812021f6f1ac0d56dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8add59b8bffcd31856c16d9702875c" id="r_a2e8add59b8bffcd31856c16d9702875c"><td class="memItemLeft" align="right" valign="top"><a id="a2e8add59b8bffcd31856c16d9702875c" name="a2e8add59b8bffcd31856c16d9702875c"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_socketReqHostName</b></td></tr>
+<tr class="separator:a2e8add59b8bffcd31856c16d9702875c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a193c1ad57fb08272ad5df371c0a3d275" id="r_a193c1ad57fb08272ad5df371c0a3d275"><td class="memItemLeft" align="right" valign="top"><a id="a193c1ad57fb08272ad5df371c0a3d275" name="a193c1ad57fb08272ad5df371c0a3d275"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_socketPathiInfo</b></td></tr>
 <tr class="separator:a193c1ad57fb08272ad5df371c0a3d275"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,9 +204,18 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_socketReqCont
 <tr class="memitem:a89db9beb19624788a85ace434be9ffb1" id="r_a89db9beb19624788a85ace434be9ffb1"><td class="memItemLeft" align="right" valign="top"><a id="a89db9beb19624788a85ace434be9ffb1" name="a89db9beb19624788a85ace434be9ffb1"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_response</b></td></tr>
 <tr class="separator:a89db9beb19624788a85ace434be9ffb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88dd01e72a11111160780ea51c52b9ba" id="r_a88dd01e72a11111160780ea51c52b9ba"><td class="memItemLeft" align="right" valign="top"><a id="a88dd01e72a11111160780ea51c52b9ba" name="a88dd01e72a11111160780ea51c52b9ba"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_stateIsPossibleToSend</b></td></tr>
-<tr class="separator:a88dd01e72a11111160780ea51c52b9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ef7871d0d8cc7fb25fb668a07302939" id="r_a9ef7871d0d8cc7fb25fb668a07302939"><td class="memItemLeft" align="right" valign="top"><a id="a9ef7871d0d8cc7fb25fb668a07302939" name="a9ef7871d0d8cc7fb25fb668a07302939"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_socketIsPossibleToSend</b></td></tr>
+<tr class="separator:a9ef7871d0d8cc7fb25fb668a07302939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ae4255293e81514942ee3d64ab0d0479b" id="r_ae4255293e81514942ee3d64ab0d0479b"><td class="memItemLeft" align="right" valign="top"><a id="ae4255293e81514942ee3d64ab0d0479b" name="ae4255293e81514942ee3d64ab0d0479b"></a>
+<a class="el" href="class_server_directive.html">ServerDirective</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_connectedServer</b></td></tr>
+<tr class="separator:ae4255293e81514942ee3d64ab0d0479b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b7b096f5fba3c45e21dad713053e0ed" id="r_a0b7b096f5fba3c45e21dad713053e0ed"><td class="memItemLeft" align="right" valign="top"><a id="a0b7b096f5fba3c45e21dad713053e0ed" name="a0b7b096f5fba3c45e21dad713053e0ed"></a>
+<a class="el" href="class_location_directive.html">LocationDirective</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_connectedLocation</b></td></tr>
+<tr class="separator:a0b7b096f5fba3c45e21dad713053e0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/http/<a class="el" href="_socket_state_8hpp_source.html">SocketState.hpp</a></li>

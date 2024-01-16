@@ -112,9 +112,9 @@ Collaboration diagram for ServerDirective:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad045b377c42cb39fecf9702b30023999" id="r_ad045b377c42cb39fecf9702b30023999"><td class="memItemLeft" align="right" valign="top"><a id="ad045b377c42cb39fecf9702b30023999" name="ad045b377c42cb39fecf9702b30023999"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseConfig</b> (std::istringstream &amp;iss, const std::string &amp;key, std::ifstream &amp;configFile)</td></tr>
-<tr class="separator:ad045b377c42cb39fecf9702b30023999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109daa1e4fd12e9e62c35941eefbb776" id="r_a109daa1e4fd12e9e62c35941eefbb776"><td class="memItemLeft" align="right" valign="top"><a id="a109daa1e4fd12e9e62c35941eefbb776" name="a109daa1e4fd12e9e62c35941eefbb776"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>parseConfig</b> (std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt; &amp;vecToken, std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt;::iterator &amp;it, bool isFirst, std::string &amp;configFileName)</td></tr>
+<tr class="separator:a109daa1e4fd12e9e62c35941eefbb776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34bf68f86c504558c00e51c10a689aec" id="r_a34bf68f86c504558c00e51c10a689aec"><td class="memItemLeft" align="right" valign="top"><a id="a34bf68f86c504558c00e51c10a689aec" name="a34bf68f86c504558c00e51c10a689aec"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isDefault</b> () const</td></tr>
 <tr class="separator:a34bf68f86c504558c00e51c10a689aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,21 +175,21 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_C
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aa910741fb95d5a5de3c8fe3ab123bc94" id="r_aa910741fb95d5a5de3c8fe3ab123bc94"><td class="memItemLeft" align="right" valign="top"><a id="aa910741fb95d5a5de3c8fe3ab123bc94" name="aa910741fb95d5a5de3c8fe3ab123bc94"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseListen</b> (std::istringstream &amp;iss)</td></tr>
-<tr class="separator:aa910741fb95d5a5de3c8fe3ab123bc94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa05c4c3cbce2f633e2b6fd08da77d12a" id="r_aa05c4c3cbce2f633e2b6fd08da77d12a"><td class="memItemLeft" align="right" valign="top"><a id="aa05c4c3cbce2f633e2b6fd08da77d12a" name="aa05c4c3cbce2f633e2b6fd08da77d12a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseServerName</b> (std::istringstream &amp;iss)</td></tr>
-<tr class="separator:aa05c4c3cbce2f633e2b6fd08da77d12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ea4be30608df39ec896c3feb6002216" id="r_a9ea4be30608df39ec896c3feb6002216"><td class="memItemLeft" align="right" valign="top"><a id="a9ea4be30608df39ec896c3feb6002216" name="a9ea4be30608df39ec896c3feb6002216"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseLocation</b> (std::istringstream &amp;iss, std::ifstream &amp;configFile)</td></tr>
-<tr class="separator:a9ea4be30608df39ec896c3feb6002216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bae3010bd0f7402813f6a0a9526c757" id="r_a8bae3010bd0f7402813f6a0a9526c757"><td class="memItemLeft" align="right" valign="top"><a id="a8bae3010bd0f7402813f6a0a9526c757" name="a8bae3010bd0f7402813f6a0a9526c757"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseErrorPages</b> (std::istringstream &amp;iss)</td></tr>
-<tr class="separator:a8bae3010bd0f7402813f6a0a9526c757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a688ceeabd386f72730b7630a2d8bf164" id="r_a688ceeabd386f72730b7630a2d8bf164"><td class="memItemLeft" align="right" valign="top"><a id="a688ceeabd386f72730b7630a2d8bf164" name="a688ceeabd386f72730b7630a2d8bf164"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>parseClientMaxBodySize</b> (std::istringstream &amp;iss)</td></tr>
-<tr class="separator:a688ceeabd386f72730b7630a2d8bf164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2dbec0e31d00d78f312727ba93b4dcf" id="r_ab2dbec0e31d00d78f312727ba93b4dcf"><td class="memItemLeft" align="right" valign="top"><a id="ab2dbec0e31d00d78f312727ba93b4dcf" name="ab2dbec0e31d00d78f312727ba93b4dcf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>parseListen</b> (std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt; &amp;vecToken, std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt;::iterator &amp;it, bool isFirst)</td></tr>
+<tr class="separator:ab2dbec0e31d00d78f312727ba93b4dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb63a76594459207df65283ed4a00c50" id="r_acb63a76594459207df65283ed4a00c50"><td class="memItemLeft" align="right" valign="top"><a id="acb63a76594459207df65283ed4a00c50" name="acb63a76594459207df65283ed4a00c50"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>parseServerName</b> (std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt; &amp;vecToken, std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt;::iterator &amp;it)</td></tr>
+<tr class="separator:acb63a76594459207df65283ed4a00c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a625005358da3ba98cc516d966e5ebbf0" id="r_a625005358da3ba98cc516d966e5ebbf0"><td class="memItemLeft" align="right" valign="top"><a id="a625005358da3ba98cc516d966e5ebbf0" name="a625005358da3ba98cc516d966e5ebbf0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>parseLocation</b> (std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt; &amp;vecToken, std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt;::iterator &amp;it)</td></tr>
+<tr class="separator:a625005358da3ba98cc516d966e5ebbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb33f2a4fc463d28b9b207d18f1f08af" id="r_aeb33f2a4fc463d28b9b207d18f1f08af"><td class="memItemLeft" align="right" valign="top"><a id="aeb33f2a4fc463d28b9b207d18f1f08af" name="aeb33f2a4fc463d28b9b207d18f1f08af"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>parseErrorPages</b> (std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt; &amp;vecToken, std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt;::iterator &amp;it)</td></tr>
+<tr class="separator:aeb33f2a4fc463d28b9b207d18f1f08af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5514286d1ec1785b23242942b01fc62a" id="r_a5514286d1ec1785b23242942b01fc62a"><td class="memItemLeft" align="right" valign="top"><a id="a5514286d1ec1785b23242942b01fc62a" name="a5514286d1ec1785b23242942b01fc62a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>parseClientMaxBodySize</b> (std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt; &amp;vecToken, std::vector&lt; <a class="el" href="struct_tokenize_1_1_token.html">Tokenize::Token</a> &gt;::iterator &amp;it)</td></tr>
+<tr class="separator:a5514286d1ec1785b23242942b01fc62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b67fd71a872d67cd51adfdea5655cb9" id="r_a4b67fd71a872d67cd51adfdea5655cb9"><td class="memItemLeft" align="right" valign="top"><a id="a4b67fd71a872d67cd51adfdea5655cb9" name="a4b67fd71a872d67cd51adfdea5655cb9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>initWithConstants</b> ()</td></tr>
 <tr class="separator:a4b67fd71a872d67cd51adfdea5655cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>

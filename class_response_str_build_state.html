@@ -195,9 +195,18 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph.png" border="0" usemap="#aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph" alt=""/></div>
 <map name="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph" id="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph">
-<area shape="rect" title="レスポンスボディを構築します。" alt="" coords="5,5,163,46"/>
-<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="211,5,369,46"/>
-<area shape="poly" title=" " alt="" coords="163,23,195,23,195,28,163,28"/>
+<area shape="rect" title="レスポンスボディを構築します。" alt="" coords="5,77,163,117"/>
+<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="211,57,368,83"/>
+<area shape="poly" title=" " alt="" coords="163,84,195,80,195,85,163,89"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="427,105,585,145"/>
+<area shape="poly" title=" " alt="" coords="163,99,411,116,411,121,163,105"/>
+<area shape="rect" href="class_auto_index_state.html#accbfc2ae04d12bb5535ffffc8a7e9a1c" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="418,5,594,31"/>
+<area shape="poly" title=" " alt="" coords="345,54,434,33,435,38,346,59"/>
+<area shape="rect" href="class_auto_index_state.html#aa3731fb95408354bcaa9b062d98ca3e9" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="416,55,595,80"/>
+<area shape="poly" title=" " alt="" coords="368,67,400,66,400,71,368,72"/>
+<area shape="poly" title=" " alt="" coords="344,81,412,98,411,104,342,86"/>
+<area shape="rect" href="class_util_http_processing_step.html#ab42a2a005346c58f81d793721139ca81" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="643,47,802,88"/>
+<area shape="poly" title=" " alt="" coords="596,65,628,65,628,70,596,70"/>
 </map>
 </div>
 <div class="dynheader">
@@ -394,7 +403,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd><ul>
-<li>_stateIsPossibleToSend が true の場合、send()されます </li>
+<li>_socketIsPossibleToSend が true の場合、send()されます </li>
 </ul>
 </dd></dl>
 
@@ -404,17 +413,26 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph.png" border="0" usemap="#aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph" alt=""/></div>
 <map name="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph" id="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph">
-<area shape="rect" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="5,71,163,111"/>
-<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="221,5,378,46"/>
-<area shape="poly" title=" " alt="" coords="152,68,214,49,216,54,154,73"/>
-<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="221,71,378,111"/>
-<area shape="poly" title=" " alt="" coords="163,88,205,88,205,94,163,94"/>
-<area shape="rect" href="class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="211,136,388,177"/>
-<area shape="poly" title=" " alt="" coords="154,109,216,128,214,133,152,114"/>
-<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="436,5,594,46"/>
-<area shape="poly" title=" " alt="" coords="378,23,420,23,420,28,378,28"/>
-<area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="437,71,594,111"/>
-<area shape="poly" title=" " alt="" coords="378,88,421,88,421,94,378,94"/>
+<area shape="rect" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="5,165,163,205"/>
+<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="221,99,378,140"/>
+<area shape="poly" title=" " alt="" coords="152,161,214,142,216,148,154,167"/>
+<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="221,165,378,205"/>
+<area shape="poly" title=" " alt="" coords="163,182,205,182,205,188,163,188"/>
+<area shape="rect" href="class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="211,230,388,271"/>
+<area shape="poly" title=" " alt="" coords="154,203,216,222,214,227,152,208"/>
+<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="436,57,593,83"/>
+<area shape="poly" title=" " alt="" coords="378,99,440,84,441,90,379,104"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="652,105,810,145"/>
+<area shape="poly" title=" " alt="" coords="378,118,637,121,636,126,378,123"/>
+<area shape="rect" href="class_auto_index_state.html#accbfc2ae04d12bb5535ffffc8a7e9a1c" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="643,5,819,31"/>
+<area shape="poly" title=" " alt="" coords="570,54,659,33,660,38,572,59"/>
+<area shape="rect" href="class_auto_index_state.html#aa3731fb95408354bcaa9b062d98ca3e9" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="641,55,821,80"/>
+<area shape="poly" title=" " alt="" coords="594,67,626,66,626,71,594,72"/>
+<area shape="poly" title=" " alt="" coords="569,81,637,98,636,104,568,86"/>
+<area shape="rect" href="class_util_http_processing_step.html#ab42a2a005346c58f81d793721139ca81" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="869,47,1027,88"/>
+<area shape="poly" title=" " alt="" coords="821,65,853,65,853,70,821,70"/>
+<area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="436,165,593,205"/>
+<area shape="poly" title=" " alt="" coords="379,182,420,182,420,188,379,188"/>
 </map>
 </div>
 <div class="dynheader">

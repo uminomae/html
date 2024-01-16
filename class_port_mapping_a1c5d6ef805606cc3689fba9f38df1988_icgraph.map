@@ -1,11 +1,11 @@
 <map id="PortMapping::getConnectedServicePort" name="PortMapping::getConnectedServicePort">
-<area shape="rect" id="Node000001" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="1628,5,1811,46"/>
-<area shape="rect" id="Node000002" href="$class_file_path_generation_state.html#ac27b43d9ea8d423dba1f0ec3a003bd87" title="クライアントが接続しているサーバーを識別します。" alt="" coords="1407,5,1580,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1612,28,1580,28,1580,23,1612,23"/>
-<area shape="rect" id="Node000003" href="$class_file_path_generation_state.html#a4ee6c300ff2d365526e49a3a32cf0f11" title="HTTPリクエストに基づいてファイルパス生成処理を実行します。" alt="" coords="1196,5,1359,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1391,28,1360,28,1360,23,1391,23"/>
+<area shape="rect" id="Node000001" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="1721,5,1904,46"/>
+<area shape="rect" id="Node000002" href="$class_identify_connected_server_location_state.html#aa8c2a5249f4cc49ea23d1aae91e10610" title="クライアントが接続しているサーバーを識別します。" alt="" coords="1458,5,1673,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1705,28,1673,28,1673,23,1705,23"/>
+<area shape="rect" id="Node000003" href="$class_identify_connected_server_location_state.html#a725fdb9533120c327db44e35f0fddd26" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="1196,5,1410,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1443,28,1411,28,1411,23,1443,23"/>
 <area shape="rect" id="Node000004" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="964,5,1148,46"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1180,28,1149,28,1149,23,1180,23"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1180,28,1148,28,1148,23,1180,23"/>
 <area shape="rect" id="Node000005" href="$class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="747,5,916,46"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="948,28,916,28,916,23,948,23"/>
 <area shape="rect" id="Node000006" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>

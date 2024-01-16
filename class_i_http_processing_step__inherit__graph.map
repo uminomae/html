@@ -1,13 +1,17 @@
 <map id="IHttpProcessingStep" name="IHttpProcessingStep">
-<area shape="rect" id="Node000001" title=" " alt="" coords="515,5,675,91"/>
-<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html" title=" " alt="" coords="5,139,245,384"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="500,64,444,76,382,92,318,113,259,141,246,148,244,144,256,136,316,108,380,87,442,71,499,59"/>
-<area shape="rect" id="Node000003" href="$class_content_extraction_state.html" title=" " alt="" coords="270,201,458,321"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="522,101,472,141,413,203,409,200,469,137,518,97"/>
-<area shape="rect" id="Node000004" href="$class_file_path_generation_state.html" title=" " alt="" coords="483,169,707,354"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="597,105,597,169,592,169,592,105"/>
-<area shape="rect" id="Node000005" href="$class_parsing_state.html" title=" " alt="" coords="731,161,933,361"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="670,97,720,137,745,160,741,164,717,141,667,101"/>
-<area shape="rect" id="Node000006" href="$class_response_str_build_state.html" title=" " alt="" coords="958,179,1138,344"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="690,55,750,65,817,81,884,104,947,136,972,155,994,177,990,181,968,159,944,141,882,109,815,86,749,70,689,60"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="611,5,771,91"/>
+<area shape="rect" id="Node000002" href="$class_auto_index_state.html" title=" " alt="" coords="5,209,108,314"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="597,57,473,66,334,82,207,107,158,123,122,141,106,155,93,172,74,210,69,208,89,169,102,151,119,136,156,118,206,102,333,77,472,61,596,51"/>
+<area shape="rect" id="Node000003" href="$class_cgi_execution_state.html" title=" " alt="" coords="133,139,373,384"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="598,68,493,95,438,116,386,141,374,148,371,144,383,136,436,111,491,90,596,63"/>
+<area shape="rect" id="Node000004" href="$class_content_extraction_state.html" title=" " alt="" coords="397,201,585,321"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="637,103,599,141,542,203,538,200,595,137,633,99"/>
+<area shape="rect" id="Node000005" href="$class_file_path_generation_state.html" title=" " alt="" coords="609,219,773,304"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="694,106,694,219,689,219,689,106"/>
+<area shape="rect" id="Node000006" href="$class_identify_connected_server_location_state.html" title=" " alt="" coords="798,181,1022,341"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="748,99,788,137,832,180,828,183,784,141,744,103"/>
+<area shape="rect" id="Node000007" href="$class_parsing_state.html" title=" " alt="" coords="1046,161,1249,361"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="786,57,845,68,909,84,974,106,1035,136,1067,159,1064,164,1033,141,972,111,908,89,844,73,785,62"/>
+<area shape="rect" id="Node000008" href="$class_response_str_build_state.html" title=" " alt="" coords="1273,179,1453,344"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="787,54,909,65,1047,82,1173,106,1224,120,1262,136,1288,155,1311,177,1307,181,1285,159,1259,141,1222,125,1172,111,1046,88,908,70,786,59"/>
 </map>

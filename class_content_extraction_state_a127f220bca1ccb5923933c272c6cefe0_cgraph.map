@@ -1,9 +1,7 @@
 <map id="ContentExtractionState::handle" name="ContentExtractionState::handle">
-<area shape="rect" id="Node000001" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="5,71,163,111"/>
+<area shape="rect" id="Node000001" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="5,39,163,79"/>
 <area shape="rect" id="Node000002" href="$class_content_extraction_state.html#a477ae29cd5285bc1fdacf361c17f161d" title="有効なファイルパスを探索します。" alt="" coords="244,5,402,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,68,231,48,232,53,161,73"/>
-<area shape="rect" id="Node000003" href="$class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="244,71,402,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,88,228,88,228,94,163,94"/>
-<area shape="rect" id="Node000004" href="$class_content_extraction_state.html#a9c744c5c3ce77056db86b407f9b645a4" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="211,136,435,177"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,109,232,129,231,134,160,114"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,45,228,36,229,41,164,51"/>
+<area shape="rect" id="Node000003" href="$class_content_extraction_state.html#a9c744c5c3ce77056db86b407f9b645a4" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="211,71,435,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,67,196,71,195,77,163,72"/>
 </map>

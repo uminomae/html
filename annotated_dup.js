@@ -1,6 +1,7 @@
 var annotated_dup =
 [
     [ "ApplicationLogger", "class_application_logger.html", null ],
+    [ "AutoIndexState", "class_auto_index_state.html", "class_auto_index_state" ],
     [ "BaseCounter", "class_base_counter.html", "class_base_counter" ],
     [ "CgiExecutionState", "class_cgi_execution_state.html", "class_cgi_execution_state" ],
     [ "ContentExtractionState", "class_content_extraction_state.html", "class_content_extraction_state" ],
@@ -12,13 +13,12 @@ var annotated_dup =
     [ "HttpTransaction", "class_http_transaction.html", "class_http_transaction" ],
     [ "HttpWorkflowManager", "class_http_workflow_manager.html", "class_http_workflow_manager" ],
     [ "ICounter", "class_i_counter.html", null ],
+    [ "IdentifyConnectedServerLocationState", "class_identify_connected_server_location_state.html", "class_identify_connected_server_location_state" ],
     [ "IHttpProcessingStep", "class_i_http_processing_step.html", null ],
     [ "IHttpWorkflowManager", "class_i_http_workflow_manager.html", null ],
     [ "LocationDirective", "class_location_directive.html", null ],
     [ "MimeType", "class_mime_type.html", null ],
     [ "NetworkService", "class_network_service.html", "class_network_service" ],
-    [ "ngx_http_autoindex_entry_t", "structngx__http__autoindex__entry__t.html", null ],
-    [ "ngx_http_autoindex_loc_conf_t", "structngx__http__autoindex__loc__conf__t.html", null ],
     [ "ParsingState", "class_parsing_state.html", "class_parsing_state" ],
     [ "PortMapping", "class_port_mapping.html", "class_port_mapping" ],
     [ "RateLimiter", "class_rate_limiter.html", null ],
@@ -28,5 +28,6 @@ var annotated_dup =
     [ "ServerManeger", "class_server_maneger.html", "class_server_maneger" ],
     [ "SignalHandler", "class_signal_handler.html", null ],
     [ "SocketState", "class_socket_state.html", null ],
+    [ "Tokenize", "class_tokenize.html", "class_tokenize" ],
     [ "UtilHttpProcessingStep", "class_util_http_processing_step.html", null ]
 ];
