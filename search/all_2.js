@@ -9,5 +9,6 @@ var searchData=
   ['contentextractionstate_6',['ContentExtractionState',['../class_content_extraction_state.html',1,'']]],
   ['convertenvtochararray_7',['convertEnvToCharArray',['../class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a',1,'CgiExecutionState']]],
   ['createpipeandfork_8',['createPipeAndFork',['../class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69',1,'CgiExecutionState']]],
-  ['createserversocket_9',['createServerSocket',['../class_network_service.html#acf04155926d7461e63432034869d23b7',1,'NetworkService']]]
+  ['createserversocket_9',['createServerSocket',['../class_network_service.html#acf04155926d7461e63432034869d23b7',1,'NetworkService']]],
+  ['createsocketstate_10',['createSocketState',['../class_network_service.html#ae230dece0329581a121b72f4437e0518',1,'NetworkService']]]
 ];

@@ -103,9 +103,9 @@ Inheritance diagram for ResponseStrBuildState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state__inherit__graph.png" border="0" usemap="#a_response_str_build_state_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_response_str_build_state_inherit__map" id="a_response_str_build_state_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,139,185,304"/>
-<area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="15,5,175,91"/>
-<area shape="poly" title=" " alt="" coords="98,106,98,139,93,139,93,106"/>
+<area shape="rect" title=" " alt="" coords="5,139,189,379"/>
+<area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="17,5,177,91"/>
+<area shape="poly" title=" " alt="" coords="100,106,100,139,95,139,95,106"/>
 </map>
 </div>
 <div class="dynheader">
@@ -113,9 +113,9 @@ Collaboration diagram for ResponseStrBuildState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state__coll__graph.png" border="0" usemap="#a_response_str_build_state_coll__map" alt="Collaboration graph"/></div>
 <map name="a_response_str_build_state_coll__map" id="a_response_str_build_state_coll__map">
-<area shape="rect" title=" " alt="" coords="5,139,185,304"/>
-<area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="15,5,175,91"/>
-<area shape="poly" title=" " alt="" coords="98,106,98,139,93,139,93,106"/>
+<area shape="rect" title=" " alt="" coords="5,139,189,379"/>
+<area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="17,5,177,91"/>
+<area shape="poly" title=" " alt="" coords="100,106,100,139,95,139,95,106"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -136,6 +136,14 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a14df6589f1fcc543ec7bc8c4b99892bc" id="r_a14df6589f1fcc543ec7bc8c4b99892bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14df6589f1fcc543ec7bc8c4b99892bc">shouldCloseSocket</a> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState)</td></tr>
 <tr class="memdesc:a14df6589f1fcc543ec7bc8c4b99892bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントのリクエストヘッダーに "Connection: close" が存在するか確認します。  <br /></td></tr>
 <tr class="separator:a14df6589f1fcc543ec7bc8c4b99892bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c2e8b31d65620337f2b9bca860ccaba" id="r_a9c2e8b31d65620337f2b9bca860ccaba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c2e8b31d65620337f2b9bca860ccaba">build301MovedPermanentlyHeader</a> (std::ostringstream &amp;resOss, std::string rootDir)</td></tr>
+<tr class="separator:a9c2e8b31d65620337f2b9bca860ccaba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afef334ede432353ebd9c1c0108630f20" id="r_afef334ede432353ebd9c1c0108630f20"><td class="memItemLeft" align="right" valign="top"><a id="afef334ede432353ebd9c1c0108630f20" name="afef334ede432353ebd9c1c0108630f20"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>shouldConnectionClose</b> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState, <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;<a class="el" href="class_http_transaction.html">HttpTransaction</a>)</td></tr>
+<tr class="separator:afef334ede432353ebd9c1c0108630f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a91880e0da6fde879ede69c35f6c58a" id="r_a5a91880e0da6fde879ede69c35f6c58a"><td class="memItemLeft" align="right" valign="top"><a id="a5a91880e0da6fde879ede69c35f6c58a" name="a5a91880e0da6fde879ede69c35f6c58a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>buildContentTypeHeader</b> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState, <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
+<tr class="separator:a5a91880e0da6fde879ede69c35f6c58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b42e27ed61acd89b4f47445991861e1" id="r_a2b42e27ed61acd89b4f47445991861e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b42e27ed61acd89b4f47445991861e1">buildResponseHeader</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
 <tr class="memdesc:a2b42e27ed61acd89b4f47445991861e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスヘッダを構築します。  <br /></td></tr>
 <tr class="separator:a2b42e27ed61acd89b4f47445991861e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,6 +152,66 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a21958ec54de1c2b2206854c9cec4c749"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9c2e8b31d65620337f2b9bca860ccaba" name="a9c2e8b31d65620337f2b9bca860ccaba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c2e8b31d65620337f2b9bca860ccaba">&#9670;&#160;</a></span>build301MovedPermanentlyHeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResponseStrBuildState::build301MovedPermanentlyHeader </td>
+          <td>(</td>
+          <td class="paramtype">std::ostringstream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>rootDir</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>sample <br  />
+ <div class="fragment"><div class="line">HTTP/1.1 301 Moved Permanently  </div>
+<div class="line">Location: https:<span class="comment">//www.newsite.com/  </span></div>
+<div class="line">Content-Length: 0  </div>
+<div class="line">空行</div>
+</div><!-- fragment --> </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_response_str_build_state_a9c2e8b31d65620337f2b9bca860ccaba_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a9c2e8b31d65620337f2b9bca860ccaba_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a9c2e8b31d65620337f2b9bca860ccaba_icgraph" id="aclass_response_str_build_state_a9c2e8b31d65620337f2b9bca860ccaba_icgraph">
+<area shape="rect" title=" " alt="" coords="1607,5,1838,46"/>
+<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="1401,5,1559,46"/>
+<area shape="poly" title=" " alt="" coords="1591,28,1559,28,1559,23,1591,23"/>
+<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="1196,5,1353,46"/>
+<area shape="poly" title=" " alt="" coords="1386,28,1354,28,1354,23,1386,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="964,5,1148,46"/>
+<area shape="poly" title=" " alt="" coords="1181,28,1148,28,1148,23,1181,23"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="747,5,916,46"/>
+<area shape="poly" title=" " alt="" coords="948,28,916,28,916,23,948,23"/>
+<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>
+<area shape="poly" title=" " alt="" coords="732,28,700,28,700,23,732,23"/>
+<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
+<area shape="poly" title=" " alt="" coords="482,28,449,28,449,23,482,23"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a21958ec54de1c2b2206854c9cec4c749" name="a21958ec54de1c2b2206854c9cec4c749"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21958ec54de1c2b2206854c9cec4c749">&#9670;&#160;</a></span>buildResponseBody()</h2>
 
@@ -195,18 +263,20 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph.png" border="0" usemap="#aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph" alt=""/></div>
 <map name="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph" id="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph">
-<area shape="rect" title="レスポンスボディを構築します。" alt="" coords="5,77,163,117"/>
-<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="211,57,368,83"/>
-<area shape="poly" title=" " alt="" coords="163,84,195,80,195,85,163,89"/>
-<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="427,105,585,145"/>
-<area shape="poly" title=" " alt="" coords="163,99,411,116,411,121,163,105"/>
-<area shape="rect" href="class_auto_index_state.html#accbfc2ae04d12bb5535ffffc8a7e9a1c" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="418,5,594,31"/>
-<area shape="poly" title=" " alt="" coords="345,54,434,33,435,38,346,59"/>
-<area shape="rect" href="class_auto_index_state.html#aa3731fb95408354bcaa9b062d98ca3e9" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="416,55,595,80"/>
-<area shape="poly" title=" " alt="" coords="368,67,400,66,400,71,368,72"/>
-<area shape="poly" title=" " alt="" coords="344,81,412,98,411,104,342,86"/>
-<area shape="rect" href="class_util_http_processing_step.html#ab42a2a005346c58f81d793721139ca81" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="643,47,802,88"/>
-<area shape="poly" title=" " alt="" coords="596,65,628,65,628,70,596,70"/>
+<area shape="rect" title="レスポンスボディを構築します。" alt="" coords="5,102,163,143"/>
+<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="211,56,369,82"/>
+<area shape="poly" title=" " alt="" coords="163,99,222,84,223,89,164,104"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="428,105,586,145"/>
+<area shape="poly" title=" " alt="" coords="163,120,412,122,412,127,163,125"/>
+<area shape="rect" href="class_util_http_processing_step.html#a64ab194d0417e06e6cf8e4d900a83cd2" title="レスポンスボディを設定し、その長さに基づいてContent&#45;Lengthヘッダーを設定します。" alt="" coords="211,159,369,200"/>
+<area shape="poly" title=" " alt="" coords="160,140,201,152,199,157,159,146"/>
+<area shape="rect" href="class_auto_index_state.html#accbfc2ae04d12bb5535ffffc8a7e9a1c" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="419,5,595,31"/>
+<area shape="poly" title=" " alt="" coords="347,53,433,32,435,38,349,58"/>
+<area shape="rect" href="class_auto_index_state.html#aa3731fb95408354bcaa9b062d98ca3e9" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="417,55,596,80"/>
+<area shape="poly" title=" " alt="" coords="369,66,401,65,401,71,369,71"/>
+<area shape="poly" title=" " alt="" coords="343,80,413,98,411,103,342,85"/>
+<area shape="rect" href="class_util_http_processing_step.html#ab42a2a005346c58f81d793721139ca81" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="644,47,803,88"/>
+<area shape="poly" title=" " alt="" coords="597,65,629,65,629,70,597,70"/>
 </map>
 </div>
 <div class="dynheader">
@@ -267,14 +337,18 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>必要に応じて、Content-TypeやConnectionなどのヘッダを構築します。 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>必要に応じて、Content-TypeやConnectionなどのヘッダを構築します。</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><ul>
+<li>参考:【301 Moved Permanently - HTTP | MDN】 <a href="https://developer.mozilla.org/ja/docs/Web/HTTP/Status/301">https://developer.mozilla.org/ja/docs/Web/HTTP/Status/301</a> </li>
+</ul>
+</dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph.png" border="0" usemap="#aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph" alt=""/></div>
 <map name="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph" id="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph">
 <area shape="rect" title="レスポンスヘッダを構築します。" alt="" coords="5,5,163,46"/>
-<area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="211,5,368,46"/>
+<area shape="rect" href="class_response_str_build_state.html#a9c2e8b31d65620337f2b9bca860ccaba" title=" " alt="" coords="211,5,442,46"/>
 <area shape="poly" title=" " alt="" coords="163,23,195,23,195,28,163,28"/>
 </map>
 </div>
@@ -413,26 +487,28 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph.png" border="0" usemap="#aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph" alt=""/></div>
 <map name="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph" id="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph">
-<area shape="rect" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="5,165,163,205"/>
-<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="221,99,378,140"/>
-<area shape="poly" title=" " alt="" coords="152,161,214,142,216,148,154,167"/>
-<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="221,165,378,205"/>
-<area shape="poly" title=" " alt="" coords="163,182,205,182,205,188,163,188"/>
-<area shape="rect" href="class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="211,230,388,271"/>
-<area shape="poly" title=" " alt="" coords="154,203,216,222,214,227,152,208"/>
-<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="436,57,593,83"/>
-<area shape="poly" title=" " alt="" coords="378,99,440,84,441,90,379,104"/>
-<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="652,105,810,145"/>
-<area shape="poly" title=" " alt="" coords="378,118,637,121,636,126,378,123"/>
-<area shape="rect" href="class_auto_index_state.html#accbfc2ae04d12bb5535ffffc8a7e9a1c" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="643,5,819,31"/>
-<area shape="poly" title=" " alt="" coords="570,54,659,33,660,38,572,59"/>
-<area shape="rect" href="class_auto_index_state.html#aa3731fb95408354bcaa9b062d98ca3e9" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="641,55,821,80"/>
-<area shape="poly" title=" " alt="" coords="594,67,626,66,626,71,594,72"/>
-<area shape="poly" title=" " alt="" coords="569,81,637,98,636,104,568,86"/>
-<area shape="rect" href="class_util_http_processing_step.html#ab42a2a005346c58f81d793721139ca81" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="869,47,1027,88"/>
-<area shape="poly" title=" " alt="" coords="821,65,853,65,853,70,821,70"/>
-<area shape="rect" href="class_response_str_build_state.html#a14df6589f1fcc543ec7bc8c4b99892bc" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="436,165,593,205"/>
-<area shape="poly" title=" " alt="" coords="379,182,420,182,420,188,379,188"/>
+<area shape="rect" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="5,225,163,265"/>
+<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="221,131,378,172"/>
+<area shape="poly" title=" " alt="" coords="132,221,236,176,238,181,134,226"/>
+<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="221,225,378,265"/>
+<area shape="poly" title=" " alt="" coords="163,242,205,242,205,248,163,248"/>
+<area shape="rect" href="class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="211,290,388,331"/>
+<area shape="poly" title=" " alt="" coords="154,263,216,282,214,287,152,268"/>
+<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="473,56,630,82"/>
+<area shape="poly" title=" " alt="" coords="357,128,435,101,489,84,491,89,437,106,359,133"/>
+<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="726,105,884,145"/>
+<area shape="poly" title=" " alt="" coords="378,145,710,127,711,132,378,150"/>
+<area shape="rect" href="class_util_http_processing_step.html#a64ab194d0417e06e6cf8e4d900a83cd2" title="レスポンスボディを設定し、その長さに基づいてContent&#45;Lengthヘッダーを設定します。" alt="" coords="473,159,631,200"/>
+<area shape="poly" title=" " alt="" coords="379,158,457,166,457,172,378,163"/>
+<area shape="rect" href="class_auto_index_state.html#accbfc2ae04d12bb5535ffffc8a7e9a1c" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="717,5,893,31"/>
+<area shape="poly" title=" " alt="" coords="619,53,722,32,723,37,620,58"/>
+<area shape="rect" href="class_auto_index_state.html#aa3731fb95408354bcaa9b062d98ca3e9" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="715,55,895,80"/>
+<area shape="poly" title=" " alt="" coords="631,66,700,65,700,71,631,71"/>
+<area shape="poly" title=" " alt="" coords="614,80,711,101,710,107,612,85"/>
+<area shape="rect" href="class_util_http_processing_step.html#ab42a2a005346c58f81d793721139ca81" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="943,47,1101,88"/>
+<area shape="poly" title=" " alt="" coords="895,65,927,65,927,70,895,70"/>
+<area shape="rect" href="class_response_str_build_state.html#a9c2e8b31d65620337f2b9bca860ccaba" title=" " alt="" coords="436,225,667,265"/>
+<area shape="poly" title=" " alt="" coords="379,242,421,242,421,248,379,248"/>
 </map>
 </div>
 <div class="dynheader">
@@ -488,28 +564,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>"Connection: close" が見つかれば true、それ以外は false。 </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_response_str_build_state_a14df6589f1fcc543ec7bc8c4b99892bc_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a14df6589f1fcc543ec7bc8c4b99892bc_icgraph" alt=""/></div>
-<map name="aclass_response_str_build_state_a14df6589f1fcc543ec7bc8c4b99892bc_icgraph" id="aclass_response_str_build_state_a14df6589f1fcc543ec7bc8c4b99892bc_icgraph">
-<area shape="rect" title="クライアントのリクエストヘッダーに &quot;Connection: close&quot; が存在するか確認します。" alt="" coords="1607,5,1764,46"/>
-<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="1401,5,1559,46"/>
-<area shape="poly" title=" " alt="" coords="1591,28,1559,28,1559,23,1591,23"/>
-<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="1196,5,1353,46"/>
-<area shape="poly" title=" " alt="" coords="1386,28,1354,28,1354,23,1386,23"/>
-<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="964,5,1148,46"/>
-<area shape="poly" title=" " alt="" coords="1181,28,1148,28,1148,23,1181,23"/>
-<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="747,5,916,46"/>
-<area shape="poly" title=" " alt="" coords="948,28,916,28,916,23,948,23"/>
-<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>
-<area shape="poly" title=" " alt="" coords="732,28,700,28,700,23,732,23"/>
-<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
-<area shape="poly" title=" " alt="" coords="482,28,449,28,449,23,482,23"/>
-<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
-<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
-</map>
-</div>
 
 </div>
 </div>

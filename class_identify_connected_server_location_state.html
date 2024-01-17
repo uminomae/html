@@ -103,7 +103,7 @@ Inheritance diagram for IdentifyConnectedServerLocationState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_identify_connected_server_location_state__inherit__graph.png" border="0" usemap="#a_identify_connected_server_location_state_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_identify_connected_server_location_state_inherit__map" id="a_identify_connected_server_location_state_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,139,229,299"/>
+<area shape="rect" title=" " alt="" coords="5,139,229,279"/>
 <area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="37,5,197,91"/>
 <area shape="poly" title=" " alt="" coords="120,106,120,139,115,139,115,106"/>
 </map>
@@ -113,7 +113,7 @@ Collaboration diagram for IdentifyConnectedServerLocationState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_identify_connected_server_location_state__coll__graph.png" border="0" usemap="#a_identify_connected_server_location_state_coll__map" alt="Collaboration graph"/></div>
 <map name="a_identify_connected_server_location_state_coll__map" id="a_identify_connected_server_location_state_coll__map">
-<area shape="rect" title=" " alt="" coords="5,139,229,299"/>
+<area shape="rect" title=" " alt="" coords="5,139,229,279"/>
 <area shape="rect" href="class_i_http_processing_step.html" title=" " alt="" coords="37,5,197,91"/>
 <area shape="poly" title=" " alt="" coords="120,106,120,139,115,139,115,106"/>
 </map>
@@ -128,22 +128,19 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa8c2a5249f4cc49ea23d1aae91e10610" id="r_aa8c2a5249f4cc49ea23d1aae91e10610"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_server_directive.html">ServerDirective</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8c2a5249f4cc49ea23d1aae91e10610">identifyConnectedServer</a> (const <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
-<tr class="memdesc:aa8c2a5249f4cc49ea23d1aae91e10610"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントが接続しているサーバーを識別します。  <br /></td></tr>
-<tr class="separator:aa8c2a5249f4cc49ea23d1aae91e10610"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33a5ee2dccb5a80570dbc33122d56bb3" id="r_a33a5ee2dccb5a80570dbc33122d56bb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33a5ee2dccb5a80570dbc33122d56bb3">isLocationUripattern</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::string pattern, bool extension) const</td></tr>
-<tr class="memdesc:a33a5ee2dccb5a80570dbc33122d56bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">URIパターンがロケーションディレクティブに一致するかを判断します。  <br /></td></tr>
-<tr class="separator:a33a5ee2dccb5a80570dbc33122d56bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64d8e090b131760364eea73d1806ee96" id="r_a64d8e090b131760364eea73d1806ee96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d8e090b131760364eea73d1806ee96">findMatchingLocationDirective</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, const std::map&lt; std::string, <a class="el" href="class_location_directive.html">LocationDirective</a> &gt;::const_iterator &amp;it)</td></tr>
-<tr class="memdesc:a64d8e090b131760364eea73d1806ee96"><td class="mdescLeft">&#160;</td><td class="mdescRight">一致する <a class="el" href="class_location_directive.html">LocationDirective</a> を見つけます。  <br /></td></tr>
-<tr class="separator:a64d8e090b131760364eea73d1806ee96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e61e0d75e731d5f0b0791b536254f65" id="r_a3e61e0d75e731d5f0b0791b536254f65"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_location_directive.html">LocationDirective</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e61e0d75e731d5f0b0791b536254f65">identifyConnectedServerLocation</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
-<tr class="memdesc:a3e61e0d75e731d5f0b0791b536254f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントのリクエストURIに基づいて適切な <a class="el" href="class_location_directive.html">LocationDirective</a> を識別します。  <br /></td></tr>
-<tr class="separator:a3e61e0d75e731d5f0b0791b536254f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5163d8e571f7ed941fa8891b447175" id="r_a8b5163d8e571f7ed941fa8891b447175"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b5163d8e571f7ed941fa8891b447175">isLocationUripattern</a> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState, std::string pattern, bool extensionPattern) const</td></tr>
+<tr class="memdesc:a8b5163d8e571f7ed941fa8891b447175"><td class="mdescLeft">&#160;</td><td class="mdescRight">URIパターンがロケーションディレクティブに一致するかを判断します。  <br /></td></tr>
+<tr class="separator:a8b5163d8e571f7ed941fa8891b447175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0a0b9ffbc9ddce22c116765d0545a51" id="r_ab0a0b9ffbc9ddce22c116765d0545a51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0a0b9ffbc9ddce22c116765d0545a51">findMatchingLocationDirective</a> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState, const std::map&lt; std::string, <a class="el" href="class_location_directive.html">LocationDirective</a> &gt;::const_iterator &amp;it)</td></tr>
+<tr class="memdesc:ab0a0b9ffbc9ddce22c116765d0545a51"><td class="mdescLeft">&#160;</td><td class="mdescRight">一致する <a class="el" href="class_location_directive.html">LocationDirective</a> を見つけます。  <br /></td></tr>
+<tr class="separator:ab0a0b9ffbc9ddce22c116765d0545a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc42adce8ab71cabea829ec595ac9d4" id="r_a4dc42adce8ab71cabea829ec595ac9d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_location_directive.html">LocationDirective</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc42adce8ab71cabea829ec595ac9d4">identifyConnectedServerLocation</a> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState)</td></tr>
+<tr class="memdesc:a4dc42adce8ab71cabea829ec595ac9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントのリクエストURIに基づいて適切な <a class="el" href="class_location_directive.html">LocationDirective</a> を識別します。  <br /></td></tr>
+<tr class="separator:a4dc42adce8ab71cabea829ec595ac9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a64d8e090b131760364eea73d1806ee96" name="a64d8e090b131760364eea73d1806ee96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64d8e090b131760364eea73d1806ee96">&#9670;&#160;</a></span>findMatchingLocationDirective()</h2>
+<a id="ab0a0b9ffbc9ddce22c116765d0545a51" name="ab0a0b9ffbc9ddce22c116765d0545a51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a0b9ffbc9ddce22c116765d0545a51">&#9670;&#160;</a></span>findMatchingLocationDirective()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,7 +151,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool IdentifyConnectedServerLocationState::findMatchingLocationDirective </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em>, </span></td>
+          <td class="paramtype"><a class="el" href="class_socket_state.html">SocketState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>socketState</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -181,20 +178,20 @@ Protected Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_identify_connected_server_location_state_a64d8e090b131760364eea73d1806ee96_cgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_a64d8e090b131760364eea73d1806ee96_cgraph" alt=""/></div>
-<map name="aclass_identify_connected_server_location_state_a64d8e090b131760364eea73d1806ee96_cgraph" id="aclass_identify_connected_server_location_state_a64d8e090b131760364eea73d1806ee96_cgraph">
+<div class="center"><img src="class_identify_connected_server_location_state_ab0a0b9ffbc9ddce22c116765d0545a51_cgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_ab0a0b9ffbc9ddce22c116765d0545a51_cgraph" alt=""/></div>
+<map name="aclass_identify_connected_server_location_state_ab0a0b9ffbc9ddce22c116765d0545a51_cgraph" id="aclass_identify_connected_server_location_state_ab0a0b9ffbc9ddce22c116765d0545a51_cgraph">
 <area shape="rect" title="一致する LocationDirective を見つけます。" alt="" coords="5,5,241,46"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a33a5ee2dccb5a80570dbc33122d56bb3" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="289,5,503,46"/>
+<area shape="rect" href="class_identify_connected_server_location_state.html#a8b5163d8e571f7ed941fa8891b447175" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="289,5,503,46"/>
 <area shape="poly" title=" " alt="" coords="241,23,273,23,273,28,241,28"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_identify_connected_server_location_state_a64d8e090b131760364eea73d1806ee96_icgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_a64d8e090b131760364eea73d1806ee96_icgraph" alt=""/></div>
-<map name="aclass_identify_connected_server_location_state_a64d8e090b131760364eea73d1806ee96_icgraph" id="aclass_identify_connected_server_location_state_a64d8e090b131760364eea73d1806ee96_icgraph">
+<div class="center"><img src="class_identify_connected_server_location_state_ab0a0b9ffbc9ddce22c116765d0545a51_icgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_ab0a0b9ffbc9ddce22c116765d0545a51_icgraph" alt=""/></div>
+<map name="aclass_identify_connected_server_location_state_ab0a0b9ffbc9ddce22c116765d0545a51_icgraph" id="aclass_identify_connected_server_location_state_ab0a0b9ffbc9ddce22c116765d0545a51_icgraph">
 <area shape="rect" title="一致する LocationDirective を見つけます。" alt="" coords="1759,5,1994,46"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a3e61e0d75e731d5f0b0791b536254f65" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="1458,5,1711,46"/>
+<area shape="rect" href="class_identify_connected_server_location_state.html#a4dc42adce8ab71cabea829ec595ac9d4" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="1458,5,1711,46"/>
 <area shape="poly" title=" " alt="" coords="1743,28,1711,28,1711,23,1743,23"/>
 <area shape="rect" href="class_identify_connected_server_location_state.html#a725fdb9533120c327db44e35f0fddd26" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="1196,5,1410,46"/>
 <area shape="poly" title=" " alt="" coords="1443,28,1411,28,1411,23,1443,23"/>
@@ -251,19 +248,13 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_identify_connected_server_location_state_a725fdb9533120c327db44e35f0fddd26_cgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_a725fdb9533120c327db44e35f0fddd26_cgraph" alt=""/></div>
 <map name="aclass_identify_connected_server_location_state_a725fdb9533120c327db44e35f0fddd26_cgraph" id="aclass_identify_connected_server_location_state_a725fdb9533120c327db44e35f0fddd26_cgraph">
-<area shape="rect" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="5,39,220,79"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#aa8c2a5249f4cc49ea23d1aae91e10610" title="クライアントが接続しているサーバーを識別します。" alt="" coords="287,5,501,46"/>
-<area shape="poly" title=" " alt="" coords="220,44,271,38,272,43,220,49"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a3e61e0d75e731d5f0b0791b536254f65" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="268,71,520,111"/>
-<area shape="poly" title=" " alt="" coords="220,69,252,72,252,78,220,74"/>
-<area shape="rect" href="class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="594,5,777,46"/>
-<area shape="poly" title=" " alt="" coords="502,23,578,23,578,28,502,28"/>
-<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="859,13,1058,39"/>
-<area shape="poly" title=" " alt="" coords="778,23,843,23,843,28,778,28"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a64d8e090b131760364eea73d1806ee96" title="一致する LocationDirective を見つけます。" alt="" coords="568,71,803,111"/>
-<area shape="poly" title=" " alt="" coords="520,88,553,88,553,94,520,94"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a33a5ee2dccb5a80570dbc33122d56bb3" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="851,71,1066,111"/>
-<area shape="poly" title=" " alt="" coords="804,88,835,88,835,94,804,94"/>
+<area shape="rect" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="5,5,220,46"/>
+<area shape="rect" href="class_identify_connected_server_location_state.html#a4dc42adce8ab71cabea829ec595ac9d4" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="268,5,520,46"/>
+<area shape="poly" title=" " alt="" coords="220,23,252,23,252,28,220,28"/>
+<area shape="rect" href="class_identify_connected_server_location_state.html#ab0a0b9ffbc9ddce22c116765d0545a51" title="一致する LocationDirective を見つけます。" alt="" coords="568,5,803,46"/>
+<area shape="poly" title=" " alt="" coords="520,23,553,23,553,28,520,28"/>
+<area shape="rect" href="class_identify_connected_server_location_state.html#a8b5163d8e571f7ed941fa8891b447175" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="851,5,1066,46"/>
+<area shape="poly" title=" " alt="" coords="804,23,835,23,835,28,804,28"/>
 </map>
 </div>
 <div class="dynheader">
@@ -287,8 +278,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa8c2a5249f4cc49ea23d1aae91e10610" name="aa8c2a5249f4cc49ea23d1aae91e10610"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8c2a5249f4cc49ea23d1aae91e10610">&#9670;&#160;</a></span>identifyConnectedServer()</h2>
+<a id="a4dc42adce8ab71cabea829ec595ac9d4" name="a4dc42adce8ab71cabea829ec595ac9d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc42adce8ab71cabea829ec595ac9d4">&#9670;&#160;</a></span>identifyConnectedServerLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -297,87 +288,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_server_directive.html">ServerDirective</a> &amp; IdentifyConnectedServerLocationState::identifyConnectedServer </td>
+          <td class="memname"><a class="el" href="class_location_directive.html">LocationDirective</a> &amp; IdentifyConnectedServerLocationState::identifyConnectedServerLocation </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>クライアントが接続しているサーバーを識別します。 </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">httpTransaction</td><td><a class="el" href="class_http_transaction.html">HttpTransaction</a> オブジェクトへの参照。 </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>接続された <a class="el" href="class_server_directive.html">ServerDirective</a> の参照。 </dd></dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::runtime_error</td><td>接続サーバーが見つからない場合にスローされます。 </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd><ul>
-<li>クラス型の配列のイテレーターが何を指しているのかわかりづらい( &amp;(*it),*it,it ）ため、ポインタ変数をreturnに使用する際に参照型に戻す方法を冗長に記述しています。CかC++のどちらか片方の理解があれば読めるコードを意識して記述しました。 <br  />
-</li>
-<li>参照はnullが入れられないので宣言時に別にオブジェクトが必要。つまり、defaultServerを見つけるまでNULLを入れておくわけにはいかないのでポインタ変数で処理しました。(全体的な方針はなるべく参照型で記述) </li>
-</ul>
-</dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_identify_connected_server_location_state_aa8c2a5249f4cc49ea23d1aae91e10610_cgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_aa8c2a5249f4cc49ea23d1aae91e10610_cgraph" alt=""/></div>
-<map name="aclass_identify_connected_server_location_state_aa8c2a5249f4cc49ea23d1aae91e10610_cgraph" id="aclass_identify_connected_server_location_state_aa8c2a5249f4cc49ea23d1aae91e10610_cgraph">
-<area shape="rect" title="クライアントが接続しているサーバーを識別します。" alt="" coords="5,5,220,46"/>
-<area shape="rect" href="class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988" title="クライアントが接続したサーバーのリッスンポート番号を取得します。" alt="" coords="268,5,451,46"/>
-<area shape="poly" title=" " alt="" coords="220,23,252,23,252,28,220,28"/>
-<area shape="rect" href="class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="499,13,698,39"/>
-<area shape="poly" title=" " alt="" coords="451,23,483,23,483,28,451,28"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_identify_connected_server_location_state_aa8c2a5249f4cc49ea23d1aae91e10610_icgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_aa8c2a5249f4cc49ea23d1aae91e10610_icgraph" alt=""/></div>
-<map name="aclass_identify_connected_server_location_state_aa8c2a5249f4cc49ea23d1aae91e10610_icgraph" id="aclass_identify_connected_server_location_state_aa8c2a5249f4cc49ea23d1aae91e10610_icgraph">
-<area shape="rect" title="クライアントが接続しているサーバーを識別します。" alt="" coords="1458,5,1673,46"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a725fdb9533120c327db44e35f0fddd26" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="1196,5,1410,46"/>
-<area shape="poly" title=" " alt="" coords="1443,28,1411,28,1411,23,1443,23"/>
-<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="964,5,1148,46"/>
-<area shape="poly" title=" " alt="" coords="1180,28,1148,28,1148,23,1180,23"/>
-<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="747,5,916,46"/>
-<area shape="poly" title=" " alt="" coords="948,28,916,28,916,23,948,23"/>
-<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,5,699,46"/>
-<area shape="poly" title=" " alt="" coords="732,28,700,28,700,23,732,23"/>
-<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,449,46"/>
-<area shape="poly" title=" " alt="" coords="482,28,449,28,449,23,482,23"/>
-<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
-<area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a3e61e0d75e731d5f0b0791b536254f65" name="a3e61e0d75e731d5f0b0791b536254f65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e61e0d75e731d5f0b0791b536254f65">&#9670;&#160;</a></span>identifyConnectedServerLocation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_location_directive.html">LocationDirective</a> &amp; IdentifyConnectedServerLocationState::identifyConnectedServerLocation </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_socket_state.html">SocketState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>socketState</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -415,20 +328,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_identify_connected_server_location_state_a3e61e0d75e731d5f0b0791b536254f65_cgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_a3e61e0d75e731d5f0b0791b536254f65_cgraph" alt=""/></div>
-<map name="aclass_identify_connected_server_location_state_a3e61e0d75e731d5f0b0791b536254f65_cgraph" id="aclass_identify_connected_server_location_state_a3e61e0d75e731d5f0b0791b536254f65_cgraph">
+<div class="center"><img src="class_identify_connected_server_location_state_a4dc42adce8ab71cabea829ec595ac9d4_cgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_a4dc42adce8ab71cabea829ec595ac9d4_cgraph" alt=""/></div>
+<map name="aclass_identify_connected_server_location_state_a4dc42adce8ab71cabea829ec595ac9d4_cgraph" id="aclass_identify_connected_server_location_state_a4dc42adce8ab71cabea829ec595ac9d4_cgraph">
 <area shape="rect" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="5,5,258,46"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a64d8e090b131760364eea73d1806ee96" title="一致する LocationDirective を見つけます。" alt="" coords="306,5,541,46"/>
+<area shape="rect" href="class_identify_connected_server_location_state.html#ab0a0b9ffbc9ddce22c116765d0545a51" title="一致する LocationDirective を見つけます。" alt="" coords="306,5,541,46"/>
 <area shape="poly" title=" " alt="" coords="258,23,290,23,290,28,258,28"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a33a5ee2dccb5a80570dbc33122d56bb3" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="589,5,803,46"/>
+<area shape="rect" href="class_identify_connected_server_location_state.html#a8b5163d8e571f7ed941fa8891b447175" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="589,5,803,46"/>
 <area shape="poly" title=" " alt="" coords="542,23,573,23,573,28,542,28"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_identify_connected_server_location_state_a3e61e0d75e731d5f0b0791b536254f65_icgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_a3e61e0d75e731d5f0b0791b536254f65_icgraph" alt=""/></div>
-<map name="aclass_identify_connected_server_location_state_a3e61e0d75e731d5f0b0791b536254f65_icgraph" id="aclass_identify_connected_server_location_state_a3e61e0d75e731d5f0b0791b536254f65_icgraph">
+<div class="center"><img src="class_identify_connected_server_location_state_a4dc42adce8ab71cabea829ec595ac9d4_icgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_a4dc42adce8ab71cabea829ec595ac9d4_icgraph" alt=""/></div>
+<map name="aclass_identify_connected_server_location_state_a4dc42adce8ab71cabea829ec595ac9d4_icgraph" id="aclass_identify_connected_server_location_state_a4dc42adce8ab71cabea829ec595ac9d4_icgraph">
 <area shape="rect" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="1458,5,1711,46"/>
 <area shape="rect" href="class_identify_connected_server_location_state.html#a725fdb9533120c327db44e35f0fddd26" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="1196,5,1410,46"/>
 <area shape="poly" title=" " alt="" coords="1443,28,1411,28,1411,23,1443,23"/>
@@ -447,8 +360,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a33a5ee2dccb5a80570dbc33122d56bb3" name="a33a5ee2dccb5a80570dbc33122d56bb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33a5ee2dccb5a80570dbc33122d56bb3">&#9670;&#160;</a></span>isLocationUripattern()</h2>
+<a id="a8b5163d8e571f7ed941fa8891b447175" name="a8b5163d8e571f7ed941fa8891b447175"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5163d8e571f7ed941fa8891b447175">&#9670;&#160;</a></span>isLocationUripattern()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -459,7 +372,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool IdentifyConnectedServerLocationState::isLocationUripattern </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em>, </span></td>
+          <td class="paramtype"><a class="el" href="class_socket_state.html">SocketState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>socketState</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -492,12 +405,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_identify_connected_server_location_state_a33a5ee2dccb5a80570dbc33122d56bb3_icgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_a33a5ee2dccb5a80570dbc33122d56bb3_icgraph" alt=""/></div>
-<map name="aclass_identify_connected_server_location_state_a33a5ee2dccb5a80570dbc33122d56bb3_icgraph" id="aclass_identify_connected_server_location_state_a33a5ee2dccb5a80570dbc33122d56bb3_icgraph">
+<div class="center"><img src="class_identify_connected_server_location_state_a8b5163d8e571f7ed941fa8891b447175_icgraph.png" border="0" usemap="#aclass_identify_connected_server_location_state_a8b5163d8e571f7ed941fa8891b447175_icgraph" alt=""/></div>
+<map name="aclass_identify_connected_server_location_state_a8b5163d8e571f7ed941fa8891b447175_icgraph" id="aclass_identify_connected_server_location_state_a8b5163d8e571f7ed941fa8891b447175_icgraph">
 <area shape="rect" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="2042,5,2256,46"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a64d8e090b131760364eea73d1806ee96" title="一致する LocationDirective を見つけます。" alt="" coords="1759,5,1994,46"/>
+<area shape="rect" href="class_identify_connected_server_location_state.html#ab0a0b9ffbc9ddce22c116765d0545a51" title="一致する LocationDirective を見つけます。" alt="" coords="1759,5,1994,46"/>
 <area shape="poly" title=" " alt="" coords="2026,28,1995,28,1995,23,2026,23"/>
-<area shape="rect" href="class_identify_connected_server_location_state.html#a3e61e0d75e731d5f0b0791b536254f65" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="1458,5,1711,46"/>
+<area shape="rect" href="class_identify_connected_server_location_state.html#a4dc42adce8ab71cabea829ec595ac9d4" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="1458,5,1711,46"/>
 <area shape="poly" title=" " alt="" coords="1743,28,1711,28,1711,23,1743,23"/>
 <area shape="rect" href="class_identify_connected_server_location_state.html#a725fdb9533120c327db44e35f0fddd26" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="1196,5,1410,46"/>
 <area shape="poly" title=" " alt="" coords="1443,28,1411,28,1411,23,1443,23"/>

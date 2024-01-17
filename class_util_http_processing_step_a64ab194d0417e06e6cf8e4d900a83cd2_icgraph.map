@@ -1,0 +1,24 @@
+<map id="UtilHttpProcessingStep::setBodyAndLength" name="UtilHttpProcessingStep::setBodyAndLength">
+<area shape="rect" id="Node000001" title="レスポンスボディを設定し、その長さに基づいてContent&#45;Lengthヘッダーを設定します。" alt="" coords="1865,39,2023,79"/>
+<area shape="rect" id="Node000002" href="$class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="1660,5,1817,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1849,46,1817,41,1818,36,1850,41"/>
+<area shape="rect" id="Node000009" href="$class_cgi_execution_state.html#aff9df70d227ed984a62c5f44c284b116" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="1666,71,1811,111"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1850,76,1812,82,1811,77,1849,71"/>
+<area shape="rect" id="Node000003" href="$class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="1196,5,1353,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1644,28,1354,28,1354,23,1644,23"/>
+<area shape="rect" id="Node000004" href="$class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="964,39,1148,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1181,43,1149,48,1148,42,1180,37"/>
+<area shape="rect" id="Node000005" href="$class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="747,39,916,79"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="948,62,916,62,916,56,948,56"/>
+<area shape="rect" id="Node000006" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,39,699,79"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="732,62,700,62,700,56,732,56"/>
+<area shape="rect" id="Node000007" href="$class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,39,449,79"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="482,62,449,62,449,56,482,56"/>
+<area shape="rect" id="Node000008" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="239,62,207,62,207,56,239,56"/>
+<area shape="rect" id="Node000010" href="$class_cgi_execution_state.html#ac2ce6937814bad9d326cb72e28457bdd" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="1401,71,1612,111"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1650,94,1612,94,1612,88,1650,88"/>
+<area shape="rect" id="Node000011" href="$class_cgi_execution_state.html#aecf27444a140a66641a2b9a35327fca5" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="1206,71,1344,111"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1386,94,1344,94,1344,88,1386,88"/>
+<area shape="poly" id="edge11_Node000011_Node000004" title=" " alt="" coords="1190,81,1148,75,1149,70,1190,76"/>
+</map>

@@ -8,6 +8,7 @@ var class_network_service =
     [ "closeConnection", "class_network_service.html#a648626623792dd4752c1daaffe876ffc", null ],
     [ "configureServerAddress", "class_network_service.html#abb307c95e97d912803bff29f67f533ca", null ],
     [ "createServerSocket", "class_network_service.html#acf04155926d7461e63432034869d23b7", null ],
+    [ "createSocketState", "class_network_service.html#ae230dece0329581a121b72f4437e0518", null ],
     [ "executeClientHttpSession", "class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872", null ],
     [ "handleClientRecvRequests", "class_network_service.html#aad44e39b437301bb2b6ff79e2065d217", null ],
     [ "handlePoll", "class_network_service.html#a79b34078f8a4e6c978ab8fae8e4769db", null ],

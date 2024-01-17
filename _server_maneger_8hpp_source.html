@@ -163,7 +163,7 @@ $(function(){initNavTree('_server_maneger_8hpp_source.html',''); initResizable()
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">bool</span> configFileWasUpdated(time_t &amp; lastChecked);</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> runHotReloadConfig();</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> initHotReloadConfig();</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">void</span> applyMovedEachLoc(std::string movedNewLocation, std::map&lt;std::string, LocationDirective&gt; locConfig);</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#ifdef APP_LOG</span></div>
@@ -209,7 +209,7 @@ $(function(){initNavTree('_server_maneger_8hpp_source.html',''); initResizable()
 <div class="ttc" id="aclass_server_maneger_html_a104f42d342bf9d6af9c45c200d22facd"><div class="ttname"><a href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd">ServerManeger::restartServerLoop</a></div><div class="ttdeci">void restartServerLoop()</div><div class="ttdoc">サーバーのループを再起動します。</div><div class="ttdef"><b>Definition</b> runServerLoop.cpp:18</div></div>
 <div class="ttc" id="aclass_server_maneger_html_aa1a8f96cfe9f844cafc8fc5e36255ed7"><div class="ttname"><a href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7">ServerManeger::runServerLoop</a></div><div class="ttdeci">void runServerLoop()</div><div class="ttdoc">サーバーのメインループを実行します。</div><div class="ttdef"><b>Definition</b> runServerLoop.cpp:38</div></div>
 <div class="ttc" id="aclass_server_maneger_html_ab5e04aaf80feab4ba0522ab9311cf18f"><div class="ttname"><a href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f">ServerManeger::setupServers</a></div><div class="ttdeci">void setupServers()</div><div class="ttdoc">設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。</div><div class="ttdef"><b>Definition</b> setupServers.cpp:16</div></div>
-<div class="ttc" id="aclass_tokenize_html"><div class="ttname"><a href="class_tokenize.html">Tokenize</a></div><div class="ttdef"><b>Definition</b> Tokenize.hpp:30</div></div>
+<div class="ttc" id="aclass_tokenize_html"><div class="ttname"><a href="class_tokenize.html">Tokenize</a></div><div class="ttdef"><b>Definition</b> Tokenize.hpp:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

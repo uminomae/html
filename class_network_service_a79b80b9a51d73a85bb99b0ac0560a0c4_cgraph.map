@@ -1,17 +1,19 @@
 <map id="NetworkService::handleServerEvents" name="NetworkService::handleServerEvents">
-<area shape="rect" id="Node000001" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="5,71,204,111"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="252,71,440,111"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,88,236,88,236,94,204,94"/>
-<area shape="rect" id="Node000003" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="488,5,672,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="420,68,489,48,490,53,422,73"/>
-<area shape="rect" id="Node000004" href="$class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="490,71,671,111"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="440,88,474,88,474,94,440,94"/>
-<area shape="rect" id="Node000008" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="493,136,667,177"/>
-<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="422,109,490,129,489,134,420,114"/>
-<area shape="rect" id="Node000005" href="$class_port_mapping.html#af2565580060648e513ff1096677d5d83" title="指定されたサーバーソケットのリッスンポート番号を取得します。" alt="" coords="728,50,908,76"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="671,78,713,73,713,78,672,83"/>
-<area shape="rect" id="Node000007" href="$class_port_mapping.html#a868fe44581e5fcc88863e86a890503cf" title="クライアントソケットとリッスンポートのマッピングを設定します。" alt="" coords="720,100,916,141"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="672,100,705,104,704,109,671,105"/>
-<area shape="rect" id="Node000006" href="$class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="964,50,1163,76"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="908,60,948,60,948,66,908,66"/>
+<area shape="rect" id="Node000001" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="5,104,204,145"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="252,104,440,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,122,236,122,236,127,204,127"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="496,5,680,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,101,487,57,506,49,508,54,489,61,390,106"/>
+<area shape="rect" id="Node000004" href="$class_network_service.html#ae230dece0329581a121b72f4437e0518" title="クライアントの状態をもつクラスのインスタンスを作成し、配列に追加します。" alt="" coords="488,71,687,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="440,109,472,104,473,110,441,114"/>
+<area shape="rect" id="Node000005" href="$class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5" title="クライアントソケットとリスニングポートのマッピングを設定します。" alt="" coords="497,136,678,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="441,134,482,140,481,145,440,139"/>
+<area shape="rect" id="Node000009" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="501,201,675,242"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="391,143,489,186,508,193,506,198,487,191,389,148"/>
+<area shape="rect" id="Node000006" href="$class_port_mapping.html#af2565580060648e513ff1096677d5d83" title="指定されたサーバーソケットのリッスンポート番号を取得します。" alt="" coords="743,116,923,141"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="678,143,728,138,728,143,679,149"/>
+<area shape="rect" id="Node000008" href="$class_port_mapping.html#a868fe44581e5fcc88863e86a890503cf" title="クライアントソケットとリッスンポートのマッピングを設定します。" alt="" coords="735,165,931,206"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="679,165,720,170,720,175,678,170"/>
+<area shape="rect" id="Node000007" href="$class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490" title="指定されたキーに基づきポート番号をmapから取得します。std::map&lt;int, int&gt;型のmapに共通で使用します。" alt="" coords="979,116,1178,141"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="923,126,963,126,963,131,923,131"/>
 </map>

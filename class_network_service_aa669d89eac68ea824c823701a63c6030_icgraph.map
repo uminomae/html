@@ -1,0 +1,9 @@
+<map id="NetworkService::initNetworkService" name="NetworkService::initNetworkService">
+<area shape="rect" id="Node000001" title="ネットワークサービスを初期化します。" alt="" coords="779,5,968,46"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a54ae0e59338c8ffd4aabd39866bbf549" title="ネットワークサービスを再起動します。" alt="" coords="523,5,731,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="764,28,732,28,732,23,764,23"/>
+<area shape="rect" id="Node000003" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
+<area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>

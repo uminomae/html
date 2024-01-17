@@ -102,7 +102,7 @@ Collaboration diagram for UtilHttpProcessingStep:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_util_http_processing_step__coll__graph.png" border="0" usemap="#a_util_http_processing_step_coll__map" alt="Collaboration graph"/></div>
 <map name="a_util_http_processing_step_coll__map" id="a_util_http_processing_step_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,164,111"/>
+<area shape="rect" title=" " alt="" coords="5,5,164,131"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -114,6 +114,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab42a2a005346c58f81d793721139ca81" id="r_ab42a2a005346c58f81d793721139ca81"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab42a2a005346c58f81d793721139ca81">buildAbsolutePath</a> (std::string &amp;fullPath, const <a class="el" href="class_location_directive.html">LocationDirective</a> &amp;connectedLocation, const std::string &amp;uri)</td></tr>
 <tr class="memdesc:ab42a2a005346c58f81d793721139ca81"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたURIに基づいて絶対ファイルパスを構築します。  <br /></td></tr>
 <tr class="separator:ab42a2a005346c58f81d793721139ca81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64ab194d0417e06e6cf8e4d900a83cd2" id="r_a64ab194d0417e06e6cf8e4d900a83cd2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ab194d0417e06e6cf8e4d900a83cd2">setBodyAndLength</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, const std::string body)</td></tr>
+<tr class="memdesc:a64ab194d0417e06e6cf8e4d900a83cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスボディを設定し、その長さに基づいて<code>Content-Length</code>ヘッダーを設定します。  <br /></td></tr>
+<tr class="separator:a64ab194d0417e06e6cf8e4d900a83cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af10e309722ea7df58f019f0124b62865" id="r_af10e309722ea7df58f019f0124b62865"><td class="memItemLeft" align="right" valign="top"><a id="af10e309722ea7df58f019f0124b62865" name="af10e309722ea7df58f019f0124b62865"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>debugPutResultParse</b> (const <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
 <tr class="separator:af10e309722ea7df58f019f0124b62865"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,6 +262,73 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
 <area shape="poly" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 <area shape="poly" title=" " alt="" coords="1591,42,1559,38,1560,33,1592,37"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a64ab194d0417e06e6cf8e4d900a83cd2" name="a64ab194d0417e06e6cf8e4d900a83cd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64ab194d0417e06e6cf8e4d900a83cd2">&#9670;&#160;</a></span>setBodyAndLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UtilHttpProcessingStep::setBodyAndLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>httpTransaction</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string</td>          <td class="paramname"><span class="paramname"><em>body</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>レスポンスボディを設定し、その長さに基づいて<code>Content-Length</code>ヘッダーを設定します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">httpTransaction</td><td>参照されるHttpTransactionオブジェクト </td></tr>
+    <tr><td class="paramname">body</td><td>設定するレスポンスボディの内容を表すstd::string </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_util_http_processing_step_a64ab194d0417e06e6cf8e4d900a83cd2_icgraph.png" border="0" usemap="#aclass_util_http_processing_step_a64ab194d0417e06e6cf8e4d900a83cd2_icgraph" alt=""/></div>
+<map name="aclass_util_http_processing_step_a64ab194d0417e06e6cf8e4d900a83cd2_icgraph" id="aclass_util_http_processing_step_a64ab194d0417e06e6cf8e4d900a83cd2_icgraph">
+<area shape="rect" title="レスポンスボディを設定し、その長さに基づいてContent&#45;Lengthヘッダーを設定します。" alt="" coords="1865,39,2023,79"/>
+<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="1660,5,1817,46"/>
+<area shape="poly" title=" " alt="" coords="1849,46,1817,41,1818,36,1850,41"/>
+<area shape="rect" href="class_cgi_execution_state.html#aff9df70d227ed984a62c5f44c284b116" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="1666,71,1811,111"/>
+<area shape="poly" title=" " alt="" coords="1850,76,1812,82,1811,77,1849,71"/>
+<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="1196,5,1353,46"/>
+<area shape="poly" title=" " alt="" coords="1644,28,1354,28,1354,23,1644,23"/>
+<area shape="rect" href="class_http_workflow_manager.html#acb64aed701e02182ff6d627b692c2ba8" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="964,39,1148,79"/>
+<area shape="poly" title=" " alt="" coords="1181,43,1149,48,1148,42,1180,37"/>
+<area shape="rect" href="class_http_transaction.html#a365f59eea6458586b660e4425eff5263" title="HTTPリクエストを処理し、対応するHTTPレスポンスを生成します。" alt="" coords="747,39,916,79"/>
+<area shape="poly" title=" " alt="" coords="948,62,916,62,916,56,948,56"/>
+<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="497,39,699,79"/>
+<area shape="poly" title=" " alt="" coords="732,62,700,62,700,56,732,56"/>
+<area shape="rect" href="class_network_service.html#aad44e39b437301bb2b6ff79e2065d217" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,39,449,79"/>
+<area shape="poly" title=" " alt="" coords="482,62,449,62,449,56,482,56"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
+<area shape="poly" title=" " alt="" coords="239,62,207,62,207,56,239,56"/>
+<area shape="rect" href="class_cgi_execution_state.html#ac2ce6937814bad9d326cb72e28457bdd" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="1401,71,1612,111"/>
+<area shape="poly" title=" " alt="" coords="1650,94,1612,94,1612,88,1650,88"/>
+<area shape="rect" href="class_cgi_execution_state.html#aecf27444a140a66641a2b9a35327fca5" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="1206,71,1344,111"/>
+<area shape="poly" title=" " alt="" coords="1386,94,1344,94,1344,88,1386,88"/>
+<area shape="poly" title=" " alt="" coords="1190,81,1148,75,1149,70,1190,76"/>
 </map>
 </div>
 
