@@ -1,0 +1,5 @@
+<map id="HeaderParserStream::parseRequestHeader" name="HeaderParserStream::parseRequestHeader">
+<area shape="rect" id="Node000001" title="HTTPリクエストヘッダーを解析します。" alt="" coords="5,5,158,46"/>
+<area shape="rect" id="Node000002" href="$class_header_parser_stream.html#ac07c7ad79d2dc56ce06eb41e5cbf5235" title="特定のHTTPヘッダーを処理し、関連する情報を格納します。" alt="" coords="206,5,365,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,23,190,23,190,28,158,28"/>
+</map>

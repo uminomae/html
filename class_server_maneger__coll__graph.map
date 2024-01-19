@@ -1,16 +1,17 @@
 <map id="ServerManeger" name="ServerManeger">
-<area shape="rect" id="Node000001" title=" " alt="" coords="326,1106,514,1566"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="462,1106,650,1546"/>
 <area shape="rect" id="Node000002" href="$class_port_mapping.html" title=" " alt="" coords="5,5,192,205"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,206,40,372,26,474,18,585,17,701,28,818,51,933,68,989,90,1042,109,1079,133,1113,189,1176,252,1229,313,1273,310,1277,248,1234,185,1180,129,1117,105,1082,85,1044,63,990,46,934,22,819,12,701,13,585,21,474,35,371,69,205"/>
-<area shape="rect" id="Node000003" href="$class_network_service.html" title=" " alt="" coords="186,283,385,1043"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="140,204,169,282,183,323,178,325,164,284,135,206"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="356,1043,364,1082,366,1089,361,1090,359,1083,351,1044"/>
-<area shape="rect" id="Node000004" href="$class_i_counter.html" title=" " alt="" coords="229,53,318,158"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="277,158,279,266,274,266,272,158"/>
-<area shape="rect" id="Node000005" href="$class_mime_type.html" title=" " alt="" coords="343,33,529,178"/>
-<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="419,178,392,280,386,279,414,177"/>
-<area shape="rect" id="Node000006" href="$class_server_loop_controller.html" title=" " alt="" coords="409,591,562,736"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="481,736,447,1089,441,1089,476,736"/>
-<area shape="rect" id="Node000007" href="$class_tokenize.html" title=" " alt="" coords="596,601,724,726"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="664,726,661,800,653,891,636,988,606,1083,571,1154,526,1219,522,1216,566,1151,602,1081,631,987,648,890,656,800,658,726"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,205,81,373,82,477,89,589,104,705,128,821,163,935,186,990,212,1042,235,1078,261,1111,321,1172,386,1224,449,1265,446,1270,383,1228,317,1176,257,1115,230,1081,208,1045,181,992,158,937,123,823,98,706,84,589,77,477,76,373,85,205"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html" title=" " alt="" coords="309,283,507,1043"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="156,204,303,468,298,471,151,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="495,1042,506,1089,501,1091,490,1044"/>
+<area shape="rect" id="Node000004" href="$class_i_counter.html" title=" " alt="" coords="217,53,306,158"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="277,157,307,269,302,270,272,159"/>
+<area shape="rect" id="Node000005" href="$class_mime_type.html" title=" " alt="" coords="331,33,517,178"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="416,178,412,230,410,267,404,266,406,229,411,178"/>
+<area shape="rect" id="Node000006" href="$class_tokenize.html" title=" " alt="" coords="541,33,669,178"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="608,178,606,564,598,821,585,1082,585,1090,580,1089,580,1082,593,821,600,564,603,178"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="551,179,521,231,505,269,500,267,516,228,546,177"/>
+<area shape="rect" id="Node000007" href="$class_server_loop_controller.html" title=" " alt="" coords="694,591,847,736"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="759,736,725,880,677,1044,659,1096,654,1094,672,1043,720,878,753,735"/>
 </map>

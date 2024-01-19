@@ -1,17 +1,19 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_i_http_processing_step.html" title=" " alt="" coords="5,153,148,179"/>
-<area shape="rect" id="Node000001" href="$class_auto_index_state.html" title=" " alt="" coords="247,5,359,31"/>
-<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="93,139,135,88,163,62,194,40,220,29,246,22,248,27,222,34,197,44,166,66,139,92,97,142"/>
-<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html" title=" " alt="" coords="238,55,368,80"/>
-<area shape="poly" id="edge5_Node000000_Node000002" title=" " alt="" coords="105,141,146,114,195,89,236,76,238,81,197,94,149,119,108,146"/>
-<area shape="rect" id="Node000003" href="$class_content_extraction_state.html" title=" " alt="" coords="224,104,382,130"/>
-<area shape="poly" id="edge6_Node000000_Node000003" title=" " alt="" coords="153,147,240,128,241,133,154,152"/>
-<area shape="rect" id="Node000004" href="$class_file_path_generation_state.html" title=" " alt="" coords="221,153,385,179"/>
-<area shape="poly" id="edge7_Node000000_Node000004" title=" " alt="" coords="163,164,221,164,221,169,163,169"/>
-<area shape="rect" id="Node000005" href="$class_identify_connected_server_location_state.html" title=" " alt="" coords="196,203,410,244"/>
-<area shape="poly" id="edge8_Node000000_Node000005" title=" " alt="" coords="145,181,220,200,219,205,144,186"/>
-<area shape="rect" id="Node000006" href="$class_parsing_state.html" title=" " alt="" coords="255,268,351,294"/>
-<area shape="poly" id="edge9_Node000000_Node000006" title=" " alt="" coords="104,188,146,222,197,253,226,264,255,271,254,276,224,269,194,258,143,226,101,192"/>
-<area shape="rect" id="Node000007" href="$class_response_str_build_state.html" title=" " alt="" coords="224,317,382,343"/>
-<area shape="poly" id="edge10_Node000000_Node000007" title=" " alt="" coords="95,191,136,249,164,279,197,304,225,316,223,321,194,308,161,283,132,252,90,194"/>
+<area shape="rect" id="Node000000" href="$class_i_http_processing_step.html" title=" " alt="" coords="5,179,148,204"/>
+<area shape="rect" id="Node000001" href="$class_auto_index_state.html" title=" " alt="" coords="222,5,333,31"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="90,163,131,101,160,68,194,40,220,27,222,32,197,44,164,72,135,105,94,166"/>
+<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html" title=" " alt="" coords="212,55,343,80"/>
+<area shape="poly" id="edge5_Node000000_Node000002" title=" " alt="" coords="98,165,141,126,194,89,219,79,221,83,197,94,144,131,102,169"/>
+<area shape="rect" id="Node000003" href="$class_content_extraction_state.html" title=" " alt="" coords="199,104,356,130"/>
+<area shape="poly" id="edge6_Node000000_Node000003" title=" " alt="" coords="119,169,195,138,227,128,229,133,197,143,121,174"/>
+<area shape="rect" id="Node000004" href="$class_file_path_generation_state.html" title=" " alt="" coords="196,153,359,179"/>
+<area shape="poly" id="edge7_Node000000_Node000004" title=" " alt="" coords="163,178,195,174,196,179,163,183"/>
+<area shape="rect" id="Node000005" href="$class_header_parser_stream.html" title=" " alt="" coords="206,203,349,228"/>
+<area shape="poly" id="edge8_Node000000_Node000005" title=" " alt="" coords="164,199,205,204,205,210,163,204"/>
+<area shape="rect" id="Node000006" href="$class_identify_location_state.html" title=" " alt="" coords="205,252,350,278"/>
+<area shape="poly" id="edge9_Node000000_Node000006" title=" " alt="" coords="122,208,197,238,229,249,227,254,195,243,120,213"/>
+<area shape="rect" id="Node000007" href="$class_parsing_body_state.html" title=" " alt="" coords="214,301,341,327"/>
+<area shape="poly" id="edge10_Node000000_Node000007" title=" " alt="" coords="102,213,144,251,197,288,221,298,219,303,194,293,141,256,98,217"/>
+<area shape="rect" id="Node000008" href="$class_response_str_build_state.html" title=" " alt="" coords="199,351,356,376"/>
+<area shape="poly" id="edge11_Node000000_Node000008" title=" " alt="" coords="94,216,135,278,164,310,197,337,217,348,215,353,194,342,160,314,131,281,90,219"/>
 </map>

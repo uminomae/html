@@ -1,0 +1,18 @@
+<map id="HeaderParserStream::handle" name="HeaderParserStream::handle">
+<area shape="rect" id="Node000001" title="データを逐次的に読み取りながら解析します。" alt="" coords="5,121,149,162"/>
+<area shape="rect" id="Node000002" href="$class_header_parser_stream.html#a976623c54d7466c2e0b36bc2187f7479" title="ソケットからメッセージを受信します。" alt="" coords="197,121,340,162"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,139,181,139,181,144,149,144"/>
+<area shape="rect" id="Node000003" href="$class_header_parser_stream.html#a4fb1ebe642377978c9ca699401f1c85a" title="受信したHTTPリクエストヘッダーを解析します。" alt="" coords="388,56,547,97"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="332,118,388,99,390,105,333,123"/>
+<area shape="rect" id="Node000007" href="$class_header_parser_stream.html#aca8853f3ffd75cb79e8ab68d965d48c4" title="HTTPリクエストボディを受信します。" alt="" coords="393,121,543,162"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="340,139,377,139,377,144,340,144"/>
+<area shape="rect" id="Node000008" href="$class_header_parser_stream.html#adade1c979989d5670bc8759c6318dd2a" title="受信したデータをベクターに追加します。" alt="" coords="595,151,755,191"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="335,160,388,171,487,178,580,176,580,181,487,183,388,176,334,165"/>
+<area shape="rect" id="Node000004" href="$class_header_parser_stream.html#adf1b4d67ca01d835bf3fd4102ec6e608" title="HTTPリクエストヘッダーを解析します。" alt="" coords="599,5,751,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="547,54,583,45,584,51,548,59"/>
+<area shape="rect" id="Node000006" href="$class_header_parser_stream.html#a0a4d53d99544647884a82e0cc2203936" title="HTTPリクエストラインを解析します。" alt="" coords="603,71,747,111"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="548,79,588,82,588,88,547,85"/>
+<area shape="rect" id="Node000005" href="$class_header_parser_stream.html#ac07c7ad79d2dc56ce06eb41e5cbf5235" title="特定のHTTPヘッダーを処理し、関連する情報を格納します。" alt="" coords="803,5,962,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="751,23,787,23,787,28,751,28"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="544,150,580,155,580,160,543,155"/>
+</map>
