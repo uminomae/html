@@ -123,16 +123,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3731fb95408354bcaa9b062d98ca3e9" id="r_aa3731fb95408354bcaa9b062d98ca3e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3731fb95408354bcaa9b062d98ca3e9">getFileList</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::vector&lt; std::string &gt; &amp;dNames)</td></tr>
 <tr class="memdesc:aa3731fb95408354bcaa9b062d98ca3e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">ディレクトリに存在するファイル名を配列として取得します  <br /></td></tr>
 <tr class="separator:aa3731fb95408354bcaa9b062d98ca3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accbfc2ae04d12bb5535ffffc8a7e9a1c" id="r_accbfc2ae04d12bb5535ffffc8a7e9a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accbfc2ae04d12bb5535ffffc8a7e9a1c">buildBody</a> (std::vector&lt; std::string &gt; &amp;dNames, std::string &amp;body)</td></tr>
-<tr class="memdesc:accbfc2ae04d12bb5535ffffc8a7e9a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">AutoIndex on の場合のレスポンスボディを構築します  <br /></td></tr>
-<tr class="separator:accbfc2ae04d12bb5535ffffc8a7e9a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf8392a5d89a5ef9f743fd174f9563d" id="r_aeaf8392a5d89a5ef9f743fd174f9563d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf8392a5d89a5ef9f743fd174f9563d">buildBody</a> (std::vector&lt; std::string &gt; &amp;dNames, std::vector&lt; char &gt; &amp;body)</td></tr>
+<tr class="memdesc:aeaf8392a5d89a5ef9f743fd174f9563d"><td class="mdescLeft">&#160;</td><td class="mdescRight">AutoIndex on の場合のレスポンスボディを構築します  <br /></td></tr>
+<tr class="separator:aeaf8392a5d89a5ef9f743fd174f9563d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7802b576a9a7ca2fd2d528b53ffe3934" id="r_a7802b576a9a7ca2fd2d528b53ffe3934"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7802b576a9a7ca2fd2d528b53ffe3934">handle</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
 <tr class="memdesc:a7802b576a9a7ca2fd2d528b53ffe3934"><td class="mdescLeft">&#160;</td><td class="mdescRight">AutoIndex機能を処理します。  <br /></td></tr>
 <tr class="separator:a7802b576a9a7ca2fd2d528b53ffe3934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="accbfc2ae04d12bb5535ffffc8a7e9a1c" name="accbfc2ae04d12bb5535ffffc8a7e9a1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accbfc2ae04d12bb5535ffffc8a7e9a1c">&#9670;&#160;</a></span>buildBody()</h2>
+<a id="aeaf8392a5d89a5ef9f743fd174f9563d" name="aeaf8392a5d89a5ef9f743fd174f9563d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf8392a5d89a5ef9f743fd174f9563d">&#9670;&#160;</a></span>buildBody()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145,7 +145,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>body</em></span>&#160;)</td>
+          <td class="paramtype">std::vector&lt; char &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>body</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -161,24 +161,11 @@ Public Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_auto_index_state_accbfc2ae04d12bb5535ffffc8a7e9a1c_icgraph.png" border="0" usemap="#aclass_auto_index_state_accbfc2ae04d12bb5535ffffc8a7e9a1c_icgraph" alt=""/></div>
-<map name="aclass_auto_index_state_accbfc2ae04d12bb5535ffffc8a7e9a1c_icgraph" id="aclass_auto_index_state_accbfc2ae04d12bb5535ffffc8a7e9a1c_icgraph">
-<area shape="rect" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="1593,42,1769,68"/>
-<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="1387,42,1545,68"/>
-<area shape="poly" title=" " alt="" coords="1577,58,1545,58,1545,52,1577,52"/>
-<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="1182,35,1339,75"/>
-<area shape="poly" title=" " alt="" coords="1372,58,1340,58,1340,52,1372,52"/>
-<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="977,5,1134,46"/>
-<area shape="poly" title=" " alt="" coords="1166,44,1134,40,1135,34,1167,39"/>
-<area shape="rect" href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="744,35,929,75"/>
-<area shape="poly" title=" " alt="" coords="1166,60,1134,60,977,60,929,60,929,54,977,55,1134,55,1166,55"/>
-<area shape="poly" title=" " alt="" coords="962,41,929,45,929,40,961,36"/>
-<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="494,35,696,75"/>
-<area shape="poly" title=" " alt="" coords="729,58,697,58,697,52,729,52"/>
-<area shape="rect" href="class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,35,446,75"/>
-<area shape="poly" title=" " alt="" coords="478,58,446,58,446,52,478,52"/>
-<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,42,207,68"/>
-<area shape="poly" title=" " alt="" coords="239,58,207,58,207,52,239,52"/>
+<div class="center"><img src="class_auto_index_state_aeaf8392a5d89a5ef9f743fd174f9563d_icgraph.png" border="0" usemap="#aclass_auto_index_state_aeaf8392a5d89a5ef9f743fd174f9563d_icgraph" alt=""/></div>
+<map name="aclass_auto_index_state_aeaf8392a5d89a5ef9f743fd174f9563d_icgraph" id="aclass_auto_index_state_aeaf8392a5d89a5ef9f743fd174f9563d_icgraph">
+<area shape="rect" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="211,5,387,31"/>
+<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="5,5,163,31"/>
+<area shape="poly" title=" " alt="" coords="195,21,163,21,163,16,195,16"/>
 </map>
 </div>
 
@@ -262,22 +249,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_auto_index_state_aa3731fb95408354bcaa9b062d98ca3e9_icgraph.png" border="0" usemap="#aclass_auto_index_state_aa3731fb95408354bcaa9b062d98ca3e9_icgraph" alt=""/></div>
 <map name="aclass_auto_index_state_aa3731fb95408354bcaa9b062d98ca3e9_icgraph" id="aclass_auto_index_state_aa3731fb95408354bcaa9b062d98ca3e9_icgraph">
-<area shape="rect" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="1593,42,1772,68"/>
-<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="1387,42,1545,68"/>
-<area shape="poly" title=" " alt="" coords="1577,58,1545,58,1545,52,1577,52"/>
-<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="1182,35,1339,75"/>
-<area shape="poly" title=" " alt="" coords="1372,58,1340,58,1340,52,1372,52"/>
-<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="977,5,1134,46"/>
-<area shape="poly" title=" " alt="" coords="1166,44,1134,40,1135,34,1167,39"/>
-<area shape="rect" href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="744,35,929,75"/>
-<area shape="poly" title=" " alt="" coords="1166,60,1134,60,977,60,929,60,929,54,977,55,1134,55,1166,55"/>
-<area shape="poly" title=" " alt="" coords="962,41,929,45,929,40,961,36"/>
-<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="494,35,696,75"/>
-<area shape="poly" title=" " alt="" coords="729,58,697,58,697,52,729,52"/>
-<area shape="rect" href="class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,35,446,75"/>
-<area shape="poly" title=" " alt="" coords="478,58,446,58,446,52,478,52"/>
-<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,42,207,68"/>
-<area shape="poly" title=" " alt="" coords="239,58,207,58,207,52,239,52"/>
+<area shape="rect" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="211,5,390,31"/>
+<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="5,5,163,31"/>
+<area shape="poly" title=" " alt="" coords="195,21,163,21,163,16,195,16"/>
 </map>
 </div>
 
@@ -320,36 +294,17 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_auto_index_state_a7802b576a9a7ca2fd2d528b53ffe3934_cgraph.png" border="0" usemap="#aclass_auto_index_state_a7802b576a9a7ca2fd2d528b53ffe3934_cgraph" alt=""/></div>
 <map name="aclass_auto_index_state_a7802b576a9a7ca2fd2d528b53ffe3934_cgraph" id="aclass_auto_index_state_a7802b576a9a7ca2fd2d528b53ffe3934_cgraph">
-<area shape="rect" title="AutoIndex機能を処理します。" alt="" coords="5,55,163,80"/>
-<area shape="rect" href="class_auto_index_state.html#accbfc2ae04d12bb5535ffffc8a7e9a1c" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="212,5,389,31"/>
-<area shape="poly" title=" " alt="" coords="143,51,225,32,226,38,144,57"/>
+<area shape="rect" title="AutoIndex機能を処理します。" alt="" coords="5,84,163,110"/>
+<area shape="rect" href="class_auto_index_state.html#aeaf8392a5d89a5ef9f743fd174f9563d" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="212,5,389,31"/>
+<area shape="poly" title=" " alt="" coords="112,81,210,40,229,33,231,38,212,45,114,86"/>
 <area shape="rect" href="class_auto_index_state.html#aa3731fb95408354bcaa9b062d98ca3e9" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="211,55,390,80"/>
-<area shape="poly" title=" " alt="" coords="163,65,195,65,195,70,163,70"/>
-<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="221,105,380,145"/>
-<area shape="poly" title=" " alt="" coords="136,78,207,97,206,103,135,84"/>
+<area shape="poly" title=" " alt="" coords="163,84,195,79,195,84,163,89"/>
+<area shape="rect" href="class_util_http_processing_step.html#a21282f874e910a6bbb63719d6199efe6" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="221,105,380,145"/>
+<area shape="poly" title=" " alt="" coords="163,104,206,110,205,115,163,110"/>
+<area shape="rect" href="class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="221,170,380,211"/>
+<area shape="poly" title=" " alt="" coords="113,108,212,154,228,161,226,166,210,159,110,113"/>
 <area shape="rect" href="class_util_http_processing_step.html#a59d2ac26324fd367151fcfe6bb787864" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="438,47,596,88"/>
 <area shape="poly" title=" " alt="" coords="391,65,422,65,422,70,391,70"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_auto_index_state_a7802b576a9a7ca2fd2d528b53ffe3934_icgraph.png" border="0" usemap="#aclass_auto_index_state_a7802b576a9a7ca2fd2d528b53ffe3934_icgraph" alt=""/></div>
-<map name="aclass_auto_index_state_a7802b576a9a7ca2fd2d528b53ffe3934_icgraph" id="aclass_auto_index_state_a7802b576a9a7ca2fd2d528b53ffe3934_icgraph">
-<area shape="rect" title="AutoIndex機能を処理します。" alt="" coords="1387,42,1545,68"/>
-<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="1182,35,1339,75"/>
-<area shape="poly" title=" " alt="" coords="1372,58,1340,58,1340,52,1372,52"/>
-<area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="977,5,1134,46"/>
-<area shape="poly" title=" " alt="" coords="1166,44,1134,40,1135,34,1167,39"/>
-<area shape="rect" href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="744,35,929,75"/>
-<area shape="poly" title=" " alt="" coords="1166,60,1134,60,977,60,929,60,929,54,977,55,1134,55,1166,55"/>
-<area shape="poly" title=" " alt="" coords="962,41,929,45,929,40,961,36"/>
-<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="494,35,696,75"/>
-<area shape="poly" title=" " alt="" coords="729,58,697,58,697,52,729,52"/>
-<area shape="rect" href="class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,35,446,75"/>
-<area shape="poly" title=" " alt="" coords="478,58,446,58,446,52,478,52"/>
-<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,42,207,68"/>
-<area shape="poly" title=" " alt="" coords="239,58,207,58,207,52,239,52"/>
 </map>
 </div>
 
@@ -357,7 +312,7 @@ Here is the caller graph for this function:</div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/http/HttpProcessingStep/<a class="el" href="_auto_index_state_8hpp_source.html">AutoIndexState.hpp</a></li>
-<li>srcs/HttpTransaction/HttpProcessingStep/<b>AutoIndex.cpp</b></li>
+<li>srcs/HttpTransaction/HttpProcessingStep/<b>autoIndex.cpp</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -120,26 +120,26 @@ Collaboration diagram for ResponseStrBuildState:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa2383bb6b46c166581999fb4880efa82" id="r_aa2383bb6b46c166581999fb4880efa82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2383bb6b46c166581999fb4880efa82">buildResponseStatusLine</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
-<tr class="memdesc:aa2383bb6b46c166581999fb4880efa82"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスのステータスライン(1行目)を構築します。  <br /></td></tr>
-<tr class="separator:aa2383bb6b46c166581999fb4880efa82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6e42fa92fd6a33658379e997d77c2e" id="r_a2d6e42fa92fd6a33658379e997d77c2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6e42fa92fd6a33658379e997d77c2e">buildResponseStatusLine</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostream &amp;resOss)</td></tr>
+<tr class="memdesc:a2d6e42fa92fd6a33658379e997d77c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスのステータスライン(1行目)を構築します。  <br /></td></tr>
+<tr class="separator:a2d6e42fa92fd6a33658379e997d77c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14df6589f1fcc543ec7bc8c4b99892bc" id="r_a14df6589f1fcc543ec7bc8c4b99892bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14df6589f1fcc543ec7bc8c4b99892bc">shouldCloseSocket</a> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState)</td></tr>
 <tr class="memdesc:a14df6589f1fcc543ec7bc8c4b99892bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントのリクエストヘッダーに "Connection: close" が存在するか確認します。  <br /></td></tr>
 <tr class="separator:a14df6589f1fcc543ec7bc8c4b99892bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c2e8b31d65620337f2b9bca860ccaba" id="r_a9c2e8b31d65620337f2b9bca860ccaba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c2e8b31d65620337f2b9bca860ccaba">build301MovedPermanentlyHeader</a> (std::ostringstream &amp;resOss, std::string rootDir)</td></tr>
-<tr class="separator:a9c2e8b31d65620337f2b9bca860ccaba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02838bcf03951383fff1f024c91bc109" id="r_a02838bcf03951383fff1f024c91bc109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02838bcf03951383fff1f024c91bc109">build301MovedPermanentlyHeader</a> (std::ostream &amp;resOss, std::string rootDir)</td></tr>
+<tr class="separator:a02838bcf03951383fff1f024c91bc109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afef334ede432353ebd9c1c0108630f20" id="r_afef334ede432353ebd9c1c0108630f20"><td class="memItemLeft" align="right" valign="top"><a id="afef334ede432353ebd9c1c0108630f20" name="afef334ede432353ebd9c1c0108630f20"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>shouldConnectionClose</b> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState, <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;<a class="el" href="class_http_transaction.html">HttpTransaction</a>)</td></tr>
 <tr class="separator:afef334ede432353ebd9c1c0108630f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a91880e0da6fde879ede69c35f6c58a" id="r_a5a91880e0da6fde879ede69c35f6c58a"><td class="memItemLeft" align="right" valign="top"><a id="a5a91880e0da6fde879ede69c35f6c58a" name="a5a91880e0da6fde879ede69c35f6c58a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>buildContentTypeHeader</b> (<a class="el" href="class_socket_state.html">SocketState</a> &amp;socketState, <a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction)</td></tr>
 <tr class="separator:a5a91880e0da6fde879ede69c35f6c58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b42e27ed61acd89b4f47445991861e1" id="r_a2b42e27ed61acd89b4f47445991861e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b42e27ed61acd89b4f47445991861e1">buildResponseHeader</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
-<tr class="memdesc:a2b42e27ed61acd89b4f47445991861e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスヘッダを構築します。  <br /></td></tr>
-<tr class="separator:a2b42e27ed61acd89b4f47445991861e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21958ec54de1c2b2206854c9cec4c749" id="r_a21958ec54de1c2b2206854c9cec4c749"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21958ec54de1c2b2206854c9cec4c749">buildResponseBody</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostringstream &amp;resOss)</td></tr>
-<tr class="memdesc:a21958ec54de1c2b2206854c9cec4c749"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスボディを構築します。  <br /></td></tr>
-<tr class="separator:a21958ec54de1c2b2206854c9cec4c749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33030a4db24275b7349a8b0753ba6e9" id="r_ad33030a4db24275b7349a8b0753ba6e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad33030a4db24275b7349a8b0753ba6e9">buildResponseHeader</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostream &amp;resOss)</td></tr>
+<tr class="memdesc:ad33030a4db24275b7349a8b0753ba6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスヘッダを構築します。  <br /></td></tr>
+<tr class="separator:ad33030a4db24275b7349a8b0753ba6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a983867825b18ab9d9f98ef5b43117a69" id="r_a983867825b18ab9d9f98ef5b43117a69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a983867825b18ab9d9f98ef5b43117a69">buildResponseBody</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, std::ostream &amp;resOss)</td></tr>
+<tr class="memdesc:a983867825b18ab9d9f98ef5b43117a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">レスポンスボディを構築します。  <br /></td></tr>
+<tr class="separator:a983867825b18ab9d9f98ef5b43117a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab058472aeb563041e918bed4c5c3b17" id="r_aab058472aeb563041e918bed4c5c3b17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab058472aeb563041e918bed4c5c3b17">handle</a> (<a class="el" href="class_http_transaction.html">HttpTransaction</a> &amp;<a class="el" href="class_http_transaction.html">HttpTransaction</a>)</td></tr>
 <tr class="memdesc:aab058472aeb563041e918bed4c5c3b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントにsend()するレスポンスメッセージを構築します。  <br /></td></tr>
 <tr class="separator:aab058472aeb563041e918bed4c5c3b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,8 +148,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>putDebugCGI</b> (std:
 <tr class="separator:ad1c94d724877e3fb3c61a5d3e1a61176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9c2e8b31d65620337f2b9bca860ccaba" name="a9c2e8b31d65620337f2b9bca860ccaba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c2e8b31d65620337f2b9bca860ccaba">&#9670;&#160;</a></span>build301MovedPermanentlyHeader()</h2>
+<a id="a02838bcf03951383fff1f024c91bc109" name="a02838bcf03951383fff1f024c91bc109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02838bcf03951383fff1f024c91bc109">&#9670;&#160;</a></span>build301MovedPermanentlyHeader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +157,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>putDebugCGI</b> (std:
         <tr>
           <td class="memname">void ResponseStrBuildState::build301MovedPermanentlyHeader </td>
           <td>(</td>
-          <td class="paramtype">std::ostringstream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em>, </span></td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -178,10 +178,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>putDebugCGI</b> (std:
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_response_str_build_state_a9c2e8b31d65620337f2b9bca860ccaba_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a9c2e8b31d65620337f2b9bca860ccaba_icgraph" alt=""/></div>
-<map name="aclass_response_str_build_state_a9c2e8b31d65620337f2b9bca860ccaba_icgraph" id="aclass_response_str_build_state_a9c2e8b31d65620337f2b9bca860ccaba_icgraph">
+<div class="center"><img src="class_response_str_build_state_a02838bcf03951383fff1f024c91bc109_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a02838bcf03951383fff1f024c91bc109_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a02838bcf03951383fff1f024c91bc109_icgraph" id="aclass_response_str_build_state_a02838bcf03951383fff1f024c91bc109_icgraph">
 <area shape="rect" title=" " alt="" coords="1387,35,1619,75"/>
-<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="1182,35,1339,75"/>
+<area shape="rect" href="class_response_str_build_state.html#ad33030a4db24275b7349a8b0753ba6e9" title="レスポンスヘッダを構築します。" alt="" coords="1182,35,1339,75"/>
 <area shape="poly" title=" " alt="" coords="1372,58,1340,58,1340,52,1372,52"/>
 <area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="977,5,1134,46"/>
 <area shape="poly" title=" " alt="" coords="1166,44,1134,40,1135,34,1167,39"/>
@@ -199,8 +199,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a21958ec54de1c2b2206854c9cec4c749" name="a21958ec54de1c2b2206854c9cec4c749"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21958ec54de1c2b2206854c9cec4c749">&#9670;&#160;</a></span>buildResponseBody()</h2>
+<a id="a983867825b18ab9d9f98ef5b43117a69" name="a983867825b18ab9d9f98ef5b43117a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983867825b18ab9d9f98ef5b43117a69">&#9670;&#160;</a></span>buildResponseBody()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +213,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::ostringstream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em></span>&#160;)</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -240,29 +240,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph.png" border="0" usemap="#aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph" alt=""/></div>
-<map name="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph" id="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_cgraph">
-<area shape="rect" title="レスポンスボディを構築します。" alt="" coords="5,102,163,143"/>
-<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="211,56,369,82"/>
-<area shape="poly" title=" " alt="" coords="163,99,222,84,223,89,164,104"/>
-<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="428,105,586,145"/>
-<area shape="poly" title=" " alt="" coords="163,120,412,122,412,127,163,125"/>
-<area shape="rect" href="class_util_http_processing_step.html#a64ab194d0417e06e6cf8e4d900a83cd2" title="レスポンスボディを設定し、その長さに基づいてContent&#45;Lengthヘッダーを設定します。" alt="" coords="211,159,369,200"/>
-<area shape="poly" title=" " alt="" coords="160,140,201,152,199,157,159,146"/>
-<area shape="rect" href="class_auto_index_state.html#accbfc2ae04d12bb5535ffffc8a7e9a1c" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="419,5,595,31"/>
-<area shape="poly" title=" " alt="" coords="347,53,433,32,435,38,349,58"/>
-<area shape="rect" href="class_auto_index_state.html#aa3731fb95408354bcaa9b062d98ca3e9" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="417,55,596,80"/>
-<area shape="poly" title=" " alt="" coords="369,66,401,65,401,71,369,71"/>
-<area shape="poly" title=" " alt="" coords="343,80,413,98,411,103,342,85"/>
-<area shape="rect" href="class_util_http_processing_step.html#a59d2ac26324fd367151fcfe6bb787864" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="644,47,803,88"/>
-<area shape="poly" title=" " alt="" coords="597,65,629,65,629,70,597,70"/>
+<div class="center"><img src="class_response_str_build_state_a983867825b18ab9d9f98ef5b43117a69_cgraph.png" border="0" usemap="#aclass_response_str_build_state_a983867825b18ab9d9f98ef5b43117a69_cgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a983867825b18ab9d9f98ef5b43117a69_cgraph" id="aclass_response_str_build_state_a983867825b18ab9d9f98ef5b43117a69_cgraph">
+<area shape="rect" title="レスポンスボディを構築します。" alt="" coords="5,39,163,79"/>
+<area shape="rect" href="class_util_http_processing_step.html#a21282f874e910a6bbb63719d6199efe6" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="211,5,369,46"/>
+<area shape="poly" title=" " alt="" coords="163,44,195,38,196,44,164,49"/>
+<area shape="rect" href="class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="211,71,369,111"/>
+<area shape="poly" title=" " alt="" coords="164,69,196,74,195,79,163,74"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_icgraph" alt=""/></div>
-<map name="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_icgraph" id="aclass_response_str_build_state_a21958ec54de1c2b2206854c9cec4c749_icgraph">
+<div class="center"><img src="class_response_str_build_state_a983867825b18ab9d9f98ef5b43117a69_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a983867825b18ab9d9f98ef5b43117a69_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a983867825b18ab9d9f98ef5b43117a69_icgraph" id="aclass_response_str_build_state_a983867825b18ab9d9f98ef5b43117a69_icgraph">
 <area shape="rect" title="レスポンスボディを構築します。" alt="" coords="1182,35,1339,75"/>
 <area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="977,5,1134,46"/>
 <area shape="poly" title=" " alt="" coords="1166,44,1134,40,1135,34,1167,39"/>
@@ -280,8 +271,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2b42e27ed61acd89b4f47445991861e1" name="a2b42e27ed61acd89b4f47445991861e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b42e27ed61acd89b4f47445991861e1">&#9670;&#160;</a></span>buildResponseHeader()</h2>
+<a id="ad33030a4db24275b7349a8b0753ba6e9" name="ad33030a4db24275b7349a8b0753ba6e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad33030a4db24275b7349a8b0753ba6e9">&#9670;&#160;</a></span>buildResponseHeader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +285,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::ostringstream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em></span>&#160;)</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -315,18 +306,18 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph.png" border="0" usemap="#aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph" alt=""/></div>
-<map name="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph" id="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_cgraph">
+<div class="center"><img src="class_response_str_build_state_ad33030a4db24275b7349a8b0753ba6e9_cgraph.png" border="0" usemap="#aclass_response_str_build_state_ad33030a4db24275b7349a8b0753ba6e9_cgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_ad33030a4db24275b7349a8b0753ba6e9_cgraph" id="aclass_response_str_build_state_ad33030a4db24275b7349a8b0753ba6e9_cgraph">
 <area shape="rect" title="レスポンスヘッダを構築します。" alt="" coords="5,5,163,46"/>
-<area shape="rect" href="class_response_str_build_state.html#a9c2e8b31d65620337f2b9bca860ccaba" title=" " alt="" coords="211,5,442,46"/>
+<area shape="rect" href="class_response_str_build_state.html#a02838bcf03951383fff1f024c91bc109" title=" " alt="" coords="211,5,442,46"/>
 <area shape="poly" title=" " alt="" coords="163,23,195,23,195,28,163,28"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_icgraph" alt=""/></div>
-<map name="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_icgraph" id="aclass_response_str_build_state_a2b42e27ed61acd89b4f47445991861e1_icgraph">
+<div class="center"><img src="class_response_str_build_state_ad33030a4db24275b7349a8b0753ba6e9_icgraph.png" border="0" usemap="#aclass_response_str_build_state_ad33030a4db24275b7349a8b0753ba6e9_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_ad33030a4db24275b7349a8b0753ba6e9_icgraph" id="aclass_response_str_build_state_ad33030a4db24275b7349a8b0753ba6e9_icgraph">
 <area shape="rect" title="レスポンスヘッダを構築します。" alt="" coords="1182,35,1339,75"/>
 <area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="977,5,1134,46"/>
 <area shape="poly" title=" " alt="" coords="1166,44,1134,40,1135,34,1167,39"/>
@@ -344,8 +335,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa2383bb6b46c166581999fb4880efa82" name="aa2383bb6b46c166581999fb4880efa82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2383bb6b46c166581999fb4880efa82">&#9670;&#160;</a></span>buildResponseStatusLine()</h2>
+<a id="a2d6e42fa92fd6a33658379e997d77c2e" name="a2d6e42fa92fd6a33658379e997d77c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6e42fa92fd6a33658379e997d77c2e">&#9670;&#160;</a></span>buildResponseStatusLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,7 +349,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::ostringstream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em></span>&#160;)</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>resOss</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -386,8 +377,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_response_str_build_state_aa2383bb6b46c166581999fb4880efa82_icgraph.png" border="0" usemap="#aclass_response_str_build_state_aa2383bb6b46c166581999fb4880efa82_icgraph" alt=""/></div>
-<map name="aclass_response_str_build_state_aa2383bb6b46c166581999fb4880efa82_icgraph" id="aclass_response_str_build_state_aa2383bb6b46c166581999fb4880efa82_icgraph">
+<div class="center"><img src="class_response_str_build_state_a2d6e42fa92fd6a33658379e997d77c2e_icgraph.png" border="0" usemap="#aclass_response_str_build_state_a2d6e42fa92fd6a33658379e997d77c2e_icgraph" alt=""/></div>
+<map name="aclass_response_str_build_state_a2d6e42fa92fd6a33658379e997d77c2e_icgraph" id="aclass_response_str_build_state_a2d6e42fa92fd6a33658379e997d77c2e_icgraph">
 <area shape="rect" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="1182,35,1359,75"/>
 <area shape="rect" href="class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="977,5,1134,46"/>
 <area shape="poly" title=" " alt="" coords="1166,43,1134,39,1135,34,1167,38"/>
@@ -447,28 +438,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph.png" border="0" usemap="#aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph" alt=""/></div>
 <map name="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph" id="aclass_response_str_build_state_aab058472aeb563041e918bed4c5c3b17_cgraph">
-<area shape="rect" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="5,225,163,265"/>
-<area shape="rect" href="class_response_str_build_state.html#a21958ec54de1c2b2206854c9cec4c749" title="レスポンスボディを構築します。" alt="" coords="221,131,378,172"/>
-<area shape="poly" title=" " alt="" coords="132,221,236,176,238,181,134,226"/>
-<area shape="rect" href="class_response_str_build_state.html#a2b42e27ed61acd89b4f47445991861e1" title="レスポンスヘッダを構築します。" alt="" coords="221,225,378,265"/>
-<area shape="poly" title=" " alt="" coords="163,242,205,242,205,248,163,248"/>
-<area shape="rect" href="class_response_str_build_state.html#aa2383bb6b46c166581999fb4880efa82" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="211,290,388,331"/>
-<area shape="poly" title=" " alt="" coords="154,263,216,282,214,287,152,268"/>
-<area shape="rect" href="class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="473,56,630,82"/>
-<area shape="poly" title=" " alt="" coords="357,128,435,101,489,84,491,89,437,106,359,133"/>
-<area shape="rect" href="class_util_http_processing_step.html#a2981180233e55296d44cbc638401f067" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="726,105,884,145"/>
-<area shape="poly" title=" " alt="" coords="378,145,710,127,711,132,378,150"/>
-<area shape="rect" href="class_util_http_processing_step.html#a64ab194d0417e06e6cf8e4d900a83cd2" title="レスポンスボディを設定し、その長さに基づいてContent&#45;Lengthヘッダーを設定します。" alt="" coords="473,159,631,200"/>
-<area shape="poly" title=" " alt="" coords="379,158,457,166,457,172,378,163"/>
-<area shape="rect" href="class_auto_index_state.html#accbfc2ae04d12bb5535ffffc8a7e9a1c" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="717,5,893,31"/>
-<area shape="poly" title=" " alt="" coords="619,53,722,32,723,37,620,58"/>
-<area shape="rect" href="class_auto_index_state.html#aa3731fb95408354bcaa9b062d98ca3e9" title="ディレクトリに存在するファイル名を配列として取得します" alt="" coords="715,55,895,80"/>
-<area shape="poly" title=" " alt="" coords="631,66,700,65,700,71,631,71"/>
-<area shape="poly" title=" " alt="" coords="614,80,711,101,710,107,612,85"/>
-<area shape="rect" href="class_util_http_processing_step.html#a59d2ac26324fd367151fcfe6bb787864" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="943,47,1101,88"/>
-<area shape="poly" title=" " alt="" coords="895,65,927,65,927,70,895,70"/>
-<area shape="rect" href="class_response_str_build_state.html#a9c2e8b31d65620337f2b9bca860ccaba" title=" " alt="" coords="436,225,667,265"/>
-<area shape="poly" title=" " alt="" coords="379,242,421,242,421,248,379,248"/>
+<area shape="rect" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="5,136,163,177"/>
+<area shape="rect" href="class_response_str_build_state.html#a983867825b18ab9d9f98ef5b43117a69" title="レスポンスボディを構築します。" alt="" coords="221,71,378,111"/>
+<area shape="poly" title=" " alt="" coords="152,133,214,114,216,119,154,138"/>
+<area shape="rect" href="class_response_str_build_state.html#ad33030a4db24275b7349a8b0753ba6e9" title="レスポンスヘッダを構築します。" alt="" coords="221,136,378,177"/>
+<area shape="poly" title=" " alt="" coords="163,154,205,154,205,159,163,159"/>
+<area shape="rect" href="class_response_str_build_state.html#a2d6e42fa92fd6a33658379e997d77c2e" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="211,201,388,242"/>
+<area shape="poly" title=" " alt="" coords="154,175,216,194,214,199,152,180"/>
+<area shape="rect" href="class_util_http_processing_step.html#a21282f874e910a6bbb63719d6199efe6" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="473,5,631,46"/>
+<area shape="poly" title=" " alt="" coords="378,68,457,47,458,53,379,73"/>
+<area shape="rect" href="class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="473,71,631,111"/>
+<area shape="poly" title=" " alt="" coords="379,88,457,88,457,94,379,94"/>
+<area shape="rect" href="class_response_str_build_state.html#a02838bcf03951383fff1f024c91bc109" title=" " alt="" coords="436,136,667,177"/>
+<area shape="poly" title=" " alt="" coords="379,154,421,154,421,159,379,159"/>
 </map>
 </div>
 <div class="dynheader">

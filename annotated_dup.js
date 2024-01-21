@@ -31,5 +31,5 @@ var annotated_dup =
     [ "SocketState", "class_socket_state.html", "class_socket_state" ],
     [ "Tokenize", "class_tokenize.html", "class_tokenize" ],
     [ "UtilHttpProcessingStep", "class_util_http_processing_step.html", null ],
-    [ "VectorStreamBuf", "class_vector_stream_buf.html", null ]
+    [ "VectorStreamBuf", "class_vector_stream_buf.html", "class_vector_stream_buf" ]
 ];

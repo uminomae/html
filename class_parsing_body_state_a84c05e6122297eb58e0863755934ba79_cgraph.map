@@ -6,6 +6,8 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,88,235,88,235,94,178,94"/>
 <area shape="rect" id="Node000004" href="$class_parsing_body_state.html#ac4e24d9a1e9f5cc6ba348340f2c3eb58" title="HTTPリクエストボディを解析します。" alt="" coords="226,136,471,161"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,102,226,120,266,129,265,134,225,126,146,107"/>
-<area shape="rect" id="Node000005" href="$class_parsing_body_state.html#a2e1c0ade7ac227bba341921a5e900aa9" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="519,128,692,169"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="471,146,503,146,503,151,471,151"/>
+<area shape="rect" id="Node000005" href="$class_parsing_body_state.html#a038ea446c8c7688dfd53af4afd944c9d" title=" " alt="" coords="520,95,692,135"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="452,132,504,125,505,131,453,138"/>
+<area shape="rect" id="Node000006" href="$class_parsing_body_state.html#a85a43d44071d51ee96dd501ccc850d59" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="519,160,692,201"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="457,159,504,165,503,170,457,164"/>
 </map>

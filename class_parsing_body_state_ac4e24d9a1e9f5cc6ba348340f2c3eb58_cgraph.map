@@ -1,5 +1,7 @@
 <map id="ParsingBodyState::parseRequestBody" name="ParsingBodyState::parseRequestBody">
-<area shape="rect" id="Node000001" title="HTTPリクエストボディを解析します。" alt="" coords="5,13,251,39"/>
-<area shape="rect" id="Node000002" href="$class_parsing_body_state.html#a2e1c0ade7ac227bba341921a5e900aa9" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="299,5,472,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,23,283,23,283,28,251,28"/>
+<area shape="rect" id="Node000001" title="HTTPリクエストボディを解析します。" alt="" coords="5,46,251,72"/>
+<area shape="rect" id="Node000002" href="$class_parsing_body_state.html#a038ea446c8c7688dfd53af4afd944c9d" title=" " alt="" coords="299,5,472,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,43,284,36,284,41,233,48"/>
+<area shape="rect" id="Node000003" href="$class_parsing_body_state.html#a85a43d44071d51ee96dd501ccc850d59" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="299,71,472,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,70,283,76,283,81,236,75"/>
 </map>
