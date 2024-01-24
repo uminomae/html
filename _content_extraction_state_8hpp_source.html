@@ -106,29 +106,39 @@ $(function(){initNavTree('_content_extraction_state_8hpp_source.html',''); initR
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor"># include &quot;HttpTransaction.hpp&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor"># include &quot;UtilHttpProcessingStep.hpp&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">// # define TEST_404</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_content_extraction_state.html">   10</a></span><span class="keyword">class </span><a class="code hl_class" href="class_content_extraction_state.html">ContentExtractionState</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_i_http_processing_step.html">IHttpProcessingStep</a> {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor"># ifdef GOOGLE_TEST</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">friend</span> <span class="keyword">class </span>CES_HttpTransactionTest;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor"># endif</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_content_extraction_state.html#a565b31e0c01130f683c56168e772a12d">readFileContentToResponseBody</a>(<a class="code hl_class" href="class_http_transaction.html">HttpTransaction</a>&amp; httpTransaction);</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">enum</span> ReqState{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        IS_CGI = 0</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    };</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0">handle</a>(<a class="code hl_class" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_content_extraction_state.html">    9</a></span><span class="keyword">class </span><a class="code hl_class" href="class_content_extraction_state.html">ContentExtractionState</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_i_http_processing_step.html">IHttpProcessingStep</a> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor"># ifdef GOOGLE_TEST</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">friend</span> <span class="keyword">class </span>CES_HttpTransactionTest;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor"># endif</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_content_extraction_state.html#a2ad6daeca81781bd47c508fc7f080f5e">readFileContentToResponseBody</a>();</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_class" href="class_http_transaction.html">HttpTransaction</a>&amp;    _httpTransaction;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_class" href="class_socket_state.html">SocketState</a>&amp;        _socketState;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_class" href="class_content_extraction_state.html">ContentExtractionState</a>(</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <a class="code hl_class" href="class_http_transaction.html">HttpTransaction</a>&amp;    httpTransaction,</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <a class="code hl_class" href="class_socket_state.html">SocketState</a>&amp;        socketState)</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        :   _httpTransaction(httpTransaction),</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            _socketState(socketState)</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        {}</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">enum</span> ReqState{</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        IS_CGI = 0</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    };</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span>  <a class="code hl_function" href="class_content_extraction_state.html#a1b828ff600c1530b66839c5507200cc9">handle</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
 </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclass_content_extraction_state_html"><div class="ttname"><a href="class_content_extraction_state.html">ContentExtractionState</a></div><div class="ttdef"><b>Definition</b> ContentExtractionState.hpp:10</div></div>
-<div class="ttc" id="aclass_content_extraction_state_html_a127f220bca1ccb5923933c272c6cefe0"><div class="ttname"><a href="class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0">ContentExtractionState::handle</a></div><div class="ttdeci">void handle(HttpTransaction &amp;httpTransaction)</div><div class="ttdoc">HTTPリクエストに基づいてコンテンツ抽出処理を実行します。</div><div class="ttdef"><b>Definition</b> ContentExtractionState.cpp:40</div></div>
-<div class="ttc" id="aclass_content_extraction_state_html_a565b31e0c01130f683c56168e772a12d"><div class="ttname"><a href="class_content_extraction_state.html#a565b31e0c01130f683c56168e772a12d">ContentExtractionState::readFileContentToResponseBody</a></div><div class="ttdeci">void readFileContentToResponseBody(HttpTransaction &amp;httpTransaction)</div><div class="ttdoc">ファイルの内容をHTTPレスポンスボディに読み込みます。</div><div class="ttdef"><b>Definition</b> ContentExtractionState.cpp:18</div></div>
-<div class="ttc" id="aclass_http_transaction_html"><div class="ttname"><a href="class_http_transaction.html">HttpTransaction</a></div><div class="ttdef"><b>Definition</b> HttpTransaction.hpp:26</div></div>
-<div class="ttc" id="aclass_i_http_processing_step_html"><div class="ttname"><a href="class_i_http_processing_step.html">IHttpProcessingStep</a></div><div class="ttdef"><b>Definition</b> IHttpProcessingStep.hpp:12</div></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_content_extraction_state_html"><div class="ttname"><a href="class_content_extraction_state.html">ContentExtractionState</a></div><div class="ttdef"><b>Definition</b> ContentExtractionState.hpp:9</div></div>
+<div class="ttc" id="aclass_content_extraction_state_html_a1b828ff600c1530b66839c5507200cc9"><div class="ttname"><a href="class_content_extraction_state.html#a1b828ff600c1530b66839c5507200cc9">ContentExtractionState::handle</a></div><div class="ttdeci">void handle()</div><div class="ttdoc">HTTPリクエストに基づいてコンテンツ抽出処理を実行します。</div><div class="ttdef"><b>Definition</b> ContentExtractionState.cpp:36</div></div>
+<div class="ttc" id="aclass_content_extraction_state_html_a2ad6daeca81781bd47c508fc7f080f5e"><div class="ttname"><a href="class_content_extraction_state.html#a2ad6daeca81781bd47c508fc7f080f5e">ContentExtractionState::readFileContentToResponseBody</a></div><div class="ttdeci">void readFileContentToResponseBody()</div><div class="ttdoc">ファイルの内容をHTTPレスポンスボディに読み込みます。</div><div class="ttdef"><b>Definition</b> ContentExtractionState.cpp:17</div></div>
+<div class="ttc" id="aclass_http_transaction_html"><div class="ttname"><a href="class_http_transaction.html">HttpTransaction</a></div><div class="ttdef"><b>Definition</b> HttpTransaction.hpp:27</div></div>
+<div class="ttc" id="aclass_i_http_processing_step_html"><div class="ttname"><a href="class_i_http_processing_step.html">IHttpProcessingStep</a></div><div class="ttdef"><b>Definition</b> IHttpProcessingStep.hpp:10</div></div>
+<div class="ttc" id="aclass_socket_state_html"><div class="ttname"><a href="class_socket_state.html">SocketState</a></div><div class="ttdef"><b>Definition</b> SocketState.hpp:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

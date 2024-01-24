@@ -1,17 +1,17 @@
 <map id="UtilHttpProcessingStep::setBodyAndLength" name="UtilHttpProcessingStep::setBodyAndLength">
-<area shape="rect" id="Node000001" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="1713,92,1871,133"/>
-<area shape="rect" id="Node000002" href="$class_response_str_build_state.html#a983867825b18ab9d9f98ef5b43117a69" title="レスポンスボディを構築します。" alt="" coords="1209,12,1366,53"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1738,88,1702,72,1664,60,1586,46,1506,37,1366,33,1366,27,1507,32,1587,40,1665,55,1704,67,1740,83"/>
-<area shape="rect" id="Node000008" href="$class_auto_index_state.html#a7802b576a9a7ca2fd2d528b53ffe3934" title="AutoIndex機能を処理します。" alt="" coords="1474,70,1631,96"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="1697,103,1631,95,1632,90,1698,98"/>
-<area shape="rect" id="Node000009" href="$class_cgi_execution_state.html#aff9df70d227ed984a62c5f44c284b116" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="1480,120,1625,161"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="1698,126,1626,135,1625,129,1697,121"/>
-<area shape="rect" id="Node000012" href="$class_content_extraction_state.html#a565b31e0c01130f683c56168e772a12d" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="1440,185,1665,226"/>
-<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="1739,142,1666,175,1630,187,1628,182,1664,170,1737,137"/>
-<area shape="rect" id="Node000003" href="$class_response_str_build_state.html#aab058472aeb563041e918bed4c5c3b17" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="977,5,1134,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1193,32,1134,31,1135,25,1193,27"/>
+<area shape="rect" id="Node000001" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="1454,92,1613,133"/>
+<area shape="rect" id="Node000002" href="$class_response_str_build_state.html#a0f55d5f37e78c4ab37c97e40b74128e4" title="レスポンスボディを構築します。" alt="" coords="1216,5,1373,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1473,88,1405,60,1372,49,1374,44,1407,55,1475,83"/>
+<area shape="rect" id="Node000008" href="$class_auto_index_state.html#ae84bd50d171c70674d85bf49ef5a5de9" title="AutoIndex機能を処理します。" alt="" coords="1216,70,1373,96"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="1439,103,1373,95,1373,90,1439,98"/>
+<area shape="rect" id="Node000009" href="$class_cgi_execution_state.html#ac90758d6a2c43bb933d1437154a67255" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="1225,120,1363,161"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="1439,126,1364,135,1363,130,1439,121"/>
+<area shape="rect" id="Node000011" href="$class_content_extraction_state.html#a2ad6daeca81781bd47c508fc7f080f5e" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="1182,185,1406,226"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="1480,142,1407,175,1371,187,1370,182,1405,170,1478,137"/>
+<area shape="rect" id="Node000003" href="$class_response_str_build_state.html#a7b9feab17aef82874d3bc584a1f67e6f" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="977,5,1134,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1200,28,1135,28,1135,23,1200,23"/>
 <area shape="rect" id="Node000004" href="$class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="744,92,929,133"/>
-<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="1194,51,930,99,929,93,1193,46"/>
+<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="1201,47,1135,60,930,98,929,93,1133,55,1200,42"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="989,55,891,94,889,89,987,50"/>
 <area shape="rect" id="Node000005" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="494,92,696,133"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="729,115,697,115,697,110,729,110"/>
@@ -19,12 +19,10 @@
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="478,115,446,115,446,110,478,110"/>
 <area shape="rect" id="Node000007" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,100,207,125"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="239,115,207,115,207,110,239,110"/>
-<area shape="rect" id="Node000010" href="$class_cgi_execution_state.html#ac2ce6937814bad9d326cb72e28457bdd" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="1182,120,1392,161"/>
-<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="1465,143,1393,143,1393,138,1465,138"/>
-<area shape="rect" id="Node000011" href="$class_cgi_execution_state.html#aecf27444a140a66641a2b9a35327fca5" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="986,120,1125,161"/>
-<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="1167,143,1125,143,1125,138,1167,138"/>
-<area shape="poly" id="edge12_Node000011_Node000004" title=" " alt="" coords="970,132,929,127,929,122,971,127"/>
-<area shape="rect" id="Node000013" href="$class_content_extraction_state.html#a127f220bca1ccb5923933c272c6cefe0" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="977,185,1134,226"/>
-<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="1425,208,1135,208,1135,203,1425,203"/>
-<area shape="poly" id="edge15_Node000013_Node000004" title=" " alt="" coords="990,181,976,175,885,136,887,131,978,170,992,176"/>
+<area shape="rect" id="Node000010" href="$class_cgi_execution_state.html#a583ea5d0162a7f407a3377b9706d5157" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="986,120,1125,161"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="1209,143,1125,143,1125,138,1209,138"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="970,132,929,127,929,122,971,127"/>
+<area shape="rect" id="Node000012" href="$class_content_extraction_state.html#a1b828ff600c1530b66839c5507200cc9" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="977,185,1134,226"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="1166,208,1135,208,1135,203,1166,203"/>
+<area shape="poly" id="edge14_Node000012_Node000004" title=" " alt="" coords="990,181,976,175,885,136,887,131,978,170,992,176"/>
 </map>

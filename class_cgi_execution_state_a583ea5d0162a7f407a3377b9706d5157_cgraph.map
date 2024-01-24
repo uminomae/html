@@ -1,0 +1,27 @@
+<map id="CgiExecutionState::handle" name="CgiExecutionState::handle">
+<area shape="rect" id="Node000001" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="5,300,144,341"/>
+<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html#a6cc80ee59a0491eadbc959c7de0bc90a" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="192,201,402,242"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,297,234,246,236,251,124,302"/>
+<area shape="rect" id="Node000011" href="$class_cgi_execution_state.html#ac90758d6a2c43bb933d1437154a67255" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="228,397,366,438"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="124,339,236,388,234,393,122,344"/>
+<area shape="rect" id="Node000003" href="$class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a" title="環境変数をstd::stringからchar*に変換します。" alt="" coords="475,5,635,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="310,199,365,130,404,91,449,57,459,51,462,55,451,61,408,95,369,133,314,203"/>
+<area shape="rect" id="Node000004" href="$class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="486,71,624,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="324,198,380,160,449,122,470,113,472,118,451,127,383,165,327,203"/>
+<area shape="rect" id="Node000005" href="$class_cgi_execution_state.html#a12d614bd895d492fc63675f349266415" title="CGIスクリプトを実行します。" alt="" coords="486,136,624,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="379,198,470,175,471,180,381,203"/>
+<area shape="rect" id="Node000006" href="$class_cgi_execution_state.html#a06397db53835040bc91ef82d21efd538" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="482,201,627,242"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="402,219,467,219,467,224,402,224"/>
+<area shape="rect" id="Node000008" href="$class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="450,267,659,307"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="381,240,458,260,456,265,379,245"/>
+<area shape="rect" id="Node000009" href="$class_cgi_execution_state.html#aee14557029b7e57f3c911a28f5ec0c55" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="465,332,644,373"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="327,240,383,278,451,317,467,324,465,328,449,321,380,283,324,245"/>
+<area shape="rect" id="Node000007" href="$class_cgi_execution_state.html#a26f14ddb42559ff3e9174dc9b9d9912c" title="フォークされたプロセスの終了を非ブロッキングで待ちます。" alt="" coords="753,201,891,242"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="628,219,737,219,737,224,628,224"/>
+<area shape="rect" id="Node000010" href="$class_cgi_execution_state.html#a0ea4850cd9670c360522e59d4315b88f" title="環境変数の文字列を結合して作成し、vectorに追加します" alt="" coords="707,332,937,373"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="645,350,692,350,692,355,645,355"/>
+<area shape="rect" id="Node000012" href="$class_cgi_execution_state.html#aaea3ec2c91f6d6d4fb47b251fc5d338e" title=" " alt="" coords="484,397,625,438"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="367,415,468,415,468,420,367,420"/>
+<area shape="rect" id="Node000013" href="$class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="476,463,634,503"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="367,433,461,457,460,462,366,438"/>
+</map>

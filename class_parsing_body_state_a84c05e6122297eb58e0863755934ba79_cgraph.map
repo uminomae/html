@@ -1,6 +1,6 @@
 <map id="ParsingBodyState::handle" name="ParsingBodyState::handle">
 <area shape="rect" id="Node000001" title="HTTPリクエストの解析を行います。" alt="" coords="5,78,178,104"/>
-<area shape="rect" id="Node000002" href="$class_parsing_body_state.html#a0f773ef745b2d1d6926a02a14be8623f" title="リクエストURIから拡張子を抽出します。" alt="" coords="244,5,453,46"/>
+<area shape="rect" id="Node000002" href="$class_parsing_body_state.html#a82c9bc4f4599d0b8ab9cffe6694cbe05" title="リクエストURIから拡張子を抽出します。" alt="" coords="244,5,453,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,75,250,48,252,53,146,80"/>
 <area shape="rect" id="Node000003" href="$class_parsing_body_state.html#a869dc59d24bb341260124ce9b9a31f24" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="251,71,446,111"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,88,235,88,235,94,178,94"/>

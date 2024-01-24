@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['icounter_0',['ICounter',['../class_i_counter.html',1,'']]],
-  ['identifylocationstate_1',['IdentifyLocationState',['../class_identify_location_state.html',1,'']]],
-  ['ihttpprocessingstep_2',['IHttpProcessingStep',['../class_i_http_processing_step.html',1,'']]],
-  ['ihttpworkflowmanager_3',['IHttpWorkflowManager',['../class_i_http_workflow_manager.html',1,'']]]
+  ['headerparserstream_0',['HeaderParserStream',['../class_header_parser_stream.html',1,'']]],
+  ['httpcgi_1',['HttpCgi',['../struct_http_cgi.html',1,'']]],
+  ['httprequest_2',['HttpRequest',['../struct_http_request.html',1,'']]],
+  ['httpresponse_3',['HttpResponse',['../struct_http_response.html',1,'']]],
+  ['httptransaction_4',['HttpTransaction',['../class_http_transaction.html',1,'']]],
+  ['httpworkflowmanager_5',['HttpWorkflowManager',['../class_http_workflow_manager.html',1,'']]]
 ];

@@ -117,8 +117,8 @@ $(function(){initNavTree('_network_service_8hpp_source.html',''); initResizable(
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor"># include &quot;MimeType.hpp&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor"># include &quot;Tokenize.hpp&quot;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor"># include &quot;SocketState.hpp&quot;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">// # define DEBUG_NETWORK</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor"># include &quot;Debug.hpp&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">// ネットワーク通信やソケットの管理（ネットワーク層、テクニカルロジック）</span></div>
 <div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
@@ -135,7 +135,7 @@ $(function(){initNavTree('_network_service_8hpp_source.html',''); initResizable(
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">int</span>                 _servSockFd; </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>      _servPort;</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">struct </span>sockaddr_in  _servAddr;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    std::string         _response;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    std::string         _responseData;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">//setup</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_network_service.html#acf04155926d7461e63432034869d23b7">createServerSocket</a>();</div>
@@ -219,7 +219,7 @@ $(function(){initNavTree('_network_service_8hpp_source.html',''); initResizable(
 </div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclass_i_counter_html"><div class="ttname"><a href="class_i_counter.html">ICounter</a></div><div class="ttdef"><b>Definition</b> ICounter.hpp:8</div></div>
+<div class="ttc" id="aclass_i_counter_html"><div class="ttname"><a href="class_i_counter.html">ICounter</a></div><div class="ttdef"><b>Definition</b> ICounter.hpp:10</div></div>
 <div class="ttc" id="aclass_mime_type_html"><div class="ttname"><a href="class_mime_type.html">MimeType</a></div><div class="ttdef"><b>Definition</b> MimeType.hpp:12</div></div>
 <div class="ttc" id="aclass_network_service_html"><div class="ttname"><a href="class_network_service.html">NetworkService</a></div><div class="ttdef"><b>Definition</b> NetworkService.hpp:23</div></div>
 <div class="ttc" id="aclass_network_service_html_a16ed9bd4de8e026601eca26611647507"><div class="ttname"><a href="class_network_service.html#a16ed9bd4de8e026601eca26611647507">NetworkService::closeAndCleanupSocket</a></div><div class="ttdeci">void closeAndCleanupSocket(std::vector&lt; struct pollfd &gt;::iterator &amp;it)</div><div class="ttdoc">ソケットを閉じ、関連するリソースをクリーンアップします。</div><div class="ttdef"><b>Definition</b> handleSendResponses.cpp:67</div></div>
@@ -247,7 +247,7 @@ $(function(){initNavTree('_network_service_8hpp_source.html',''); initResizable(
 <div class="ttc" id="aclass_network_service_html_afc2ce78b98367413538d7d84537b867e"><div class="ttname"><a href="class_network_service.html#afc2ce78b98367413538d7d84537b867e">NetworkService::handleRecvRequests</a></div><div class="ttdeci">void handleRecvRequests()</div><div class="ttdoc">すべてのクライアントソケットからのリクエストを処理します。</div><div class="ttdef"><b>Definition</b> handleRecvRequests.cpp:60</div></div>
 <div class="ttc" id="aclass_port_mapping_html"><div class="ttname"><a href="class_port_mapping.html">PortMapping</a></div><div class="ttdef"><b>Definition</b> PortMapping.hpp:9</div></div>
 <div class="ttc" id="aclass_server_directive_html"><div class="ttname"><a href="class_server_directive.html">ServerDirective</a></div><div class="ttdef"><b>Definition</b> ServerDirective.hpp:14</div></div>
-<div class="ttc" id="aclass_tokenize_html"><div class="ttname"><a href="class_tokenize.html">Tokenize</a></div><div class="ttdef"><b>Definition</b> Tokenize.hpp:32</div></div>
+<div class="ttc" id="aclass_tokenize_html"><div class="ttname"><a href="class_tokenize.html">Tokenize</a></div><div class="ttdef"><b>Definition</b> Tokenize.hpp:34</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

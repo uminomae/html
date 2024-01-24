@@ -16,6 +16,7 @@ var hierarchy =
       [ "AutoIndexState", "class_auto_index_state.html", null ],
       [ "CgiExecutionState", "class_cgi_execution_state.html", null ],
       [ "ContentExtractionState", "class_content_extraction_state.html", null ],
+      [ "DeleteMethodState", "class_delete_method_state.html", null ],
       [ "FilePathGenerationState", "class_file_path_generation_state.html", null ],
       [ "HeaderParserStream", "class_header_parser_stream.html", null ],
       [ "IdentifyLocationState", "class_identify_location_state.html", null ],

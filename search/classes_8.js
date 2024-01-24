@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mimetype_0',['MimeType',['../class_mime_type.html',1,'']]]
+  ['locationdirective_0',['LocationDirective',['../class_location_directive.html',1,'']]]
 ];

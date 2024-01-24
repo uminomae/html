@@ -103,30 +103,42 @@ $(function(){initNavTree('_http_workflow_manager_8hpp_source.html',''); initResi
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor"># define HTTP_REQUEST_WORKFLOW</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor"># include &quot;IHttpWorkflowManager.hpp&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor"># include &quot;ResponseStrBuildState.hpp&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="class_http_workflow_manager.html">    7</a></span><span class="keyword">class </span><a class="code hl_class" href="class_http_workflow_manager.html">HttpWorkflowManager</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_i_http_workflow_manager.html">IHttpWorkflowManager</a>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <a class="code hl_class" href="class_http_transaction.html">HttpTransaction</a>&amp; _httpTransaction;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <a class="code hl_class" href="class_http_workflow_manager.html">HttpWorkflowManager</a>(<a class="code hl_class" href="class_http_transaction.html">HttpTransaction</a>&amp; httpTransaction)</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        :   _httpTransaction(httpTransaction)</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        {}</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_http_workflow_manager.html#a0014db595ae6547c54ab46f4f3901ea9">findValidFilePath</a>();</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">void</span> respondImmediately(<a class="code hl_class" href="class_http_transaction.html">HttpTransaction</a> &amp;httpTransaction, <a class="code hl_class" href="class_response_str_build_state.html">ResponseStrBuildState</a> &amp;responseStrBuildState);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">void</span> decideImmediateResponseOrProcessing();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737">handleHttpProcessingStep</a>();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor"># include &quot;HttpTransaction.hpp&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor"># include &quot;ParsingBodyState.hpp&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor"># include &quot;FilePathGenerationState.hpp&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor"># include &quot;ContentExtractionState.hpp&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor"># include &quot;CgiExecutionState.hpp&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor"># include &quot;ResponseStrBuildState.hpp&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor"># include &quot;HeaderParserStream.hpp&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor"># include &quot;IdentifyLocationState.hpp&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor"># include &quot;AutoIndexState.hpp&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor"># include &quot;DeleteMethodState.hpp&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_http_workflow_manager.html">   16</a></span><span class="keyword">class </span><a class="code hl_class" href="class_http_workflow_manager.html">HttpWorkflowManager</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_i_http_workflow_manager.html">IHttpWorkflowManager</a>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_class" href="class_http_transaction.html">HttpTransaction</a>&amp; _httpTransaction;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_class" href="class_socket_state.html">SocketState</a>&amp;    _socketState;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_class" href="class_http_workflow_manager.html">HttpWorkflowManager</a>(<a class="code hl_class" href="class_http_transaction.html">HttpTransaction</a>&amp; httpTransaction, <a class="code hl_class" href="class_socket_state.html">SocketState</a>&amp; socketState)</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        :   _httpTransaction(httpTransaction),</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            _socketState(socketState)</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        {}</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_http_workflow_manager.html#a0014db595ae6547c54ab46f4f3901ea9">findValidFilePath</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> respondImmediately(<a class="code hl_class" href="class_response_str_build_state.html">ResponseStrBuildState</a> &amp;responseStrBuildState);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">bool</span> shouldImmediateResponseOrProcessing();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737">handleHttpProcessingStep</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
 </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclass_http_transaction_html"><div class="ttname"><a href="class_http_transaction.html">HttpTransaction</a></div><div class="ttdef"><b>Definition</b> HttpTransaction.hpp:26</div></div>
-<div class="ttc" id="aclass_http_workflow_manager_html"><div class="ttname"><a href="class_http_workflow_manager.html">HttpWorkflowManager</a></div><div class="ttdef"><b>Definition</b> HttpWorkflowManager.hpp:7</div></div>
-<div class="ttc" id="aclass_http_workflow_manager_html_a0014db595ae6547c54ab46f4f3901ea9"><div class="ttname"><a href="class_http_workflow_manager.html#a0014db595ae6547c54ab46f4f3901ea9">HttpWorkflowManager::findValidFilePath</a></div><div class="ttdeci">bool findValidFilePath()</div><div class="ttdoc">有効なファイルパスを探索します。</div><div class="ttdef"><b>Definition</b> HttpWorkflowManager.cpp:37</div></div>
-<div class="ttc" id="aclass_http_workflow_manager_html_a09d2f69d56764717d9c9f65192ab6737"><div class="ttname"><a href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737">HttpWorkflowManager::handleHttpProcessingStep</a></div><div class="ttdeci">void handleHttpProcessingStep()</div><div class="ttdoc">HTTPトランザクションの状態に応じたハンドラを実行します。</div><div class="ttdef"><b>Definition</b> HttpWorkflowManager.cpp:123</div></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_http_transaction_html"><div class="ttname"><a href="class_http_transaction.html">HttpTransaction</a></div><div class="ttdef"><b>Definition</b> HttpTransaction.hpp:27</div></div>
+<div class="ttc" id="aclass_http_workflow_manager_html"><div class="ttname"><a href="class_http_workflow_manager.html">HttpWorkflowManager</a></div><div class="ttdef"><b>Definition</b> HttpWorkflowManager.hpp:16</div></div>
+<div class="ttc" id="aclass_http_workflow_manager_html_a0014db595ae6547c54ab46f4f3901ea9"><div class="ttname"><a href="class_http_workflow_manager.html#a0014db595ae6547c54ab46f4f3901ea9">HttpWorkflowManager::findValidFilePath</a></div><div class="ttdeci">bool findValidFilePath()</div><div class="ttdoc">有効なファイルパスを探索します。</div><div class="ttdef"><b>Definition</b> HttpWorkflowManager.cpp:26</div></div>
+<div class="ttc" id="aclass_http_workflow_manager_html_a09d2f69d56764717d9c9f65192ab6737"><div class="ttname"><a href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737">HttpWorkflowManager::handleHttpProcessingStep</a></div><div class="ttdeci">void handleHttpProcessingStep()</div><div class="ttdoc">HTTPトランザクションの状態に応じたハンドラを実行します。</div><div class="ttdef"><b>Definition</b> HttpWorkflowManager.cpp:113</div></div>
 <div class="ttc" id="aclass_i_http_workflow_manager_html"><div class="ttname"><a href="class_i_http_workflow_manager.html">IHttpWorkflowManager</a></div><div class="ttdef"><b>Definition</b> IHttpWorkflowManager.hpp:7</div></div>
 <div class="ttc" id="aclass_response_str_build_state_html"><div class="ttname"><a href="class_response_str_build_state.html">ResponseStrBuildState</a></div><div class="ttdef"><b>Definition</b> ResponseStrBuildState.hpp:11</div></div>
+<div class="ttc" id="aclass_socket_state_html"><div class="ttname"><a href="class_socket_state.html">SocketState</a></div><div class="ttdef"><b>Definition</b> SocketState.hpp:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

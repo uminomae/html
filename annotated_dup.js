@@ -5,6 +5,7 @@ var annotated_dup =
     [ "BaseCounter", "class_base_counter.html", "class_base_counter" ],
     [ "CgiExecutionState", "class_cgi_execution_state.html", "class_cgi_execution_state" ],
     [ "ContentExtractionState", "class_content_extraction_state.html", "class_content_extraction_state" ],
+    [ "DeleteMethodState", "class_delete_method_state.html", "class_delete_method_state" ],
     [ "ErrorCounter", "class_error_counter.html", null ],
     [ "FilePathGenerationState", "class_file_path_generation_state.html", "class_file_path_generation_state" ],
     [ "HeaderParserStream", "class_header_parser_stream.html", "class_header_parser_stream" ],
