@@ -4,4 +4,6 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,46,195,41,196,46,164,51"/>
 <area shape="rect" id="Node000003" href="$class_response_str_build_state.html#a71e4e179bf069803d09000ef75331d5d" title="レスポンスヘッダーに適切なContent&#45;Typeを設定します。" alt="" coords="240,71,413,111"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,67,225,75,225,80,163,72"/>
+<area shape="rect" id="Node000004" href="$class_mime_type.html#a4a1e37154291b98f207140579af47e9a" title="指定された拡張子に対応するMIMEタイプのテキストを取得します。" alt="" coords="490,78,668,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="413,88,474,88,474,94,413,94"/>
 </map>

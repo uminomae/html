@@ -1,9 +1,9 @@
 <map id="SocketState" name="SocketState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="238,823,399,1168"/>
-<area shape="rect" id="Node000002" href="$class_server_directive.html" title=" " alt="" coords="5,5,195,760"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,759,203,798,232,858,227,861,198,800,183,760"/>
-<area shape="rect" id="Node000003" href="$class_location_directive.html" title=" " alt="" coords="219,180,418,585"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="321,585,321,806,316,806,316,585"/>
-<area shape="rect" id="Node000004" href="$struct_socket_state_1_1_content_disposition.html" title=" " alt="" coords="442,330,646,435"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="541,435,530,509,512,601,486,702,450,800,411,874,406,872,446,798,481,700,507,600,525,508,536,435"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="238,788,399,1134"/>
+<area shape="rect" id="Node000002" href="$class_server_directive.html" title=" " alt="" coords="5,5,195,725"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,724,203,763,232,823,227,825,198,765,182,726"/>
+<area shape="rect" id="Node000003" href="$class_location_directive.html" title=" " alt="" coords="219,163,418,568"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="321,568,321,771,316,771,316,568"/>
+<area shape="rect" id="Node000004" href="$struct_socket_state_1_1_content_disposition.html" title=" " alt="" coords="442,313,646,418"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="540,418,529,488,511,576,485,672,450,765,411,839,406,837,446,763,480,670,505,575,523,487,535,417"/>
 </map>

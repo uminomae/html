@@ -1,0 +1,9 @@
+<map id="ServerDirective::parseConfig" name="ServerDirective::parseConfig">
+<area shape="rect" id="Node000001" title="サーバーディレクティブの設定を解析します。" alt="" coords="5,70,195,96"/>
+<area shape="rect" id="Node000002" href="$class_server_directive.html#aeb33f2a4fc463d28b9b207d18f1f08af" title="&#39;error_page&#39; ディレクティブを解析し、エラーページのマッピングを設定します。" alt="" coords="265,5,445,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,67,249,47,250,52,161,72"/>
+<area shape="rect" id="Node000003" href="$class_server_directive.html#ab2dbec0e31d00d78f312727ba93b4dcf" title="&#39;listen&#39; ディレクティブを解析し、ポートとデフォルトサーバーフラグを設定します。" alt="" coords="262,70,448,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,80,246,80,246,86,195,86"/>
+<area shape="rect" id="Node000004" href="$class_server_directive.html#acb63a76594459207df65283ed4a00c50" title="&#39;server_name&#39; ディレクティブを解析し、サーバー名を設定します。" alt="" coords="243,120,467,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="171,94,270,113,269,119,170,99"/>
+</map>

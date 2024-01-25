@@ -1,0 +1,19 @@
+<map id="LocationDirective::parseEachLocationDirective" name="LocationDirective::parseEachLocationDirective">
+<area shape="rect" id="Node000001" title="&#39;location&#39; ブロック全体を解析し、対応する設定を適用します。" alt="" coords="5,201,190,242"/>
+<area shape="rect" id="Node000002" href="$class_location_directive.html#a089d2acd839f9992be2fe68db7934bc1" title="&#39;location&#39; ブロック内の各行を解析し、対応する設定を適用します。" alt="" coords="238,201,394,242"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,219,222,219,222,224,190,224"/>
+<area shape="rect" id="Node000003" href="$class_location_directive.html#a2435b82c4f25bc10a1567bde065acac9" title="&#39;autoindex&#39; ディレクティブを解析し、自動インデックスの有効/無効を設定します。" alt="" coords="461,5,591,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="326,199,370,131,403,91,440,57,448,52,451,56,444,61,407,95,375,134,330,202"/>
+<area shape="rect" id="Node000004" href="$class_location_directive.html#a481b18a7c43f4267d93c5c6a48acd619" title="&#39;cgi_path&#39; ディレクティブを解析し、CGIのパスを設定します。" alt="" coords="461,71,591,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="338,199,384,161,441,122,452,116,454,121,443,127,387,165,341,203"/>
+<area shape="rect" id="Node000005" href="$class_location_directive.html#acec63901e80b5b18189dd78101f78526" title="&#39;client_max_body_size&#39; ディレクティブを解析し、最大ボディサイズを設定します。" alt="" coords="442,136,610,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="383,198,443,179,445,184,384,203"/>
+<area shape="rect" id="Node000006" href="$class_location_directive.html#a47dd4eae25b62edbd9693a4504b1f278" title="&#39;allow&#39; ディレクティブを解析し、許可されたHTTPメソッドを設定します。" alt="" coords="461,201,591,242"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="394,219,445,219,445,224,394,224"/>
+<area shape="rect" id="Node000007" href="$class_location_directive.html#aadbf69212c7c8483b912e3dbc64e4ac3" title="&#39;location&#39; ブロック内の各行を解析し、対応する設定を適用します。" alt="" coords="461,267,591,307"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="384,240,447,260,446,265,383,245"/>
+<area shape="rect" id="Node000008" href="$class_location_directive.html#a88c084d5e69fdde8a296108a6067aba6" title="&#39;redirect&#39; ディレクティブを解析し、新しいリダイレクト先のロケーションを返します。" alt="" coords="461,332,591,373"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="341,240,387,278,443,317,454,323,452,327,441,321,384,282,338,244"/>
+<area shape="rect" id="Node000009" href="$class_location_directive.html#a3836fa51b33f783c126241e063637381" title="&#39;root&#39; ディレクティブを解析し、ルートディレクトリを設定します。" alt="" coords="461,397,591,438"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="330,241,375,310,407,348,444,382,451,387,448,392,440,386,403,352,370,313,326,244"/>
+</map>

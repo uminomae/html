@@ -1,19 +1,54 @@
 <map id="ServerManeger::setupServers" name="ServerManeger::setupServers">
-<area shape="rect" id="Node000001" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="5,194,200,220"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="248,153,432,194"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,191,232,186,232,191,199,196"/>
-<area shape="rect" id="Node000009" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="253,219,427,259"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="201,218,238,223,237,228,200,223"/>
-<area shape="rect" id="Node000003" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="488,5,672,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="359,151,411,103,443,78,479,55,488,50,491,55,481,60,447,82,414,107,363,155"/>
-<area shape="rect" id="Node000004" href="$class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234" title="サーバーソケットにアドレスをバインドします。" alt="" coords="493,70,666,96"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="379,150,426,128,479,106,503,98,505,103,481,111,429,132,382,155"/>
-<area shape="rect" id="Node000005" href="$class_network_service.html#abb307c95e97d912803bff29f67f533ca" title="サーバーアドレスを設定します。" alt="" coords="492,120,667,161"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="432,158,476,152,477,157,433,163"/>
-<area shape="rect" id="Node000006" href="$class_network_service.html#acf04155926d7461e63432034869d23b7" title="サーバーソケットを作成します。" alt="" coords="482,185,678,226"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="433,183,466,188,466,193,432,189"/>
-<area shape="rect" id="Node000007" href="$class_network_service.html#a9e89f1cabbeac6f1b6f8fd5c2fdc49df" title="サーバーソケットをリスニング状態に設定します。" alt="" coords="483,250,677,276"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="405,192,433,205,457,221,481,235,500,243,498,248,479,240,454,225,431,209,402,197"/>
-<area shape="rect" id="Node000008" href="$class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="480,300,679,341"/>
-<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="415,192,434,205,451,226,458,247,466,267,482,286,486,290,483,294,478,290,461,270,453,249,446,229,430,209,412,197"/>
+<area shape="rect" id="Node000001" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="5,247,200,272"/>
+<area shape="rect" id="Node000002" href="$class_server_maneger.html#a7e69e2e48664fcd910c6bc0c7910b1d8" title="サーバーの設定が有効かどうかを包括的に検証します。" alt="" coords="248,56,441,82"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,244,246,141,312,89,315,94,249,146,122,248"/>
+<area shape="rect" id="Node000004" href="$class_server_maneger.html#a539b692869df51d4655d8ab7633a3174" title="設定ファイルからサーバーの設定をロードします。" alt="" coords="260,156,429,182"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,244,292,185,294,190,140,249"/>
+<area shape="rect" id="Node000019" href="$class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="252,358,437,399"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="132,270,289,348,286,353,130,275"/>
+<area shape="rect" id="Node000026" href="$class_network_service.html#a34440b127df8820b685c1fd564b0a558" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="257,423,432,464"/>
+<area shape="poly" id="edge26_Node000001_Node000026" title=" " alt="" coords="115,271,167,336,206,374,249,408,259,414,256,418,246,412,202,378,163,340,111,274"/>
+<area shape="rect" id="Node000003" href="$class_server_maneger.html#a7b8d953ccac8c75380e44d75686f3cfd" title="特定のサーバーディレクティブ内の全てのロケーションが有効かどうかを検証します。" alt="" coords="496,5,700,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,53,515,32,516,37,413,58"/>
+<area shape="rect" id="Node000005" href="$class_server_maneger.html#ab85c0f24ea66d5951ade724c94ff932b" title="サーバーの設定をデバッグ出力します。" alt="" coords="489,55,706,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="369,153,423,126,488,97,529,83,531,88,490,102,425,131,371,158"/>
+<area shape="rect" id="Node000006" href="$class_tokenize.html#acf7d3a1cee21380ea1a596e61ae27774" title="設定ファイルを読み込み、トークンに分解します。" alt="" coords="797,81,918,107"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="418,153,489,141,781,101,781,106,489,146,419,158"/>
+<area shape="rect" id="Node000009" href="$class_server_maneger.html#ac0128511c28b21b1a775578509398e3a" title="トークン化されたリストからMIMEタイプをロードし、解析します。" alt="" coords="497,156,698,182"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="429,166,481,166,481,172,429,172"/>
+<area shape="rect" id="Node000012" href="$class_server_maneger.html#afcedc1e46b927733e53c040fa70b706d" title="トークン化されたリストからサーバーディレクティブをロードし、解析します。" alt="" coords="508,206,687,247"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="405,180,493,200,492,205,404,185"/>
+<area shape="rect" id="Node000007" href="$class_tokenize.html#af6202cedb1dcd84de7c2dee8f3c03ef6" title="文字列が特定の位置で分割可能かどうかを判断します。" alt="" coords="1046,56,1196,82"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="918,86,1030,75,1030,80,919,91"/>
+<area shape="rect" id="Node000008" href="$class_tokenize.html#acfb21354a423dafba497f2d0bc9dad09" title="文字列の特定の位置から以降の部分を取り出します。" alt="" coords="1052,105,1190,131"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="919,97,1037,108,1036,113,918,102"/>
+<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="646,153,705,134,753,116,781,108,783,113,755,121,707,139,648,158"/>
+<area shape="rect" id="Node000010" href="$class_mime_type.html#a98e7168c201130ecd78b7fa81e7e9289" title="MIMEタイプマップが空かどうかをチェックします。" alt="" coords="755,131,960,156"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="699,156,739,152,740,158,699,162"/>
+<area shape="rect" id="Node000011" href="$class_mime_type.html#a93f75fb6da628e1cea74ebb22a402088" title="MIMEタイプマップに新しいエントリーを設定します。" alt="" coords="775,180,940,206"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="699,175,760,181,759,186,699,181"/>
+<area shape="rect" id="Node000013" href="$class_server_maneger.html#aad06fe54e9e185495b16ab553a970287" title="与えられたサーバーディレクティブが空でなければ、それをサーバーディレクティブのリストに追加します。" alt="" coords="754,230,961,271"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="688,232,739,237,739,242,688,237"/>
+<area shape="rect" id="Node000015" href="$class_server_directive.html#a4cf97188b3403cfae098bbd0be1abd83" title="サーバーディレクティブの設定を解析します。" alt="" coords="763,309,952,335"/>
+<area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="672,245,707,257,755,280,807,301,805,306,753,285,705,262,670,250"/>
+<area shape="rect" id="Node000014" href="$class_server_directive.html#a34bf68f86c504558c00e51c10a689aec" title="サーバーディレクティブがデフォルト値のままかどうかを判断します。" alt="" coords="1035,223,1207,248"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="961,242,1019,238,1020,244,961,247"/>
+<area shape="rect" id="Node000016" href="$class_server_directive.html#aeb33f2a4fc463d28b9b207d18f1f08af" title="&#39;error_page&#39; ディレクティブを解析し、エラーページのマッピングを設定します。" alt="" coords="1031,273,1211,313"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="952,309,1015,302,1016,307,953,314"/>
+<area shape="rect" id="Node000017" href="$class_server_directive.html#ab2dbec0e31d00d78f312727ba93b4dcf" title="&#39;listen&#39; ディレクティブを解析し、ポートとデフォルトサーバーフラグを設定します。" alt="" coords="1028,337,1214,363"/>
+<area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="953,330,1012,336,1012,341,952,335"/>
+<area shape="rect" id="Node000018" href="$class_server_directive.html#acb63a76594459207df65283ed4a00c50" title="&#39;server_name&#39; ディレクティブを解析し、サーバー名を設定します。" alt="" coords="1009,387,1233,412"/>
+<area shape="poly" id="edge18_Node000015_Node000018" title=" " alt="" coords="893,333,1009,373,1037,380,1035,385,1008,378,891,338"/>
+<area shape="rect" id="Node000020" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="506,271,690,312"/>
+<area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="397,355,488,321,508,314,510,319,490,326,399,360"/>
+<area shape="rect" id="Node000021" href="$class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234" title="サーバーソケットにアドレスをバインドします。" alt="" coords="511,336,684,362"/>
+<area shape="poly" id="edge21_Node000019_Node000021" title=" " alt="" coords="437,365,496,358,496,363,437,370"/>
+<area shape="rect" id="Node000022" href="$class_network_service.html#abb307c95e97d912803bff29f67f533ca" title="サーバーアドレスを設定します。" alt="" coords="510,386,685,427"/>
+<area shape="poly" id="edge22_Node000019_Node000022" title=" " alt="" coords="437,386,495,392,494,397,437,391"/>
+<area shape="rect" id="Node000023" href="$class_network_service.html#acf04155926d7461e63432034869d23b7" title="サーバーソケットを作成します。" alt="" coords="500,451,696,492"/>
+<area shape="poly" id="edge23_Node000019_Node000023" title=" " alt="" coords="411,397,442,409,490,436,509,443,507,448,488,441,440,414,409,402"/>
+<area shape="rect" id="Node000024" href="$class_network_service.html#a9e89f1cabbeac6f1b6f8fd5c2fdc49df" title="サーバーソケットをリスニング状態に設定します。" alt="" coords="501,516,695,542"/>
+<area shape="poly" id="edge24_Node000019_Node000024" title=" " alt="" coords="424,397,443,410,460,433,467,457,473,480,491,502,498,506,495,511,487,505,469,483,462,459,456,436,439,413,421,401"/>
+<area shape="rect" id="Node000025" href="$class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161" title="サーバーソケットとリッスンポートのマッピングを設定します。" alt="" coords="498,566,697,607"/>
+<area shape="poly" id="edge25_Node000019_Node000025" title=" " alt="" coords="426,397,443,410,457,428,464,447,467,483,470,518,477,535,491,552,493,555,490,558,487,556,473,538,465,520,462,483,459,448,452,431,439,413,423,401"/>
 </map>

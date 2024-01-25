@@ -1,0 +1,14 @@
+<map id="Tokenize::ftLexer" name="Tokenize::ftLexer">
+<area shape="rect" id="Node000001" title="設定ファイルを読み込み、トークンに分解します。" alt="" coords="1232,5,1353,31"/>
+<area shape="rect" id="Node000002" href="$class_server_maneger.html#a539b692869df51d4655d8ab7633a3174" title="設定ファイルからサーバーの設定をロードします。" alt="" coords="765,5,935,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1217,21,935,21,935,16,1217,16"/>
+<area shape="rect" id="Node000006" href="$class_server_maneger.html#ac0128511c28b21b1a775578509398e3a" title="トークン化されたリストからMIMEタイプをロードし、解析します。" alt="" coords="983,31,1184,56"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1217,30,1185,34,1184,29,1216,25"/>
+<area shape="rect" id="Node000003" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,5,717,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="749,21,718,21,718,16,749,16"/>
+<area shape="rect" id="Node000004" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,5,475,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="507,21,476,21,476,16,507,16"/>
+<area shape="rect" id="Node000005" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,5,207,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="239,21,207,21,207,16,239,16"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="967,34,935,30,935,25,967,28"/>
+</map>

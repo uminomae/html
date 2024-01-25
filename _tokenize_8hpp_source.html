@@ -135,8 +135,8 @@ $(function(){initNavTree('_tokenize_8hpp_source.html',''); initResizable(); });
 <div class="foldopen" id="foldopen00034" data-start="{" data-end="};">
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_tokenize.html">   34</a></span><span class="keyword">class </span><a class="code hl_class" href="class_tokenize.html">Tokenize</a> {</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">bool</span> is_splittable(std::string line, <span class="keywordtype">size_t</span> pos);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    std::string storeRest(std::string line, <span class="keywordtype">size_t</span> pos);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_tokenize.html#af6202cedb1dcd84de7c2dee8f3c03ef6">is_splittable</a>(std::string line, <span class="keywordtype">size_t</span> pos);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    std::string <a class="code hl_function" href="class_tokenize.html#acfb21354a423dafba497f2d0bc9dad09">storeRest</a>(std::string line, <span class="keywordtype">size_t</span> pos);</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">enum</span> TokenType {</div>
@@ -172,14 +172,18 @@ $(function(){initNavTree('_tokenize_8hpp_source.html',''); initResizable(); });
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    };</div>
 </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::vector&lt;Token&gt; ftLexer(std::ifstream &amp;ifs);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::vector&lt;Token&gt; <a class="code hl_function" href="class_tokenize.html#acf7d3a1cee21380ea1a596e61ae27774">ftLexer</a>(std::ifstream &amp;ifs);</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    std::vector&lt;Token&gt; ftLexerRequest(std::string strRequest);</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> debugPutTokens(std::vector&lt;Token&gt; vecToken);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_tokenize.html#a2fd772c716304fc8c369e81136f28712">debugPutTokens</a>(std::vector&lt;Token&gt; vecToken);</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>};</div>
 </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclass_tokenize_html"><div class="ttname"><a href="class_tokenize.html">Tokenize</a></div><div class="ttdef"><b>Definition</b> Tokenize.hpp:34</div></div>
+<div class="ttc" id="aclass_tokenize_html_a2fd772c716304fc8c369e81136f28712"><div class="ttname"><a href="class_tokenize.html#a2fd772c716304fc8c369e81136f28712">Tokenize::debugPutTokens</a></div><div class="ttdeci">void debugPutTokens(std::vector&lt; Token &gt; vecToken)</div><div class="ttdoc">トークンのリストをデバッグ出力します。</div><div class="ttdef"><b>Definition</b> tokenize.cpp:15</div></div>
+<div class="ttc" id="aclass_tokenize_html_acf7d3a1cee21380ea1a596e61ae27774"><div class="ttname"><a href="class_tokenize.html#acf7d3a1cee21380ea1a596e61ae27774">Tokenize::ftLexer</a></div><div class="ttdeci">std::vector&lt; Token &gt; ftLexer(std::ifstream &amp;ifs)</div><div class="ttdoc">設定ファイルを読み込み、トークンに分解します。</div><div class="ttdef"><b>Definition</b> tokenize.cpp:72</div></div>
+<div class="ttc" id="aclass_tokenize_html_acfb21354a423dafba497f2d0bc9dad09"><div class="ttname"><a href="class_tokenize.html#acfb21354a423dafba497f2d0bc9dad09">Tokenize::storeRest</a></div><div class="ttdeci">std::string storeRest(std::string line, size_t pos)</div><div class="ttdoc">文字列の特定の位置から以降の部分を取り出します。</div><div class="ttdef"><b>Definition</b> tokenize.cpp:52</div></div>
+<div class="ttc" id="aclass_tokenize_html_af6202cedb1dcd84de7c2dee8f3c03ef6"><div class="ttname"><a href="class_tokenize.html#af6202cedb1dcd84de7c2dee8f3c03ef6">Tokenize::is_splittable</a></div><div class="ttdeci">bool is_splittable(std::string line, size_t pos)</div><div class="ttdoc">文字列が特定の位置で分割可能かどうかを判断します。</div><div class="ttdef"><b>Definition</b> tokenize.cpp:33</div></div>
 <div class="ttc" id="astruct_tokenize_1_1_token_html"><div class="ttname"><a href="struct_tokenize_1_1_token.html">Tokenize::Token</a></div><div class="ttdef"><b>Definition</b> Tokenize.hpp:66</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

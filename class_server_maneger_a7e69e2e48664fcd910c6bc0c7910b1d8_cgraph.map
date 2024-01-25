@@ -1,0 +1,5 @@
+<map id="ServerManeger::isValidConfig" name="ServerManeger::isValidConfig">
+<area shape="rect" id="Node000001" title="サーバーの設定が有効かどうかを包括的に検証します。" alt="" coords="5,5,199,31"/>
+<area shape="rect" id="Node000002" href="$class_server_maneger.html#a7b8d953ccac8c75380e44d75686f3cfd" title="特定のサーバーディレクティブ内の全てのロケーションが有効かどうかを検証します。" alt="" coords="247,5,451,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,16,231,16,231,21,199,21"/>
+</map>

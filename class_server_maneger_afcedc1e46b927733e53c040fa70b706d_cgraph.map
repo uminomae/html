@@ -1,0 +1,15 @@
+<map id="ServerManeger::loadServerDirectives" name="ServerManeger::loadServerDirectives">
+<area shape="rect" id="Node000001" title="トークン化されたリストからサーバーディレクティブをロードし、解析します。" alt="" coords="5,57,185,97"/>
+<area shape="rect" id="Node000002" href="$class_server_maneger.html#aad06fe54e9e185495b16ab553a970287" title="与えられたサーバーディレクティブが空でなければ、それをサーバーディレクティブのリストに追加します。" alt="" coords="233,13,439,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,58,217,52,218,57,186,63"/>
+<area shape="rect" id="Node000004" href="$class_server_directive.html#a4cf97188b3403cfae098bbd0be1abd83" title="サーバーディレクティブの設定を解析します。" alt="" coords="241,92,431,118"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,85,226,89,225,95,185,90"/>
+<area shape="rect" id="Node000003" href="$class_server_directive.html#a34bf68f86c504558c00e51c10a689aec" title="サーバーディレクティブがデフォルト値のままかどうかを判断します。" alt="" coords="514,5,685,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="439,24,498,21,498,26,440,30"/>
+<area shape="rect" id="Node000005" href="$class_server_directive.html#aeb33f2a4fc463d28b9b207d18f1f08af" title="&#39;error_page&#39; ディレクティブを解析し、エラーページのマッピングを設定します。" alt="" coords="510,55,689,96"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="431,92,494,85,494,90,431,97"/>
+<area shape="rect" id="Node000006" href="$class_server_directive.html#ab2dbec0e31d00d78f312727ba93b4dcf" title="&#39;listen&#39; ディレクティブを解析し、ポートとデフォルトサーバーフラグを設定します。" alt="" coords="506,120,692,146"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="431,112,491,119,490,124,431,118"/>
+<area shape="rect" id="Node000007" href="$class_server_directive.html#acb63a76594459207df65283ed4a00c50" title="&#39;server_name&#39; ディレクティブを解析し、サーバー名を設定します。" alt="" coords="487,169,711,195"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="372,116,488,156,515,163,514,168,486,161,370,121"/>
+</map>

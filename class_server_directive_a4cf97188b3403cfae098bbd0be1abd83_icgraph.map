@@ -1,0 +1,13 @@
+<map id="ServerDirective::parseConfig" name="ServerDirective::parseConfig">
+<area shape="rect" id="Node000001" title="サーバーディレクティブの設定を解析します。" alt="" coords="1210,13,1399,39"/>
+<area shape="rect" id="Node000002" href="$class_server_maneger.html#afcedc1e46b927733e53c040fa70b706d" title="トークン化されたリストからサーバーディレクティブをロードし、解析します。" alt="" coords="983,5,1162,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1195,28,1163,28,1163,23,1195,23"/>
+<area shape="rect" id="Node000003" href="$class_server_maneger.html#a539b692869df51d4655d8ab7633a3174" title="設定ファイルからサーバーの設定をロードします。" alt="" coords="765,13,935,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="967,28,935,28,935,23,967,23"/>
+<area shape="rect" id="Node000004" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="749,28,718,28,718,23,749,23"/>
+<area shape="rect" id="Node000005" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
+<area shape="rect" id="Node000006" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+</map>
