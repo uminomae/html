@@ -1,7 +1,9 @@
 <map id="IdentifyLocationState::handle" name="IdentifyLocationState::handle">
-<area shape="rect" id="Node000001" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="5,5,150,46"/>
+<area shape="rect" id="Node000001" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="5,39,150,79"/>
 <area shape="rect" id="Node000002" href="$class_identify_location_state.html#af41f5b6d4844a68fc735327f57ce8eb7" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="198,5,419,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,23,182,23,182,28,150,28"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,46,182,41,182,47,150,51"/>
+<area shape="rect" id="Node000005" href="$class_identify_location_state.html#a1fe1886fabd208561b2486779ccec9e2" title="現在のリクエストが特定のロケーションディレクティブに適合しているか検証します。" alt="" coords="211,71,406,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="150,66,196,73,195,78,149,72"/>
 <area shape="rect" id="Node000003" href="$class_identify_location_state.html#ab13ab10cecea13ff3f356e1b5733b74c" title="一致する LocationDirective を見つけます。" alt="" coords="467,5,671,46"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="420,23,452,23,452,28,420,28"/>
 <area shape="rect" id="Node000004" href="$class_identify_location_state.html#a2f1d2f1b225301299e336f024cdd5375" title="URIパターンがロケーションディレクティブに一致するかを判断します。" alt="" coords="719,5,865,46"/>

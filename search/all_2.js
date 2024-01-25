@@ -9,7 +9,9 @@ var searchData=
   ['contentdisposition_6',['ContentDisposition',['../struct_socket_state_1_1_content_disposition.html',1,'SocketState']]],
   ['contentextractionstate_7',['ContentExtractionState',['../class_content_extraction_state.html',1,'']]],
   ['convertenvtochararray_8',['convertEnvToCharArray',['../class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a',1,'CgiExecutionState']]],
-  ['createpipeandfork_9',['createPipeAndFork',['../class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69',1,'CgiExecutionState']]],
-  ['createserversocket_10',['createServerSocket',['../class_network_service.html#acf04155926d7461e63432034869d23b7',1,'NetworkService']]],
-  ['createsocketstate_11',['createSocketState',['../class_network_service.html#ae230dece0329581a121b72f4437e0518',1,'NetworkService']]]
+  ['convertstringtovectorchar_9',['convertStringToVectorChar',['../class_util_http_processing_step.html#ab1d0ada09a55a490c0b3eba0cca3770d',1,'UtilHttpProcessingStep']]],
+  ['createboundaryvector_10',['createBoundaryVector',['../class_parsing_multi_part_state.html#add373e606f8fb778e573dc75f1133c9f',1,'ParsingMultiPartState']]],
+  ['createpipeandfork_11',['createPipeAndFork',['../class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69',1,'CgiExecutionState']]],
+  ['createserversocket_12',['createServerSocket',['../class_network_service.html#acf04155926d7461e63432034869d23b7',1,'NetworkService']]],
+  ['createsocketstate_13',['createSocketState',['../class_network_service.html#ae230dece0329581a121b72f4437e0518',1,'NetworkService']]]
 ];

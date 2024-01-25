@@ -13,8 +13,9 @@ var searchData=
   ['setupservers_10',['setupServers',['../class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f',1,'ServerManeger']]],
   ['setupsignalhandlers_11',['setupSignalHandlers',['../class_signal_handler.html#a3ce88a2e5cb8f42256f5487dcb3e6ec3',1,'SignalHandler']]],
   ['shouldclosesocket_12',['shouldCloseSocket',['../class_response_str_build_state.html#ae8c7c1537df7e736a7e4dc652e70a4cd',1,'ResponseStrBuildState']]],
-  ['shouldkeepalive_13',['shouldKeepAlive',['../class_network_service.html#aa2dc5eec9dfb61797bd77abf5a44a218',1,'NetworkService']]],
-  ['signalhandler_14',['SignalHandler',['../class_signal_handler.html',1,'']]],
-  ['socketstate_15',['SocketState',['../class_socket_state.html',1,'']]],
-  ['switchtononblockingsocket_16',['switchToNonBlockingSocket',['../class_network_service.html#a34440b127df8820b685c1fd564b0a558',1,'NetworkService']]]
+  ['shouldimmediateresponseorprocessing_13',['shouldImmediateResponseOrProcessing',['../class_http_workflow_manager.html#adbff49b30d6647cb5381ba3d8cfb809e',1,'HttpWorkflowManager']]],
+  ['shouldkeepalive_14',['shouldKeepAlive',['../class_network_service.html#aa2dc5eec9dfb61797bd77abf5a44a218',1,'NetworkService']]],
+  ['signalhandler_15',['SignalHandler',['../class_signal_handler.html',1,'']]],
+  ['socketstate_16',['SocketState',['../class_socket_state.html',1,'']]],
+  ['switchtononblockingsocket_17',['switchToNonBlockingSocket',['../class_network_service.html#a34440b127df8820b685c1fd564b0a558',1,'NetworkService']]]
 ];

@@ -1,0 +1,22 @@
+<map id="RecvHeaderLexerState::handle" name="RecvHeaderLexerState::handle">
+<area shape="rect" id="Node000001" title="データを逐次的に読み取りながら解析します。" alt="" coords="5,153,163,194"/>
+<area shape="rect" id="Node000002" href="$class_recv_header_lexer_state.html#a1441b2cc3c6a1ec2dde32e9ce51401ce" title="ソケットからメッセージを受信します。" alt="" coords="211,153,368,194"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,171,195,171,195,176,163,176"/>
+<area shape="rect" id="Node000003" href="$class_recv_header_lexer_state.html#a2fb1c8f19c4da01875b5b0d5b21706be" title="受信したHTTPリクエストヘッダーを解析します。" alt="" coords="416,88,575,129"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="355,150,413,131,415,137,356,155"/>
+<area shape="rect" id="Node000009" href="$class_recv_header_lexer_state.html#a5ea2e1151da9d4a3fca01701c4f1726c" title="HTTPリクエストボディを受信します。" alt="" coords="417,153,574,194"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="368,171,402,171,402,176,368,176"/>
+<area shape="rect" id="Node000010" href="$class_recv_header_lexer_state.html#a3066f47225f8ec0d30ad4f23f28aa704" title="受信したデータをベクターに追加します。" alt="" coords="623,183,783,223"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="360,192,416,203,515,209,608,208,608,213,515,215,416,208,359,197"/>
+<area shape="rect" id="Node000004" href="$class_recv_header_lexer_state.html#a31ce5f70bd1b92a244c088754b477dac" title="HTTPリクエストヘッダーを解析します。" alt="" coords="624,37,782,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="575,86,608,78,610,83,576,91"/>
+<area shape="rect" id="Node000008" href="$class_recv_header_lexer_state.html#a4faa36d2d433a322cdf901034bc3b211" title="HTTPリクエストラインを解析します。" alt="" coords="624,103,782,143"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="576,111,609,114,609,119,575,117"/>
+<area shape="rect" id="Node000005" href="$class_recv_header_lexer_state.html#a8b0c1ad97358c8a62bc4c0d6cd15e203" title="特定のHTTPヘッダーを処理し、関連する情報を格納します。" alt="" coords="831,5,990,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="782,43,815,38,816,43,783,48"/>
+<area shape="rect" id="Node000006" href="$class_recv_header_lexer_state.html#aedc82177dd863bfdc947170fcaece935" title="HTTPヘッダーラインを解析し、キーと値を抽出します。" alt="" coords="832,71,989,111"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="783,68,817,73,816,79,782,73"/>
+<area shape="rect" id="Node000007" href="$class_util_http_processing_step.html#a911a7dc816bdcde8c0bf79c1c9526900" title="文字列の前後の空白をトリミングします。" alt="" coords="1038,71,1196,111"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="989,88,1023,88,1023,94,989,94"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="575,182,608,187,608,192,575,187"/>
+</map>

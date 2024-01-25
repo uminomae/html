@@ -1,0 +1,13 @@
+<map id="ParsingMultiPartState::handle" name="ParsingMultiPartState::handle">
+<area shape="rect" id="Node000001" title="マルチパートフォームデータを解析します。" alt="" coords="5,73,154,114"/>
+<area shape="rect" id="Node000002" href="$class_parsing_multi_part_state.html#a79459c0d525f2dd11bbb61c8eaf9481c" title="マルチパートフォームデータの解析を行います。" alt="" coords="205,37,377,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,78,190,72,190,77,154,84"/>
+<area shape="rect" id="Node000006" href="$class_parsing_multi_part_state.html#adb42722cea83399d44c210f26530aa54" title="parseしたヘッダーから Content&#45;Disposition を復元するように再構築します。" alt="" coords="202,102,380,158"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="154,104,187,109,186,114,153,109"/>
+<area shape="rect" id="Node000003" href="$class_parsing_multi_part_state.html#add373e606f8fb778e573dc75f1133c9f" title="バウンダリ文字列を作成します。" alt="" coords="428,5,586,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="376,42,412,37,413,42,377,48"/>
+<area shape="rect" id="Node000004" href="$class_parsing_multi_part_state.html#aafcdeadbf09c42914c2cb91ea07111eb" title="ヘッダー全体を解析し、それをマップに格納します。" alt="" coords="430,71,585,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="377,68,414,74,414,79,376,73"/>
+<area shape="rect" id="Node000005" href="$class_parsing_multi_part_state.html#ab57c95e14529c7ae5defa0abd24667ad" title="マルチパートヘッダーのデータからキーと値のペアを抽出し、マップに追加します。" alt="" coords="634,71,804,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="585,88,619,88,619,94,585,94"/>
+</map>

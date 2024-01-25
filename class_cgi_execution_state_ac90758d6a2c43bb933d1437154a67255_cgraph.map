@@ -1,7 +1,13 @@
 <map id="CgiExecutionState::parseCgiResult" name="CgiExecutionState::parseCgiResult">
-<area shape="rect" id="Node000001" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="5,39,144,79"/>
-<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html#aaea3ec2c91f6d6d4fb47b251fc5d338e" title=" " alt="" coords="200,5,342,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,45,185,38,186,43,145,50"/>
-<area shape="rect" id="Node000003" href="$class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="192,71,350,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,68,177,73,176,78,144,73"/>
+<area shape="rect" id="Node000001" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="5,71,144,111"/>
+<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html#a50fedd6ac6adc3d9e574a64d20c77f40" title="CGIヘッダー全体を解析します。" alt="" coords="202,5,340,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,68,192,49,194,54,138,73"/>
+<area shape="rect" id="Node000005" href="$class_cgi_execution_state.html#aaea3ec2c91f6d6d4fb47b251fc5d338e" title="改行記号を変換するために使用します" alt="" coords="200,71,342,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="144,88,185,88,185,94,144,94"/>
+<area shape="rect" id="Node000006" href="$class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="192,136,350,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="138,109,194,128,192,133,137,114"/>
+<area shape="rect" id="Node000003" href="$class_cgi_execution_state.html#a6669ad2a2f77e3e230f82c11987e7c75" title="CGIヘッダーラインを解析し、キーと値を抽出します。" alt="" coords="398,5,537,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="341,23,383,23,383,28,341,28"/>
+<area shape="rect" id="Node000004" href="$class_util_http_processing_step.html#a911a7dc816bdcde8c0bf79c1c9526900" title="文字列の前後の空白をトリミングします。" alt="" coords="585,5,744,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="537,23,570,23,570,28,537,28"/>
 </map>

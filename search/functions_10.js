@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xsputn_0',['xsputn',['../class_vector_stream_buf.html#af75d7c01f88d02faed265de3400c2414',1,'VectorStreamBuf']]]
+  ['underflow_0',['underflow',['../class_vector_stream_buf.html#ad2d06311edc85faa0d8572ef57fe35a0',1,'VectorStreamBuf']]]
 ];

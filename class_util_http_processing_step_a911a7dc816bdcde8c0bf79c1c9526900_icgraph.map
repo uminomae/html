@@ -1,0 +1,30 @@
+<map id="UtilHttpProcessingStep::trimSpace" name="UtilHttpProcessingStep::trimSpace">
+<area shape="rect" id="Node000001" title="文字列の前後の空白をトリミングします。" alt="" coords="2005,39,2164,79"/>
+<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html#a6669ad2a2f77e3e230f82c11987e7c75" title="CGIヘッダーラインを解析し、キーと値を抽出します。" alt="" coords="1809,5,1948,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1990,46,1948,40,1949,34,1991,41"/>
+<area shape="rect" id="Node000010" href="$class_recv_header_lexer_state.html#aedc82177dd863bfdc947170fcaece935" title="HTTPヘッダーラインを解析し、キーと値を抽出します。" alt="" coords="1800,71,1957,111"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1990,76,1958,81,1957,76,1990,71"/>
+<area shape="rect" id="Node000003" href="$class_cgi_execution_state.html#a50fedd6ac6adc3d9e574a64d20c77f40" title="CGIヘッダー全体を解析します。" alt="" coords="1604,5,1743,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1793,28,1743,28,1743,23,1793,23"/>
+<area shape="rect" id="Node000004" href="$class_cgi_execution_state.html#ac90758d6a2c43bb933d1437154a67255" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="1398,5,1536,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1589,28,1537,28,1537,23,1589,23"/>
+<area shape="rect" id="Node000005" href="$class_cgi_execution_state.html#a583ea5d0162a7f407a3377b9706d5157" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="986,5,1125,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1382,28,1125,28,1125,23,1382,23"/>
+<area shape="rect" id="Node000006" href="$class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="744,39,929,79"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="971,41,930,48,929,42,970,36"/>
+<area shape="rect" id="Node000007" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="494,39,696,79"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="729,62,697,62,697,56,729,56"/>
+<area shape="rect" id="Node000008" href="$class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,39,446,79"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="478,62,446,62,446,56,478,56"/>
+<area shape="rect" id="Node000009" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="239,62,207,62,207,56,239,56"/>
+<area shape="rect" id="Node000011" href="$class_recv_header_lexer_state.html#a31ce5f70bd1b92a244c088754b477dac" title="HTTPリクエストヘッダーを解析します。" alt="" coords="1595,71,1752,111"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1785,94,1753,94,1753,88,1785,88"/>
+<area shape="rect" id="Node000012" href="$class_recv_header_lexer_state.html#a2fb1c8f19c4da01875b5b0d5b21706be" title="受信したHTTPリクエストヘッダーを解析します。" alt="" coords="1387,71,1547,111"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1579,94,1547,94,1547,88,1579,88"/>
+<area shape="rect" id="Node000013" href="$class_recv_header_lexer_state.html#a1441b2cc3c6a1ec2dde32e9ce51401ce" title="ソケットからメッセージを受信します。" alt="" coords="1182,71,1339,111"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1372,94,1340,94,1340,88,1372,88"/>
+<area shape="rect" id="Node000014" href="$class_recv_header_lexer_state.html#ae494c259cb88bb3b824f6af8672d6376" title="データを逐次的に読み取りながら解析します。" alt="" coords="977,71,1134,111"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1167,94,1135,94,1135,88,1167,88"/>
+<area shape="poly" id="edge14_Node000014_Node000006" title=" " alt="" coords="961,80,929,75,929,70,962,75"/>
+</map>

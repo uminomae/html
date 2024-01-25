@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mapclientsockettolisteningport_0',['mapClientSocketToListeningPort',['../class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5',1,'NetworkService']]]
+  ['listensocket_0',['listenSocket',['../class_network_service.html#a9e89f1cabbeac6f1b6f8fd5c2fdc49df',1,'NetworkService']]]
 ];

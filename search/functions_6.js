@@ -1,15 +1,7 @@
 var searchData=
 [
-  ['handle_0',['handle',['../class_auto_index_state.html#ae84bd50d171c70674d85bf49ef5a5de9',1,'AutoIndexState::handle()'],['../class_cgi_execution_state.html#a583ea5d0162a7f407a3377b9706d5157',1,'CgiExecutionState::handle()'],['../class_content_extraction_state.html#a1b828ff600c1530b66839c5507200cc9',1,'ContentExtractionState::handle()'],['../class_delete_method_state.html#aa04b270749d1d2f1e4558dcf1432f02d',1,'DeleteMethodState::handle()'],['../class_file_path_generation_state.html#a8ba1acd7412f965ec6e82e095f154cf9',1,'FilePathGenerationState::handle()'],['../class_header_parser_stream.html#a00268947d58a510d45b05b2ec7ebeec7',1,'HeaderParserStream::handle()'],['../class_identify_location_state.html#a6d6d0d17c501290cde9ac46f94425b86',1,'IdentifyLocationState::handle()'],['../class_parsing_body_state.html#a7333b1485bcd3623719733afd03ca006',1,'ParsingBodyState::handle()'],['../class_response_str_build_state.html#a7b9feab17aef82874d3bc584a1f67e6f',1,'ResponseStrBuildState::handle()']]],
-  ['handleerrorresponse_1',['handleErrorResponse',['../class_util_http_processing_step.html#a7b8027cc3b454260cfb2334162faf5a5',1,'UtilHttpProcessingStep']]],
-  ['handlehttpprocessingstep_2',['handleHttpProcessingStep',['../class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737',1,'HttpWorkflowManager']]],
-  ['handlemultipartformdata_3',['handleMultiPartFormData',['../class_parsing_body_state.html#a1ec6c83103813cb7fad754f95cae3e64',1,'ParsingBodyState']]],
-  ['handleparentprocess_4',['handleParentProcess',['../class_cgi_execution_state.html#a06397db53835040bc91ef82d21efd538',1,'CgiExecutionState']]],
-  ['handlepoll_5',['handlePoll',['../class_network_service.html#a79b34078f8a4e6c978ab8fae8e4769db',1,'NetworkService']]],
-  ['handlerecvrequests_6',['handleRecvRequests',['../class_network_service.html#afc2ce78b98367413538d7d84537b867e',1,'NetworkService']]],
-  ['handlesendresponses_7',['handleSendResponses',['../class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c',1,'NetworkService']]],
-  ['handleserverevents_8',['handleServerEvents',['../class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4',1,'NetworkService']]],
-  ['handlesignal_9',['handleSignal',['../class_signal_handler.html#a0c9f7727088c36df7df8064d3fb0d4c4',1,'SignalHandler']]],
-  ['handlespecialheaders_10',['handleSpecialHeaders',['../class_header_parser_stream.html#ae40ce7b340c7842d8a27c6607b63c27f',1,'HeaderParserStream']]],
-  ['httptransaction_11',['HttpTransaction',['../class_http_transaction.html#adce4ad8f2a4106b8a3643c8de3508042',1,'HttpTransaction']]]
+  ['getconnectedserviceport_0',['getConnectedServicePort',['../class_port_mapping.html#a1c5d6ef805606cc3689fba9f38df1988',1,'PortMapping']]],
+  ['getfilelist_1',['getFileList',['../class_auto_index_state.html#a9d8da84a7b77fbcef61fcc20b470bd1a',1,'AutoIndexState']]],
+  ['getlistenport_2',['getListenPort',['../class_port_mapping.html#af2565580060648e513ff1096677d5d83',1,'PortMapping']]],
+  ['getportfrommap_3',['getPortFromMap',['../class_port_mapping.html#a7988c74208b6c0ee10fe927ceac12490',1,'PortMapping']]]
 ];

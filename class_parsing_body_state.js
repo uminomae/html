@@ -1,7 +1,7 @@
 var class_parsing_body_state =
 [
     [ "handle", "class_parsing_body_state.html#a7333b1485bcd3623719733afd03ca006", null ],
-    [ "handleMultiPartFormData", "class_parsing_body_state.html#a1ec6c83103813cb7fad754f95cae3e64", null ],
+    [ "isValidMimetype", "class_parsing_body_state.html#a14938a5705805bb9eaab959784c8aba0", null ],
     [ "paraseRequestChunk", "class_parsing_body_state.html#a85a43d44071d51ee96dd501ccc850d59", null ],
     [ "parceExtractExtension", "class_parsing_body_state.html#aa166e2862659817f2d8a43887d565678", null ],
     [ "parseCgiPathAndExtractQueryFromUri", "class_parsing_body_state.html#a84e0f5336c3224523c94a97c4ffd4517", null ],

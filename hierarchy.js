@@ -18,9 +18,10 @@ var hierarchy =
       [ "ContentExtractionState", "class_content_extraction_state.html", null ],
       [ "DeleteMethodState", "class_delete_method_state.html", null ],
       [ "FilePathGenerationState", "class_file_path_generation_state.html", null ],
-      [ "HeaderParserStream", "class_header_parser_stream.html", null ],
       [ "IdentifyLocationState", "class_identify_location_state.html", null ],
-      [ "ParsingBodyState", "class_parsing_body_state.html", null ],
+      [ "ParsingMultiPartState", "class_parsing_multi_part_state.html", null ],
+      [ "ParsingRequestState", "class_parsing_request_state.html", null ],
+      [ "RecvHeaderLexerState", "class_recv_header_lexer_state.html", null ],
       [ "ResponseStrBuildState", "class_response_str_build_state.html", null ]
     ] ],
     [ "IHttpWorkflowManager", "class_i_http_workflow_manager.html", [

@@ -7,6 +7,8 @@ var class_cgi_execution_state =
     [ "executeCgiScriptInChildProcess", "class_cgi_execution_state.html#a6cc80ee59a0491eadbc959c7de0bc90a", null ],
     [ "handle", "class_cgi_execution_state.html#a583ea5d0162a7f407a3377b9706d5157", null ],
     [ "handleParentProcess", "class_cgi_execution_state.html#a06397db53835040bc91ef82d21efd538", null ],
+    [ "parseCgiHeader", "class_cgi_execution_state.html#a50fedd6ac6adc3d9e574a64d20c77f40", null ],
+    [ "parseCgiHeaderLine", "class_cgi_execution_state.html#a6669ad2a2f77e3e230f82c11987e7c75", null ],
     [ "parseCgiResult", "class_cgi_execution_state.html#ac90758d6a2c43bb933d1437154a67255", null ],
     [ "replaceStringInPlace", "class_cgi_execution_state.html#aaea3ec2c91f6d6d4fb47b251fc5d338e", null ],
     [ "setupCgiProcessFileDescriptors", "class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481", null ],

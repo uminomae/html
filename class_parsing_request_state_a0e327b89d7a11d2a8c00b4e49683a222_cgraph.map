@@ -1,0 +1,17 @@
+<map id="ParsingRequestState::parseRequestBody" name="ParsingRequestState::parseRequestBody">
+<area shape="rect" id="Node000001" title="HTTPリクエストボディを解析します。" alt="" coords="5,107,151,147"/>
+<area shape="rect" id="Node000002" href="$class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="202,73,351,114"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,112,186,106,187,111,152,117"/>
+<area shape="rect" id="Node000008" href="$class_parsing_request_state.html#a272f390a4a4f5f9c7ada254b58f24598" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="199,139,354,179"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="152,136,184,141,183,147,151,141"/>
+<area shape="rect" id="Node000003" href="$class_parsing_multi_part_state.html#a79459c0d525f2dd11bbb61c8eaf9481c" title="マルチパートフォームデータの解析を行います。" alt="" coords="406,37,577,78"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="350,79,390,72,391,77,351,84"/>
+<area shape="rect" id="Node000007" href="$class_parsing_multi_part_state.html#adb42722cea83399d44c210f26530aa54" title="parseしたヘッダーから Content&#45;Disposition を復元するように再構築します。" alt="" coords="402,102,580,158"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="351,103,387,110,386,115,350,109"/>
+<area shape="rect" id="Node000004" href="$class_parsing_multi_part_state.html#add373e606f8fb778e573dc75f1133c9f" title="バウンダリ文字列を作成します。" alt="" coords="628,5,787,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="577,42,613,37,613,42,577,48"/>
+<area shape="rect" id="Node000005" href="$class_parsing_multi_part_state.html#aafcdeadbf09c42914c2cb91ea07111eb" title="ヘッダー全体を解析し、それをマップに格納します。" alt="" coords="630,71,785,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="577,68,615,74,614,79,577,73"/>
+<area shape="rect" id="Node000006" href="$class_parsing_multi_part_state.html#ab57c95e14529c7ae5defa0abd24667ad" title="マルチパートヘッダーのデータからキーと値のペアを抽出し、マップに追加します。" alt="" coords="835,71,1004,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="786,88,819,88,819,94,786,94"/>
+</map>

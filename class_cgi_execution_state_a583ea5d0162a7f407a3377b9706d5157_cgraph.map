@@ -1,27 +1,35 @@
 <map id="CgiExecutionState::handle" name="CgiExecutionState::handle">
-<area shape="rect" id="Node000001" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="5,300,144,341"/>
-<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html#a6cc80ee59a0491eadbc959c7de0bc90a" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="192,201,402,242"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,297,234,246,236,251,124,302"/>
-<area shape="rect" id="Node000011" href="$class_cgi_execution_state.html#ac90758d6a2c43bb933d1437154a67255" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="228,397,366,438"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="124,339,236,388,234,393,122,344"/>
+<area shape="rect" id="Node000001" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="5,397,144,438"/>
+<area shape="rect" id="Node000002" href="$class_cgi_execution_state.html#a6cc80ee59a0491eadbc959c7de0bc90a" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="192,235,402,275"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,395,254,283,257,287,106,399"/>
+<area shape="rect" id="Node000012" href="$class_cgi_execution_state.html#ac90758d6a2c43bb933d1437154a67255" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="228,495,366,535"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="124,436,236,486,234,491,122,441"/>
 <area shape="rect" id="Node000003" href="$class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a" title="環境変数をstd::stringからchar*に変換します。" alt="" coords="475,5,635,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="310,199,365,130,404,91,449,57,459,51,462,55,451,61,408,95,369,133,314,203"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="306,233,328,196,359,148,400,99,448,57,459,50,462,55,452,61,404,103,364,151,332,198,311,236"/>
 <area shape="rect" id="Node000004" href="$class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="486,71,624,111"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="324,198,380,160,449,122,470,113,472,118,451,127,383,165,327,203"/>
-<area shape="rect" id="Node000005" href="$class_cgi_execution_state.html#a12d614bd895d492fc63675f349266415" title="CGIスクリプトを実行します。" alt="" coords="486,136,624,177"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="379,198,470,175,471,180,381,203"/>
-<area shape="rect" id="Node000006" href="$class_cgi_execution_state.html#a06397db53835040bc91ef82d21efd538" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="482,201,627,242"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="402,219,467,219,467,224,402,224"/>
-<area shape="rect" id="Node000008" href="$class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="450,267,659,307"/>
-<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="381,240,458,260,456,265,379,245"/>
-<area shape="rect" id="Node000009" href="$class_cgi_execution_state.html#aee14557029b7e57f3c911a28f5ec0c55" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="465,332,644,373"/>
-<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="327,240,383,278,451,317,467,324,465,328,449,321,380,283,324,245"/>
-<area shape="rect" id="Node000007" href="$class_cgi_execution_state.html#a26f14ddb42559ff3e9174dc9b9d9912c" title="フォークされたプロセスの終了を非ブロッキングで待ちます。" alt="" coords="753,201,891,242"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="628,219,737,219,737,224,628,224"/>
-<area shape="rect" id="Node000010" href="$class_cgi_execution_state.html#a0ea4850cd9670c360522e59d4315b88f" title="環境変数の文字列を結合して作成し、vectorに追加します" alt="" coords="707,332,937,373"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="645,350,692,350,692,355,645,355"/>
-<area shape="rect" id="Node000012" href="$class_cgi_execution_state.html#aaea3ec2c91f6d6d4fb47b251fc5d338e" title=" " alt="" coords="484,397,625,438"/>
-<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="367,415,468,415,468,420,367,420"/>
-<area shape="rect" id="Node000013" href="$class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="476,463,634,503"/>
-<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="367,433,461,457,460,462,366,438"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="315,233,371,178,409,148,449,122,470,112,472,117,451,127,412,152,375,182,319,236"/>
+<area shape="rect" id="Node000005" href="$class_util_http_processing_step.html#ada47c31af29a6f653e509b8c12499f0d" title="SocketState オブジェクトのデバッグ情報を出力します。" alt="" coords="476,136,634,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="343,232,449,187,470,180,472,185,451,192,345,237"/>
+<area shape="rect" id="Node000006" href="$class_cgi_execution_state.html#a12d614bd895d492fc63675f349266415" title="CGIスクリプトを実行します。" alt="" coords="486,201,624,242"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="402,239,470,230,471,235,403,244"/>
+<area shape="rect" id="Node000007" href="$class_cgi_execution_state.html#a06397db53835040bc91ef82d21efd538" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="482,267,627,307"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="403,265,467,273,466,279,402,271"/>
+<area shape="rect" id="Node000009" href="$class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="450,332,659,373"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="346,273,451,317,473,324,471,329,449,321,344,278"/>
+<area shape="rect" id="Node000010" href="$class_cgi_execution_state.html#aee14557029b7e57f3c911a28f5ec0c55" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="465,397,644,438"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="319,274,375,327,412,357,451,382,464,389,462,393,449,387,409,361,372,331,315,278"/>
+<area shape="rect" id="Node000008" href="$class_cgi_execution_state.html#a26f14ddb42559ff3e9174dc9b9d9912c" title="フォークされたプロセスの終了を非ブロッキングで待ちます。" alt="" coords="753,267,891,307"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="628,284,737,284,737,290,628,290"/>
+<area shape="rect" id="Node000011" href="$class_cgi_execution_state.html#a0ea4850cd9670c360522e59d4315b88f" title="環境変数の文字列を結合して作成し、vectorに追加します" alt="" coords="707,397,937,438"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="645,415,692,415,692,420,645,420"/>
+<area shape="rect" id="Node000013" href="$class_cgi_execution_state.html#a50fedd6ac6adc3d9e574a64d20c77f40" title="CGIヘッダー全体を解析します。" alt="" coords="486,463,624,503"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="366,504,470,491,471,496,367,509"/>
+<area shape="rect" id="Node000016" href="$class_cgi_execution_state.html#aaea3ec2c91f6d6d4fb47b251fc5d338e" title="改行記号を変換するために使用します" alt="" coords="484,528,625,569"/>
+<area shape="poly" id="edge15_Node000012_Node000016" title=" " alt="" coords="367,521,469,535,468,540,366,527"/>
+<area shape="rect" id="Node000017" href="$class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="476,593,634,634"/>
+<area shape="poly" id="edge16_Node000012_Node000017" title=" " alt="" coords="345,533,451,578,472,585,470,590,449,583,343,538"/>
+<area shape="rect" id="Node000014" href="$class_cgi_execution_state.html#a6669ad2a2f77e3e230f82c11987e7c75" title="CGIヘッダーラインを解析し、キーと値を抽出します。" alt="" coords="752,463,892,503"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="624,480,737,480,737,486,624,486"/>
+<area shape="rect" id="Node000015" href="$class_util_http_processing_step.html#a911a7dc816bdcde8c0bf79c1c9526900" title="文字列の前後の空白をトリミングします。" alt="" coords="985,463,1143,503"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="892,480,969,480,969,486,892,486"/>
 </map>

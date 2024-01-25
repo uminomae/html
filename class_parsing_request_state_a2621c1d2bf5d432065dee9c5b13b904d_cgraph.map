@@ -1,0 +1,29 @@
+<map id="ParsingRequestState::handle" name="ParsingRequestState::handle">
+<area shape="rect" id="Node000001" title="HTTPリクエストの解析を行います。" alt="" coords="5,143,151,183"/>
+<area shape="rect" id="Node000002" href="$class_util_http_processing_step.html#ada47c31af29a6f653e509b8c12499f0d" title="SocketState オブジェクトのデバッグ情報を出力します。" alt="" coords="224,5,382,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,140,140,98,197,57,210,50,212,55,200,61,143,102,100,144"/>
+<area shape="rect" id="Node000003" href="$class_parsing_request_state.html#a44fe05182b403c5bb33015f5b00e19a2" title="リクエストURIから拡張子を抽出します。" alt="" coords="222,71,384,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,140,198,120,218,114,220,119,199,126,141,145"/>
+<area shape="rect" id="Node000005" href="$class_parsing_request_state.html#a289d24bf24d1266909efac852d1b5a15" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="199,135,407,191"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="151,160,183,160,183,166,151,166"/>
+<area shape="rect" id="Node000006" href="$class_parsing_request_state.html#aefb7eb2c4d17a49fbd188749e422e87a" title="HTTPクエリ文字列から&quot;delete_file_name=&quot;の後ろの部分を抽出し、 _socketState._deleteFileNameに格納します。 また、_socketState...." alt="" coords="204,215,402,255"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="141,181,199,200,220,207,218,212,198,206,140,186"/>
+<area shape="rect" id="Node000007" href="$class_parsing_request_state.html#a0e327b89d7a11d2a8c00b4e49683a222" title="HTTPリクエストボディを解析します。" alt="" coords="230,280,376,321"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="100,182,143,224,200,265,217,273,215,278,197,269,140,228,96,186"/>
+<area shape="rect" id="Node000004" href="$class_parsing_request_state.html#af4d0a8fe76ce9333f22769e9c863465c" title="指定された拡張子に対応するMIMEタイプが有効かどうかを検証します。" alt="" coords="460,71,605,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="384,88,444,88,444,94,384,94"/>
+<area shape="rect" id="Node000008" href="$class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="459,247,607,287"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="376,287,443,277,443,283,376,292"/>
+<area shape="rect" id="Node000014" href="$class_parsing_request_state.html#a272f390a4a4f5f9c7ada254b58f24598" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="455,312,610,353"/>
+<area shape="poly" id="edge13_Node000007_Node000014" title=" " alt="" coords="376,308,440,317,439,322,376,313"/>
+<area shape="rect" id="Node000009" href="$class_parsing_multi_part_state.html#a79459c0d525f2dd11bbb61c8eaf9481c" title="マルチパートフォームデータの解析を行います。" alt="" coords="662,211,833,251"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="607,252,646,245,647,251,607,257"/>
+<area shape="rect" id="Node000013" href="$class_parsing_multi_part_state.html#adb42722cea83399d44c210f26530aa54" title="parseしたヘッダーから Content&#45;Disposition を復元するように再構築します。" alt="" coords="658,275,837,331"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="607,277,644,283,643,288,607,282"/>
+<area shape="rect" id="Node000010" href="$class_parsing_multi_part_state.html#add373e606f8fb778e573dc75f1133c9f" title="バウンダリ文字列を作成します。" alt="" coords="885,179,1043,219"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="833,216,869,210,870,216,834,221"/>
+<area shape="rect" id="Node000011" href="$class_parsing_multi_part_state.html#aafcdeadbf09c42914c2cb91ea07111eb" title="ヘッダー全体を解析し、それをマップに格納します。" alt="" coords="886,244,1042,285"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="834,242,871,247,870,253,833,247"/>
+<area shape="rect" id="Node000012" href="$class_parsing_multi_part_state.html#ab57c95e14529c7ae5defa0abd24667ad" title="マルチパートヘッダーのデータからキーと値のペアを抽出し、マップに追加します。" alt="" coords="1091,244,1260,285"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1042,262,1075,262,1075,267,1042,267"/>
+</map>
