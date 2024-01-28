@@ -1,0 +1,5 @@
+<map id="NetworkService::closeAndCleanupSocket" name="NetworkService::closeAndCleanupSocket">
+<area shape="rect" id="Node000001" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="5,5,182,46"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="230,13,449,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,23,214,23,214,28,182,28"/>
+</map>

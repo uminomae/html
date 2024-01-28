@@ -10,8 +10,8 @@
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="901,75,840,102,812,119,787,141,761,172,741,208,714,280,709,278,736,206,756,169,783,137,809,115,838,97,899,70"/>
 <area shape="rect" id="Node000006" href="$class_file_path_generation_state.html" title=" " alt="" coords="797,269,970,394"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="975,105,910,270,905,268,970,103"/>
-<area shape="rect" id="Node000007" href="$class_identify_location_state.html" title=" " alt="" coords="994,239,1218,424"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1018,103,1072,238,1067,240,1013,105"/>
+<area shape="rect" id="Node000007" href="$class_identify_location_state.html" title=" " alt="" coords="994,229,1218,434"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1018,103,1068,228,1063,230,1013,105"/>
 <area shape="rect" id="Node000008" href="$class_parsing_multi_part_state.html" title=" " alt="" coords="1243,211,1423,451"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1089,66,1163,93,1199,113,1232,137,1263,171,1288,210,1284,213,1259,174,1228,141,1196,117,1160,98,1087,71"/>
 <area shape="rect" id="Node000009" href="$class_parsing_request_state.html" title=" " alt="" coords="1447,211,1650,451"/>

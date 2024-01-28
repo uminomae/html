@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="サーバーのループを再起動します。" alt="" coords="5,132,226,157"/>
 <area shape="rect" id="Node000002" href="$class_network_service.html#a54ae0e59338c8ffd4aabd39866bbf549" title="ネットワークサービスを再起動します。" alt="" coords="274,71,482,111"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,128,259,112,260,118,183,133"/>
-<area shape="rect" id="Node000005" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="281,185,475,211"/>
+<area shape="rect" id="Node000005" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="281,185,475,211"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="183,155,297,179,296,184,182,160"/>
 <area shape="rect" id="Node000003" href="$class_network_service.html#a2cf75b7a3d9f4f6ffb04501be4a4f151" title="すべてのソケットの接続を閉じ、関係するデータを削除します。" alt="" coords="539,5,715,46"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,67,531,48,533,53,459,73"/>
@@ -37,7 +37,7 @@
 <area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="981,204,1042,210,1042,215,981,210"/>
 <area shape="rect" id="Node000017" href="$class_server_maneger.html#aad06fe54e9e185495b16ab553a970287" title="与えられたサーバーディレクティブが空でなければ、それをサーバーディレクティブのリストに追加します。" alt="" coords="1037,259,1243,299"/>
 <area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="970,261,1022,265,1021,271,970,266"/>
-<area shape="rect" id="Node000019" href="$class_server_directive.html#a4cf97188b3403cfae098bbd0be1abd83" title="サーバーディレクティブの設定を解析します。" alt="" coords="1045,338,1235,364"/>
+<area shape="rect" id="Node000019" href="$class_server_directive.html#a109daa1e4fd12e9e62c35941eefbb776" title="サーバーディレクティブの設定を解析します。" alt="" coords="1045,338,1235,364"/>
 <area shape="poly" id="edge19_Node000016_Node000019" title=" " alt="" coords="954,273,990,286,1038,309,1089,330,1087,335,1036,313,988,291,953,278"/>
 <area shape="rect" id="Node000018" href="$class_server_directive.html#a34bf68f86c504558c00e51c10a689aec" title="サーバーディレクティブがデフォルト値のままかどうかを判断します。" alt="" coords="1318,252,1489,277"/>
 <area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="1243,271,1302,267,1302,273,1244,276"/>

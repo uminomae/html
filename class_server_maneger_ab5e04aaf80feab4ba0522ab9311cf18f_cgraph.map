@@ -1,5 +1,5 @@
 <map id="ServerManeger::setupServers" name="ServerManeger::setupServers">
-<area shape="rect" id="Node000001" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="5,247,200,272"/>
+<area shape="rect" id="Node000001" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="5,247,200,272"/>
 <area shape="rect" id="Node000002" href="$class_server_maneger.html#a7e69e2e48664fcd910c6bc0c7910b1d8" title="サーバーの設定が有効かどうかを包括的に検証します。" alt="" coords="248,56,441,82"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,244,246,141,312,89,315,94,249,146,122,248"/>
 <area shape="rect" id="Node000004" href="$class_server_maneger.html#a539b692869df51d4655d8ab7633a3174" title="設定ファイルからサーバーの設定をロードします。" alt="" coords="260,156,429,182"/>
@@ -29,7 +29,7 @@
 <area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="699,175,760,181,759,186,699,181"/>
 <area shape="rect" id="Node000013" href="$class_server_maneger.html#aad06fe54e9e185495b16ab553a970287" title="与えられたサーバーディレクティブが空でなければ、それをサーバーディレクティブのリストに追加します。" alt="" coords="754,230,961,271"/>
 <area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="688,232,739,237,739,242,688,237"/>
-<area shape="rect" id="Node000015" href="$class_server_directive.html#a4cf97188b3403cfae098bbd0be1abd83" title="サーバーディレクティブの設定を解析します。" alt="" coords="763,309,952,335"/>
+<area shape="rect" id="Node000015" href="$class_server_directive.html#a109daa1e4fd12e9e62c35941eefbb776" title="サーバーディレクティブの設定を解析します。" alt="" coords="763,309,952,335"/>
 <area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="672,245,707,257,755,280,807,301,805,306,753,285,705,262,670,250"/>
 <area shape="rect" id="Node000014" href="$class_server_directive.html#a34bf68f86c504558c00e51c10a689aec" title="サーバーディレクティブがデフォルト値のままかどうかを判断します。" alt="" coords="1035,223,1207,248"/>
 <area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="961,242,1019,238,1020,244,961,247"/>

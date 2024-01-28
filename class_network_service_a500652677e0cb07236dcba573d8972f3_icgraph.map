@@ -1,0 +1,13 @@
+<map id="NetworkService::closeAndCleanupSocket" name="NetworkService::closeAndCleanupSocket">
+<area shape="rect" id="Node000001" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="510,71,686,111"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="263,5,454,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="506,69,435,49,437,44,508,64"/>
+<area shape="rect" id="Node000004" href="$class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="263,71,454,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="494,94,454,94,454,88,494,88"/>
+<area shape="rect" id="Node000005" href="$class_network_service.html#add534df7c218a7ec42aa34beee4eb703" title="ソケットのタイムアウトを処理する。" alt="" coords="255,136,462,161"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="496,118,416,137,415,132,495,113"/>
+<area shape="rect" id="Node000003" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,78,207,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="263,53,159,80,158,75,261,48"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="248,94,207,94,207,88,248,88"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="283,134,165,107,167,102,285,129"/>
+</map>

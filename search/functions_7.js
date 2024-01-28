@@ -10,5 +10,6 @@ var searchData=
   ['handleserverevents_7',['handleServerEvents',['../class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4',1,'NetworkService']]],
   ['handlesignal_8',['handleSignal',['../class_signal_handler.html#a0c9f7727088c36df7df8064d3fb0d4c4',1,'SignalHandler']]],
   ['handlespecialheaders_9',['handleSpecialHeaders',['../class_recv_header_lexer_state.html#a8b0c1ad97358c8a62bc4c0d6cd15e203',1,'RecvHeaderLexerState']]],
-  ['httptransaction_10',['HttpTransaction',['../class_http_transaction.html#adce4ad8f2a4106b8a3643c8de3508042',1,'HttpTransaction']]]
+  ['handletimeout_10',['handleTimeout',['../class_network_service.html#add534df7c218a7ec42aa34beee4eb703',1,'NetworkService']]],
+  ['httptransaction_11',['HttpTransaction',['../class_http_transaction.html#adce4ad8f2a4106b8a3643c8de3508042',1,'HttpTransaction']]]
 ];

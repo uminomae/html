@@ -105,13 +105,15 @@ Collaboration diagram for SocketState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_socket_state__coll__graph.png" border="0" usemap="#a_socket_state_coll__map" alt="Collaboration graph"/></div>
 <map name="a_socket_state_coll__map" id="a_socket_state_coll__map">
-<area shape="rect" title=" " alt="" coords="238,788,399,1134"/>
-<area shape="rect" href="class_server_directive.html" title=" " alt="" coords="5,5,195,725"/>
-<area shape="poly" title=" " alt="" coords="187,724,203,763,232,823,227,825,198,765,182,726"/>
-<area shape="rect" href="class_location_directive.html" title=" " alt="" coords="219,163,418,568"/>
-<area shape="poly" title=" " alt="" coords="321,568,321,771,316,771,316,568"/>
-<area shape="rect" href="struct_socket_state_1_1_content_disposition.html" title=" " alt="" coords="442,313,646,418"/>
-<area shape="poly" title=" " alt="" coords="540,418,529,488,511,576,485,672,450,765,411,839,406,837,446,763,480,670,505,575,523,487,535,417"/>
+<area shape="rect" title=" " alt="" coords="353,708,515,1074"/>
+<area shape="rect" href="class_location_directive.html" title=" " alt="" coords="5,123,204,528"/>
+<area shape="poly" title=" " alt="" coords="164,527,189,587,219,644,247,686,278,727,344,801,340,805,274,731,242,690,214,647,185,589,160,529"/>
+<area shape="rect" href="class_server_directive.html" title=" " alt="" coords="229,5,418,645"/>
+<area shape="poly" title=" " alt="" coords="389,645,398,691,392,692,383,646"/>
+<area shape="rect" href="struct_socket_state_1_1_content_disposition.html" title=" " alt="" coords="443,273,647,378"/>
+<area shape="poly" title=" " alt="" coords="548,378,541,517,532,601,517,685,515,692,510,691,511,684,527,601,536,517,542,378"/>
+<area shape="rect" href="class_timeout_manager.html" title=" " alt="" coords="671,263,853,388"/>
+<area shape="poly" title=" " alt="" coords="755,388,740,453,719,529,689,610,650,686,623,723,593,758,529,820,525,816,589,755,619,720,645,683,684,607,714,528,735,451,749,387"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -122,15 +124,15 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a216ef99a238243d3e26745063e46062d" id="r_a216ef99a238243d3e26745063e46062d"><td class="memItemLeft" align="right" valign="top"><a id="a216ef99a238243d3e26745063e46062d" name="a216ef99a238243d3e26745063e46062d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>SocketState</b> (int socketFd, <a class="el" href="class_server_directive.html">ServerDirective</a> &amp;connectedServer)</td></tr>
-<tr class="separator:a216ef99a238243d3e26745063e46062d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ff4ee387c08b25bbafaabe4c791cd50" id="r_a2ff4ee387c08b25bbafaabe4c791cd50"><td class="memItemLeft" align="right" valign="top"><a id="a2ff4ee387c08b25bbafaabe4c791cd50" name="a2ff4ee387c08b25bbafaabe4c791cd50"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SocketState</b> (int socketFd, int serverSocketFd)</td></tr>
+<tr class="separator:a2ff4ee387c08b25bbafaabe4c791cd50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa35c8e192050342d0a51050a15603c86" id="r_aa35c8e192050342d0a51050a15603c86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa35c8e192050342d0a51050a15603c86">resetSocketState</a> ()</td></tr>
 <tr class="memdesc:aa35c8e192050342d0a51050a15603c86"><td class="mdescLeft">&#160;</td><td class="mdescRight">リセットします。  <br /></td></tr>
 <tr class="separator:aa35c8e192050342d0a51050a15603c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0abedebb8256c22483696e43fc9d46" id="r_a3d0abedebb8256c22483696e43fc9d46"><td class="memItemLeft" align="right" valign="top"><a id="a3d0abedebb8256c22483696e43fc9d46" name="a3d0abedebb8256c22483696e43fc9d46"></a>
-<a class="el" href="class_server_directive.html">ServerDirective</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getConnectedServer</b> () const</td></tr>
-<tr class="separator:a3d0abedebb8256c22483696e43fc9d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c4c550d921251f84213860e14857e8" id="r_a31c4c550d921251f84213860e14857e8"><td class="memItemLeft" align="right" valign="top"><a id="a31c4c550d921251f84213860e14857e8" name="a31c4c550d921251f84213860e14857e8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getSereverSocketFd</b> () const</td></tr>
+<tr class="separator:a31c4c550d921251f84213860e14857e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3401b8c42bd65cfdb66aa29c8ca77891" id="r_a3401b8c42bd65cfdb66aa29c8ca77891"><td class="memItemLeft" align="right" valign="top"><a id="a3401b8c42bd65cfdb66aa29c8ca77891" name="a3401b8c42bd65cfdb66aa29c8ca77891"></a>
 const <a class="el" href="class_location_directive.html">LocationDirective</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getConnectedLocation</b> () const</td></tr>
 <tr class="separator:a3401b8c42bd65cfdb66aa29c8ca77891"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +142,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setConnectedLocation<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:ae4255293e81514942ee3d64ab0d0479b" id="r_ae4255293e81514942ee3d64ab0d0479b"><td class="memItemLeft" align="right" valign="top"><a id="ae4255293e81514942ee3d64ab0d0479b" name="ae4255293e81514942ee3d64ab0d0479b"></a>
+<a class="el" href="class_server_directive.html">ServerDirective</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_connectedServer</b></td></tr>
+<tr class="separator:ae4255293e81514942ee3d64ab0d0479b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b99662f360aa859d5d7580b6ec4cc11" id="r_a1b99662f360aa859d5d7580b6ec4cc11"><td class="memItemLeft" align="right" valign="top"><a id="a1b99662f360aa859d5d7580b6ec4cc11" name="a1b99662f360aa859d5d7580b6ec4cc11"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>_clientSocket</b></td></tr>
 <tr class="separator:a1b99662f360aa859d5d7580b6ec4cc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +166,9 @@ std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:aac6229db036054600f1fbf39551b7354" id="r_aac6229db036054600f1fbf39551b7354"><td class="memItemLeft" align="right" valign="top"><a id="aac6229db036054600f1fbf39551b7354" name="aac6229db036054600f1fbf39551b7354"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>_reqContentLength</b></td></tr>
 <tr class="separator:aac6229db036054600f1fbf39551b7354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d395bdb1243182c0c01ee8e019d2ff" id="r_af9d395bdb1243182c0c01ee8e019d2ff"><td class="memItemLeft" align="right" valign="top"><a id="af9d395bdb1243182c0c01ee8e019d2ff" name="af9d395bdb1243182c0c01ee8e019d2ff"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isRecvEOF</b></td></tr>
+<tr class="separator:af9d395bdb1243182c0c01ee8e019d2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9956d1fdc491a802c0e65acd0219f359" id="r_a9956d1fdc491a802c0e65acd0219f359"><td class="memItemLeft" align="right" valign="top"><a id="a9956d1fdc491a802c0e65acd0219f359" name="a9956d1fdc491a802c0e65acd0219f359"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_parsedPathiInfo</b></td></tr>
 <tr class="separator:a9956d1fdc491a802c0e65acd0219f359"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,6 +205,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isReqMultipartFormDa
 <tr class="memitem:adc9debeeefa292c4eb9714859f8015c2" id="r_adc9debeeefa292c4eb9714859f8015c2"><td class="memItemLeft" align="right" valign="top"><a id="adc9debeeefa292c4eb9714859f8015c2" name="adc9debeeefa292c4eb9714859f8015c2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isDeleteMethod</b></td></tr>
 <tr class="separator:adc9debeeefa292c4eb9714859f8015c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a066d443530a702b09fe0db5cd710ab20" id="r_a066d443530a702b09fe0db5cd710ab20"><td class="memItemLeft" align="right" valign="top"><a id="a066d443530a702b09fe0db5cd710ab20" name="a066d443530a702b09fe0db5cd710ab20"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isSamePort</b></td></tr>
+<tr class="separator:a066d443530a702b09fe0db5cd710ab20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3d83e5723ba00379c21f1116afa9d9e" id="r_ab3d83e5723ba00379c21f1116afa9d9e"><td class="memItemLeft" align="right" valign="top"><a id="ab3d83e5723ba00379c21f1116afa9d9e" name="ab3d83e5723ba00379c21f1116afa9d9e"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_reqValidAabsPath</b></td></tr>
 <tr class="separator:ab3d83e5723ba00379c21f1116afa9d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,12 +241,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isPossibleToSend</b>
 <tr class="memitem:a32e5f7b24b37fed1f8bcda23c36eba6c" id="r_a32e5f7b24b37fed1f8bcda23c36eba6c"><td class="memItemLeft" align="right" valign="top"><a id="a32e5f7b24b37fed1f8bcda23c36eba6c" name="a32e5f7b24b37fed1f8bcda23c36eba6c"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_connectedLocationKey</b></td></tr>
 <tr class="separator:a32e5f7b24b37fed1f8bcda23c36eba6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb811a0058e54ead37707c27e3dc563d" id="r_adb811a0058e54ead37707c27e3dc563d"><td class="memItemLeft" align="right" valign="top"><a id="adb811a0058e54ead37707c27e3dc563d" name="adb811a0058e54ead37707c27e3dc563d"></a>
+<a class="el" href="class_timeout_manager.html">TimeoutManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_timeoutManager</b></td></tr>
+<tr class="separator:adb811a0058e54ead37707c27e3dc563d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a47f0b8922a29a90e8471d3e9b1ec0a76" id="r_a47f0b8922a29a90e8471d3e9b1ec0a76"><td class="memItemLeft" align="right" valign="top"><a id="a47f0b8922a29a90e8471d3e9b1ec0a76" name="a47f0b8922a29a90e8471d3e9b1ec0a76"></a>
-<a class="el" href="class_server_directive.html">ServerDirective</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_connectedServer</b></td></tr>
-<tr class="separator:a47f0b8922a29a90e8471d3e9b1ec0a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf4f06507bff5efe0231d95b9e0e41cb" id="r_acf4f06507bff5efe0231d95b9e0e41cb"><td class="memItemLeft" align="right" valign="top"><a id="acf4f06507bff5efe0231d95b9e0e41cb" name="acf4f06507bff5efe0231d95b9e0e41cb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>_serverSocketFd</b></td></tr>
+<tr class="separator:acf4f06507bff5efe0231d95b9e0e41cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b7b096f5fba3c45e21dad713053e0ed" id="r_a0b7b096f5fba3c45e21dad713053e0ed"><td class="memItemLeft" align="right" valign="top"><a id="a0b7b096f5fba3c45e21dad713053e0ed" name="a0b7b096f5fba3c45e21dad713053e0ed"></a>
 <a class="el" href="class_location_directive.html">LocationDirective</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_connectedLocation</b></td></tr>
 <tr class="separator:a0b7b096f5fba3c45e21dad713053e0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>

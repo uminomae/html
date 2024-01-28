@@ -1,0 +1,9 @@
+<map id="NetworkService::handleTimeout" name="NetworkService::handleTimeout">
+<area shape="rect" id="Node000001" title="ソケットのタイムアウトを処理する。" alt="" coords="5,42,213,68"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a500652677e0cb07236dcba573d8972f3" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="265,5,442,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,40,249,35,250,41,213,45"/>
+<area shape="rect" id="Node000004" href="$class_network_service.html#a7101de80b1b3b348f2012246c598b0e4" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="261,70,446,96"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,64,246,68,245,73,213,70"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="494,13,713,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="442,23,479,23,479,28,442,28"/>
+</map>

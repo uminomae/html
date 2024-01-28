@@ -96,6 +96,7 @@ $(function(){initNavTree('class_network_service.html',''); initResizable(); });
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_network_service-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">NetworkService Class Reference</div></div>
 </div><!--header-->
@@ -105,15 +106,15 @@ Collaboration diagram for NetworkService:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service__coll__graph.png" border="0" usemap="#a_network_service_coll__map" alt="Collaboration graph"/></div>
 <map name="a_network_service_coll__map" id="a_network_service_coll__map">
-<area shape="rect" title=" " alt="" coords="243,283,442,1043"/>
+<area shape="rect" title=" " alt="" coords="243,283,442,1003"/>
 <area shape="rect" href="class_port_mapping.html" title=" " alt="" coords="5,5,192,205"/>
-<area shape="poly" title=" " alt="" coords="144,204,239,420,234,422,140,206"/>
+<area shape="poly" title=" " alt="" coords="146,204,239,408,234,410,141,206"/>
 <area shape="rect" href="class_i_counter.html" title=" " alt="" coords="217,53,306,158"/>
-<area shape="poly" title=" " alt="" coords="271,158,287,266,282,267,266,158"/>
+<area shape="poly" title=" " alt="" coords="272,158,288,266,283,267,266,158"/>
 <area shape="rect" href="class_mime_type.html" title=" " alt="" coords="331,33,517,178"/>
-<area shape="poly" title=" " alt="" coords="416,178,403,267,398,266,411,177"/>
+<area shape="poly" title=" " alt="" coords="416,178,402,267,397,266,411,177"/>
 <area shape="rect" href="class_tokenize.html" title=" " alt="" coords="541,33,669,178"/>
-<area shape="poly" title=" " alt="" coords="574,179,452,438,447,436,569,176"/>
+<area shape="poly" title=" " alt="" coords="573,179,452,426,447,424,568,177"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -147,9 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc2ce78b98367413538d7d84537b867e" id="r_afc2ce78b98367413538d7d84537b867e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc2ce78b98367413538d7d84537b867e">handleRecvRequests</a> ()</td></tr>
 <tr class="memdesc:afc2ce78b98367413538d7d84537b867e"><td class="mdescLeft">&#160;</td><td class="mdescRight">すべてのクライアントソケットからのリクエストを処理します。  <br /></td></tr>
 <tr class="separator:afc2ce78b98367413538d7d84537b867e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16ed9bd4de8e026601eca26611647507" id="r_a16ed9bd4de8e026601eca26611647507"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16ed9bd4de8e026601eca26611647507">closeAndCleanupSocket</a> (std::vector&lt; struct pollfd &gt;::iterator &amp;it)</td></tr>
-<tr class="memdesc:a16ed9bd4de8e026601eca26611647507"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケットを閉じ、関連するリソースをクリーンアップします。  <br /></td></tr>
-<tr class="separator:a16ed9bd4de8e026601eca26611647507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500652677e0cb07236dcba573d8972f3" id="r_a500652677e0cb07236dcba573d8972f3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; structpollfd &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a500652677e0cb07236dcba573d8972f3">closeAndCleanupSocket</a> (int fd, std::vector&lt; struct pollfd &gt;::iterator &amp;it)</td></tr>
+<tr class="memdesc:a500652677e0cb07236dcba573d8972f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケットを閉じ、関連するリソースをクリーンアップします。  <br /></td></tr>
+<tr class="separator:a500652677e0cb07236dcba573d8972f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8849b9c719cb649dbbbae76d9981da7c" id="r_a8849b9c719cb649dbbbae76d9981da7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8849b9c719cb649dbbbae76d9981da7c">handleSendResponses</a> ()</td></tr>
 <tr class="memdesc:a8849b9c719cb649dbbbae76d9981da7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントへの応答を処理します。  <br /></td></tr>
 <tr class="separator:a8849b9c719cb649dbbbae76d9981da7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +170,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setServSockFd</b> (in
 <tr class="memitem:a0184b7ae82703d67718a3be83948c5bd" id="r_a0184b7ae82703d67718a3be83948c5bd"><td class="memItemLeft" align="right" valign="top"><a id="a0184b7ae82703d67718a3be83948c5bd" name="a0184b7ae82703d67718a3be83948c5bd"></a>
 std::map&lt; int, <a class="el" href="class_socket_state.html">SocketState</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getReqSocketStatesPtr</b> () const</td></tr>
 <tr class="separator:a0184b7ae82703d67718a3be83948c5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add534df7c218a7ec42aa34beee4eb703" id="r_add534df7c218a7ec42aa34beee4eb703"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add534df7c218a7ec42aa34beee4eb703">handleTimeout</a> ()</td></tr>
+<tr class="memdesc:add534df7c218a7ec42aa34beee4eb703"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケットのタイムアウトを処理する。  <br /></td></tr>
+<tr class="separator:add534df7c218a7ec42aa34beee4eb703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -178,9 +182,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a383c592b347a6926852884b916875aa4" id="r_a383c592b347a6926852884b916875aa4"><td class="memItemLeft" align="right" valign="top"><a id="a383c592b347a6926852884b916875aa4" name="a383c592b347a6926852884b916875aa4"></a>
 <a class="el" href="class_tokenize.html">Tokenize</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_tokenize</b></td></tr>
 <tr class="separator:a383c592b347a6926852884b916875aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d8ed2b2b9150e8d9038c5f160c49e00" id="r_a0d8ed2b2b9150e8d9038c5f160c49e00"><td class="memItemLeft" align="right" valign="top"><a id="a0d8ed2b2b9150e8d9038c5f160c49e00" name="a0d8ed2b2b9150e8d9038c5f160c49e00"></a>
-std::vector&lt; struct pollfd &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_clientFds</b></td></tr>
-<tr class="separator:a0d8ed2b2b9150e8d9038c5f160c49e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8af280b5f9996426d5a0e8f24d9f1f6" id="r_af8af280b5f9996426d5a0e8f24d9f1f6"><td class="memItemLeft" align="right" valign="top"><a id="af8af280b5f9996426d5a0e8f24d9f1f6" name="af8af280b5f9996426d5a0e8f24d9f1f6"></a>
 std::vector&lt; struct pollfd &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_pollfds</b></td></tr>
 <tr class="separator:af8af280b5f9996426d5a0e8f24d9f1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,18 +218,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a6fecddc50e233048c7e1632913dff0b5" id="r_a6fecddc50e233048c7e1632913dff0b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fecddc50e233048c7e1632913dff0b5">addSocketToPollFd</a> (int socket, std::vector&lt; struct pollfd &gt; &amp;fd)</td></tr>
 <tr class="memdesc:a6fecddc50e233048c7e1632913dff0b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">新しいソケットを監視リストに追加します。  <br /></td></tr>
 <tr class="separator:a6fecddc50e233048c7e1632913dff0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25d68e6cd94f5f887a72a4a7458b3bd2" id="r_a25d68e6cd94f5f887a72a4a7458b3bd2"><td class="memItemLeft" align="right" valign="top"><a id="a25d68e6cd94f5f887a72a4a7458b3bd2" name="a25d68e6cd94f5f887a72a4a7458b3bd2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>recvRequest</b> (int socketFd, std::vector&lt; char &gt; &amp;recvData, ssize_t &amp;recvMsgSize)</td></tr>
-<tr class="separator:a25d68e6cd94f5f887a72a4a7458b3bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b6605ad0ddb71f1fc7a87ff616cf872" id="r_a1b6605ad0ddb71f1fc7a87ff616cf872"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b6605ad0ddb71f1fc7a87ff616cf872">executeClientHttpSession</a> (int socketFd)</td></tr>
 <tr class="memdesc:a1b6605ad0ddb71f1fc7a87ff616cf872"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントのHTTPセッションを実行します。  <br /></td></tr>
 <tr class="separator:a1b6605ad0ddb71f1fc7a87ff616cf872"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9cd04add0e426e95a9fc680b06db23e" id="r_af9cd04add0e426e95a9fc680b06db23e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9cd04add0e426e95a9fc680b06db23e">sendResponse</a> (int socketFd, const char *msg, size_t len)</td></tr>
 <tr class="memdesc:af9cd04add0e426e95a9fc680b06db23e"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントソケットへの応答メッセージを送信します。  <br /></td></tr>
 <tr class="separator:af9cd04add0e426e95a9fc680b06db23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0244f33afb37171b6fe2c73c4077663" id="r_ab0244f33afb37171b6fe2c73c4077663"><td class="memItemLeft" align="right" valign="top"><a id="ab0244f33afb37171b6fe2c73c4077663" name="ab0244f33afb37171b6fe2c73c4077663"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>shouldCloseSocket</b> (int socketFd)</td></tr>
-<tr class="separator:ab0244f33afb37171b6fe2c73c4077663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2dc5eec9dfb61797bd77abf5a44a218" id="r_aa2dc5eec9dfb61797bd77abf5a44a218"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2dc5eec9dfb61797bd77abf5a44a218">shouldKeepAlive</a> (int socketFd)</td></tr>
 <tr class="memdesc:aa2dc5eec9dfb61797bd77abf5a44a218"><td class="mdescLeft">&#160;</td><td class="mdescRight">クライアントのリクエストヘッダーに "Connection: keep-alive" が存在するか確認します。  <br /></td></tr>
 <tr class="separator:aa2dc5eec9dfb61797bd77abf5a44a218"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,6 +263,12 @@ struct sockaddr_in&#160;</td><td class="memItemRight" valign="bottom"><b>_servAd
 <tr class="memitem:ab050975e7ed75b249d688c228958cb22" id="r_ab050975e7ed75b249d688c228958cb22"><td class="memItemLeft" align="right" valign="top"><a id="ab050975e7ed75b249d688c228958cb22" name="ab050975e7ed75b249d688c228958cb22"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_responseData</b></td></tr>
 <tr class="separator:ab050975e7ed75b249d688c228958cb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ac0645e78a687829b60b8932870bfede1" id="r_ac0645e78a687829b60b8932870bfede1"><td class="memItemLeft" align="right" valign="top"><a id="ac0645e78a687829b60b8932870bfede1" name="ac0645e78a687829b60b8932870bfede1"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>POLL_TIMEOUT</b> = 2 * 1000</td></tr>
+<tr class="separator:ac0645e78a687829b60b8932870bfede1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a18b7f72724577a0fba37802fb36d8e7d" name="a18b7f72724577a0fba37802fb36d8e7d"></a>
@@ -406,7 +407,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="750,29,464,29,464,24,750,23"/>
 <area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,45,207,71"/>
 <area shape="poly" title=" " alt="" coords="251,43,207,48,207,43,250,38"/>
-<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,74,717,100"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,74,717,100"/>
 <area shape="poly" title=" " alt="" coords="752,92,718,91,718,86,752,87"/>
 <area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,73,475,99"/>
 <area shape="poly" title=" " alt="" coords="507,89,476,89,476,84,507,84"/>
@@ -460,7 +461,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="サーバーソケットにアドレスをバインドします。" alt="" coords="998,13,1171,39"/>
 <area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
 <area shape="poly" title=" " alt="" coords="983,28,950,28,950,23,983,23"/>
-<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,13,717,39"/>
 <area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
 <area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
 <area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
@@ -471,17 +472,21 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a16ed9bd4de8e026601eca26611647507" name="a16ed9bd4de8e026601eca26611647507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16ed9bd4de8e026601eca26611647507">&#9670;&#160;</a></span>closeAndCleanupSocket()</h2>
+<a id="a500652677e0cb07236dcba573d8972f3" name="a500652677e0cb07236dcba573d8972f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a500652677e0cb07236dcba573d8972f3">&#9670;&#160;</a></span>closeAndCleanupSocket()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void NetworkService::closeAndCleanupSocket </td>
+          <td class="memname">std::vector&lt; structpollfd &gt;::iterator NetworkService::closeAndCleanupSocket </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; struct pollfd &gt;::iterator &amp;</td>          <td class="paramname"><span class="paramname"><em>it</em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fd</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; struct pollfd &gt;::iterator &amp;</td>          <td class="paramname"><span class="paramname"><em>it</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -497,8 +502,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_network_service_a16ed9bd4de8e026601eca26611647507_cgraph.png" border="0" usemap="#aclass_network_service_a16ed9bd4de8e026601eca26611647507_cgraph" alt=""/></div>
-<map name="aclass_network_service_a16ed9bd4de8e026601eca26611647507_cgraph" id="aclass_network_service_a16ed9bd4de8e026601eca26611647507_cgraph">
+<div class="center"><img src="class_network_service_a500652677e0cb07236dcba573d8972f3_cgraph.png" border="0" usemap="#aclass_network_service_a500652677e0cb07236dcba573d8972f3_cgraph" alt=""/></div>
+<map name="aclass_network_service_a500652677e0cb07236dcba573d8972f3_cgraph" id="aclass_network_service_a500652677e0cb07236dcba573d8972f3_cgraph">
 <area shape="rect" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="5,5,182,46"/>
 <area shape="rect" href="class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="230,13,449,39"/>
 <area shape="poly" title=" " alt="" coords="182,23,214,23,214,28,182,28"/>
@@ -507,16 +512,19 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_network_service_a16ed9bd4de8e026601eca26611647507_icgraph.png" border="0" usemap="#aclass_network_service_a16ed9bd4de8e026601eca26611647507_icgraph" alt=""/></div>
-<map name="aclass_network_service_a16ed9bd4de8e026601eca26611647507_icgraph" id="aclass_network_service_a16ed9bd4de8e026601eca26611647507_icgraph">
-<area shape="rect" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="494,39,670,79"/>
-<area shape="rect" href="class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="478,47,446,42,447,37,479,41"/>
-<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="255,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="479,76,446,80,446,75,478,71"/>
-<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
-<area shape="poly" title=" " alt="" coords="240,43,205,48,205,43,239,38"/>
-<area shape="poly" title=" " alt="" coords="239,79,207,75,208,70,240,74"/>
+<div class="center"><img src="class_network_service_a500652677e0cb07236dcba573d8972f3_icgraph.png" border="0" usemap="#aclass_network_service_a500652677e0cb07236dcba573d8972f3_icgraph" alt=""/></div>
+<map name="aclass_network_service_a500652677e0cb07236dcba573d8972f3_icgraph" id="aclass_network_service_a500652677e0cb07236dcba573d8972f3_icgraph">
+<area shape="rect" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="510,71,686,111"/>
+<area shape="rect" href="class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="263,5,454,46"/>
+<area shape="poly" title=" " alt="" coords="506,69,435,49,437,44,508,64"/>
+<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="263,71,454,111"/>
+<area shape="poly" title=" " alt="" coords="494,94,454,94,454,88,494,88"/>
+<area shape="rect" href="class_network_service.html#add534df7c218a7ec42aa34beee4eb703" title="ソケットのタイムアウトを処理する。" alt="" coords="255,136,462,161"/>
+<area shape="poly" title=" " alt="" coords="496,118,416,137,415,132,495,113"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,78,207,104"/>
+<area shape="poly" title=" " alt="" coords="263,53,159,80,158,75,261,48"/>
+<area shape="poly" title=" " alt="" coords="248,94,207,94,207,88,248,88"/>
+<area shape="poly" title=" " alt="" coords="283,134,165,107,167,102,285,129"/>
 </map>
 </div>
 
@@ -563,16 +571,19 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_a648626623792dd4752c1daaffe876ffc_icgraph.png" border="0" usemap="#aclass_network_service_a648626623792dd4752c1daaffe876ffc_icgraph" alt=""/></div>
 <map name="aclass_network_service_a648626623792dd4752c1daaffe876ffc_icgraph" id="aclass_network_service_a648626623792dd4752c1daaffe876ffc_icgraph">
-<area shape="rect" title="指定されたソケットの接続を閉じます。" alt="" coords="718,46,938,72"/>
-<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="494,39,670,79"/>
-<area shape="poly" title=" " alt="" coords="703,62,671,62,671,56,703,56"/>
-<area shape="rect" href="class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="478,47,446,42,447,37,479,41"/>
-<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="255,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="479,76,446,80,446,75,478,71"/>
-<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
-<area shape="poly" title=" " alt="" coords="240,43,205,48,205,43,239,38"/>
-<area shape="poly" title=" " alt="" coords="239,79,207,75,208,70,240,74"/>
+<area shape="rect" title="指定されたソケットの接続を閉じます。" alt="" coords="734,78,954,104"/>
+<area shape="rect" href="class_network_service.html#a500652677e0cb07236dcba573d8972f3" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="510,71,686,111"/>
+<area shape="poly" title=" " alt="" coords="719,94,687,94,687,88,719,88"/>
+<area shape="rect" href="class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="263,5,454,46"/>
+<area shape="poly" title=" " alt="" coords="506,69,435,49,437,44,508,64"/>
+<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="263,71,454,111"/>
+<area shape="poly" title=" " alt="" coords="494,94,454,94,454,88,494,88"/>
+<area shape="rect" href="class_network_service.html#add534df7c218a7ec42aa34beee4eb703" title="ソケットのタイムアウトを処理する。" alt="" coords="255,136,462,161"/>
+<area shape="poly" title=" " alt="" coords="496,118,416,137,415,132,495,113"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,78,207,104"/>
+<area shape="poly" title=" " alt="" coords="263,53,159,80,158,75,261,48"/>
+<area shape="poly" title=" " alt="" coords="248,94,207,94,207,88,248,88"/>
+<area shape="poly" title=" " alt="" coords="283,134,165,107,167,102,285,129"/>
 </map>
 </div>
 
@@ -624,7 +635,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="サーバーアドレスを設定します。" alt="" coords="998,5,1173,46"/>
 <area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
 <area shape="poly" title=" " alt="" coords="983,28,950,28,950,23,983,23"/>
-<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,13,717,39"/>
 <area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
 <area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
 <area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
@@ -678,7 +689,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="サーバーソケットを作成します。" alt="" coords="998,5,1194,46"/>
 <area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
 <area shape="poly" title=" " alt="" coords="982,28,950,28,950,23,982,23"/>
-<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,13,717,39"/>
 <area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
 <area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
 <area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
@@ -774,7 +785,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd></dd></dl>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
 流れ</h1>
 <ul>
 <li>過去のデータの取得: ソケットの前回の情報 socketState を取得</li>
@@ -788,116 +799,116 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_cgraph.png" border="0" usemap="#aclass_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_cgraph" alt=""/></div>
 <map name="aclass_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_cgraph" id="aclass_network_service_a1b6605ad0ddb71f1fc7a87ff616cf872_cgraph">
-<area shape="rect" title="クライアントのHTTPセッションを実行します。" alt="" coords="5,445,208,486"/>
-<area shape="rect" href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="256,445,440,486"/>
-<area shape="poly" title=" " alt="" coords="208,463,240,463,240,468,208,468"/>
-<area shape="rect" href="class_response_str_build_state.html#a0f55d5f37e78c4ab37c97e40b74128e4" title="レスポンスボディを構築します。" alt="" coords="771,332,928,373"/>
-<area shape="poly" title=" " alt="" coords="395,484,458,506,534,523,575,525,614,523,653,513,688,495,701,484,708,471,712,443,716,412,723,397,736,382,755,369,758,374,739,386,728,400,722,414,718,444,713,473,705,487,691,500,654,518,615,528,575,531,534,528,456,512,393,489"/>
-<area shape="rect" href="class_response_str_build_state.html#aa9cd3a0aeb17b8500de1c08b89211fde" title="レスポンスヘッダを構築します。" alt="" coords="771,71,928,111"/>
-<area shape="poly" title=" " alt="" coords="348,445,356,380,378,291,396,243,419,197,449,156,486,121,517,102,550,88,621,72,691,68,756,72,756,77,691,73,621,77,552,93,519,107,490,125,453,159,424,200,400,245,383,292,361,381,353,445"/>
-<area shape="rect" href="class_response_str_build_state.html#a94307f5ba086893af9d589e97f7d73a5" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="761,136,938,177"/>
-<area shape="poly" title=" " alt="" coords="353,444,370,400,397,343,436,285,460,258,487,235,582,210,745,175,746,180,583,215,489,240,463,262,440,288,402,346,375,402,358,446"/>
-<area shape="rect" href="class_http_workflow_manager.html#a0014db595ae6547c54ab46f4f3901ea9" title="有効なファイルパスを探索します。" alt="" coords="514,249,664,290"/>
-<area shape="poly" title=" " alt="" coords="359,443,409,374,445,335,486,301,498,294,501,298,490,305,449,339,413,377,364,447"/>
-<area shape="rect" href="class_cgi_execution_state.html#a583ea5d0162a7f407a3377b9706d5157" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="520,380,658,421"/>
-<area shape="poly" title=" " alt="" coords="424,442,503,421,505,426,426,447"/>
-<area shape="rect" href="class_content_extraction_state.html#a1b828ff600c1530b66839c5507200cc9" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="510,315,667,355"/>
-<area shape="poly" title=" " alt="" coords="372,443,423,405,487,366,502,359,504,364,489,371,426,409,375,447"/>
-<area shape="rect" href="class_delete_method_state.html#aa04b270749d1d2f1e4558dcf1432f02d" title="疑似 Delete method 機能を処理します。" alt="" coords="518,445,659,486"/>
-<area shape="poly" title=" " alt="" coords="441,463,503,463,503,468,441,468"/>
-<area shape="rect" href="class_file_path_generation_state.html#a8ba1acd7412f965ec6e82e095f154cf9" title="HTTPリクエストに基づいてファイルパス生成処理を実行します。" alt="" coords="507,709,670,750"/>
-<area shape="poly" title=" " alt="" coords="368,485,490,627,557,696,553,700,486,630,364,488"/>
-<area shape="rect" href="class_identify_location_state.html#a6d6d0d17c501290cde9ac46f94425b86" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="517,824,661,865"/>
-<area shape="poly" title=" " alt="" coords="358,486,375,537,404,608,442,686,490,760,516,788,545,813,542,817,513,792,486,763,437,689,399,610,370,539,353,487"/>
-<area shape="rect" href="class_parsing_request_state.html#a2621c1d2bf5d432065dee9c5b13b904d" title="HTTPリクエストの解析を行います。" alt="" coords="516,1036,661,1077"/>
-<area shape="poly" title=" " alt="" coords="357,485,406,649,445,762,490,875,530,955,569,1021,564,1024,525,957,486,877,440,764,401,651,352,487"/>
-<area shape="rect" href="class_recv_header_lexer_state.html#ae494c259cb88bb3b824f6af8672d6376" title="データを逐次的に読み取りながら解析します。" alt="" coords="510,1205,667,1246"/>
-<area shape="poly" title=" " alt="" coords="353,486,364,583,387,734,405,821,428,911,456,1001,490,1087,524,1144,560,1192,556,1195,519,1147,486,1089,451,1003,423,913,400,822,382,735,358,584,348,487"/>
-<area shape="rect" href="class_response_str_build_state.html#a7b9feab17aef82874d3bc584a1f67e6f" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="510,135,667,175"/>
-<area shape="poly" title=" " alt="" coords="352,444,367,394,394,326,433,255,458,221,486,192,500,181,503,186,490,196,462,225,438,258,399,329,372,395,357,446"/>
-<area shape="rect" href="class_http_workflow_manager.html#adbff49b30d6647cb5381ba3d8cfb809e" title="HTTPリクエストに対して即座にレスポンスするべきかどうかを判断します。" alt="" coords="488,561,689,616"/>
-<area shape="poly" title=" " alt="" coords="387,484,489,539,513,551,511,556,487,544,385,489"/>
-<area shape="rect" href="class_util_http_processing_step.html#a7b8027cc3b454260cfb2334162faf5a5" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="1046,332,1205,373"/>
-<area shape="poly" title=" " alt="" coords="929,350,1031,350,1031,355,929,355"/>
-<area shape="rect" href="class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="1046,267,1205,307"/>
-<area shape="poly" title=" " alt="" coords="928,331,1030,307,1032,312,929,336"/>
-<area shape="rect" href="class_response_str_build_state.html#a02838bcf03951383fff1f024c91bc109" title=" " alt="" coords="1010,71,1241,111"/>
-<area shape="poly" title=" " alt="" coords="929,88,995,88,995,94,929,94"/>
-<area shape="rect" href="class_response_str_build_state.html#a71e4e179bf069803d09000ef75331d5d" title="レスポンスヘッダーに適切なContent&#45;Typeを設定します。" alt="" coords="1039,5,1212,46"/>
-<area shape="poly" title=" " alt="" coords="928,70,1023,47,1025,52,929,75"/>
-<area shape="rect" href="class_mime_type.html#a4a1e37154291b98f207140579af47e9a" title="指定された拡張子に対応するMIMEタイプのテキストを取得します。" alt="" coords="1289,593,1467,619"/>
-<area shape="poly" title=" " alt="" coords="1213,37,1243,57,1270,98,1294,157,1315,229,1333,309,1361,464,1376,577,1371,578,1355,465,1328,310,1309,231,1289,159,1265,100,1239,61,1210,42"/>
-<area shape="rect" href="class_cgi_execution_state.html#a6cc80ee59a0491eadbc959c7de0bc90a" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="744,611,955,651"/>
-<area shape="poly" title=" " alt="" coords="659,415,691,431,736,470,775,514,808,558,832,596,827,599,803,561,771,517,732,474,688,436,657,420"/>
+<area shape="rect" title="クライアントのHTTPセッションを実行します。" alt="" coords="5,612,208,653"/>
+<area shape="rect" href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="256,612,440,653"/>
+<area shape="poly" title=" " alt="" coords="208,630,240,630,240,635,208,635"/>
+<area shape="rect" href="class_response_str_build_state.html#a0f55d5f37e78c4ab37c97e40b74128e4" title="レスポンスボディを構築します。" alt="" coords="771,136,928,177"/>
+<area shape="poly" title=" " alt="" coords="357,610,407,517,444,458,486,403,547,332,598,280,656,235,736,187,756,178,758,183,739,192,659,239,602,284,551,335,490,406,448,461,412,519,361,613"/>
+<area shape="rect" href="class_response_str_build_state.html#aa9cd3a0aeb17b8500de1c08b89211fde" title="レスポンスヘッダを構築します。" alt="" coords="771,612,928,653"/>
+<area shape="poly" title=" " alt="" coords="440,630,755,630,755,635,440,635"/>
+<area shape="rect" href="class_response_str_build_state.html#a94307f5ba086893af9d589e97f7d73a5" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="761,547,938,587"/>
+<area shape="poly" title=" " alt="" coords="440,617,488,611,745,578,746,583,488,616,441,623"/>
+<area shape="rect" href="class_http_workflow_manager.html#a0014db595ae6547c54ab46f4f3901ea9" title="有効なファイルパスを探索します。" alt="" coords="514,900,664,941"/>
+<area shape="poly" title=" " alt="" coords="357,652,373,700,400,763,439,828,463,858,490,885,501,893,498,897,486,889,459,862,434,831,395,765,368,702,352,654"/>
+<area shape="rect" href="class_cgi_execution_state.html#a583ea5d0162a7f407a3377b9706d5157" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="520,416,658,457"/>
+<area shape="poly" title=" " alt="" coords="365,610,417,553,486,490,530,462,533,467,490,494,420,557,368,613"/>
+<area shape="rect" href="class_content_extraction_state.html#a1b828ff600c1530b66839c5507200cc9" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="510,140,667,181"/>
+<area shape="poly" title=" " alt="" coords="351,611,365,547,392,454,432,351,457,299,486,251,514,217,544,189,548,193,518,221,490,254,462,302,437,353,397,456,371,548,356,612"/>
+<area shape="rect" href="class_delete_method_state.html#aa04b270749d1d2f1e4558dcf1432f02d" title="疑似 Delete method 機能を処理します。" alt="" coords="518,965,659,1006"/>
+<area shape="poly" title=" " alt="" coords="355,653,367,711,391,791,409,834,431,876,458,916,490,950,505,962,502,966,486,954,454,919,427,879,404,836,386,793,362,713,350,654"/>
+<area shape="rect" href="class_file_path_generation_state.html#a8ba1acd7412f965ec6e82e095f154cf9" title="HTTPリクエストに基づいてファイルパス生成処理を実行します。" alt="" coords="507,669,670,710"/>
+<area shape="poly" title=" " alt="" coords="437,651,493,664,491,669,436,656"/>
+<area shape="rect" href="class_identify_location_state.html#a6d6d0d17c501290cde9ac46f94425b86" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="517,1116,661,1157"/>
+<area shape="poly" title=" " alt="" coords="356,652,373,716,401,808,440,914,490,1016,523,1063,557,1103,553,1106,518,1066,486,1019,435,916,396,810,368,718,351,654"/>
+<area shape="rect" href="class_parsing_request_state.html#a2621c1d2bf5d432065dee9c5b13b904d" title="HTTPリクエストの解析を行います。" alt="" coords="516,835,661,875"/>
+<area shape="poly" title=" " alt="" coords="373,651,556,822,552,826,370,655"/>
+<area shape="rect" href="class_recv_header_lexer_state.html#ae494c259cb88bb3b824f6af8672d6376" title="データを逐次的に読み取りながら解析します。" alt="" coords="510,1213,667,1254"/>
+<area shape="poly" title=" " alt="" coords="352,653,357,741,376,875,394,950,418,1026,449,1099,490,1167,508,1186,530,1203,526,1207,505,1190,486,1170,445,1102,413,1028,388,951,371,876,352,742,347,653"/>
+<area shape="rect" href="class_response_str_build_state.html#a7b9feab17aef82874d3bc584a1f67e6f" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="510,504,667,545"/>
+<area shape="poly" title=" " alt="" coords="387,609,487,561,516,548,518,553,489,565,389,614"/>
+<area shape="rect" href="class_http_workflow_manager.html#adbff49b30d6647cb5381ba3d8cfb809e" title="HTTPリクエストに対して即座にレスポンスするべきかどうかを判断します。" alt="" coords="488,34,689,90"/>
+<area shape="poly" title=" " alt="" coords="347,611,354,527,375,402,392,331,416,260,447,191,486,127,516,97,520,101,490,130,452,193,421,262,397,333,380,403,359,528,353,612"/>
+<area shape="rect" href="class_util_http_processing_step.html#a7b8027cc3b454260cfb2334162faf5a5" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="1046,5,1205,46"/>
+<area shape="poly" title=" " alt="" coords="927,138,960,121,975,106,983,90,992,73,1008,57,1030,44,1033,49,1011,61,996,76,988,92,980,109,963,125,930,142"/>
+<area shape="rect" href="class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="1046,71,1205,111"/>
+<area shape="poly" title=" " alt="" coords="928,135,1030,111,1032,116,929,140"/>
+<area shape="rect" href="class_response_str_build_state.html#add60093e72dac4410f23bb31db759f5e" title=" " alt="" coords="1010,724,1241,765"/>
+<area shape="poly" title=" " alt="" coords="924,651,963,669,987,689,997,699,1011,709,1025,715,1023,720,1008,713,994,703,984,693,960,673,922,656"/>
+<area shape="rect" href="class_response_str_build_state.html#a71e4e179bf069803d09000ef75331d5d" title="レスポンスヘッダーに適切なContent&#45;Typeを設定します。" alt="" coords="1039,659,1212,699"/>
+<area shape="poly" title=" " alt="" coords="929,643,1024,659,1023,664,928,648"/>
+<area shape="rect" href="class_mime_type.html#a4a1e37154291b98f207140579af47e9a" title="指定された拡張子に対応するMIMEタイプのテキストを取得します。" alt="" coords="1289,862,1467,888"/>
+<area shape="poly" title=" " alt="" coords="1213,695,1242,710,1282,742,1316,779,1364,847,1360,850,1312,782,1278,746,1240,715,1210,700"/>
+<area shape="rect" href="class_cgi_execution_state.html#a6cc80ee59a0491eadbc959c7de0bc90a" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="744,416,955,457"/>
+<area shape="poly" title=" " alt="" coords="658,434,729,434,729,439,658,439"/>
 <area shape="rect" href="class_cgi_execution_state.html#ac90758d6a2c43bb933d1437154a67255" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="780,201,919,242"/>
-<area shape="poly" title=" " alt="" coords="657,384,688,365,699,352,705,338,710,310,716,282,723,267,736,253,764,235,767,240,739,257,728,270,721,283,716,311,710,340,703,355,691,369,660,388"/>
-<area shape="rect" href="class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a" title="環境変数をstd::stringからchar*に変換します。" alt="" coords="1045,577,1206,618"/>
-<area shape="poly" title=" " alt="" coords="955,616,1029,607,1030,612,956,621"/>
-<area shape="rect" href="class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="1056,643,1195,683"/>
-<area shape="poly" title=" " alt="" coords="956,641,1041,651,1040,656,955,646"/>
-<area shape="rect" href="class_util_http_processing_step.html#ada47c31af29a6f653e509b8c12499f0d" title="SocketState オブジェクトのデバッグ情報を出力します。" alt="" coords="1046,904,1205,945"/>
-<area shape="poly" title=" " alt="" coords="905,650,937,669,964,696,979,723,985,749,985,797,984,820,986,843,995,866,1012,889,1034,905,1031,910,1008,893,990,869,981,844,979,821,980,797,980,749,974,725,960,699,933,673,902,654"/>
-<area shape="rect" href="class_cgi_execution_state.html#a12d614bd895d492fc63675f349266415" title="CGIスクリプトを実行します。" alt="" coords="1056,708,1195,749"/>
-<area shape="poly" title=" " alt="" coords="900,649,1011,692,1042,703,1041,708,1009,698,898,654"/>
-<area shape="rect" href="class_cgi_execution_state.html#a06397db53835040bc91ef82d21efd538" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="1053,773,1198,814"/>
-<area shape="poly" title=" " alt="" coords="895,650,930,670,963,696,978,713,987,729,996,744,1011,758,1039,773,1037,778,1008,763,992,747,982,732,974,716,960,700,927,675,893,654"/>
-<area shape="rect" href="class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="1021,447,1230,487"/>
-<area shape="poly" title=" " alt="" coords="869,608,928,554,967,524,1008,498,1023,491,1025,496,1011,503,970,528,931,558,872,612"/>
-<area shape="rect" href="class_cgi_execution_state.html#aee14557029b7e57f3c911a28f5ec0c55" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="1036,512,1215,553"/>
-<area shape="poly" title=" " alt="" coords="897,608,1009,563,1033,555,1034,560,1011,568,899,613"/>
-<area shape="poly" title=" " alt="" coords="920,235,1031,262,1030,267,918,241"/>
+<area shape="poly" title=" " alt="" coords="614,413,810,250,813,254,617,417"/>
+<area shape="rect" href="class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a" title="環境変数をstd::stringからchar*に変換します。" alt="" coords="1045,267,1206,307"/>
+<area shape="poly" title=" " alt="" coords="872,413,931,366,969,340,1008,318,1030,309,1032,314,1011,323,972,345,935,370,876,418"/>
+<area shape="rect" href="class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="1056,332,1195,373"/>
+<area shape="poly" title=" " alt="" coords="914,413,1009,383,1040,374,1042,379,1010,388,916,418"/>
+<area shape="rect" href="class_util_http_processing_step.html#ada47c31af29a6f653e509b8c12499f0d" title="SocketState オブジェクトのデバッグ情報を出力します。" alt="" coords="1046,789,1205,830"/>
+<area shape="poly" title=" " alt="" coords="949,455,964,468,978,488,989,508,997,547,995,585,988,624,981,662,979,699,988,737,997,756,1012,774,1034,791,1030,796,1008,778,993,758,983,739,974,700,976,661,983,623,990,585,992,547,984,509,974,491,960,471,945,459"/>
+<area shape="rect" href="class_cgi_execution_state.html#a12d614bd895d492fc63675f349266415" title="CGIスクリプトを実行します。" alt="" coords="1056,397,1195,438"/>
+<area shape="poly" title=" " alt="" coords="955,427,1040,421,1041,426,955,432"/>
+<area shape="rect" href="class_cgi_execution_state.html#a06397db53835040bc91ef82d21efd538" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="1053,463,1198,503"/>
+<area shape="poly" title=" " alt="" coords="956,452,1038,466,1037,471,955,457"/>
+<area shape="rect" href="class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="1021,528,1230,569"/>
+<area shape="poly" title=" " alt="" coords="937,455,963,467,978,479,988,491,997,502,1011,513,1023,519,1021,524,1008,517,993,506,984,494,974,483,960,472,934,460"/>
+<area shape="rect" href="class_cgi_execution_state.html#aee14557029b7e57f3c911a28f5ec0c55" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="1036,593,1215,634"/>
+<area shape="poly" title=" " alt="" coords="945,455,963,468,976,482,983,496,988,525,993,552,1000,565,1011,578,1024,588,1021,592,1008,582,995,568,988,554,983,526,978,498,971,485,960,472,942,459"/>
+<area shape="poly" title=" " alt="" coords="918,206,960,186,975,171,983,155,992,138,1008,122,1030,110,1033,114,1011,126,996,142,988,157,980,174,963,191,920,211"/>
 <area shape="rect" href="class_cgi_execution_state.html#a50fedd6ac6adc3d9e574a64d20c77f40" title="CGIヘッダー全体を解析します。" alt="" coords="1056,136,1195,177"/>
 <area shape="poly" title=" " alt="" coords="918,203,1040,174,1042,179,920,208"/>
 <area shape="rect" href="class_cgi_execution_state.html#aaea3ec2c91f6d6d4fb47b251fc5d338e" title="改行記号を変換するために使用します" alt="" coords="1055,201,1196,242"/>
 <area shape="poly" title=" " alt="" coords="919,219,1039,219,1039,224,919,224"/>
-<area shape="rect" href="class_content_extraction_state.html#a2ad6daeca81781bd47c508fc7f080f5e" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="737,267,962,307"/>
-<area shape="poly" title=" " alt="" coords="667,318,721,308,722,313,668,323"/>
-<area shape="poly" title=" " alt="" coords="962,284,1031,284,1031,290,962,290"/>
-<area shape="poly" title=" " alt="" coords="671,745,963,810,981,830,988,850,995,870,1011,889,1034,902,1031,907,1008,893,991,873,983,852,976,833,960,815,670,750"/>
-<area shape="rect" href="class_file_path_generation_state.html#ab9a85d03be875b1bc2e19046d93a630c" title="HTTPリクエストに基づいて可能なすべて( open()を試行する複数 )の絶対ファイルパスを構築します。" alt="" coords="768,709,931,750"/>
-<area shape="poly" title=" " alt="" coords="671,727,752,727,752,732,671,732"/>
-<area shape="rect" href="class_util_http_processing_step.html#a59d2ac26324fd367151fcfe6bb787864" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="1046,839,1205,879"/>
-<area shape="poly" title=" " alt="" coords="929,748,963,766,979,781,988,796,996,810,1011,823,1033,835,1030,840,1008,828,992,813,983,799,975,784,960,770,927,753"/>
-<area shape="rect" href="class_identify_location_state.html#af41f5b6d4844a68fc735327f57ce8eb7" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="739,939,960,979"/>
-<area shape="poly" title=" " alt="" coords="638,863,788,929,786,934,636,868"/>
-<area shape="rect" href="class_identify_location_state.html#a1fe1886fabd208561b2486779ccec9e2" title="現在のリクエストが特定のロケーションディレクティブに適合しているか検証します。" alt="" coords="752,824,947,865"/>
-<area shape="poly" title=" " alt="" coords="661,842,737,842,737,847,661,847"/>
-<area shape="rect" href="class_identify_location_state.html#ab13ab10cecea13ff3f356e1b5733b74c" title="一致する LocationDirective を見つけます。" alt="" coords="1023,969,1228,1010"/>
-<area shape="poly" title=" " alt="" coords="961,969,1008,974,1008,979,960,974"/>
-<area shape="poly" title=" " alt="" coords="603,1034,626,1007,657,976,694,947,736,925,811,905,889,897,964,898,1031,905,1030,910,964,903,889,902,812,910,738,929,697,951,660,980,630,1011,607,1037"/>
-<area shape="rect" href="class_parsing_request_state.html#a44fe05182b403c5bb33015f5b00e19a2" title="リクエストURIから拡張子を抽出します。" alt="" coords="769,1213,930,1254"/>
-<area shape="poly" title=" " alt="" coords="607,1075,661,1137,698,1171,739,1199,756,1208,753,1213,736,1204,695,1175,657,1141,603,1079"/>
-<area shape="rect" href="class_parsing_request_state.html#a289d24bf24d1266909efac852d1b5a15" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="745,1134,954,1190"/>
-<area shape="poly" title=" " alt="" coords="636,1075,738,1119,754,1125,752,1130,736,1124,634,1080"/>
-<area shape="rect" href="class_parsing_request_state.html#aefb7eb2c4d17a49fbd188749e422e87a" title="HTTPクエリ文字列から&quot;delete_file_name=&quot;の後ろの部分を抽出し、 _socketState._deleteFileNameに格納します。 また、_socketState...." alt="" coords="751,1004,948,1045"/>
-<area shape="poly" title=" " alt="" coords="662,1045,735,1036,736,1041,662,1050"/>
-<area shape="rect" href="class_parsing_request_state.html#a0e327b89d7a11d2a8c00b4e49683a222" title="HTTPリクエストボディを解析します。" alt="" coords="777,1069,922,1110"/>
-<area shape="poly" title=" " alt="" coords="662,1063,762,1076,761,1081,662,1068"/>
-<area shape="rect" href="class_parsing_request_state.html#af4d0a8fe76ce9333f22769e9c863465c" title="指定された拡張子に対応するMIMEタイプが有効かどうかを検証します。" alt="" coords="1053,1165,1198,1206"/>
-<area shape="poly" title=" " alt="" coords="930,1217,1037,1198,1038,1204,931,1222"/>
-<area shape="poly" title=" " alt="" coords="1197,1175,1220,1165,1239,1151,1265,1111,1289,1052,1309,981,1328,902,1355,746,1371,634,1376,634,1361,747,1333,903,1315,982,1294,1054,1270,1113,1243,1154,1223,1170,1199,1179"/>
-<area shape="rect" href="class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="1051,1035,1200,1075"/>
-<area shape="poly" title=" " alt="" coords="922,1078,1036,1064,1036,1069,923,1083"/>
-<area shape="rect" href="class_parsing_request_state.html#a272f390a4a4f5f9c7ada254b58f24598" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="1048,1100,1203,1141"/>
-<area shape="poly" title=" " alt="" coords="923,1095,1033,1107,1032,1113,922,1100"/>
-<area shape="rect" href="class_recv_header_lexer_state.html#a1441b2cc3c6a1ec2dde32e9ce51401ce" title="ソケットからメッセージを受信します。" alt="" coords="771,1279,928,1319"/>
-<area shape="poly" title=" " alt="" coords="664,1244,761,1271,759,1276,663,1249"/>
-<area shape="rect" href="class_recv_header_lexer_state.html#a2fb1c8f19c4da01875b5b0d5b21706be" title="受信したHTTPリクエストヘッダーを解析します。" alt="" coords="1046,1280,1205,1321"/>
-<area shape="poly" title=" " alt="" coords="929,1297,1030,1297,1030,1303,929,1302"/>
-<area shape="rect" href="class_recv_header_lexer_state.html#a5ea2e1151da9d4a3fca01701c4f1726c" title="HTTPリクエストボディを受信します。" alt="" coords="1047,1345,1204,1386"/>
-<area shape="poly" title=" " alt="" coords="929,1315,1033,1341,1031,1346,928,1321"/>
-<area shape="rect" href="class_recv_header_lexer_state.html#a3066f47225f8ec0d30ad4f23f28aa704" title="受信したデータをベクターに追加します。" alt="" coords="1299,1284,1458,1325"/>
-<area shape="poly" title=" " alt="" coords="928,1278,1009,1266,1125,1257,1176,1259,1241,1266,1298,1277,1297,1282,1241,1271,1176,1264,1126,1262,1010,1271,929,1284"/>
-<area shape="poly" title=" " alt="" coords="1204,1344,1283,1325,1284,1330,1205,1349"/>
-<area shape="poly" title=" " alt="" coords="622,174,657,202,691,236,706,259,714,280,722,298,739,317,758,329,755,333,736,321,717,301,709,282,701,261,687,239,653,206,619,178"/>
-<area shape="poly" title=" " alt="" coords="667,133,755,111,756,117,668,138"/>
-<area shape="poly" title=" " alt="" coords="668,153,746,153,746,158,668,158"/>
-<area shape="rect" href="class_auto_index_state.html#ae84bd50d171c70674d85bf49ef5a5de9" title="AutoIndex機能を処理します。" alt="" coords="771,397,928,423"/>
-<area shape="poly" title=" " alt="" coords="655,558,688,539,763,484,822,431,825,435,766,488,691,544,658,562"/>
-<area shape="poly" title=" " alt="" coords="914,394,1030,369,1031,374,915,399"/>
-<area shape="poly" title=" " alt="" coords="928,397,960,382,975,367,983,351,992,335,1008,318,1030,306,1033,310,1011,322,996,338,988,354,980,371,963,387,930,402"/>
-<area shape="rect" href="class_auto_index_state.html#aeaf8392a5d89a5ef9f743fd174f9563d" title="AutoIndex on の場合のレスポンスボディを構築します" alt="" coords="1037,397,1214,423"/>
-<area shape="poly" title=" " alt="" coords="929,407,1022,407,1022,412,929,412"/>
+<area shape="rect" href="class_content_extraction_state.html#a2ad6daeca81781bd47c508fc7f080f5e" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="737,71,962,111"/>
+<area shape="poly" title=" " alt="" coords="667,137,755,113,756,119,669,142"/>
+<area shape="poly" title=" " alt="" coords="962,88,1031,88,1031,94,962,94"/>
+<area shape="poly" title=" " alt="" coords="671,674,737,670,812,672,890,685,927,697,963,713,980,727,989,743,997,759,1011,774,1033,786,1031,791,1008,778,992,762,984,746,976,730,960,717,925,702,888,690,812,678,737,675,671,680"/>
+<area shape="rect" href="class_file_path_generation_state.html#ab9a85d03be875b1bc2e19046d93a630c" title="HTTPリクエストに基づいて可能なすべて( open()を試行する複数 )の絶対ファイルパスを構築します。" alt="" coords="768,727,931,767"/>
+<area shape="poly" title=" " alt="" coords="672,705,753,723,752,728,670,710"/>
+<area shape="rect" href="class_util_http_processing_step.html#a59d2ac26324fd367151fcfe6bb787864" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="1046,855,1205,895"/>
+<area shape="poly" title=" " alt="" coords="933,761,963,777,979,793,988,809,996,825,1011,840,1033,851,1030,856,1008,844,992,828,983,812,975,796,960,781,930,766"/>
+<area shape="rect" href="class_identify_location_state.html#af41f5b6d4844a68fc735327f57ce8eb7" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="739,1116,960,1157"/>
+<area shape="poly" title=" " alt="" coords="661,1134,724,1134,724,1139,661,1139"/>
+<area shape="rect" href="class_identify_location_state.html#a1fe1886fabd208561b2486779ccec9e2" title="現在のリクエストが特定のロケーションディレクティブに適合しているか検証します。" alt="" coords="752,1181,947,1222"/>
+<area shape="poly" title=" " alt="" coords="662,1152,751,1174,750,1180,661,1157"/>
+<area shape="rect" href="class_identify_location_state.html#ab13ab10cecea13ff3f356e1b5733b74c" title="一致する LocationDirective を見つけます。" alt="" coords="1023,1116,1228,1157"/>
+<area shape="poly" title=" " alt="" coords="961,1134,1007,1134,1007,1139,961,1139"/>
+<area shape="poly" title=" " alt="" coords="662,873,691,886,714,905,724,914,738,921,801,940,853,950,877,950,903,945,930,936,960,921,978,904,984,884,991,862,1008,841,1031,827,1033,832,1011,845,996,865,989,886,982,907,963,925,932,941,904,951,878,955,852,956,800,945,736,925,721,918,711,909,688,891,660,878"/>
+<area shape="rect" href="class_parsing_request_state.html#a44fe05182b403c5bb33015f5b00e19a2" title="リクエストURIから拡張子を抽出します。" alt="" coords="769,1051,930,1091"/>
+<area shape="poly" title=" " alt="" coords="663,868,691,886,706,906,713,925,716,963,718,1000,725,1018,739,1036,756,1049,753,1053,735,1040,721,1021,713,1001,710,963,708,926,701,908,688,890,660,872"/>
+<area shape="rect" href="class_parsing_request_state.html#a289d24bf24d1266909efac852d1b5a15" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="745,791,954,847"/>
+<area shape="poly" title=" " alt="" coords="662,842,729,833,730,838,662,848"/>
+<area shape="rect" href="class_parsing_request_state.html#aefb7eb2c4d17a49fbd188749e422e87a" title="HTTPクエリ文字列から&quot;delete_file_name=&quot;の後ろの部分を抽出し、 _socketState._deleteFileNameに格納します。 また、_socketState...." alt="" coords="751,871,948,911"/>
+<area shape="poly" title=" " alt="" coords="662,862,736,873,735,878,662,868"/>
+<area shape="rect" href="class_parsing_request_state.html#a0e327b89d7a11d2a8c00b4e49683a222" title="HTTPリクエストボディを解析します。" alt="" coords="777,985,922,1026"/>
+<area shape="poly" title=" " alt="" coords="663,870,691,886,708,906,716,927,723,946,739,965,764,981,761,985,736,969,719,949,711,929,704,909,688,890,660,874"/>
+<area shape="rect" href="class_parsing_request_state.html#af4d0a8fe76ce9333f22769e9c863465c" title="指定された拡張子に対応するMIMEタイプが有効かどうかを検証します。" alt="" coords="1053,1051,1198,1091"/>
+<area shape="poly" title=" " alt="" coords="931,1068,1037,1068,1037,1074,931,1074"/>
+<area shape="poly" title=" " alt="" coords="1197,1055,1240,1035,1278,1004,1312,968,1360,900,1364,903,1316,971,1282,1008,1242,1040,1200,1060"/>
+<area shape="rect" href="class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="1051,920,1200,961"/>
+<area shape="poly" title=" " alt="" coords="922,986,1035,959,1037,964,923,991"/>
+<area shape="rect" href="class_parsing_request_state.html#a272f390a4a4f5f9c7ada254b58f24598" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="1048,985,1203,1026"/>
+<area shape="poly" title=" " alt="" coords="923,1003,1032,1003,1032,1008,923,1008"/>
+<area shape="rect" href="class_recv_header_lexer_state.html#a1441b2cc3c6a1ec2dde32e9ce51401ce" title="ソケットからメッセージを受信します。" alt="" coords="771,1247,928,1287"/>
+<area shape="poly" title=" " alt="" coords="668,1241,756,1252,755,1258,667,1246"/>
+<area shape="rect" href="class_recv_header_lexer_state.html#a2fb1c8f19c4da01875b5b0d5b21706be" title="受信したHTTPリクエストヘッダーを解析します。" alt="" coords="1046,1181,1205,1222"/>
+<area shape="poly" title=" " alt="" coords="928,1246,1030,1222,1031,1227,929,1251"/>
+<area shape="rect" href="class_recv_header_lexer_state.html#a5ea2e1151da9d4a3fca01701c4f1726c" title="HTTPリクエストボディを受信します。" alt="" coords="1047,1247,1204,1287"/>
+<area shape="poly" title=" " alt="" coords="929,1264,1031,1264,1031,1270,929,1270"/>
+<area shape="rect" href="class_recv_header_lexer_state.html#a3066f47225f8ec0d30ad4f23f28aa704" title="受信したデータをベクターに追加します。" alt="" coords="1299,1275,1458,1315"/>
+<area shape="poly" title=" " alt="" coords="929,1283,1010,1296,1075,1301,1125,1301,1241,1296,1283,1295,1283,1301,1241,1302,1125,1306,1074,1306,1009,1302,928,1289"/>
+<area shape="poly" title=" " alt="" coords="1205,1273,1284,1282,1283,1287,1204,1278"/>
+<area shape="poly" title=" " alt="" coords="645,501,668,486,687,467,706,430,713,394,712,360,707,326,702,292,702,258,712,223,735,188,755,172,759,176,739,191,717,226,708,259,707,292,712,325,717,360,718,395,711,432,691,470,672,490,648,506"/>
+<area shape="poly" title=" " alt="" coords="628,543,680,570,738,597,759,604,757,609,736,601,677,575,625,548"/>
+<area shape="poly" title=" " alt="" coords="668,535,746,547,745,553,667,540"/>
+<area shape="rect" href="class_util_http_processing_step.html#a48ff09f4967b6b9cbb9fb556e20b30da" title="HttpResponse の変数を出力するデバッグ用関数" alt="" coords="770,481,929,522"/>
+<area shape="poly" title=" " alt="" coords="668,515,755,507,755,513,668,520"/>
+<area shape="rect" href="class_auto_index_state.html#ae84bd50d171c70674d85bf49ef5a5de9" title="AutoIndex機能を処理します。" alt="" coords="771,21,928,47"/>
+<area shape="poly" title=" " alt="" coords="690,48,755,41,755,46,690,53"/>
+<area shape="poly" title=" " alt="" coords="929,29,1030,26,1031,31,929,34"/>
+<area shape="poly" title=" " alt="" coords="915,44,1031,69,1030,74,914,50"/>
 </map>
 </div>
 <div class="dynheader">
@@ -991,115 +1002,115 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_afc2ce78b98367413538d7d84537b867e_cgraph.png" border="0" usemap="#aclass_network_service_afc2ce78b98367413538d7d84537b867e_cgraph" alt=""/></div>
 <map name="aclass_network_service_afc2ce78b98367413538d7d84537b867e_cgraph" id="aclass_network_service_afc2ce78b98367413538d7d84537b867e_cgraph">
-<area shape="rect" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="5,395,197,435"/>
-<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="258,329,434,370"/>
-<area shape="poly" title=" " alt="" coords="179,391,252,372,253,377,181,397"/>
-<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="245,395,447,435"/>
-<area shape="poly" title=" " alt="" coords="197,412,229,412,229,418,197,418"/>
-<area shape="rect" href="class_network_service.html#a7101de80b1b3b348f2012246c598b0e4" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="253,460,439,485"/>
-<area shape="poly" title=" " alt="" coords="191,433,273,453,272,458,190,439"/>
-<area shape="rect" href="class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="495,337,714,363"/>
-<area shape="poly" title=" " alt="" coords="435,347,479,347,479,352,435,352"/>
-<area shape="rect" href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="513,395,697,435"/>
-<area shape="poly" title=" " alt="" coords="447,412,497,412,497,418,447,418"/>
-<area shape="rect" href="class_response_str_build_state.html#a0f55d5f37e78c4ab37c97e40b74128e4" title="レスポンスボディを構築します。" alt="" coords="1045,152,1203,193"/>
-<area shape="poly" title=" " alt="" coords="680,392,713,373,728,355,735,337,744,319,761,301,788,285,814,276,861,272,909,269,934,263,962,250,977,239,986,227,995,214,1010,202,1030,192,1032,197,1013,207,999,218,990,230,980,243,965,255,936,268,909,275,861,277,815,282,790,290,764,305,748,322,740,339,732,358,716,377,683,396"/>
-<area shape="rect" href="class_response_str_build_state.html#aa9cd3a0aeb17b8500de1c08b89211fde" title="レスポンスヘッダを構築します。" alt="" coords="1045,21,1203,62"/>
-<area shape="poly" title=" " alt="" coords="689,392,712,373,726,354,734,335,742,297,739,258,731,220,724,182,722,145,733,108,744,90,761,72,789,50,822,34,856,22,892,16,964,13,1030,19,1030,24,964,18,893,21,857,28,824,38,792,54,764,76,749,93,738,110,728,145,729,182,736,219,744,258,747,297,740,337,730,357,716,377,693,396"/>
-<area shape="rect" href="class_response_str_build_state.html#a94307f5ba086893af9d589e97f7d73a5" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="1035,87,1213,127"/>
-<area shape="poly" title=" " alt="" coords="688,392,712,373,728,350,735,327,734,280,733,257,734,233,743,210,761,186,791,175,855,160,1019,125,1020,130,857,165,793,180,764,190,747,212,740,234,738,257,739,280,740,328,733,352,716,377,691,396"/>
-<area shape="rect" href="class_http_workflow_manager.html#a0014db595ae6547c54ab46f4f3901ea9" title="有効なファイルパスを探索します。" alt="" coords="788,200,938,241"/>
-<area shape="poly" title=" " alt="" coords="685,392,713,373,724,359,731,345,736,317,741,287,748,272,760,257,773,247,776,251,764,261,753,275,746,289,741,318,736,347,729,362,716,377,688,396"/>
-<area shape="rect" href="class_cgi_execution_state.html#a583ea5d0162a7f407a3377b9706d5157" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="794,525,932,566"/>
-<area shape="poly" title=" " alt="" coords="636,434,694,472,764,510,781,517,779,522,761,515,691,476,633,438"/>
-<area shape="rect" href="class_content_extraction_state.html#a1b828ff600c1530b66839c5507200cc9" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="784,460,942,501"/>
-<area shape="poly" title=" " alt="" coords="689,433,770,454,769,459,687,439"/>
-<area shape="rect" href="class_delete_method_state.html#aa04b270749d1d2f1e4558dcf1432f02d" title="疑似 Delete method 機能を処理します。" alt="" coords="792,395,934,435"/>
-<area shape="poly" title=" " alt="" coords="697,412,777,412,777,418,697,418"/>
-<area shape="rect" href="class_file_path_generation_state.html#a8ba1acd7412f965ec6e82e095f154cf9" title="HTTPリクエストに基づいてファイルパス生成処理を実行します。" alt="" coords="781,612,945,653"/>
-<area shape="poly" title=" " alt="" coords="625,434,683,501,722,540,764,576,805,602,802,606,761,580,718,544,679,505,621,438"/>
-<area shape="rect" href="class_identify_location_state.html#a6d6d0d17c501290cde9ac46f94425b86" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="791,727,935,767"/>
-<area shape="poly" title=" " alt="" coords="619,435,675,537,717,601,764,663,792,690,822,715,818,719,789,694,760,666,712,604,670,540,614,437"/>
-<area shape="rect" href="class_parsing_request_state.html#a2621c1d2bf5d432065dee9c5b13b904d" title="HTTPリクエストの解析を行います。" alt="" coords="790,943,936,983"/>
-<area shape="poly" title=" " alt="" coords="617,435,676,579,765,778,845,928,840,930,760,780,671,581,612,437"/>
-<area shape="rect" href="class_recv_header_lexer_state.html#ae494c259cb88bb3b824f6af8672d6376" title="データを逐次的に読み取りながら解析します。" alt="" coords="784,1108,942,1149"/>
-<area shape="poly" title=" " alt="" coords="611,435,626,526,655,667,700,831,730,914,765,994,798,1049,834,1094,830,1098,794,1052,760,996,725,916,695,833,650,668,621,527,606,436"/>
-<area shape="rect" href="class_response_str_build_state.html#a7b9feab17aef82874d3bc584a1f67e6f" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="784,85,942,126"/>
-<area shape="poly" title=" " alt="" coords="689,392,712,373,731,345,739,316,739,288,736,260,733,232,733,203,741,173,760,143,770,133,774,137,764,146,746,175,739,203,738,231,741,260,744,288,744,317,736,347,716,377,692,396"/>
-<area shape="rect" href="class_http_workflow_manager.html#adbff49b30d6647cb5381ba3d8cfb809e" title="HTTPリクエストに対して即座にレスポンスするべきかどうかを判断します。" alt="" coords="762,315,964,371"/>
-<area shape="poly" title=" " alt="" coords="680,392,747,372,749,378,681,397"/>
-<area shape="rect" href="class_util_http_processing_step.html#a7b8027cc3b454260cfb2334162faf5a5" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="1321,136,1479,177"/>
-<area shape="poly" title=" " alt="" coords="1203,165,1305,159,1305,164,1203,170"/>
-<area shape="rect" href="class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="1321,201,1479,242"/>
-<area shape="poly" title=" " alt="" coords="1204,184,1305,202,1304,207,1203,189"/>
-<area shape="rect" href="class_response_str_build_state.html#a02838bcf03951383fff1f024c91bc109" title=" " alt="" coords="1284,71,1515,111"/>
-<area shape="poly" title=" " alt="" coords="1204,53,1269,65,1268,70,1203,58"/>
-<area shape="rect" href="class_response_str_build_state.html#a71e4e179bf069803d09000ef75331d5d" title="レスポンスヘッダーに適切なContent&#45;Typeを設定します。" alt="" coords="1314,5,1486,46"/>
-<area shape="poly" title=" " alt="" coords="1203,34,1298,29,1298,34,1203,40"/>
-<area shape="rect" href="class_mime_type.html#a4a1e37154291b98f207140579af47e9a" title="指定された拡張子に対応するMIMEタイプのテキストを取得します。" alt="" coords="1563,569,1742,595"/>
-<area shape="poly" title=" " alt="" coords="1487,37,1517,57,1543,96,1566,152,1587,221,1606,296,1634,445,1650,553,1645,554,1629,445,1600,297,1582,222,1561,154,1538,98,1513,61,1484,42"/>
-<area shape="rect" href="class_cgi_execution_state.html#a6cc80ee59a0491eadbc959c7de0bc90a" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="1019,537,1229,578"/>
-<area shape="poly" title=" " alt="" coords="933,546,1003,549,1003,555,932,551"/>
-<area shape="rect" href="class_cgi_execution_state.html#ac90758d6a2c43bb933d1437154a67255" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="1055,332,1193,373"/>
-<area shape="poly" title=" " alt="" coords="931,525,962,510,1002,481,1039,447,1096,383,1100,387,1043,451,1006,485,965,515,934,530"/>
-<area shape="rect" href="class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a" title="環境変数をstd::stringからchar*に変換します。" alt="" coords="1320,659,1480,699"/>
-<area shape="poly" title=" " alt="" coords="1193,576,1237,598,1252,610,1262,622,1271,633,1285,643,1306,654,1304,658,1283,648,1267,637,1258,625,1249,614,1235,603,1191,581"/>
-<area shape="rect" href="class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="1331,724,1469,765"/>
-<area shape="poly" title=" " alt="" coords="1205,576,1238,598,1250,613,1257,627,1262,656,1267,683,1274,696,1286,709,1317,728,1314,732,1282,713,1270,699,1262,685,1257,657,1252,629,1245,616,1234,602,1202,581"/>
-<area shape="rect" href="class_util_http_processing_step.html#ada47c31af29a6f653e509b8c12499f0d" title="SocketState オブジェクトのデバッグ情報を出力します。" alt="" coords="1321,855,1479,895"/>
-<area shape="poly" title=" " alt="" coords="1210,577,1238,599,1258,630,1265,662,1265,692,1261,722,1258,752,1258,781,1266,810,1286,840,1308,856,1305,861,1282,844,1261,813,1253,782,1252,752,1256,722,1260,692,1260,662,1253,632,1234,602,1207,581"/>
-<area shape="rect" href="class_cgi_execution_state.html#a12d614bd895d492fc63675f349266415" title="CGIスクリプトを実行します。" alt="" coords="1331,397,1469,438"/>
-<area shape="poly" title=" " alt="" coords="1149,535,1208,492,1283,449,1314,436,1316,441,1285,453,1211,496,1152,539"/>
-<area shape="rect" href="class_cgi_execution_state.html#a06397db53835040bc91ef82d21efd538" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="1327,463,1472,503"/>
-<area shape="poly" title=" " alt="" coords="1201,534,1311,504,1313,509,1203,539"/>
-<area shape="rect" href="class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="1295,528,1504,569"/>
-<area shape="poly" title=" " alt="" coords="1230,551,1279,550,1279,555,1230,557"/>
-<area shape="rect" href="class_cgi_execution_state.html#aee14557029b7e57f3c911a28f5ec0c55" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="1310,593,1489,634"/>
-<area shape="poly" title=" " alt="" coords="1228,576,1295,590,1294,595,1227,581"/>
-<area shape="poly" title=" " alt="" coords="1192,337,1234,317,1250,302,1258,286,1266,269,1282,253,1305,240,1307,245,1286,257,1270,272,1262,288,1254,305,1238,321,1194,342"/>
-<area shape="rect" href="class_cgi_execution_state.html#a50fedd6ac6adc3d9e574a64d20c77f40" title="CGIヘッダー全体を解析します。" alt="" coords="1331,267,1469,307"/>
-<area shape="poly" title=" " alt="" coords="1193,333,1315,304,1316,309,1194,339"/>
-<area shape="rect" href="class_cgi_execution_state.html#aaea3ec2c91f6d6d4fb47b251fc5d338e" title="改行記号を変換するために使用します" alt="" coords="1329,332,1470,373"/>
-<area shape="poly" title=" " alt="" coords="1193,350,1314,350,1314,355,1193,355"/>
-<area shape="rect" href="class_content_extraction_state.html#a2ad6daeca81781bd47c508fc7f080f5e" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="1012,267,1236,307"/>
-<area shape="poly" title=" " alt="" coords="941,460,962,445,974,430,981,415,985,383,989,351,996,334,1010,318,1014,314,1018,318,1014,322,1001,337,994,352,990,384,986,416,979,433,965,449,944,464"/>
-<area shape="poly" title=" " alt="" coords="1212,263,1305,241,1306,247,1213,269"/>
-<area shape="poly" title=" " alt="" coords="946,647,1237,713,1252,729,1259,745,1263,777,1267,809,1273,825,1286,840,1308,854,1305,859,1282,844,1269,827,1262,811,1258,778,1254,746,1247,732,1235,717,944,653"/>
-<area shape="rect" href="class_file_path_generation_state.html#ab9a85d03be875b1bc2e19046d93a630c" title="HTTPリクエストに基づいて可能なすべて( open()を試行する複数 )の絶対ファイルパスを構築します。" alt="" coords="1042,612,1206,653"/>
-<area shape="poly" title=" " alt="" coords="945,630,1027,630,1027,635,945,635"/>
-<area shape="rect" href="class_util_http_processing_step.html#a59d2ac26324fd367151fcfe6bb787864" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="1321,789,1479,830"/>
-<area shape="poly" title=" " alt="" coords="1207,649,1238,669,1250,683,1257,696,1262,723,1268,750,1275,762,1286,774,1308,788,1305,793,1282,778,1270,765,1263,751,1257,725,1252,698,1245,686,1234,673,1204,654"/>
-<area shape="rect" href="class_identify_location_state.html#af41f5b6d4844a68fc735327f57ce8eb7" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="1013,727,1235,767"/>
-<area shape="poly" title=" " alt="" coords="936,744,998,744,998,750,936,750"/>
-<area shape="rect" href="class_identify_location_state.html#a1fe1886fabd208561b2486779ccec9e2" title="現在のリクエストが特定のロケーションディレクティブに適合しているか検証します。" alt="" coords="1027,792,1221,833"/>
-<area shape="poly" title=" " alt="" coords="936,762,1025,785,1024,790,935,768"/>
-<area shape="rect" href="class_identify_location_state.html#ab13ab10cecea13ff3f356e1b5733b74c" title="一致する LocationDirective を見つけます。" alt="" coords="1298,920,1502,961"/>
-<area shape="poly" title=" " alt="" coords="1220,766,1238,778,1251,794,1258,811,1263,843,1267,875,1273,890,1286,905,1290,909,1287,913,1282,909,1269,893,1261,876,1257,844,1253,812,1247,797,1234,782,1217,770"/>
-<area shape="poly" title=" " alt="" coords="936,952,1075,933,1236,907,1305,893,1306,899,1236,912,1076,938,937,957"/>
-<area shape="rect" href="class_parsing_request_state.html#a44fe05182b403c5bb33015f5b00e19a2" title="リクエストURIから拡張子を抽出します。" alt="" coords="1043,1116,1205,1157"/>
-<area shape="poly" title=" " alt="" coords="882,982,936,1041,973,1074,1013,1102,1030,1111,1028,1115,1010,1107,969,1078,932,1045,878,985"/>
-<area shape="rect" href="class_parsing_request_state.html#a289d24bf24d1266909efac852d1b5a15" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="1020,1037,1228,1092"/>
-<area shape="poly" title=" " alt="" coords="914,981,1013,1022,1029,1028,1027,1033,1011,1027,912,986"/>
-<area shape="rect" href="class_parsing_request_state.html#aefb7eb2c4d17a49fbd188749e422e87a" title="HTTPクエリ文字列から&quot;delete_file_name=&quot;の後ろの部分を抽出し、 _socketState._deleteFileNameに格納します。 また、_socketState...." alt="" coords="1025,857,1223,898"/>
-<area shape="poly" title=" " alt="" coords="927,940,1044,901,1045,906,928,945"/>
-<area shape="rect" href="class_parsing_request_state.html#a0e327b89d7a11d2a8c00b4e49683a222" title="HTTPリクエストボディを解析します。" alt="" coords="1051,972,1197,1013"/>
-<area shape="poly" title=" " alt="" coords="937,969,1036,980,1035,985,936,974"/>
-<area shape="rect" href="class_parsing_request_state.html#af4d0a8fe76ce9333f22769e9c863465c" title="指定された拡張子に対応するMIMEタイプが有効かどうかを検証します。" alt="" coords="1327,1116,1472,1157"/>
-<area shape="poly" title=" " alt="" coords="1205,1134,1311,1134,1311,1139,1205,1139"/>
-<area shape="poly" title=" " alt="" coords="1471,1125,1494,1116,1513,1101,1538,1064,1561,1008,1582,940,1600,865,1629,718,1645,609,1650,610,1634,718,1606,866,1587,942,1566,1010,1543,1066,1517,1105,1497,1120,1474,1130"/>
-<area shape="rect" href="class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="1326,985,1474,1026"/>
-<area shape="poly" title=" " alt="" coords="1197,993,1310,999,1310,1004,1197,999"/>
-<area shape="rect" href="class_parsing_request_state.html#a272f390a4a4f5f9c7ada254b58f24598" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="1322,1051,1477,1091"/>
-<area shape="poly" title=" " alt="" coords="1198,1010,1312,1043,1311,1048,1196,1016"/>
-<area shape="rect" href="class_recv_header_lexer_state.html#a1441b2cc3c6a1ec2dde32e9ce51401ce" title="ソケットからメッセージを受信します。" alt="" coords="1045,1181,1203,1222"/>
-<area shape="poly" title=" " alt="" coords="939,1147,1035,1174,1033,1179,937,1152"/>
-<area shape="poly" title=" " alt="" coords="943,123,1031,146,1029,151,941,128"/>
-<area shape="poly" title=" " alt="" coords="942,84,1029,62,1031,67,943,89"/>
-<area shape="poly" title=" " alt="" coords="942,103,1020,104,1020,109,942,109"/>
-<area shape="rect" href="class_auto_index_state.html#ae84bd50d171c70674d85bf49ef5a5de9" title="AutoIndex機能を処理します。" alt="" coords="1045,217,1203,243"/>
-<area shape="poly" title=" " alt="" coords="930,312,962,294,985,273,995,263,1010,253,1030,244,1032,249,1013,257,999,267,989,277,965,298,933,317"/>
-<area shape="poly" title=" " alt="" coords="1187,214,1235,202,1283,187,1311,179,1312,184,1285,192,1237,207,1188,219"/>
-<area shape="poly" title=" " alt="" coords="1203,225,1305,222,1305,227,1203,230"/>
+<area shape="rect" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="5,615,197,655"/>
+<area shape="rect" href="class_network_service.html#a500652677e0cb07236dcba573d8972f3" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="258,549,434,590"/>
+<area shape="poly" title=" " alt="" coords="179,611,252,592,253,597,181,617"/>
+<area shape="rect" href="class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="245,615,447,655"/>
+<area shape="poly" title=" " alt="" coords="197,632,229,632,229,638,197,638"/>
+<area shape="rect" href="class_network_service.html#a7101de80b1b3b348f2012246c598b0e4" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="253,680,439,705"/>
+<area shape="poly" title=" " alt="" coords="191,653,273,673,272,678,190,659"/>
+<area shape="rect" href="class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="495,557,714,583"/>
+<area shape="poly" title=" " alt="" coords="435,567,479,567,479,572,435,572"/>
+<area shape="rect" href="class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="513,615,697,655"/>
+<area shape="poly" title=" " alt="" coords="447,632,497,632,497,638,447,638"/>
+<area shape="rect" href="class_response_str_build_state.html#a0f55d5f37e78c4ab37c97e40b74128e4" title="レスポンスボディを構築します。" alt="" coords="1045,71,1203,111"/>
+<area shape="poly" title=" " alt="" coords="690,612,712,593,729,569,739,546,749,500,746,455,736,410,727,365,724,318,733,271,744,246,760,221,787,193,818,168,852,148,887,132,961,109,1029,96,1030,101,962,114,889,137,854,153,821,173,790,197,764,225,748,249,738,272,729,318,732,364,742,409,751,454,754,501,745,548,733,572,716,597,693,616"/>
+<area shape="rect" href="class_response_str_build_state.html#aa9cd3a0aeb17b8500de1c08b89211fde" title="レスポンスヘッダを構築します。" alt="" coords="1045,593,1203,634"/>
+<area shape="poly" title=" " alt="" coords="697,629,1030,615,1030,620,697,634"/>
+<area shape="rect" href="class_response_str_build_state.html#a94307f5ba086893af9d589e97f7d73a5" title="レスポンスのステータスライン(1行目)を構築します。" alt="" coords="1035,528,1213,569"/>
+<area shape="poly" title=" " alt="" coords="697,615,762,603,1019,561,1020,567,763,608,698,620"/>
+<area shape="rect" href="class_http_workflow_manager.html#a0014db595ae6547c54ab46f4f3901ea9" title="有効なファイルパスを探索します。" alt="" coords="788,855,938,895"/>
+<area shape="poly" title=" " alt="" coords="619,655,640,694,673,744,714,795,764,840,776,847,773,851,761,844,711,799,668,747,636,697,614,657"/>
+<area shape="rect" href="class_cgi_execution_state.html#a583ea5d0162a7f407a3377b9706d5157" title="CGIが必要である場合にCGIスクリプト実行処理を行います。" alt="" coords="794,397,932,438"/>
+<area shape="poly" title=" " alt="" coords="684,612,713,593,730,570,738,546,744,521,760,493,786,467,814,445,817,449,789,471,764,497,749,523,743,548,735,572,716,597,687,616"/>
+<area shape="rect" href="class_content_extraction_state.html#a1b828ff600c1530b66839c5507200cc9" title="HTTPリクエストに基づいてコンテンツ抽出処理を実行します。" alt="" coords="784,235,942,275"/>
+<area shape="poly" title=" " alt="" coords="688,612,712,593,730,568,740,544,744,520,744,496,744,445,749,416,760,385,793,330,829,285,833,289,797,333,765,387,754,417,749,445,749,496,749,520,745,545,735,570,716,597,691,616"/>
+<area shape="rect" href="class_delete_method_state.html#aa04b270749d1d2f1e4558dcf1432f02d" title="疑似 Delete method 機能を処理します。" alt="" coords="792,920,934,961"/>
+<area shape="poly" title=" " alt="" coords="615,655,633,705,664,773,707,844,734,876,764,905,780,915,777,920,761,909,730,880,703,847,659,775,628,707,610,657"/>
+<area shape="rect" href="class_file_path_generation_state.html#a8ba1acd7412f965ec6e82e095f154cf9" title="HTTPリクエストに基づいてファイルパス生成処理を実行します。" alt="" coords="781,789,945,830"/>
+<area shape="poly" title=" " alt="" coords="626,654,684,713,722,746,764,774,775,780,773,785,761,779,719,750,680,717,622,658"/>
+<area shape="rect" href="class_identify_location_state.html#a6d6d0d17c501290cde9ac46f94425b86" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="791,1100,935,1141"/>
+<area shape="poly" title=" " alt="" coords="617,655,674,790,717,880,765,971,803,1033,839,1086,835,1089,798,1035,760,974,712,883,670,792,612,657"/>
+<area shape="rect" href="class_parsing_request_state.html#a2621c1d2bf5d432065dee9c5b13b904d" title="HTTPリクエストの解析を行います。" alt="" coords="790,724,936,765"/>
+<area shape="poly" title=" " alt="" coords="656,653,800,715,798,720,654,658"/>
+<area shape="rect" href="class_recv_header_lexer_state.html#ae494c259cb88bb3b824f6af8672d6376" title="データを逐次的に読み取りながら解析します。" alt="" coords="784,1197,942,1238"/>
+<area shape="poly" title=" " alt="" coords="610,655,619,741,644,870,664,942,690,1015,723,1086,764,1151,783,1170,805,1187,802,1191,780,1174,760,1154,719,1088,685,1017,659,944,638,871,614,742,605,656"/>
+<area shape="rect" href="class_response_str_build_state.html#a7b9feab17aef82874d3bc584a1f67e6f" title="クライアントにsend()するレスポンスメッセージを構築します。" alt="" coords="784,507,942,547"/>
+<area shape="poly" title=" " alt="" coords="668,612,713,593,761,563,788,551,790,556,764,568,716,597,670,617"/>
+<area shape="rect" href="class_http_workflow_manager.html#adbff49b30d6647cb5381ba3d8cfb809e" title="HTTPリクエストに対して即座にレスポンスするべきかどうかを判断します。" alt="" coords="762,31,964,87"/>
+<area shape="poly" title=" " alt="" coords="690,612,712,593,732,563,746,534,755,506,758,478,755,423,744,369,732,313,726,255,727,225,733,194,743,162,760,128,774,110,791,94,794,98,778,113,765,131,748,164,738,195,733,226,731,255,737,312,749,368,761,423,764,478,760,507,751,536,737,566,716,597,694,616"/>
+<area shape="rect" href="class_util_http_processing_step.html#a7b8027cc3b454260cfb2334162faf5a5" title="404や500など、ステータスコードに対応するエラーページの内容を返します。" alt="" coords="1321,5,1479,46"/>
+<area shape="poly" title=" " alt="" coords="1202,70,1305,45,1306,50,1204,75"/>
+<area shape="rect" href="class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="1321,71,1479,111"/>
+<area shape="poly" title=" " alt="" coords="1203,88,1305,88,1305,94,1203,94"/>
+<area shape="rect" href="class_response_str_build_state.html#add60093e72dac4410f23bb31db759f5e" title=" " alt="" coords="1284,659,1515,699"/>
+<area shape="poly" title=" " alt="" coords="1204,630,1296,652,1295,657,1202,635"/>
+<area shape="rect" href="class_response_str_build_state.html#a71e4e179bf069803d09000ef75331d5d" title="レスポンスヘッダーに適切なContent&#45;Typeを設定します。" alt="" coords="1314,724,1486,765"/>
+<area shape="poly" title=" " alt="" coords="1204,628,1238,645,1254,661,1262,678,1270,694,1286,709,1301,718,1298,722,1282,713,1266,697,1258,680,1250,664,1234,649,1201,632"/>
+<area shape="rect" href="class_mime_type.html#a4a1e37154291b98f207140579af47e9a" title="指定された拡張子に対応するMIMEタイプのテキストを取得します。" alt="" coords="1563,765,1742,791"/>
+<area shape="poly" title=" " alt="" coords="1487,753,1548,761,1548,767,1486,758"/>
+<area shape="rect" href="class_cgi_execution_state.html#a6cc80ee59a0491eadbc959c7de0bc90a" title="CGIスクリプトを子プロセスで実行します。" alt="" coords="1019,397,1229,438"/>
+<area shape="poly" title=" " alt="" coords="933,415,1003,415,1003,420,933,420"/>
+<area shape="rect" href="class_cgi_execution_state.html#ac90758d6a2c43bb933d1437154a67255" title="CGIの出力結果をヘッダーとボディに分離します" alt="" coords="1055,201,1193,242"/>
+<area shape="poly" title=" " alt="" coords="890,395,1082,249,1085,254,894,399"/>
+<area shape="rect" href="class_cgi_execution_state.html#aaa36c8ac603138c4b2541ecb5e6c135a" title="環境変数をstd::stringからchar*に変換します。" alt="" coords="1320,463,1480,503"/>
+<area shape="poly" title=" " alt="" coords="1213,436,1305,458,1304,463,1212,441"/>
+<area shape="rect" href="class_cgi_execution_state.html#a3640636e5ea7f26c87481c7e0e1bab69" title="パイプを作成し、新しいプロセスをフォークします。" alt="" coords="1331,528,1469,569"/>
+<area shape="poly" title=" " alt="" coords="1215,436,1238,449,1254,465,1262,482,1270,498,1286,513,1317,529,1315,534,1282,517,1266,501,1258,484,1250,468,1234,453,1212,441"/>
+<area shape="rect" href="class_util_http_processing_step.html#ada47c31af29a6f653e509b8c12499f0d" title="SocketState オブジェクトのデバッグ情報を出力します。" alt="" coords="1321,927,1479,967"/>
+<area shape="poly" title=" " alt="" coords="1224,437,1238,449,1259,479,1273,508,1280,537,1283,566,1278,623,1264,679,1250,734,1244,790,1246,819,1253,847,1266,876,1286,905,1309,924,1305,928,1282,909,1262,879,1248,849,1241,819,1239,790,1245,733,1259,677,1272,622,1278,566,1275,538,1268,510,1254,482,1234,453,1221,441"/>
+<area shape="rect" href="class_cgi_execution_state.html#a12d614bd895d492fc63675f349266415" title="CGIスクリプトを実行します。" alt="" coords="1331,593,1469,634"/>
+<area shape="poly" title=" " alt="" coords="1220,436,1238,449,1251,466,1259,482,1263,515,1266,548,1273,563,1286,578,1317,597,1314,602,1282,582,1269,566,1261,549,1257,516,1253,484,1247,468,1234,453,1217,441"/>
+<area shape="rect" href="class_cgi_execution_state.html#a06397db53835040bc91ef82d21efd538" title="CGIスクリプト実行の親プロセスの処理を実行します。" alt="" coords="1327,267,1472,307"/>
+<area shape="poly" title=" " alt="" coords="1152,395,1211,356,1283,318,1311,307,1313,312,1285,323,1214,361,1155,399"/>
+<area shape="rect" href="class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481" title="CGIプロセスのファイルディスクリプタをセットアップします。" alt="" coords="1295,332,1504,373"/>
+<area shape="poly" title=" " alt="" coords="1212,394,1296,374,1297,379,1213,399"/>
+<area shape="rect" href="class_cgi_execution_state.html#aee14557029b7e57f3c911a28f5ec0c55" title="CGIスクリプトの実行環境をstd::string型のvectorでセットアップします。" alt="" coords="1310,397,1489,438"/>
+<area shape="poly" title=" " alt="" coords="1230,415,1294,415,1294,420,1230,420"/>
+<area shape="poly" title=" " alt="" coords="1192,206,1234,186,1250,171,1258,155,1266,138,1282,122,1305,110,1307,114,1286,126,1270,142,1262,157,1254,174,1238,191,1194,211"/>
+<area shape="rect" href="class_cgi_execution_state.html#a50fedd6ac6adc3d9e574a64d20c77f40" title="CGIヘッダー全体を解析します。" alt="" coords="1331,201,1469,242"/>
+<area shape="poly" title=" " alt="" coords="1193,219,1315,219,1315,224,1193,224"/>
+<area shape="rect" href="class_cgi_execution_state.html#aaea3ec2c91f6d6d4fb47b251fc5d338e" title="改行記号を変換するために使用します" alt="" coords="1329,136,1470,177"/>
+<area shape="poly" title=" " alt="" coords="1193,203,1313,174,1315,179,1194,208"/>
+<area shape="rect" href="class_content_extraction_state.html#a2ad6daeca81781bd47c508fc7f080f5e" title="ファイルの内容をHTTPレスポンスボディに読み込みます。" alt="" coords="1012,136,1236,177"/>
+<area shape="poly" title=" " alt="" coords="907,232,1011,187,1033,179,1035,184,1013,192,909,237"/>
+<area shape="poly" title=" " alt="" coords="1212,133,1305,111,1306,116,1213,138"/>
+<area shape="poly" title=" " alt="" coords="946,827,966,841,978,857,985,874,988,907,992,937,1000,951,1013,963,1050,983,1091,996,1133,1001,1176,1001,1260,990,1331,970,1333,975,1261,995,1177,1007,1133,1006,1090,1001,1048,988,1010,968,995,954,987,939,983,907,980,875,974,860,962,845,943,832"/>
+<area shape="rect" href="class_file_path_generation_state.html#ab9a85d03be875b1bc2e19046d93a630c" title="HTTPリクエストに基づいて可能なすべて( open()を試行する複数 )の絶対ファイルパスを構築します。" alt="" coords="1042,1035,1206,1075"/>
+<area shape="poly" title=" " alt="" coords="947,827,966,841,982,863,989,886,990,929,991,972,999,993,1014,1015,1030,1028,1027,1032,1010,1018,994,996,986,973,985,930,984,887,977,866,962,845,943,831"/>
+<area shape="rect" href="class_util_http_processing_step.html#a59d2ac26324fd367151fcfe6bb787864" title="指定されたURIに基づいて絶対ファイルパスを構築します。" alt="" coords="1321,1035,1479,1075"/>
+<area shape="poly" title=" " alt="" coords="1206,1052,1305,1052,1305,1058,1206,1058"/>
+<area shape="rect" href="class_identify_location_state.html#af41f5b6d4844a68fc735327f57ce8eb7" title="クライアントのリクエストURIに基づいて適切な LocationDirective を識別します。" alt="" coords="1013,1100,1235,1141"/>
+<area shape="poly" title=" " alt="" coords="936,1118,998,1118,998,1123,936,1123"/>
+<area shape="rect" href="class_identify_location_state.html#a1fe1886fabd208561b2486779ccec9e2" title="現在のリクエストが特定のロケーションディレクティブに適合しているか検証します。" alt="" coords="1027,1165,1221,1206"/>
+<area shape="poly" title=" " alt="" coords="936,1136,1025,1158,1024,1164,935,1141"/>
+<area shape="rect" href="class_identify_location_state.html#ab13ab10cecea13ff3f356e1b5733b74c" title="一致する LocationDirective を見つけます。" alt="" coords="1298,1100,1502,1141"/>
+<area shape="poly" title=" " alt="" coords="1235,1118,1282,1118,1282,1123,1235,1123"/>
+<area shape="poly" title=" " alt="" coords="938,757,966,776,980,795,986,814,988,852,991,888,998,904,1013,920,1034,930,1063,939,1138,949,1223,951,1305,950,1305,955,1223,957,1137,954,1062,944,1032,935,1010,924,994,907,986,889,983,852,981,815,975,797,962,780,935,762"/>
+<area shape="rect" href="class_parsing_request_state.html#a44fe05182b403c5bb33015f5b00e19a2" title="リクエストURIから拡張子を抽出します。" alt="" coords="1043,659,1205,699"/>
+<area shape="poly" title=" " alt="" coords="936,724,1028,700,1029,705,937,729"/>
+<area shape="rect" href="class_parsing_request_state.html#a289d24bf24d1266909efac852d1b5a15" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="1020,854,1228,910"/>
+<area shape="poly" title=" " alt="" coords="937,760,965,776,981,792,990,808,998,824,1013,840,1019,843,1016,848,1010,844,994,827,985,811,977,795,962,780,935,765"/>
+<area shape="rect" href="class_parsing_request_state.html#aefb7eb2c4d17a49fbd188749e422e87a" title="HTTPクエリ文字列から&quot;delete_file_name=&quot;の後ろの部分を抽出し、 _socketState._deleteFileNameに格納します。 また、_socketState...." alt="" coords="1025,724,1223,765"/>
+<area shape="poly" title=" " alt="" coords="936,742,1010,742,1010,747,936,747"/>
+<area shape="rect" href="class_parsing_request_state.html#a0e327b89d7a11d2a8c00b4e49683a222" title="HTTPリクエストボディを解析します。" alt="" coords="1051,789,1197,830"/>
+<area shape="poly" title=" " alt="" coords="937,760,1037,785,1035,790,936,765"/>
+<area shape="rect" href="class_parsing_request_state.html#af4d0a8fe76ce9333f22769e9c863465c" title="指定された拡張子に対応するMIMEタイプが有効かどうかを検証します。" alt="" coords="1327,789,1472,830"/>
+<area shape="poly" title=" " alt="" coords="1206,694,1238,710,1254,727,1262,743,1270,759,1286,774,1314,789,1311,794,1282,778,1266,762,1258,746,1250,730,1234,714,1204,699"/>
+<area shape="poly" title=" " alt="" coords="1472,798,1548,788,1548,794,1473,803"/>
+<area shape="rect" href="class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="1326,855,1474,895"/>
+<area shape="poly" title=" " alt="" coords="1198,824,1311,851,1310,857,1196,829"/>
+<area shape="rect" href="class_recv_header_lexer_state.html#a1441b2cc3c6a1ec2dde32e9ce51401ce" title="ソケットからメッセージを受信します。" alt="" coords="1045,1231,1203,1271"/>
+<area shape="poly" title=" " alt="" coords="942,1225,1030,1236,1029,1242,942,1230"/>
+<area shape="poly" title=" " alt="" coords="902,504,935,480,961,448,980,403,986,361,983,321,977,282,971,243,972,204,983,164,1010,123,1029,107,1033,111,1014,126,988,166,977,204,977,242,982,281,989,320,991,361,986,405,966,451,938,484,906,508"/>
+<area shape="poly" title=" " alt="" coords="921,545,1013,578,1037,586,1036,591,1011,583,919,551"/>
+<area shape="poly" title=" " alt="" coords="942,531,1020,537,1020,543,942,536"/>
+<area shape="rect" href="class_util_http_processing_step.html#a48ff09f4967b6b9cbb9fb556e20b30da" title="HttpResponse の変数を出力するデバッグ用関数" alt="" coords="1045,463,1203,503"/>
+<area shape="poly" title=" " alt="" coords="942,511,1029,496,1030,502,943,516"/>
+<area shape="rect" href="class_auto_index_state.html#ae84bd50d171c70674d85bf49ef5a5de9" title="AutoIndex機能を処理します。" alt="" coords="1045,21,1203,47"/>
+<area shape="poly" title=" " alt="" coords="964,47,1029,40,1030,45,964,52"/>
+<area shape="poly" title=" " alt="" coords="1203,29,1305,26,1305,31,1203,34"/>
+<area shape="poly" title=" " alt="" coords="1190,44,1306,69,1305,74,1189,50"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1131,7 +1142,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>クライアントへの応答を処理します。 </p>
-<p>この関数は _pollfds を反復処理し、POLLOUT が設定されたクライアントに応答を送信します。 ソケットを閉じる必要があるかどうかもチェックし、必要であればソケット接続をクリーンアップします。 </p><dl class="section note"><dt>Note</dt><dd>※※※ segv注意: <a class="el" href="#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。">closeAndCleanupSocket()</a>の中でイテレーターが一つ進みます ※※※ <br  />
+<p>この関数は _pollfds を反復処理し、POLLOUT が設定されたクライアントに応答を送信します。 ソケットを閉じる必要があるかどうかもチェックし、必要であればソケット接続をクリーンアップします。 </p><dl class="section note"><dt>Note</dt><dd>※※※ segv注意: <a class="el" href="#a500652677e0cb07236dcba573d8972f3" title="ソケットを閉じ、関連するリソースをクリーンアップします。">closeAndCleanupSocket()</a>の中でイテレーターが一つ進みます ※※※ <br  />
  デクリメント（&ndash;itPollFd）と同様の効果を得るためにcontinueを行います </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1139,7 +1150,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph.png" border="0" usemap="#aclass_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph" alt=""/></div>
 <map name="aclass_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph" id="aclass_network_service_a8849b9c719cb649dbbbae76d9981da7c_cgraph">
 <area shape="rect" title="クライアントへの応答を処理します。" alt="" coords="5,120,196,161"/>
-<area shape="rect" href="class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="260,5,437,46"/>
+<area shape="rect" href="class_network_service.html#a500652677e0cb07236dcba573d8972f3" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="260,5,437,46"/>
 <area shape="poly" title=" " alt="" coords="131,117,182,86,243,55,257,49,259,54,245,60,185,91,134,122"/>
 <area shape="rect" href="class_network_service.html#a7101de80b1b3b348f2012246c598b0e4" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="256,70,441,96"/>
 <area shape="poly" title=" " alt="" coords="191,117,274,97,275,103,192,122"/>
@@ -1244,6 +1255,62 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="add534df7c218a7ec42aa34beee4eb703" name="add534df7c218a7ec42aa34beee4eb703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add534df7c218a7ec42aa34beee4eb703">&#9670;&#160;</a></span>handleTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NetworkService::handleTimeout </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ソケットのタイムアウトを処理する。 </p>
+<p>_pollfds 内の各ソケットのタイムアウトをチェックし、タイムアウトが発生したソケットを閉じて、監視リストから削除します。 サーバーのファイルディスクリプタには適用されません。</p>
+<p>タイムアウトのチェックは、各ソケットに関連付けられた <a class="el" href="class_timeout_manager.html">TimeoutManager</a> オブジェクトを用いて行われます。タイムアウトが発生している場合、ソケットは閉じられ、監視リストから削除されます。</p>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>この関数は、サーバーのメインループ内で定期的に呼び出されることを想定しています。</li>
+<li>MDN Web Docsでは "このメッセージを送信せずに接続をシャットダウンするサーバーもあります。"</li>
+<li>RFC7231では、"A server SHOULD send the "close" connection option" </li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><ul>
+<li>参考:【408 Request Timeout - HTTP | MDN】 <a href="https://developer.mozilla.org/ja/docs/Web/HTTP/Status/408">https://developer.mozilla.org/ja/docs/Web/HTTP/Status/408</a></li>
+<li>参考:【RFC 7231 - Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content】 <a href="https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.7">https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.7</a> </li>
+</ul>
+</dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_add534df7c218a7ec42aa34beee4eb703_cgraph.png" border="0" usemap="#aclass_network_service_add534df7c218a7ec42aa34beee4eb703_cgraph" alt=""/></div>
+<map name="aclass_network_service_add534df7c218a7ec42aa34beee4eb703_cgraph" id="aclass_network_service_add534df7c218a7ec42aa34beee4eb703_cgraph">
+<area shape="rect" title="ソケットのタイムアウトを処理する。" alt="" coords="5,42,213,68"/>
+<area shape="rect" href="class_network_service.html#a500652677e0cb07236dcba573d8972f3" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="265,5,442,46"/>
+<area shape="poly" title=" " alt="" coords="213,40,249,35,250,41,213,45"/>
+<area shape="rect" href="class_network_service.html#a7101de80b1b3b348f2012246c598b0e4" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="261,70,446,96"/>
+<area shape="poly" title=" " alt="" coords="213,64,246,68,245,73,213,70"/>
+<area shape="rect" href="class_network_service.html#a648626623792dd4752c1daaffe876ffc" title="指定されたソケットの接続を閉じます。" alt="" coords="494,13,713,39"/>
+<area shape="poly" title=" " alt="" coords="442,23,479,23,479,28,442,28"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_network_service_add534df7c218a7ec42aa34beee4eb703_icgraph.png" border="0" usemap="#aclass_network_service_add534df7c218a7ec42aa34beee4eb703_icgraph" alt=""/></div>
+<map name="aclass_network_service_add534df7c218a7ec42aa34beee4eb703_icgraph" id="aclass_network_service_add534df7c218a7ec42aa34beee4eb703_icgraph">
+<area shape="rect" title="ソケットのタイムアウトを処理する。" alt="" coords="255,5,462,31"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,5,207,31"/>
+<area shape="poly" title=" " alt="" coords="239,21,207,21,207,16,239,16"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="aa669d89eac68ea824c823701a63c6030" name="aa669d89eac68ea824c823701a63c6030"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa669d89eac68ea824c823701a63c6030">&#9670;&#160;</a></span>initNetworkService()</h2>
 
@@ -1314,14 +1381,17 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service_a7101de80b1b3b348f2012246c598b0e4_icgraph.png" border="0" usemap="#aclass_network_service_a7101de80b1b3b348f2012246c598b0e4_icgraph" alt=""/></div>
 <map name="aclass_network_service_a7101de80b1b3b348f2012246c598b0e4_icgraph" id="aclass_network_service_a7101de80b1b3b348f2012246c598b0e4_icgraph">
-<area shape="rect" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="494,46,679,72"/>
-<area shape="rect" href="class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,446,46"/>
-<area shape="poly" title=" " alt="" coords="478,46,446,42,447,37,479,41"/>
-<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="255,71,446,111"/>
-<area shape="poly" title=" " alt="" coords="479,76,447,81,446,75,478,71"/>
-<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
-<area shape="poly" title=" " alt="" coords="240,43,205,48,205,43,239,38"/>
-<area shape="poly" title=" " alt="" coords="239,79,207,75,208,70,240,74"/>
+<area shape="rect" title="引数のイテレータがサーバーソケットを指しているかどうかを判断します。" alt="" coords="510,78,695,104"/>
+<area shape="rect" href="class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="263,5,454,46"/>
+<area shape="poly" title=" " alt="" coords="537,76,436,49,438,44,538,71"/>
+<area shape="rect" href="class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="263,71,454,111"/>
+<area shape="poly" title=" " alt="" coords="495,94,454,94,454,88,495,88"/>
+<area shape="rect" href="class_network_service.html#add534df7c218a7ec42aa34beee4eb703" title="ソケットのタイムアウトを処理する。" alt="" coords="255,136,462,161"/>
+<area shape="poly" title=" " alt="" coords="531,110,417,137,416,132,530,105"/>
+<area shape="rect" href="class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,78,207,104"/>
+<area shape="poly" title=" " alt="" coords="263,53,159,80,158,75,261,48"/>
+<area shape="poly" title=" " alt="" coords="248,94,207,94,207,88,248,88"/>
+<area shape="poly" title=" " alt="" coords="283,134,165,107,167,102,285,129"/>
 </map>
 </div>
 
@@ -1371,7 +1441,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="サーバーソケットをリスニング状態に設定します。" alt="" coords="998,13,1192,39"/>
 <area shape="rect" href="class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
 <area shape="poly" title=" " alt="" coords="982,28,950,28,950,23,982,23"/>
-<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,13,717,39"/>
 <area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
 <area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
 <area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
@@ -1616,7 +1686,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_network_service_a44006dbf443e41fff6a628d72e356dd3_icgraph.png" border="0" usemap="#aclass_network_service_a44006dbf443e41fff6a628d72e356dd3_icgraph" alt=""/></div>
 <map name="aclass_network_service_a44006dbf443e41fff6a628d72e356dd3_icgraph" id="aclass_network_service_a44006dbf443e41fff6a628d72e356dd3_icgraph">
 <area shape="rect" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="765,5,950,46"/>
-<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,13,717,39"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,13,717,39"/>
 <area shape="poly" title=" " alt="" coords="750,28,718,28,718,23,750,23"/>
 <area shape="rect" href="class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,13,475,39"/>
 <area shape="poly" title=" " alt="" coords="507,28,476,28,476,23,507,23"/>
@@ -1719,7 +1789,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="指定されたソケットをノンブロッキングモードに設定します。" alt="" coords="765,35,940,75"/>
 <area shape="rect" href="class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="526,5,714,46"/>
 <area shape="poly" title=" " alt="" coords="749,45,714,40,715,35,750,39"/>
-<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,70,717,96"/>
+<area shape="rect" href="class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,70,717,96"/>
 <area shape="poly" title=" " alt="" coords="750,70,718,74,717,69,750,65"/>
 <area shape="rect" href="class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="266,5,464,46"/>
 <area shape="poly" title=" " alt="" coords="510,28,465,28,465,23,510,23"/>
@@ -1741,6 +1811,7 @@ Here is the caller graph for this function:</div>
 <li>srcs/network/<b>handleRecvRequests.cpp</b></li>
 <li>srcs/network/<b>handleSendResponses.cpp</b></li>
 <li>srcs/network/<b>handleServerEvents.cpp</b></li>
+<li>srcs/network/<b>handleTimeout.cpp</b></li>
 <li>srcs/network/<b>setupEachServer.cpp</b></li>
 </ul>
 </div><!-- contents -->

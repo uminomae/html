@@ -8,7 +8,7 @@
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="750,29,464,29,464,24,750,23"/>
 <area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,45,207,71"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="251,43,207,48,207,43,250,38"/>
-<area shape="rect" id="Node000006" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、サーバーごとのポートでlistenを行い、pollfdを準備します。" alt="" coords="523,74,717,100"/>
+<area shape="rect" id="Node000006" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,74,717,100"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="752,92,718,91,718,86,752,87"/>
 <area shape="rect" id="Node000007" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,73,475,99"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="507,89,476,89,476,84,507,84"/>

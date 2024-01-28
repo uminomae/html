@@ -1,12 +1,15 @@
 <map id="NetworkService::closeConnection" name="NetworkService::closeConnection">
-<area shape="rect" id="Node000001" title="指定されたソケットの接続を閉じます。" alt="" coords="718,46,938,72"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a16ed9bd4de8e026601eca26611647507" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="494,39,670,79"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="703,62,671,62,671,56,703,56"/>
-<area shape="rect" id="Node000003" href="$class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,446,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="478,47,446,42,447,37,479,41"/>
-<area shape="rect" id="Node000005" href="$class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="255,71,446,111"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="479,76,446,80,446,75,478,71"/>
-<area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,46,207,72"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="240,43,205,48,205,43,239,38"/>
-<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="239,79,207,75,208,70,240,74"/>
+<area shape="rect" id="Node000001" title="指定されたソケットの接続を閉じます。" alt="" coords="734,78,954,104"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a500652677e0cb07236dcba573d8972f3" title="ソケットを閉じ、関連するリソースをクリーンアップします。" alt="" coords="510,71,686,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="719,94,687,94,687,88,719,88"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="263,5,454,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="506,69,435,49,437,44,508,64"/>
+<area shape="rect" id="Node000005" href="$class_network_service.html#a8849b9c719cb649dbbbae76d9981da7c" title="クライアントへの応答を処理します。" alt="" coords="263,71,454,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="494,94,454,94,454,88,494,88"/>
+<area shape="rect" id="Node000006" href="$class_network_service.html#add534df7c218a7ec42aa34beee4eb703" title="ソケットのタイムアウトを処理する。" alt="" coords="255,136,462,161"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="496,118,416,137,415,132,495,113"/>
+<area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,78,207,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="263,53,159,80,158,75,261,48"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="248,94,207,94,207,88,248,88"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="283,134,165,107,167,102,285,129"/>
 </map>

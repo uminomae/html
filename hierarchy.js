@@ -31,6 +31,9 @@ var hierarchy =
     [ "MimeType", "class_mime_type.html", null ],
     [ "NetworkService", "class_network_service.html", null ],
     [ "PortMapping", "class_port_mapping.html", null ],
+    [ "s_bsq", "structs__bsq.html", null ],
+    [ "s_info", "structs__info.html", null ],
+    [ "s_tempcrs", "structs__tempcrs.html", null ],
     [ "ServerDirective", "class_server_directive.html", null ],
     [ "ServerLoopController", "class_server_loop_controller.html", null ],
     [ "ServerManeger", "class_server_maneger.html", null ],
@@ -39,6 +42,7 @@ var hierarchy =
     [ "std::streambuf", null, [
       [ "VectorStreamBuf", "class_vector_stream_buf.html", null ]
     ] ],
+    [ "TimeoutManager", "class_timeout_manager.html", null ],
     [ "Tokenize::Token", "struct_tokenize_1_1_token.html", null ],
     [ "Tokenize", "class_tokenize.html", null ],
     [ "UtilHttpProcessingStep", "class_util_http_processing_step.html", null ]
