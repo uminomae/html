@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>輝く未来をHugっとネ!Happy Go Lucky!ドキドキ!ドキュメント!: 作業のルール的なもの・使い方</title>
+<title>輝く未来をHugっとネ!Happy Go Lucky!ドキドキ!ドキュメント!: README</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -91,69 +91,60 @@ $(function(){initNavTree('md__r_e_a_d_m_e.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">作業のルール的なもの・使い方</div></div>
+  <div class="headertitle"><div class="title">README</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a></p>
-<h1><a class="anchor" id="autotoc_md1"></a>
-コンパイル時のターゲット</h1>
-<ul>
-<li>make t<ul>
-<li>シンプルなGET コンパイラと同時に走らせる簡易テスト</li>
+<div class="textblock"><ul>
+<li><code>review.sh</code> は <code>make g</code> で一括実行</li>
 </ul>
-</li>
-<li>make p<ul>
-<li>POST や　クエリ有りGET のCGI実行</li>
-</ul>
-</li>
-<li>make o<ul>
-<li>DELETEテスト</li>
-</ul>
-</li>
-<li>make e<ul>
-<li>エラーケースのテスト</li>
-</ul>
-</li>
-<li>make q<ul>
-<li>コマンド実行するGUI。 ./webserv config.confとか。</li>
-</ul>
-</li>
-<li>make qh<ul>
-<li>hacoishiさん用　　</li>
-</ul>
-</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md2"></a>
-doxygenのドキュメント出力の仕方　　</h1>
-<ol type="1">
-<li>(初回だけ)先に、webservと同じ階層に、webserv_doxygen_docという名称のディレクトリをつくる。※Makefileの一つ上の階層です。</li>
-</ol>
-<ol type="1">
-<li>make q で GUIから"doxygen Doxyfile"を実行するとたくさんファイルができる。 <br  />
-</li>
-</ol>
-<ol type="1">
-<li>そのindex.htmlをfinderから開くとローカルで見れる 　　</li>
-</ol>
-<ul>
-<li>設定<ul>
-<li>EXTRACT_PRIVATE = NO <br  />
-<ul>
-<li>private methodもドキュメント化されない。</li>
-</ul>
-</li>
-<li>SHOW_FILES = NO<ul>
-<li>cppのソースが表示されない</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md3"></a>
-連絡用ディレクトリ</h1>
-<ul>
-<li>./連絡/google test用見本 </li>
-</ul>
+<p>review時ブラウザ用.conf /webserv reviewHioikawa/reviewHioikawa.conf</p>
+<h1><a class="anchor" id="autotoc_md25"></a>
+other</h1>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">case   </th><th class="markdownTableHeadNone">ブラウザテスト   </th><th class="markdownTableHeadNone">reviewHioikawa/   </th><th class="markdownTableHeadNone">html/エラーページ    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">LOCUST   </td><td class="markdownTableBodyNone">✅ <a href="http://localhost:8089/">http://localhost:8089/</a> <br  />
+ <code>define DEBUG_REQUEST</code>   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ <code>cd test/locust</code><br  />
+<code>locust</code>   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">server_name   </td><td class="markdownTableBodyNone">✅ <code>:8084</code> を使用するサーバーdirectiveを2種類用意   </td><td class="markdownTableBodyNone">review.sh(server_name.sh)   </td><td class="markdownTableBodyNone">🈚️   </td></tr>
+</table>
+<h1><a class="anchor" id="autotoc_md26"></a>
+statusCode</h1>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">statusCode   </th><th class="markdownTableHeadNone">ブラウザテスト   </th><th class="markdownTableHeadNone">reviewHioikawa/   </th><th class="markdownTableHeadNone">html/に準備    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">200 OK   </td><td class="markdownTableBodyNone">✅img.html(画像ありページ)   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅img.html <br  />
+ 画像: html/img/    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">201 Created   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ 新しいページをページをうむわけではないので実装無   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">301 Moved Permanently   </td><td class="markdownTableBodyNone">✅ :8082 へのリンク   </td><td class="markdownTableBodyNone">❌bodyを見ても判別できない   </td><td class="markdownTableBodyNone">redirect.html    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">403 Forbidden   </td><td class="markdownTableBodyNone">✅パーミッション0設定へのリンク <br  />
+ その場で <code>chmod 0 html/permission_denied.html</code> する   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ 403.html    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">404 Not Found   </td><td class="markdownTableBodyNone">✅ リンク切れ   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ 404.html    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">405 Method Not Allowed   </td><td class="markdownTableBodyNone">✅ <code>:8084</code> でPOST   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">408 Request Timeout   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️ <code># define TEST_TIMEOUT</code> をつけて <code>locust</code> テスト終了後の出力を見る   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">409 Conflict   </td><td class="markdownTableBodyNone">❌🤷‍♂️fileの日付読む？   </td><td class="markdownTableBodyNone">❌🤷‍♂️   </td><td class="markdownTableBodyNone">🈚    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">411 Length Required   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">413 Payload Too Large   </td><td class="markdownTableBodyNone">✅ <code>:80</code> のformからから 8MBの.pngをup   </td><td class="markdownTableBodyNone">review.sh(413.sh)   </td><td class="markdownTableBodyNone">✅ <br  />
+ サイズ違いの画像を用意した    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">415 Unsupported Media Type   </td><td class="markdownTableBodyNone">✅ <code>.p</code> ファイルへのリンク   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ .pファイル    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">500 Internal Server Error   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️# define TEST_THROW   </td><td class="markdownTableBodyNone">✅   </td></tr>
+</table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

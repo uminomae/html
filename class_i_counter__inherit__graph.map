@@ -1,9 +1,16 @@
 <map id="ICounter" name="ICounter">
-<area shape="rect" id="Node000001" title=" " alt="" coords="216,5,305,111"/>
-<area shape="rect" id="Node000002" href="$class_base_counter.html" title=" " alt="" coords="144,159,377,364"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,126,263,159,258,159,258,126"/>
-<area shape="rect" id="Node000003" href="$class_error_counter.html" title=" " alt="" coords="5,412,252,497"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="184,377,159,414,155,411,180,374"/>
-<area shape="rect" id="Node000004" href="$class_rate_limiter.html" title=" " alt="" coords="277,412,509,497"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="341,374,366,411,362,414,337,377"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="216,5,305,171"/>
+<area shape="rect" id="Node000002" href="$class_base_counter.html" title=" " alt="" coords="144,219,377,524"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,186,254,219,249,219,249,186"/>
+<area shape="poly" id="edge9_Node000001_Node000002" title=" " alt="" coords="272,186,272,219,267,219,267,186"/>
+<area shape="rect" id="Node000003" href="$class_error_counter.html" title=" " alt="" coords="5,572,252,697"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="171,539,154,574,149,571,166,536"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="188,539,170,574,165,571,184,536"/>
+<area shape="rect" id="Node000004" href="$class_rate_limiter.html" title=" " alt="" coords="277,572,509,697"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="338,536,356,571,352,574,333,539"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="355,536,372,571,367,574,350,539"/>
+<area shape="rect" id="Node000005" href="$class_mock_rate_limiter.html" title=" " alt="" coords="337,745,449,811"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="377,712,380,745,375,746,372,712"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="395,712,395,746,390,746,390,712"/>
+<area shape="poly" id="edge7_Node000004_Node000005" title=" " alt="" coords="413,712,411,746,405,745,408,712"/>
 </map>

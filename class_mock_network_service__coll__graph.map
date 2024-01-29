@@ -1,0 +1,15 @@
+<map id="MockNetworkService" name="MockNetworkService">
+<area shape="rect" id="Node000001" title=" " alt="" coords="274,1167,411,1233"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html" title=" " alt="" coords="243,418,442,1118"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,1133,335,1167,330,1168,327,1133"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="345,1133,345,1168,340,1168,340,1133"/>
+<area shape="poly" id="edge7_Node000001_Node000002" title=" " alt="" coords="359,1133,355,1168,350,1167,353,1133"/>
+<area shape="rect" id="Node000003" href="$class_port_mapping.html" title=" " alt="" coords="5,5,192,340"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,339,239,509,234,511,164,341"/>
+<area shape="rect" id="Node000004" href="$class_i_counter.html" title=" " alt="" coords="217,90,306,255"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="275,255,295,401,290,402,270,256"/>
+<area shape="rect" id="Node000005" href="$class_mime_type.html" title=" " alt="" coords="331,50,517,295"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="410,295,395,401,390,401,405,295"/>
+<area shape="rect" id="Node000006" href="$class_tokenize.html" title=" " alt="" coords="541,50,669,295"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="554,296,451,528,446,526,549,294"/>
+</map>

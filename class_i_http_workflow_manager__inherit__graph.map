@@ -1,5 +1,8 @@
 <map id="IHttpWorkflowManager" name="IHttpWorkflowManager">
-<area shape="rect" id="Node000001" title=" " alt="" coords="10,5,197,91"/>
-<area shape="rect" id="Node000002" href="$class_http_workflow_manager.html" title=" " alt="" coords="5,139,201,319"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,106,106,139,101,139,101,106"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="10,5,197,131"/>
+<area shape="rect" id="Node000002" href="$class_http_workflow_manager.html" title=" " alt="" coords="5,179,201,473"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,146,97,179,92,179,92,146"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="114,146,115,179,110,179,109,146"/>
+<area shape="rect" id="Node000003" href="$class_test_http_workflow_manager.html" title=" " alt="" coords="226,293,413,359"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="181,139,216,177,263,237,301,292,297,295,259,240,212,180,177,143"/>
 </map>

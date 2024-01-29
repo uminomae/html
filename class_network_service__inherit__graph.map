@@ -1,0 +1,7 @@
+<map id="NetworkService" name="NetworkService">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,204,805"/>
+<area shape="rect" id="Node000002" href="$class_mock_network_service.html" title=" " alt="" coords="36,853,173,919"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,820,98,853,93,854,89,820"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="107,821,107,854,102,854,102,821"/>
+<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="120,820,117,854,111,853,115,820"/>
+</map>

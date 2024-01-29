@@ -6,7 +6,7 @@ var searchData=
   ['setmimemap_3',['setMimeMap',['../class_mime_type.html#a93f75fb6da628e1cea74ebb22a402088',1,'MimeType']]],
   ['setserversocketportmap_4',['setServerSocketPortMap',['../class_port_mapping.html#a35afe8110e08ba6892784a82f9d18161',1,'PortMapping']]],
   ['setupcgiprocessfiledescriptors_5',['setupCgiProcessFileDescriptors',['../class_cgi_execution_state.html#a0a3236dd76cf8bd5a8115a348a296481',1,'CgiExecutionState']]],
-  ['setupeachserver_6',['setupEachServer',['../class_network_service.html#a44006dbf443e41fff6a628d72e356dd3',1,'NetworkService']]],
+  ['setupeachport_6',['setupEachPort',['../class_network_service.html#a4e23cb4a43a2ebde40990e4f901396b5',1,'NetworkService']]],
   ['setupenvironmentvariables_7',['setupEnvironmentVariables',['../class_cgi_execution_state.html#aee14557029b7e57f3c911a28f5ec0c55',1,'CgiExecutionState']]],
   ['setupservers_8',['setupServers',['../class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f',1,'ServerManeger']]],
   ['setupsignalhandlers_9',['setupSignalHandlers',['../class_signal_handler.html#a3ce88a2e5cb8f42256f5487dcb3e6ec3',1,'SignalHandler']]],

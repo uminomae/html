@@ -1,0 +1,5 @@
+<map id="TestHttpWorkflowManager" name="TestHttpWorkflowManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,179,192,244"/>
+<area shape="rect" id="Node000002" href="$class_i_http_workflow_manager.html" title=" " alt="" coords="5,5,192,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,146,101,179,96,179,96,146"/>
+</map>

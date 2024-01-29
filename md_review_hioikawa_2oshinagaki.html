@@ -98,50 +98,50 @@ $(function(){initNavTree('md_review_hioikawa_2oshinagaki.html',''); initResizabl
 <li><code>review.sh</code> は <code>make g</code> で一括実行</li>
 </ul>
 <p>review時ブラウザ用.conf /webserv reviewHioikawa/reviewHioikawa.conf</p>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md27"></a>
 other</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">case   </th><th class="markdownTableHeadNone">ブラウザテスト   </th><th class="markdownTableHeadNone">reviewHioikawa/   </th><th class="markdownTableHeadNone">html/エラーページ    </th></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">LOCUST   </td><td class="markdownTableBodyNone">✅ <a href="http://localhost:8089/">http://localhost:8089/</a> <br  />
- <code>define DEBUG_LOCUST</code>   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ <code>define DEBUG_REQUEST</code>   </td><td class="markdownTableBodyNone">🈚️ <br  />
  <code>cd test/locust</code><br  />
 <code>locust</code>   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">server_name   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">review.sh(server_name.sh)   </td><td class="markdownTableBodyNone">🈚️   </td></tr>
+<td class="markdownTableBodyNone">server_name   </td><td class="markdownTableBodyNone">✅ <code>:8084</code> を使用するサーバーdirectiveを2種類用意   </td><td class="markdownTableBodyNone">review.sh(server_name.sh)   </td><td class="markdownTableBodyNone">🈚️   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md5"></a>
-setされてるstatusCodeと、対応エラーページ、テストなど</h1>
+<h1><a class="anchor" id="autotoc_md28"></a>
+statusCode</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">statusCode   </th><th class="markdownTableHeadNone">ブラウザテスト   </th><th class="markdownTableHeadNone">reviewHioikawa/   </th><th class="markdownTableHeadNone">html/に準備    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">200 OK   </td><td class="markdownTableBodyNone">✅img.html画像ありページ   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅img.html <br  />
+<td class="markdownTableBodyNone">200 OK   </td><td class="markdownTableBodyNone">✅img.html(画像ありページ)   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅img.html <br  />
  画像: html/img/    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">201 Created   </td><td class="markdownTableBodyNone">🈚️ <br  />
  新しいページをページをうむわけではないので実装無   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">301 Moved Permanently   </td><td class="markdownTableBodyNone">✅ :8082(nginx 8081)   </td><td class="markdownTableBodyNone">❌bodyを見ても判別できない   </td><td class="markdownTableBodyNone">redirect.html    </td></tr>
+<td class="markdownTableBodyNone">301 Moved Permanently   </td><td class="markdownTableBodyNone">✅ :8082 へのリンク   </td><td class="markdownTableBodyNone">❌bodyを見ても判別できない   </td><td class="markdownTableBodyNone">redirect.html    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">403 Forbidden   </td><td class="markdownTableBodyNone">✅パーミッション0設定へのリンク <br  />
- その場で <code>chmod 0</code> する   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ 403.html    </td></tr>
+ その場で <code>chmod 0 html/permission_denied.html</code> する   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ 403.html    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">404 Not Found   </td><td class="markdownTableBodyNone">✅ リンク   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ 404.html    </td></tr>
+<td class="markdownTableBodyNone">404 Not Found   </td><td class="markdownTableBodyNone">✅ リンク切れ   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ 404.html    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">405 Method Not Allowed   </td><td class="markdownTableBodyNone">✅ 別portへのリンク   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<td class="markdownTableBodyNone">405 Method Not Allowed   </td><td class="markdownTableBodyNone">✅ <code>:8084</code> でPOST   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">408 Request Timeout   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️ # define TEST_TIMEOUT   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<td class="markdownTableBodyNone">408 Request Timeout   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️ <code># define TEST_TIMEOUT</code> をつけて <code>locust</code> テスト終了後の出力を見る   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">409 Conflict   </td><td class="markdownTableBodyNone">❌🤷‍♂️fileの日付読む？   </td><td class="markdownTableBodyNone">❌🤷‍♂️   </td><td class="markdownTableBodyNone">🈚    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">411 Length Required   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">413 Payload Too Large   </td><td class="markdownTableBodyNone">✅formからup   </td><td class="markdownTableBodyNone">review.sh(413.sh)   </td><td class="markdownTableBodyNone">✅ <br  />
+<td class="markdownTableBodyNone">413 Payload Too Large   </td><td class="markdownTableBodyNone">✅ <code>:80</code> のformからから 8MBの.pngをup   </td><td class="markdownTableBodyNone">review.sh(413.sh)   </td><td class="markdownTableBodyNone">✅ <br  />
  サイズ違いの画像を用意した    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">415 Unsupported Media Type   </td><td class="markdownTableBodyNone">✅ リンク   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ .pファイル    </td></tr>
+<td class="markdownTableBodyNone">415 Unsupported Media Type   </td><td class="markdownTableBodyNone">✅ <code>.p</code> ファイルへのリンク   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ .pファイル    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">500 Internal Server Error   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️# define TEST_THROW   </td><td class="markdownTableBodyNone">✅   </td></tr>
 </table>

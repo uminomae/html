@@ -1,5 +1,6 @@
 <map id="RecvHeaderLexerState" name="RecvHeaderLexerState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,173,424"/>
-<area shape="rect" id="Node000002" href="$class_i_http_processing_step.html" title=" " alt="" coords="9,5,169,91"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,106,92,139,87,139,87,106"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,179,173,484"/>
+<area shape="rect" id="Node000002" href="$class_i_http_processing_step.html" title=" " alt="" coords="9,5,169,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,146,83,179,78,179,78,146"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="100,146,101,179,96,179,95,146"/>
 </map>

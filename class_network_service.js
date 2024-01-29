@@ -21,7 +21,7 @@ var class_network_service =
     [ "mapClientSocketToListeningPort", "class_network_service.html#a63bbb5ebfaed19591fb547b3f0cfffc5", null ],
     [ "restartNetworkService", "class_network_service.html#a54ae0e59338c8ffd4aabd39866bbf549", null ],
     [ "sendResponse", "class_network_service.html#af9cd04add0e426e95a9fc680b06db23e", null ],
-    [ "setupEachServer", "class_network_service.html#a44006dbf443e41fff6a628d72e356dd3", null ],
+    [ "setupEachPort", "class_network_service.html#a4e23cb4a43a2ebde40990e4f901396b5", null ],
     [ "shouldKeepAlive", "class_network_service.html#aa2dc5eec9dfb61797bd77abf5a44a218", null ],
     [ "switchToNonBlockingSocket", "class_network_service.html#a34440b127df8820b685c1fd564b0a558", null ]
 ];

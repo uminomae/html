@@ -1,11 +1,11 @@
 <map id="SocketState" name="SocketState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="353,708,515,1074"/>
-<area shape="rect" id="Node000002" href="$class_location_directive.html" title=" " alt="" coords="5,123,204,528"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,527,189,587,219,644,247,686,278,727,344,801,340,805,274,731,242,690,214,647,185,589,160,529"/>
-<area shape="rect" id="Node000003" href="$class_server_directive.html" title=" " alt="" coords="229,5,418,645"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="389,645,398,691,392,692,383,646"/>
-<area shape="rect" id="Node000004" href="$struct_socket_state_1_1_content_disposition.html" title=" " alt="" coords="443,273,647,378"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="548,378,541,517,532,601,517,685,515,692,510,691,511,684,527,601,536,517,542,378"/>
-<area shape="rect" id="Node000005" href="$class_timeout_manager.html" title=" " alt="" coords="671,263,853,388"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="755,388,740,453,719,529,689,610,650,686,623,723,593,758,529,820,525,816,589,755,619,720,645,683,684,607,714,528,735,451,749,387"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="353,768,515,1234"/>
+<area shape="rect" id="Node000002" href="$class_location_directive.html" title=" " alt="" coords="5,153,204,558"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,557,187,632,219,704,279,803,345,892,341,896,274,806,214,707,182,634,155,559"/>
+<area shape="rect" id="Node000003" href="$class_server_directive.html" title=" " alt="" coords="229,5,418,705"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="386,705,394,751,389,752,381,705"/>
+<area shape="rect" id="Node000004" href="$struct_socket_state_1_1_content_disposition.html" title=" " alt="" coords="443,303,647,408"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="546,408,537,560,527,652,513,745,511,752,506,751,507,744,522,652,532,559,541,408"/>
+<area shape="rect" id="Node000005" href="$class_timeout_manager.html" title=" " alt="" coords="671,263,853,448"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="750,449,734,516,712,593,683,671,646,746,589,829,528,904,523,900,585,825,641,743,678,669,707,591,729,515,744,447"/>
 </map>

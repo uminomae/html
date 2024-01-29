@@ -1,5 +1,6 @@
 <map id="BaseCounter" name="BaseCounter">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,159,239,364"/>
-<area shape="rect" id="Node000002" href="$class_i_counter.html" title=" " alt="" coords="77,5,167,111"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,126,125,159,119,159,119,126"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,219,239,524"/>
+<area shape="rect" id="Node000002" href="$class_i_counter.html" title=" " alt="" coords="77,5,167,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,186,116,219,110,219,111,186"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="133,186,134,219,128,219,128,186"/>
 </map>

@@ -1,16 +1,16 @@
 <map id="NetworkService::addSocketToPollFd" name="NetworkService::addSocketToPollFd">
-<area shape="rect" id="Node000001" title="新しいソケットを監視リストに追加します。" alt="" coords="1002,39,1186,79"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="765,5,954,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="986,46,954,42,955,36,987,41"/>
-<area shape="rect" id="Node000005" href="$class_network_service.html#a44006dbf443e41fff6a628d72e356dd3" title=".confのサーバーディレクティブの設定に基づいてセットアップを行います。" alt="" coords="767,71,952,111"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="987,76,953,81,952,76,986,71"/>
-<area shape="rect" id="Node000003" href="$class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="266,7,464,47"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="750,29,464,29,464,24,750,23"/>
-<area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,45,207,71"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="251,43,207,48,207,43,250,38"/>
-<area shape="rect" id="Node000006" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,74,717,100"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="752,92,718,91,718,86,752,87"/>
-<area shape="rect" id="Node000007" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,73,475,99"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="507,89,476,89,476,84,507,84"/>
-<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="239,75,207,71,207,66,239,69"/>
+<area shape="rect" id="Node000001" title="新しいソケットを監視リストに追加します。" alt="" coords="1022,35,1206,75"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="775,5,964,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1006,45,964,40,964,34,1006,39"/>
+<area shape="rect" id="Node000005" href="$class_network_service.html#a4e23cb4a43a2ebde40990e4f901396b5" title=".confのサーバーディレクティブのportに基づいてセットアップを行います。" alt="" coords="765,70,974,96"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1006,70,974,74,974,68,1006,65"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a79b80b9a51d73a85bb99b0ac0560a0c4" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="266,5,464,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="760,28,464,28,464,23,760,23"/>
+<area shape="rect" id="Node000004" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,42,207,68"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="251,41,207,46,207,41,250,36"/>
+<area shape="rect" id="Node000006" href="$class_server_maneger.html#ab5e04aaf80feab4ba0522ab9311cf18f" title="設定ファイルを解析(parse)し、listen するポートに対して一つのpollfdを準備します。" alt="" coords="523,70,717,96"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="750,86,718,86,718,80,750,80"/>
+<area shape="rect" id="Node000007" href="$class_server_maneger.html#a104f42d342bf9d6af9c45c200d22facd" title="サーバーのループを再起動します。" alt="" coords="255,70,475,96"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="507,86,476,86,476,80,507,80"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="239,72,207,69,207,63,239,67"/>
 </map>

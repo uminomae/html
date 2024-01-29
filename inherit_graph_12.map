@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structs__bsq.html" title=" " alt="" coords="5,5,62,31"/>
+<area shape="rect" id="Node000000" href="$class_port_mapping.html" title=" " alt="" coords="5,5,100,31"/>
+<area shape="rect" id="Node000001" href="$class_mock_port_mapping.html" title=" " alt="" coords="148,5,274,31"/>
+<area shape="poly" id="edge23_Node000000_Node000001" title=" " alt="" coords="115,16,148,16,148,21,115,21"/>
 </map>

@@ -1,5 +1,6 @@
 <map id="ParsingMultiPartState" name="ParsingMultiPartState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,185,379"/>
-<area shape="rect" id="Node000002" href="$class_i_http_processing_step.html" title=" " alt="" coords="15,5,175,91"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,106,98,139,93,139,93,106"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,179,185,593"/>
+<area shape="rect" id="Node000002" href="$class_i_http_processing_step.html" title=" " alt="" coords="15,5,175,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,146,89,179,84,179,85,145"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="106,145,107,179,101,179,101,146"/>
 </map>

@@ -1,5 +1,6 @@
 <map id="IdentifyLocationState" name="IdentifyLocationState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,229,344"/>
-<area shape="rect" id="Node000002" href="$class_i_http_processing_step.html" title=" " alt="" coords="37,5,197,91"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,106,120,139,115,139,115,106"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,179,229,524"/>
+<area shape="rect" id="Node000002" href="$class_i_http_processing_step.html" title=" " alt="" coords="37,5,197,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,146,111,179,106,179,107,146"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="128,146,129,179,123,179,123,146"/>
 </map>

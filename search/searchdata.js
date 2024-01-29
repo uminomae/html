@@ -1,9 +1,9 @@
 var indexSectionsWithContent =
 {
-  0: "abcdefghilmnoprstuvwx~コ作流連",
+  0: "abcdefghilmnoprstuvwx~↓そサデヘ処初方流現複要",
   1: "abcdefhilmnprstuv",
   2: "abcdefghilmoprstuvwx~",
-  3: "o作"
+  3: "cdmor初"
 };
 
 var indexSectionNames =
