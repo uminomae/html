@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['delimiter_0',['confの区切り文字 delimiter',['../md_clone4_2_x_e9_x80_x_a3_x_e7_x_b5_x_a1_2lexer_m_e_m_o.html',1,'']]]
+  ['readme_0',['README',['../md__r_e_a_d_m_e.html',1,'']]]
 ];

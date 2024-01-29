@@ -102,31 +102,19 @@ $(function(){initNavTree('class_network_service.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for NetworkService:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_network_service__inherit__graph.png" border="0" usemap="#a_network_service_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_network_service_inherit__map" id="a_network_service_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,5,204,805"/>
-<area shape="rect" href="class_mock_network_service.html" title=" " alt="" coords="36,853,173,919"/>
-<area shape="poly" title=" " alt="" coords="95,820,98,853,93,854,89,820"/>
-<area shape="poly" title=" " alt="" coords="107,821,107,854,102,854,102,821"/>
-<area shape="poly" title=" " alt="" coords="120,820,117,854,111,853,115,820"/>
-</map>
-</div>
-<div class="dynheader">
 Collaboration diagram for NetworkService:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_network_service__coll__graph.png" border="0" usemap="#a_network_service_coll__map" alt="Collaboration graph"/></div>
 <map name="a_network_service_coll__map" id="a_network_service_coll__map">
-<area shape="rect" title=" " alt="" coords="243,418,442,1118"/>
-<area shape="rect" href="class_port_mapping.html" title=" " alt="" coords="5,5,192,340"/>
-<area shape="poly" title=" " alt="" coords="169,339,239,509,234,511,164,341"/>
-<area shape="rect" href="class_i_counter.html" title=" " alt="" coords="217,90,306,255"/>
-<area shape="poly" title=" " alt="" coords="275,255,295,401,290,402,270,256"/>
-<area shape="rect" href="class_mime_type.html" title=" " alt="" coords="331,50,517,295"/>
-<area shape="poly" title=" " alt="" coords="410,295,395,401,390,401,405,295"/>
-<area shape="rect" href="class_tokenize.html" title=" " alt="" coords="541,50,669,295"/>
-<area shape="poly" title=" " alt="" coords="554,296,451,528,446,526,549,294"/>
+<area shape="rect" title=" " alt="" coords="243,283,442,1003"/>
+<area shape="rect" href="class_port_mapping.html" title=" " alt="" coords="5,5,192,205"/>
+<area shape="poly" title=" " alt="" coords="146,204,239,408,234,410,141,206"/>
+<area shape="rect" href="class_i_counter.html" title=" " alt="" coords="217,53,306,158"/>
+<area shape="poly" title=" " alt="" coords="272,158,288,266,283,267,266,158"/>
+<area shape="rect" href="class_mime_type.html" title=" " alt="" coords="331,33,517,178"/>
+<area shape="poly" title=" " alt="" coords="416,178,402,267,397,266,411,177"/>
+<area shape="rect" href="class_tokenize.html" title=" " alt="" coords="541,33,669,178"/>
+<area shape="poly" title=" " alt="" coords="573,179,452,426,447,424,568,177"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -185,72 +173,21 @@ std::map&lt; int, <a class="el" href="class_socket_state.html">SocketState</a> &
 <tr class="memitem:add534df7c218a7ec42aa34beee4eb703" id="r_add534df7c218a7ec42aa34beee4eb703"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add534df7c218a7ec42aa34beee4eb703">handleTimeout</a> ()</td></tr>
 <tr class="memdesc:add534df7c218a7ec42aa34beee4eb703"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケットのタイムアウトを処理する。  <br /></td></tr>
 <tr class="separator:add534df7c218a7ec42aa34beee4eb703"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c9039a81ac30d136bc810eba9c8a24b" id="r_a1c9039a81ac30d136bc810eba9c8a24b"><td class="memItemLeft" align="right" valign="top"><a id="a1c9039a81ac30d136bc810eba9c8a24b" name="a1c9039a81ac30d136bc810eba9c8a24b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>NetworkService</b> (std::vector&lt; <a class="el" href="class_server_directive.html">ServerDirective</a> &gt; &amp;ServerDirectives, <a class="el" href="class_port_mapping.html">PortMapping</a> &amp;portMapping, <a class="el" href="class_i_counter.html">ICounter</a> &amp;limiter, <a class="el" href="class_i_counter.html">ICounter</a> &amp;errorCounter, std::map&lt; int, <a class="el" href="class_socket_state.html">SocketState</a> &gt; &amp;socketStates, <a class="el" href="class_mime_type.html">MimeType</a> &amp;mimeType, <a class="el" href="class_tokenize.html">Tokenize</a> &amp;tokenize)</td></tr>
-<tr class="separator:a1c9039a81ac30d136bc810eba9c8a24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa669d89eac68ea824c823701a63c6030" id="r_aa669d89eac68ea824c823701a63c6030"><td class="memItemLeft" align="right" valign="top"><a id="aa669d89eac68ea824c823701a63c6030" name="aa669d89eac68ea824c823701a63c6030"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>initNetworkService</b> ()</td></tr>
-<tr class="separator:aa669d89eac68ea824c823701a63c6030"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54ae0e59338c8ffd4aabd39866bbf549" id="r_a54ae0e59338c8ffd4aabd39866bbf549"><td class="memItemLeft" align="right" valign="top"><a id="a54ae0e59338c8ffd4aabd39866bbf549" name="a54ae0e59338c8ffd4aabd39866bbf549"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>restartNetworkService</b> ()</td></tr>
-<tr class="separator:a54ae0e59338c8ffd4aabd39866bbf549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e23cb4a43a2ebde40990e4f901396b5" id="r_a4e23cb4a43a2ebde40990e4f901396b5"><td class="memItemLeft" align="right" valign="top"><a id="a4e23cb4a43a2ebde40990e4f901396b5" name="a4e23cb4a43a2ebde40990e4f901396b5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setupEachPort</b> (const <a class="el" href="class_server_directive.html">ServerDirective</a> &amp;config)</td></tr>
-<tr class="separator:a4e23cb4a43a2ebde40990e4f901396b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34440b127df8820b685c1fd564b0a558" id="r_a34440b127df8820b685c1fd564b0a558"><td class="memItemLeft" align="right" valign="top"><a id="a34440b127df8820b685c1fd564b0a558" name="a34440b127df8820b685c1fd564b0a558"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>switchToNonBlockingSocket</b> (int sock)</td></tr>
-<tr class="separator:a34440b127df8820b685c1fd564b0a558"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18b7f72724577a0fba37802fb36d8e7d" id="r_a18b7f72724577a0fba37802fb36d8e7d"><td class="memItemLeft" align="right" valign="top"><a id="a18b7f72724577a0fba37802fb36d8e7d" name="a18b7f72724577a0fba37802fb36d8e7d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>acceptNewConnection</b> (size_t serverIndex)</td></tr>
-<tr class="separator:a18b7f72724577a0fba37802fb36d8e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79b34078f8a4e6c978ab8fae8e4769db" id="r_a79b34078f8a4e6c978ab8fae8e4769db"><td class="memItemLeft" align="right" valign="top"><a id="a79b34078f8a4e6c978ab8fae8e4769db" name="a79b34078f8a4e6c978ab8fae8e4769db"></a>
-PollAction&#160;</td><td class="memItemRight" valign="bottom"><b>handlePoll</b> (std::vector&lt; struct pollfd &gt; &amp;fds)</td></tr>
-<tr class="separator:a79b34078f8a4e6c978ab8fae8e4769db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79b80b9a51d73a85bb99b0ac0560a0c4" id="r_a79b80b9a51d73a85bb99b0ac0560a0c4"><td class="memItemLeft" align="right" valign="top"><a id="a79b80b9a51d73a85bb99b0ac0560a0c4" name="a79b80b9a51d73a85bb99b0ac0560a0c4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handleServerEvents</b> ()</td></tr>
-<tr class="separator:a79b80b9a51d73a85bb99b0ac0560a0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc2ce78b98367413538d7d84537b867e" id="r_afc2ce78b98367413538d7d84537b867e"><td class="memItemLeft" align="right" valign="top"><a id="afc2ce78b98367413538d7d84537b867e" name="afc2ce78b98367413538d7d84537b867e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handleRecvRequests</b> ()</td></tr>
-<tr class="separator:afc2ce78b98367413538d7d84537b867e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a500652677e0cb07236dcba573d8972f3" id="r_a500652677e0cb07236dcba573d8972f3"><td class="memItemLeft" align="right" valign="top"><a id="a500652677e0cb07236dcba573d8972f3" name="a500652677e0cb07236dcba573d8972f3"></a>
-std::vector&lt; structpollfd &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>closeAndCleanupSocket</b> (int fd, std::vector&lt; struct pollfd &gt;::iterator &amp;it)</td></tr>
-<tr class="separator:a500652677e0cb07236dcba573d8972f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8849b9c719cb649dbbbae76d9981da7c" id="r_a8849b9c719cb649dbbbae76d9981da7c"><td class="memItemLeft" align="right" valign="top"><a id="a8849b9c719cb649dbbbae76d9981da7c" name="a8849b9c719cb649dbbbae76d9981da7c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handleSendResponses</b> ()</td></tr>
-<tr class="separator:a8849b9c719cb649dbbbae76d9981da7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cf75b7a3d9f4f6ffb04501be4a4f151" id="r_a2cf75b7a3d9f4f6ffb04501be4a4f151"><td class="memItemLeft" align="right" valign="top"><a id="a2cf75b7a3d9f4f6ffb04501be4a4f151" name="a2cf75b7a3d9f4f6ffb04501be4a4f151"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>closeAndResetAllSockets</b> ()</td></tr>
-<tr class="separator:a2cf75b7a3d9f4f6ffb04501be4a4f151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcb47d4f7a2c0a5b7f7cb5b3f80a1d55" id="r_afcb47d4f7a2c0a5b7f7cb5b3f80a1d55"><td class="memItemLeft" align="right" valign="top"><a id="afcb47d4f7a2c0a5b7f7cb5b3f80a1d55" name="afcb47d4f7a2c0a5b7f7cb5b3f80a1d55"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>getServPort</b> () const</td></tr>
-<tr class="separator:afcb47d4f7a2c0a5b7f7cb5b3f80a1d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f6094050fc69198ef9b005c1294d44" id="r_af3f6094050fc69198ef9b005c1294d44"><td class="memItemLeft" align="right" valign="top"><a id="af3f6094050fc69198ef9b005c1294d44" name="af3f6094050fc69198ef9b005c1294d44"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getServSockFd</b> () const</td></tr>
-<tr class="separator:af3f6094050fc69198ef9b005c1294d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a108a101d3e082fdfa5e46c8131532e7e" id="r_a108a101d3e082fdfa5e46c8131532e7e"><td class="memItemLeft" align="right" valign="top"><a id="a108a101d3e082fdfa5e46c8131532e7e" name="a108a101d3e082fdfa5e46c8131532e7e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setServSockFd</b> (int servSockFd)</td></tr>
-<tr class="separator:a108a101d3e082fdfa5e46c8131532e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0184b7ae82703d67718a3be83948c5bd" id="r_a0184b7ae82703d67718a3be83948c5bd"><td class="memItemLeft" align="right" valign="top"><a id="a0184b7ae82703d67718a3be83948c5bd" name="a0184b7ae82703d67718a3be83948c5bd"></a>
-std::map&lt; int, <a class="el" href="class_socket_state.html">SocketState</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getReqSocketStatesPtr</b> () const</td></tr>
-<tr class="separator:a0184b7ae82703d67718a3be83948c5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add534df7c218a7ec42aa34beee4eb703" id="r_add534df7c218a7ec42aa34beee4eb703"><td class="memItemLeft" align="right" valign="top"><a id="add534df7c218a7ec42aa34beee4eb703" name="add534df7c218a7ec42aa34beee4eb703"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handleTimeout</b> ()</td></tr>
-<tr class="separator:add534df7c218a7ec42aa34beee4eb703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5d610c1474701d8582b18573a200dade" id="r_a5d610c1474701d8582b18573a200dade"><td class="memItemLeft" align="right" valign="top"><a id="a5d610c1474701d8582b18573a200dade" name="a5d610c1474701d8582b18573a200dade"></a>
+<tr class="memitem:a0ef4a420379a073d298d4b7e5f650c7a" id="r_a0ef4a420379a073d298d4b7e5f650c7a"><td class="memItemLeft" align="right" valign="top"><a id="a0ef4a420379a073d298d4b7e5f650c7a" name="a0ef4a420379a073d298d4b7e5f650c7a"></a>
 <a class="el" href="class_mime_type.html">MimeType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_mimeType</b></td></tr>
-<tr class="separator:a5d610c1474701d8582b18573a200dade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7dc41f3de3a91b945d46d2cbe18a6be" id="r_af7dc41f3de3a91b945d46d2cbe18a6be"><td class="memItemLeft" align="right" valign="top"><a id="af7dc41f3de3a91b945d46d2cbe18a6be" name="af7dc41f3de3a91b945d46d2cbe18a6be"></a>
+<tr class="separator:a0ef4a420379a073d298d4b7e5f650c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a383c592b347a6926852884b916875aa4" id="r_a383c592b347a6926852884b916875aa4"><td class="memItemLeft" align="right" valign="top"><a id="a383c592b347a6926852884b916875aa4" name="a383c592b347a6926852884b916875aa4"></a>
 <a class="el" href="class_tokenize.html">Tokenize</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_tokenize</b></td></tr>
-<tr class="separator:af7dc41f3de3a91b945d46d2cbe18a6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c4d8d19f378e8c910f16a2c954a7c57" id="r_a5c4d8d19f378e8c910f16a2c954a7c57"><td class="memItemLeft" align="right" valign="top"><a id="a5c4d8d19f378e8c910f16a2c954a7c57" name="a5c4d8d19f378e8c910f16a2c954a7c57"></a>
+<tr class="separator:a383c592b347a6926852884b916875aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8af280b5f9996426d5a0e8f24d9f1f6" id="r_af8af280b5f9996426d5a0e8f24d9f1f6"><td class="memItemLeft" align="right" valign="top"><a id="af8af280b5f9996426d5a0e8f24d9f1f6" name="af8af280b5f9996426d5a0e8f24d9f1f6"></a>
 std::vector&lt; struct pollfd &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_pollfds</b></td></tr>
-<tr class="separator:a5c4d8d19f378e8c910f16a2c954a7c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2daf5351f0dc6d091d127e28c80dc90f" id="r_a2daf5351f0dc6d091d127e28c80dc90f"><td class="memItemLeft" align="right" valign="top"><a id="a2daf5351f0dc6d091d127e28c80dc90f" name="a2daf5351f0dc6d091d127e28c80dc90f"></a>
+<tr class="separator:af8af280b5f9996426d5a0e8f24d9f1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b80077e58a4aabd807a2265ca375e9" id="r_a70b80077e58a4aabd807a2265ca375e9"><td class="memItemLeft" align="right" valign="top"><a id="a70b80077e58a4aabd807a2265ca375e9" name="a70b80077e58a4aabd807a2265ca375e9"></a>
 std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_listenPortFds</b></td></tr>
-<tr class="separator:a2daf5351f0dc6d091d127e28c80dc90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a70b80077e58a4aabd807a2265ca375e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa51dfae33d18dd1f445fe6c205232510" id="r_aa51dfae33d18dd1f445fe6c205232510"><td class="memItemLeft" align="right" valign="top"><a id="aa51dfae33d18dd1f445fe6c205232510" name="aa51dfae33d18dd1f445fe6c205232510"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_MimeTypeFileName</b></td></tr>
 <tr class="separator:aa51dfae33d18dd1f445fe6c205232510"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,60 +233,24 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a648626623792dd4752c1daaffe876ffc" id="r_a648626623792dd4752c1daaffe876ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a648626623792dd4752c1daaffe876ffc">closeConnection</a> (int socketFd)</td></tr>
 <tr class="memdesc:a648626623792dd4752c1daaffe876ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたソケットの接続を閉じます。  <br /></td></tr>
 <tr class="separator:a648626623792dd4752c1daaffe876ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf04155926d7461e63432034869d23b7" id="r_acf04155926d7461e63432034869d23b7"><td class="memItemLeft" align="right" valign="top"><a id="acf04155926d7461e63432034869d23b7" name="acf04155926d7461e63432034869d23b7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>createServerSocket</b> ()</td></tr>
-<tr class="separator:acf04155926d7461e63432034869d23b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb307c95e97d912803bff29f67f533ca" id="r_abb307c95e97d912803bff29f67f533ca"><td class="memItemLeft" align="right" valign="top"><a id="abb307c95e97d912803bff29f67f533ca" name="abb307c95e97d912803bff29f67f533ca"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>configureServerAddress</b> ()</td></tr>
-<tr class="separator:abb307c95e97d912803bff29f67f533ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76eb3eb24ee923721a827e11d5bf7234" id="r_a76eb3eb24ee923721a827e11d5bf7234"><td class="memItemLeft" align="right" valign="top"><a id="a76eb3eb24ee923721a827e11d5bf7234" name="a76eb3eb24ee923721a827e11d5bf7234"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>bindAddr</b> ()</td></tr>
-<tr class="separator:a76eb3eb24ee923721a827e11d5bf7234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e89f1cabbeac6f1b6f8fd5c2fdc49df" id="r_a9e89f1cabbeac6f1b6f8fd5c2fdc49df"><td class="memItemLeft" align="right" valign="top"><a id="a9e89f1cabbeac6f1b6f8fd5c2fdc49df" name="a9e89f1cabbeac6f1b6f8fd5c2fdc49df"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>listenSocket</b> (const <a class="el" href="class_server_directive.html">ServerDirective</a> &amp;config)</td></tr>
-<tr class="separator:a9e89f1cabbeac6f1b6f8fd5c2fdc49df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63bbb5ebfaed19591fb547b3f0cfffc5" id="r_a63bbb5ebfaed19591fb547b3f0cfffc5"><td class="memItemLeft" align="right" valign="top"><a id="a63bbb5ebfaed19591fb547b3f0cfffc5" name="a63bbb5ebfaed19591fb547b3f0cfffc5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mapClientSocketToListeningPort</b> (int clientSocket, int serverIndex)</td></tr>
-<tr class="separator:a63bbb5ebfaed19591fb547b3f0cfffc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae230dece0329581a121b72f4437e0518" id="r_ae230dece0329581a121b72f4437e0518"><td class="memItemLeft" align="right" valign="top"><a id="ae230dece0329581a121b72f4437e0518" name="ae230dece0329581a121b72f4437e0518"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>createSocketState</b> (size_t serverIndex, int clientSocket)</td></tr>
-<tr class="separator:ae230dece0329581a121b72f4437e0518"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fecddc50e233048c7e1632913dff0b5" id="r_a6fecddc50e233048c7e1632913dff0b5"><td class="memItemLeft" align="right" valign="top"><a id="a6fecddc50e233048c7e1632913dff0b5" name="a6fecddc50e233048c7e1632913dff0b5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addSocketToPollFd</b> (int socket, std::vector&lt; struct pollfd &gt; &amp;fd)</td></tr>
-<tr class="separator:a6fecddc50e233048c7e1632913dff0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b6605ad0ddb71f1fc7a87ff616cf872" id="r_a1b6605ad0ddb71f1fc7a87ff616cf872"><td class="memItemLeft" align="right" valign="top"><a id="a1b6605ad0ddb71f1fc7a87ff616cf872" name="a1b6605ad0ddb71f1fc7a87ff616cf872"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>executeClientHttpSession</b> (int socketFd)</td></tr>
-<tr class="separator:a1b6605ad0ddb71f1fc7a87ff616cf872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9cd04add0e426e95a9fc680b06db23e" id="r_af9cd04add0e426e95a9fc680b06db23e"><td class="memItemLeft" align="right" valign="top"><a id="af9cd04add0e426e95a9fc680b06db23e" name="af9cd04add0e426e95a9fc680b06db23e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>sendResponse</b> (int socketFd, const char *msg, size_t len)</td></tr>
-<tr class="separator:af9cd04add0e426e95a9fc680b06db23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2dc5eec9dfb61797bd77abf5a44a218" id="r_aa2dc5eec9dfb61797bd77abf5a44a218"><td class="memItemLeft" align="right" valign="top"><a id="aa2dc5eec9dfb61797bd77abf5a44a218" name="aa2dc5eec9dfb61797bd77abf5a44a218"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>shouldKeepAlive</b> (int socketFd)</td></tr>
-<tr class="separator:aa2dc5eec9dfb61797bd77abf5a44a218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7101de80b1b3b348f2012246c598b0e4" id="r_a7101de80b1b3b348f2012246c598b0e4"><td class="memItemLeft" align="right" valign="top"><a id="a7101de80b1b3b348f2012246c598b0e4" name="a7101de80b1b3b348f2012246c598b0e4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isServerFd</b> (std::vector&lt; struct pollfd &gt;::iterator &amp;itPollFds)</td></tr>
-<tr class="separator:a7101de80b1b3b348f2012246c598b0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a648626623792dd4752c1daaffe876ffc" id="r_a648626623792dd4752c1daaffe876ffc"><td class="memItemLeft" align="right" valign="top"><a id="a648626623792dd4752c1daaffe876ffc" name="a648626623792dd4752c1daaffe876ffc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>closeConnection</b> (int socketFd)</td></tr>
-<tr class="separator:a648626623792dd4752c1daaffe876ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0638019ee6fdf3d7846a99426ac42d8e" id="r_a0638019ee6fdf3d7846a99426ac42d8e"><td class="memItemLeft" align="right" valign="top"><a id="a0638019ee6fdf3d7846a99426ac42d8e" name="a0638019ee6fdf3d7846a99426ac42d8e"></a>
+<tr class="memitem:ae2db67bb7170de0f239abb8488cdb196" id="r_ae2db67bb7170de0f239abb8488cdb196"><td class="memItemLeft" align="right" valign="top"><a id="ae2db67bb7170de0f239abb8488cdb196" name="ae2db67bb7170de0f239abb8488cdb196"></a>
 std::vector&lt; <a class="el" href="class_server_directive.html">ServerDirective</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_serverDirectives</b></td></tr>
-<tr class="separator:a0638019ee6fdf3d7846a99426ac42d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa79916497ac7c886a78c005765d00426" id="r_aa79916497ac7c886a78c005765d00426"><td class="memItemLeft" align="right" valign="top"><a id="aa79916497ac7c886a78c005765d00426" name="aa79916497ac7c886a78c005765d00426"></a>
+<tr class="separator:ae2db67bb7170de0f239abb8488cdb196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd0e15a83d135bddfe8b508620538c1" id="r_aafd0e15a83d135bddfe8b508620538c1"><td class="memItemLeft" align="right" valign="top"><a id="aafd0e15a83d135bddfe8b508620538c1" name="aafd0e15a83d135bddfe8b508620538c1"></a>
 <a class="el" href="class_port_mapping.html">PortMapping</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_portMapping</b></td></tr>
-<tr class="separator:aa79916497ac7c886a78c005765d00426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99e9978eaaefdbd0a5b388ccdee684fb" id="r_a99e9978eaaefdbd0a5b388ccdee684fb"><td class="memItemLeft" align="right" valign="top"><a id="a99e9978eaaefdbd0a5b388ccdee684fb" name="a99e9978eaaefdbd0a5b388ccdee684fb"></a>
+<tr class="separator:aafd0e15a83d135bddfe8b508620538c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2558411c6168f0f5f25b29ef72383d" id="r_a7c2558411c6168f0f5f25b29ef72383d"><td class="memItemLeft" align="right" valign="top"><a id="a7c2558411c6168f0f5f25b29ef72383d" name="a7c2558411c6168f0f5f25b29ef72383d"></a>
 <a class="el" href="class_i_counter.html">ICounter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_limiter</b></td></tr>
-<tr class="separator:a99e9978eaaefdbd0a5b388ccdee684fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7247bb95922bb02390856f1e016e2e46" id="r_a7247bb95922bb02390856f1e016e2e46"><td class="memItemLeft" align="right" valign="top"><a id="a7247bb95922bb02390856f1e016e2e46" name="a7247bb95922bb02390856f1e016e2e46"></a>
+<tr class="separator:a7c2558411c6168f0f5f25b29ef72383d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74a105b61a08ac668bd1648ac660e61" id="r_ad74a105b61a08ac668bd1648ac660e61"><td class="memItemLeft" align="right" valign="top"><a id="ad74a105b61a08ac668bd1648ac660e61" name="ad74a105b61a08ac668bd1648ac660e61"></a>
 <a class="el" href="class_i_counter.html">ICounter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_errorCounter</b></td></tr>
-<tr class="separator:a7247bb95922bb02390856f1e016e2e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a523ad61708dbef50b6884ffc84273634" id="r_a523ad61708dbef50b6884ffc84273634"><td class="memItemLeft" align="right" valign="top"><a id="a523ad61708dbef50b6884ffc84273634" name="a523ad61708dbef50b6884ffc84273634"></a>
+<tr class="separator:ad74a105b61a08ac668bd1648ac660e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0127a0e28a6e25fd02f761bbe79a9b67" id="r_a0127a0e28a6e25fd02f761bbe79a9b67"><td class="memItemLeft" align="right" valign="top"><a id="a0127a0e28a6e25fd02f761bbe79a9b67" name="a0127a0e28a6e25fd02f761bbe79a9b67"></a>
 std::map&lt; int, <a class="el" href="class_socket_state.html">SocketState</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>_socketStates</b></td></tr>
-<tr class="separator:a523ad61708dbef50b6884ffc84273634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a0127a0e28a6e25fd02f761bbe79a9b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb51072184b494e289eabc870324833c" id="r_aeb51072184b494e289eabc870324833c"><td class="memItemLeft" align="right" valign="top"><a id="aeb51072184b494e289eabc870324833c" name="aeb51072184b494e289eabc870324833c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>_servSockFd</b></td></tr>
 <tr class="separator:aeb51072184b494e289eabc870324833c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -365,9 +266,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_responseData<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:acf5ebf6d15514554d100c55dcfb5909d" id="r_acf5ebf6d15514554d100c55dcfb5909d"><td class="memItemLeft" align="right" valign="top"><a id="acf5ebf6d15514554d100c55dcfb5909d" name="acf5ebf6d15514554d100c55dcfb5909d"></a>
+<tr class="memitem:ac0645e78a687829b60b8932870bfede1" id="r_ac0645e78a687829b60b8932870bfede1"><td class="memItemLeft" align="right" valign="top"><a id="ac0645e78a687829b60b8932870bfede1" name="ac0645e78a687829b60b8932870bfede1"></a>
 static const int&#160;</td><td class="memItemRight" valign="bottom"><b>POLL_TIMEOUT</b> = 2 * 1000</td></tr>
-<tr class="separator:acf5ebf6d15514554d100c55dcfb5909d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ac0645e78a687829b60b8932870bfede1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a18b7f72724577a0fba37802fb36d8e7d" name="a18b7f72724577a0fba37802fb36d8e7d"></a>
@@ -884,24 +785,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd></dd></dl>
-<h1><a class="anchor" id="autotoc_md20"></a>
-流れ</h1>
-<ul>
-<li>過去のデータの取得: ソケットの前回の情報 socketState を取得</li>
-<li>今回のデータ用に格納: 今回の通信に必要な情報をまとめたところ httpTransaction に格納　 <br  />
-</li>
-<li>メソッドを実行: その情報を持たせて、処理 httpWorkflowManager を実行 <br  />
-</li>
-</ul>
-<p>この関数はクライアントの完全なHTTPセッションを処理します。ソケットからデータを受信し、 HTTPリクエストを処理し、適切なレスポンスを作成までを行います。 ※send()は別のloopでPOLLOUTを確認してから行います。</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">socketFd</td><td>クライアントソケットのファイルディスクリプタ。</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd></dd></dl>
-<h1><a class="anchor" id="autotoc_md29"></a>
+<h1><a class="anchor" id="autotoc_md4"></a>
 流れ</h1>
 <ul>
 <li>過去のデータの取得: ソケットの前回の情報 socketState を取得</li>
@@ -1933,16 +1817,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>clone4/include/network/<a class="el" href="clone4_2include_2network_2_network_service_8hpp_source.html">NetworkService.hpp</a></li>
-<li>include/network/<a class="el" href="include_2network_2_network_service_8hpp_source.html">NetworkService.hpp</a></li>
-<li>clone4/srcs/network/details/<b>fcntlNonBlocking.cpp</b></li>
-<li>clone4/srcs/network/details/<b>NetworkService.cpp</b></li>
-<li>clone4/srcs/network/<b>handlePoll.cpp</b></li>
-<li>clone4/srcs/network/<b>handleRecvRequests.cpp</b></li>
-<li>clone4/srcs/network/<b>handleSendResponses.cpp</b></li>
-<li>clone4/srcs/network/<b>handleServerEvents.cpp</b></li>
-<li>clone4/srcs/network/<b>handleTimeout.cpp</b></li>
-<li>clone4/srcs/network/<b>setupEachPort.cpp</b></li>
+<li>include/network/<a class="el" href="_network_service_8hpp_source.html">NetworkService.hpp</a></li>
 <li>srcs/network/details/<b>fcntlNonBlocking.cpp</b></li>
 <li>srcs/network/details/<b>NetworkService.cpp</b></li>
 <li>srcs/network/<b>handlePoll.cpp</b></li>

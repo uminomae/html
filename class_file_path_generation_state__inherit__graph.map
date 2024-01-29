@@ -1,6 +1,5 @@
 <map id="FilePathGenerationState" name="FilePathGenerationState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,179,179,364"/>
-<area shape="rect" id="Node000002" href="$class_i_http_processing_step.html" title=" " alt="" coords="12,5,172,131"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,146,86,179,80,179,81,146"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="103,146,104,179,98,179,98,146"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,179,264"/>
+<area shape="rect" id="Node000002" href="$class_i_http_processing_step.html" title=" " alt="" coords="12,5,172,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,106,95,139,89,139,89,106"/>
 </map>

@@ -29,6 +29,5 @@ var searchData=
   ['parseservername_26',['parseServerName',['../class_server_directive.html#acb63a76594459207df65283ed4a00c50',1,'ServerDirective']]],
   ['parsingmultipartstate_27',['ParsingMultiPartState',['../class_parsing_multi_part_state.html',1,'']]],
   ['parsingrequeststate_28',['ParsingRequestState',['../class_parsing_request_state.html',1,'']]],
-  ['portmapping_29',['PortMapping',['../class_port_mapping.html',1,'']]],
-  ['ps_5fhttptransactiontest_30',['PS_HttpTransactionTest',['../class_p_s___http_transaction_test.html',1,'']]]
+  ['portmapping_29',['PortMapping',['../class_port_mapping.html',1,'']]]
 ];

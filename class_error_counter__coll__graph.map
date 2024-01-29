@@ -1,9 +1,7 @@
 <map id="ErrorCounter" name="ErrorCounter">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,572,252,697"/>
-<area shape="rect" id="Node000002" href="$class_base_counter.html" title=" " alt="" coords="12,219,245,524"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,539,124,572,118,573,117,539"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="140,539,139,573,134,572,135,539"/>
-<area shape="rect" id="Node000003" href="$class_i_counter.html" title=" " alt="" coords="84,5,173,171"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,186,122,219,117,219,117,186"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="140,186,140,219,135,219,135,186"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,412,252,497"/>
+<area shape="rect" id="Node000002" href="$class_base_counter.html" title=" " alt="" coords="12,159,245,364"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,379,131,412,126,412,126,379"/>
+<area shape="rect" id="Node000003" href="$class_i_counter.html" title=" " alt="" coords="84,5,173,111"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,126,131,159,126,159,126,126"/>
 </map>

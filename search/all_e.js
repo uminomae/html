@@ -2,7 +2,7 @@ var searchData=
 [
   ['ratelimiter_0',['RateLimiter',['../class_rate_limiter.html',1,'']]],
   ['readfilecontenttoresponsebody_1',['readFileContentToResponseBody',['../class_content_extraction_state.html#a2ad6daeca81781bd47c508fc7f080f5e',1,'ContentExtractionState']]],
-  ['readme_2',['README',['../md_clone4_2_r_e_a_d_m_e.html',1,'README'],['../md__r_e_a_d_m_e.html',1,'README']]],
+  ['readme_2',['README',['../md__r_e_a_d_m_e.html',1,'']]],
   ['rebuildcontentdispositionheader_3',['rebuildContentDispositionHeader',['../class_parsing_multi_part_state.html#adb42722cea83399d44c210f26530aa54',1,'ParsingMultiPartState']]],
   ['receiverequestbody_4',['receiveRequestBody',['../class_recv_header_lexer_state.html#a5ea2e1151da9d4a3fca01701c4f1726c',1,'RecvHeaderLexerState']]],
   ['recvandappendvector_5',['recvAndAppendVector',['../class_recv_header_lexer_state.html#a3066f47225f8ec0d30ad4f23f28aa704',1,'RecvHeaderLexerState']]],

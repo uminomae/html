@@ -1,13 +1,7 @@
 <map id="RateLimiter" name="RateLimiter">
-<area shape="rect" id="Node000001" title=" " alt="" coords="6,572,238,697"/>
-<area shape="rect" id="Node000004" href="$class_mock_rate_limiter.html" title=" " alt="" coords="66,745,178,811"/>
-<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="107,712,109,745,104,746,101,712"/>
-<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="125,712,125,746,119,746,119,712"/>
-<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="143,712,140,746,135,745,137,712"/>
-<area shape="rect" id="Node000002" href="$class_base_counter.html" title=" " alt="" coords="5,219,239,524"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,539,117,572,112,573,111,539"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="133,539,132,573,127,572,128,539"/>
-<area shape="rect" id="Node000003" href="$class_i_counter.html" title=" " alt="" coords="77,5,167,171"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="116,186,116,219,110,219,111,186"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="133,186,134,219,128,219,128,186"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,412,238,497"/>
+<area shape="rect" id="Node000002" href="$class_base_counter.html" title=" " alt="" coords="5,159,239,364"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,379,125,412,119,412,119,379"/>
+<area shape="rect" id="Node000003" href="$class_i_counter.html" title=" " alt="" coords="77,5,167,111"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,126,125,159,119,159,119,126"/>
 </map>
