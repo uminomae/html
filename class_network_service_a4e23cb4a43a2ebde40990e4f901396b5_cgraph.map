@@ -1,6 +1,6 @@
 <map id="NetworkService::setupEachPort" name="NetworkService::setupEachPort">
 <area shape="rect" id="Node000001" title=".confのサーバーディレクティブのportに基づいてセットアップを行います。" alt="" coords="5,161,214,187"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="269,5,454,46"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a4b21480dc9effd08b911c9a9f42d5744" title="新しいソケットを監視リストに追加します。" alt="" coords="269,5,454,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,158,180,109,219,81,260,55,271,50,274,55,263,60,222,85,183,113,126,162"/>
 <area shape="rect" id="Node000003" href="$class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234" title="サーバーソケットにアドレスをバインドします。" alt="" coords="275,70,448,96"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,158,193,132,261,106,287,98,288,103,263,111,196,137,139,163"/>

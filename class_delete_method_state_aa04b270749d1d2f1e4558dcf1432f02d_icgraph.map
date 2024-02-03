@@ -1,5 +1,5 @@
 <map id="DeleteMethodState::handle" name="DeleteMethodState::handle">
-<area shape="rect" id="Node000001" title="疑似 Delete method 機能を処理します。" alt="" coords="977,5,1118,46"/>
+<area shape="rect" id="Node000001" title="Delete method の場合を処理します。" alt="" coords="977,5,1118,46"/>
 <area shape="rect" id="Node000002" href="$class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="744,5,929,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="961,28,929,28,929,23,961,23"/>
 <area shape="rect" id="Node000003" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="494,5,696,46"/>

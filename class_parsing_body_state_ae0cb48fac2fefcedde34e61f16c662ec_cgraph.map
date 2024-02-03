@@ -1,17 +1,15 @@
 <map id="ParsingBodyState::parseRequestBody" name="ParsingBodyState::parseRequestBody">
-<area shape="rect" id="Node000001" title="HTTPリクエストボディを解析します。" alt="" coords="5,114,251,140"/>
-<area shape="rect" id="Node000002" href="$class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="311,73,460,114"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,111,296,103,296,108,233,116"/>
-<area shape="rect" id="Node000008" href="$class_parsing_body_state.html#a85a43d44071d51ee96dd501ccc850d59" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="299,139,472,179"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="237,138,283,144,283,149,236,143"/>
-<area shape="rect" id="Node000003" href="$class_parsing_multi_part_state.html#a79459c0d525f2dd11bbb61c8eaf9481c" title="マルチパートフォームデータの解析を行います。" alt="" coords="524,37,695,78"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="459,79,508,71,509,77,460,84"/>
-<area shape="rect" id="Node000007" href="$class_parsing_multi_part_state.html#adb42722cea83399d44c210f26530aa54" title="parseしたヘッダーから Content&#45;Disposition を復元するように再構築します。" alt="" coords="520,102,698,158"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="460,103,505,110,504,115,459,108"/>
-<area shape="rect" id="Node000004" href="$class_parsing_multi_part_state.html#add373e606f8fb778e573dc75f1133c9f" title="バウンダリ文字列を作成します。" alt="" coords="746,5,905,46"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="695,42,731,37,731,42,695,48"/>
-<area shape="rect" id="Node000005" href="$class_parsing_multi_part_state.html#aafcdeadbf09c42914c2cb91ea07111eb" title="ヘッダー全体を解析し、それをマップに格納します。" alt="" coords="748,71,903,111"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="695,68,733,74,732,79,695,73"/>
-<area shape="rect" id="Node000006" href="$class_parsing_multi_part_state.html#ab57c95e14529c7ae5defa0abd24667ad" title="マルチパートヘッダーのデータからキーと値のペアを抽出し、マップに追加します。" alt="" coords="953,71,1122,111"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="904,88,937,88,937,94,904,94"/>
+<area shape="rect" id="Node000001" title="HTTPリクエストボディを解析します。" alt="" coords="5,81,251,107"/>
+<area shape="rect" id="Node000002" href="$class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="299,73,447,114"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,91,283,91,283,96,251,96"/>
+<area shape="rect" id="Node000003" href="$class_parsing_multi_part_state.html#a79459c0d525f2dd11bbb61c8eaf9481c" title="マルチパートフォームデータの解析を行います。" alt="" coords="499,37,670,78"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="447,78,483,72,484,77,448,84"/>
+<area shape="rect" id="Node000007" href="$class_parsing_multi_part_state.html#adb42722cea83399d44c210f26530aa54" title="parseしたヘッダーから Content&#45;Disposition を復元するように再構築します。" alt="" coords="495,102,673,158"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="448,104,480,109,479,114,447,109"/>
+<area shape="rect" id="Node000004" href="$class_parsing_multi_part_state.html#add373e606f8fb778e573dc75f1133c9f" title="バウンダリ文字列を作成します。" alt="" coords="721,5,880,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="670,42,706,37,706,42,670,48"/>
+<area shape="rect" id="Node000005" href="$class_parsing_multi_part_state.html#aafcdeadbf09c42914c2cb91ea07111eb" title="ヘッダー全体を解析し、それをマップに格納します。" alt="" coords="723,71,878,111"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="670,68,708,74,707,79,670,73"/>
+<area shape="rect" id="Node000006" href="$class_parsing_multi_part_state.html#ab57c95e14529c7ae5defa0abd24667ad" title="マルチパートヘッダーのデータからキーと値のペアを抽出し、マップに追加します。" alt="" coords="928,71,1097,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="879,88,912,88,912,94,879,94"/>
 </map>

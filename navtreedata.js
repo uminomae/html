@@ -31,7 +31,9 @@ var NAVTREE =
     ] ],
     [ "oshinagaki", "md_review_hioikawa_2oshinagaki.html", [
       [ "other", "md_review_hioikawa_2oshinagaki.html#autotoc_md2", null ],
-      [ "statusCode", "md_review_hioikawa_2oshinagaki.html#autotoc_md3", null ]
+      [ "statusCode 20x", "md_review_hioikawa_2oshinagaki.html#autotoc_md3", null ],
+      [ "statusCode 30x", "md_review_hioikawa_2oshinagaki.html#autotoc_md4", null ],
+      [ "statusCode 40x", "md_review_hioikawa_2oshinagaki.html#autotoc_md5", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

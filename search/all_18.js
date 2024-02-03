@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['サーバpollのfdsのとこで_0',['初回接続時 サーバpollのfdsのとこで',['../md_clone4_2_x_e9_x80_x_a3_x_e7_x_b5_x_a1_2chunked.html#autotoc_md3',1,'']]]
+  ['_7ehttptransaction_0',['~HttpTransaction',['../class_http_transaction.html#a46d0113f96bf8c9bf8ee5674f693b3a9',1,'HttpTransaction']]]
 ];

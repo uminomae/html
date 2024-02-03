@@ -1,0 +1,5 @@
+<map id="ParsingHeaderState::parseHeaderLine" name="ParsingHeaderState::parseHeaderLine">
+<area shape="rect" id="Node000001" title="HTTPヘッダーラインを解析し、キーと値を抽出します。" alt="" coords="5,5,144,46"/>
+<area shape="rect" id="Node000002" href="$class_util_http_processing_step.html#a911a7dc816bdcde8c0bf79c1c9526900" title="文字列の前後の空白をトリミングします。" alt="" coords="192,5,350,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,23,176,23,176,28,144,28"/>
+</map>

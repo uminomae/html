@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="全てのサーバーsocket(port)でPOLLINフラグをチェックします" alt="" coords="5,104,204,145"/>
 <area shape="rect" id="Node000002" href="$class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d" title="新しいクライアント接続を受け入れます。" alt="" coords="252,104,440,145"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,122,236,122,236,127,204,127"/>
-<area shape="rect" id="Node000003" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="496,5,680,46"/>
+<area shape="rect" id="Node000003" href="$class_network_service.html#a4b21480dc9effd08b911c9a9f42d5744" title="新しいソケットを監視リストに追加します。" alt="" coords="496,5,680,46"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,101,487,57,506,49,508,54,489,61,390,106"/>
 <area shape="rect" id="Node000004" href="$class_network_service.html#ae230dece0329581a121b72f4437e0518" title="クライアントの状態をもつクラスのインスタンスを作成し、配列に追加します。" alt="" coords="488,71,687,111"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="440,109,472,104,473,110,441,114"/>

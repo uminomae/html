@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['その他_0',['その他',['../md_clone4_2test_2nginx_2memo.html#autotoc_md24',1,'']]]
+  ['xsputn_0',['xsputn',['../class_vector_stream_buf.html#af75d7c01f88d02faed265de3400c2414',1,'VectorStreamBuf']]]
 ];

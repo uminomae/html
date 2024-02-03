@@ -39,7 +39,7 @@
 <area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="968,330,1027,336,1027,341,967,335"/>
 <area shape="rect" id="Node000018" href="$class_server_directive.html#acb63a76594459207df65283ed4a00c50" title="&#39;server_name&#39; ディレクティブを解析し、サーバー名を設定します。" alt="" coords="1024,387,1248,412"/>
 <area shape="poly" id="edge18_Node000015_Node000018" title=" " alt="" coords="908,333,1024,373,1052,380,1050,385,1023,378,906,338"/>
-<area shape="rect" id="Node000020" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="521,271,705,312"/>
+<area shape="rect" id="Node000020" href="$class_network_service.html#a4b21480dc9effd08b911c9a9f42d5744" title="新しいソケットを監視リストに追加します。" alt="" coords="521,271,705,312"/>
 <area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="387,362,503,321,524,314,525,319,505,326,389,367"/>
 <area shape="rect" id="Node000021" href="$class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234" title="サーバーソケットにアドレスをバインドします。" alt="" coords="526,336,699,362"/>
 <area shape="poly" id="edge21_Node000019_Node000021" title=" " alt="" coords="456,364,510,358,511,363,457,369"/>

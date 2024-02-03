@@ -1,6 +1,6 @@
 <map id="NetworkService::acceptNewConnection" name="NetworkService::acceptNewConnection">
 <area shape="rect" id="Node000001" title="新しいクライアント接続を受け入れます。" alt="" coords="5,104,194,145"/>
-<area shape="rect" id="Node000002" href="$class_network_service.html#a6fecddc50e233048c7e1632913dff0b5" title="新しいソケットを監視リストに追加します。" alt="" coords="249,5,434,46"/>
+<area shape="rect" id="Node000002" href="$class_network_service.html#a4b21480dc9effd08b911c9a9f42d5744" title="新しいソケットを監視リストに追加します。" alt="" coords="249,5,434,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,101,241,57,260,49,262,54,243,61,144,106"/>
 <area shape="rect" id="Node000003" href="$class_network_service.html#ae230dece0329581a121b72f4437e0518" title="クライアントの状態をもつクラスのインスタンスを作成し、配列に追加します。" alt="" coords="242,71,441,111"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,109,226,104,226,110,195,114"/>

@@ -1,5 +1,5 @@
 <map id="DeleteMethodState::handle" name="DeleteMethodState::handle">
-<area shape="rect" id="Node000001" title="疑似 Delete method 機能を処理します。" alt="" coords="5,5,147,46"/>
+<area shape="rect" id="Node000001" title="Delete method の場合を処理します。" alt="" coords="5,5,147,46"/>
 <area shape="rect" id="Node000002" href="$class_util_http_processing_step.html#ab9931d09caf710018e021acf13e11e93" title="レスポンスボディを設定し、その長さに基づいてレスポンスのContent&#45;Lengthヘッダーを設定します。" alt="" coords="195,5,353,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,23,179,23,179,28,147,28"/>
 </map>

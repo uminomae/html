@@ -97,7 +97,9 @@ $(function(){initNavTree('md_review_hioikawa_2oshinagaki.html',''); initResizabl
 <div class="textblock"><ul>
 <li><code>review.sh</code> は <code>make g</code> で一括実行</li>
 </ul>
-<p>review時ブラウザ用.conf /webserv reviewHioikawa/reviewHioikawa.conf</p>
+<p>review時ブラウザ用.conf /webserv reviewHioikawa/reviewHioikawa.conf</p><ul>
+<li>参考:【RFC 9110 - HTTP Semantics】 <a href="https://datatracker.ietf.org/doc/html/rfc9110#name-successful-2xx">https://datatracker.ietf.org/doc/html/rfc9110#name-successful-2xx</a></li>
+</ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
 other</h1>
 <table class="markdownTable">
@@ -112,7 +114,7 @@ other</h1>
 <td class="markdownTableBodyNone">server_name   </td><td class="markdownTableBodyNone">✅ <code>:8084</code> を使用するサーバーdirectiveを2種類用意   </td><td class="markdownTableBodyNone">review.sh(server_name.sh)   </td><td class="markdownTableBodyNone">🈚️   </td></tr>
 </table>
 <h1><a class="anchor" id="autotoc_md3"></a>
-statusCode</h1>
+statusCode 20x</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">statusCode   </th><th class="markdownTableHeadNone">ブラウザテスト   </th><th class="markdownTableHeadNone">reviewHioikawa/   </th><th class="markdownTableHeadNone">html/に準備    </th></tr>
@@ -121,28 +123,108 @@ statusCode</h1>
  画像: html/img/    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">201 Created   </td><td class="markdownTableBodyNone">🈚️ <br  />
- 新しいページをページをうむわけではないので実装無   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+ 新しいページをページをうまない <br  />
+ （Locationヘッダに何も無い）   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">202   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ 処理は全て即時完了する   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">203   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ レスポンスはオリジナルのソースだけ   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">204   </td><td class="markdownTableBodyNone">✅ DELETE Method   </td><td class="markdownTableBodyNone">🔺未 test/shell/deleteTest.sh   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">205   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ フォーム送信後のページ状態の管理は無い   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">206   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ リソースの範囲指定リクエストに応答は無い   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️   </td></tr>
+</table>
+<h1><a class="anchor" id="autotoc_md4"></a>
+statusCode 30x</h1>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">statusCode   </th><th class="markdownTableHeadNone">ブラウザテスト   </th><th class="markdownTableHeadNone">reviewHioikawa/   </th><th class="markdownTableHeadNone">html/に準備    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">300   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ ターゲットリソースに複数の表現の実装は無し   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">301 Moved Permanently   </td><td class="markdownTableBodyNone">✅ :8082 へのリンク   </td><td class="markdownTableBodyNone">❌bodyを見ても判別できない   </td><td class="markdownTableBodyNone">redirect.html    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">302   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ 一時的に異なるURIへのリダイレクトを明確にする機能は要件外と解釈。301で対応   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">303   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ POSTリクエスト後はcgiの出力を返す実装   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">304   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ キャッシュ管理機能無し   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">305   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ プロキシを通じてアクセスするコンテンツは無し   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">307   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ リクエストメソッドが変更され無いことを保証する機能は要件外   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">308   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ リクエストメソッドが変更され無いことを保証する機能は要件外   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️   </td></tr>
+</table>
+<h1><a class="anchor" id="autotoc_md5"></a>
+statusCode 40x</h1>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">statusCode   </th><th class="markdownTableHeadNone">ブラウザテスト   </th><th class="markdownTableHeadNone">reviewHioikawa/ or test/   </th><th class="markdownTableHeadNone">html/に準備    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">400   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ <code>make p</code>   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">401   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ 認証メカニズムは要件外　   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">402   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ オンライン決済は要件外　   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">403 Forbidden   </td><td class="markdownTableBodyNone">✅パーミッション0設定へのリンク <br  />
  その場で <code>chmod 0 html/permission_denied.html</code> する   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ 403.html    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">404 Not Found   </td><td class="markdownTableBodyNone">✅ リンク切れ   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ 404.html    </td></tr>
+<td class="markdownTableBodyNone">404 Not Found   </td><td class="markdownTableBodyNone">✅ リンク切れを用意済み   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ 404.html    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">405 Method Not Allowed   </td><td class="markdownTableBodyNone">✅ <code>:8084</code> でPOST   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">408 Request Timeout   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️ <code># define TEST_TIMEOUT</code> をつけて <code>locust</code> テスト終了後の出力を見る   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<td class="markdownTableBodyNone">406   </td><td class="markdownTableBodyNone">🈚️ コンテンツネゴシエーション機能は要件外   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">409 Conflict   </td><td class="markdownTableBodyNone">❌🤷‍♂️fileの日付読む？   </td><td class="markdownTableBodyNone">❌🤷‍♂️   </td><td class="markdownTableBodyNone">🈚    </td></tr>
+<td class="markdownTableBodyNone">407   </td><td class="markdownTableBodyNone">🈚️ プロキシ認証機能は要件外   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">411 Length Required   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<td class="markdownTableBodyNone">408 Request Timeout   </td><td class="markdownTableBodyNone">🈚️ test 作れない   </td><td class="markdownTableBodyNone">🔺 <code># define TEST_TIMEOUT</code> をつけて <code>locust</code> テスト終了後の出力を見る   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">409 Conflict   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ 同時更新の管理は要件外   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">410   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ 永続的に削除されたリソースの管理は要件外 ※404で対応   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">411 Length Required   </td><td class="markdownTableBodyNone">🔺test 作れない ※無い場合recv()が機能しない   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">412   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ リクエストヘッダーの前提条件 If-MatchやIf-None-Matchヘッダーは要件外   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">413 Payload Too Large   </td><td class="markdownTableBodyNone">✅ <code>:80</code> のformからから 8MBの.pngをup   </td><td class="markdownTableBodyNone">review.sh(413.sh)   </td><td class="markdownTableBodyNone">✅ <br  />
  サイズ違いの画像を用意した    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">415 Unsupported Media Type   </td><td class="markdownTableBodyNone">✅ <code>.p</code> ファイルへのリンク   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ .pファイル    </td></tr>
+<td class="markdownTableBodyNone">414 URI Too Long   </td><td class="markdownTableBodyNone">❌   </td><td class="markdownTableBodyNone">✅ <code>make 414</code> 8KB制限   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">415 Unsupported Media Type   </td><td class="markdownTableBodyNone">✅ <code>.p</code> ファイルへのリンク   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ .pファイル    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">416   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ コンテンツの範囲リクエストは要件外   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">417   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ Expectヘッダーへの対応機能は要件外   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">429   </td><td class="markdownTableBodyNone">🈚️ <br  />
+ アクセス制限は行うが過負荷対策のため返答は返さない   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">431 Request Header Fields Too Large   </td><td class="markdownTableBodyNone">🈚️   </td><td class="markdownTableBodyNone">✅ ヘッダー1KB制限(nginx デフォルト)   </td><td class="markdownTableBodyNone">🈚️    </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">500 Internal Server Error   </td><td class="markdownTableBodyNone">❌作れない   </td><td class="markdownTableBodyNone">🈚️# define TEST_THROW   </td><td class="markdownTableBodyNone">✅   </td></tr>
 </table>
 </div></div><!-- contents -->

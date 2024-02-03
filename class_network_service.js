@@ -1,7 +1,7 @@
 var class_network_service =
 [
     [ "acceptNewConnection", "class_network_service.html#a18b7f72724577a0fba37802fb36d8e7d", null ],
-    [ "addSocketToPollFd", "class_network_service.html#a6fecddc50e233048c7e1632913dff0b5", null ],
+    [ "addSocketToPollFd", "class_network_service.html#a4b21480dc9effd08b911c9a9f42d5744", null ],
     [ "bindAddr", "class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234", null ],
     [ "closeAndCleanupSocket", "class_network_service.html#a500652677e0cb07236dcba573d8972f3", null ],
     [ "closeAndResetAllSockets", "class_network_service.html#a2cf75b7a3d9f4f6ffb04501be4a4f151", null ],

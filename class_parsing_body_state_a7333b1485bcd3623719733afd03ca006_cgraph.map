@@ -1,29 +1,21 @@
 <map id="ParsingBodyState::handle" name="ParsingBodyState::handle">
-<area shape="rect" id="Node000001" title="HTTPリクエストの解析を行います。" alt="" coords="5,144,178,169"/>
+<area shape="rect" id="Node000001" title="HTTPリクエストの解析を行います。" alt="" coords="5,78,178,104"/>
 <area shape="rect" id="Node000002" href="$class_util_http_processing_step.html#ada47c31af29a6f653e509b8c12499f0d" title="SocketState オブジェクトのデバッグ情報を出力します。" alt="" coords="269,5,428,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,141,156,100,189,77,225,57,254,45,256,50,227,61,192,81,159,104,109,145"/>
-<area shape="rect" id="Node000003" href="$class_parsing_body_state.html#aa166e2862659817f2d8a43887d565678" title="リクエストURIから拡張子を抽出します。" alt="" coords="244,71,453,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,140,250,113,252,118,146,146"/>
-<area shape="rect" id="Node000005" href="$class_parsing_body_state.html#a84e0f5336c3224523c94a97c4ffd4517" title="URIから&quot;.cgi&quot;が存在する場合、その後に続くpathinfoとクエリ文字列を抽出します" alt="" coords="251,136,446,177"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="178,154,235,154,235,159,178,159"/>
-<area shape="rect" id="Node000006" href="$class_parsing_body_state.html#a5286bc06725b49f8555a3164d5a324c3" title="HTTPクエリ文字列から&quot;delete_file_name=&quot;の後ろの部分を抽出し、 _socketState._deleteFileNameに格納します。 また、_socketState...." alt="" coords="244,201,453,242"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="146,167,252,194,250,200,144,172"/>
-<area shape="rect" id="Node000007" href="$class_parsing_body_state.html#ae0cb48fac2fefcedde34e61f16c662ec" title="HTTPリクエストボディを解析します。" alt="" coords="226,266,471,292"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="108,168,158,209,191,232,227,251,247,259,245,264,225,256,189,237,155,214,105,172"/>
-<area shape="rect" id="Node000004" href="$class_parsing_body_state.html#a14938a5705805bb9eaab959784c8aba0" title="指定された拡張子に対応するMIMEタイプが有効かどうかを検証します。" alt="" coords="520,71,692,111"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="453,88,504,88,504,94,453,94"/>
-<area shape="rect" id="Node000008" href="$class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="532,225,680,266"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="452,263,516,255,517,260,453,268"/>
-<area shape="rect" id="Node000014" href="$class_parsing_body_state.html#a85a43d44071d51ee96dd501ccc850d59" title="チャンクエンコーディングの際のリクエストボディを解析します" alt="" coords="519,291,692,331"/>
-<area shape="poly" id="edge13_Node000007_Node000014" title=" " alt="" coords="457,290,504,296,503,301,457,295"/>
-<area shape="rect" id="Node000009" href="$class_parsing_multi_part_state.html#a79459c0d525f2dd11bbb61c8eaf9481c" title="マルチパートフォームデータの解析を行います。" alt="" coords="744,189,915,230"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="680,231,728,223,729,229,680,236"/>
-<area shape="rect" id="Node000013" href="$class_parsing_multi_part_state.html#adb42722cea83399d44c210f26530aa54" title="parseしたヘッダーから Content&#45;Disposition を復元するように再構築します。" alt="" coords="740,254,919,310"/>
-<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="680,255,725,262,724,267,680,260"/>
-<area shape="rect" id="Node000010" href="$class_parsing_multi_part_state.html#add373e606f8fb778e573dc75f1133c9f" title="バウンダリ文字列を作成します。" alt="" coords="967,157,1125,198"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="915,194,951,189,952,194,916,200"/>
-<area shape="rect" id="Node000011" href="$class_parsing_multi_part_state.html#aafcdeadbf09c42914c2cb91ea07111eb" title="ヘッダー全体を解析し、それをマップに格納します。" alt="" coords="968,223,1124,263"/>
-<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="916,220,953,226,952,231,915,225"/>
-<area shape="rect" id="Node000012" href="$class_parsing_multi_part_state.html#ab57c95e14529c7ae5defa0abd24667ad" title="マルチパートヘッダーのデータからキーと値のペアを抽出し、マップに追加します。" alt="" coords="1173,223,1342,263"/>
-<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1124,240,1157,240,1157,246,1124,246"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,75,254,47,255,52,146,80"/>
+<area shape="rect" id="Node000003" href="$class_parsing_body_state.html#a5286bc06725b49f8555a3164d5a324c3" title="HTTPクエリ文字列から&quot;delete_file_name=&quot;の後ろの部分を抽出し、 _socketState._deleteFileNameに格納します。 また、_socketState...." alt="" coords="244,71,453,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,88,229,88,229,94,178,94"/>
+<area shape="rect" id="Node000004" href="$class_parsing_body_state.html#ae0cb48fac2fefcedde34e61f16c662ec" title="HTTPリクエストボディを解析します。" alt="" coords="226,136,471,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,102,226,120,266,129,265,134,225,126,146,107"/>
+<area shape="rect" id="Node000005" href="$class_parsing_multi_part_state.html#aff379087732c08fed8aa91e7ccd5a43c" title="マルチパートフォームデータを解析します。" alt="" coords="519,128,667,169"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="471,146,503,146,503,151,471,151"/>
+<area shape="rect" id="Node000006" href="$class_parsing_multi_part_state.html#a79459c0d525f2dd11bbb61c8eaf9481c" title="マルチパートフォームデータの解析を行います。" alt="" coords="719,92,890,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="667,133,703,127,704,132,668,138"/>
+<area shape="rect" id="Node000010" href="$class_parsing_multi_part_state.html#adb42722cea83399d44c210f26530aa54" title="parseしたヘッダーから Content&#45;Disposition を復元するように再構築します。" alt="" coords="715,157,894,212"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="668,158,700,164,699,169,667,164"/>
+<area shape="rect" id="Node000007" href="$class_parsing_multi_part_state.html#add373e606f8fb778e573dc75f1133c9f" title="バウンダリ文字列を作成します。" alt="" coords="942,60,1100,101"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="890,97,926,92,927,97,891,102"/>
+<area shape="rect" id="Node000008" href="$class_parsing_multi_part_state.html#aafcdeadbf09c42914c2cb91ea07111eb" title="ヘッダー全体を解析し、それをマップに格納します。" alt="" coords="943,125,1099,166"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="891,123,928,129,927,134,890,128"/>
+<area shape="rect" id="Node000009" href="$class_parsing_multi_part_state.html#ab57c95e14529c7ae5defa0abd24667ad" title="マルチパートヘッダーのデータからキーと値のペアを抽出し、マップに追加します。" alt="" coords="1148,125,1317,166"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1099,143,1132,143,1132,148,1099,148"/>
 </map>

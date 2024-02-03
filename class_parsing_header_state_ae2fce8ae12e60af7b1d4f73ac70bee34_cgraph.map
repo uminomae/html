@@ -1,0 +1,5 @@
+<map id="ParsingHeaderState::isValidMimetype" name="ParsingHeaderState::isValidMimetype">
+<area shape="rect" id="Node000001" title="指定された拡張子に対応するMIMEタイプが有効かどうかを検証します。" alt="" coords="5,5,144,46"/>
+<area shape="rect" id="Node000002" href="$class_mime_type.html#a4a1e37154291b98f207140579af47e9a" title="指定された拡張子に対応するMIMEタイプのテキストを取得します。" alt="" coords="192,13,370,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,23,176,23,176,28,144,28"/>
+</map>

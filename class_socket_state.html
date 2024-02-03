@@ -105,15 +105,15 @@ Collaboration diagram for SocketState:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_socket_state__coll__graph.png" border="0" usemap="#a_socket_state_coll__map" alt="Collaboration graph"/></div>
 <map name="a_socket_state_coll__map" id="a_socket_state_coll__map">
-<area shape="rect" title=" " alt="" coords="353,708,515,1074"/>
+<area shape="rect" title=" " alt="" coords="347,708,521,1074"/>
 <area shape="rect" href="class_location_directive.html" title=" " alt="" coords="5,123,204,528"/>
-<area shape="poly" title=" " alt="" coords="164,527,189,587,219,644,247,686,278,727,344,801,340,805,274,731,242,690,214,647,185,589,160,529"/>
+<area shape="poly" title=" " alt="" coords="164,527,189,587,219,644,275,724,338,795,334,798,271,727,214,647,185,589,160,529"/>
 <area shape="rect" href="class_server_directive.html" title=" " alt="" coords="229,5,418,645"/>
 <area shape="poly" title=" " alt="" coords="389,645,398,691,392,692,383,646"/>
 <area shape="rect" href="struct_socket_state_1_1_content_disposition.html" title=" " alt="" coords="443,273,647,378"/>
 <area shape="poly" title=" " alt="" coords="548,378,541,517,532,601,517,685,515,692,510,691,511,684,527,601,536,517,542,378"/>
 <area shape="rect" href="class_timeout_manager.html" title=" " alt="" coords="671,263,853,388"/>
-<area shape="poly" title=" " alt="" coords="755,388,740,453,719,529,689,610,650,686,623,723,593,758,529,820,525,816,589,755,619,720,645,683,684,607,714,528,735,451,749,387"/>
+<area shape="poly" title=" " alt="" coords="755,388,740,453,719,529,689,610,650,686,625,721,596,755,535,815,531,811,592,752,620,718,645,683,684,607,714,528,735,451,749,387"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -169,6 +169,15 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>_reqContentLength</
 <tr class="memitem:af9d395bdb1243182c0c01ee8e019d2ff" id="r_af9d395bdb1243182c0c01ee8e019d2ff"><td class="memItemLeft" align="right" valign="top"><a id="af9d395bdb1243182c0c01ee8e019d2ff" name="af9d395bdb1243182c0c01ee8e019d2ff"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isRecvEOF</b></td></tr>
 <tr class="separator:af9d395bdb1243182c0c01ee8e019d2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78096f378db1ccf7f02150a57411d60" id="r_ac78096f378db1ccf7f02150a57411d60"><td class="memItemLeft" align="right" valign="top"><a id="ac78096f378db1ccf7f02150a57411d60" name="ac78096f378db1ccf7f02150a57411d60"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_requestParsingComplete</b></td></tr>
+<tr class="separator:ac78096f378db1ccf7f02150a57411d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21935ef6dd62e6871298620e8ec8a791" id="r_a21935ef6dd62e6871298620e8ec8a791"><td class="memItemLeft" align="right" valign="top"><a id="a21935ef6dd62e6871298620e8ec8a791" name="a21935ef6dd62e6871298620e8ec8a791"></a>
+std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_nextRequestData</b></td></tr>
+<tr class="separator:a21935ef6dd62e6871298620e8ec8a791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b200a3b0853f911dbbbf24dd7071da" id="r_a36b200a3b0853f911dbbbf24dd7071da"><td class="memItemLeft" align="right" valign="top"><a id="a36b200a3b0853f911dbbbf24dd7071da" name="a36b200a3b0853f911dbbbf24dd7071da"></a>
+std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_reqRecvData</b></td></tr>
+<tr class="separator:a36b200a3b0853f911dbbbf24dd7071da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9956d1fdc491a802c0e65acd0219f359" id="r_a9956d1fdc491a802c0e65acd0219f359"><td class="memItemLeft" align="right" valign="top"><a id="a9956d1fdc491a802c0e65acd0219f359" name="a9956d1fdc491a802c0e65acd0219f359"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_parsedPathiInfo</b></td></tr>
 <tr class="separator:a9956d1fdc491a802c0e65acd0219f359"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,15 +214,21 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isReqMultipartFormDa
 <tr class="memitem:adc9debeeefa292c4eb9714859f8015c2" id="r_adc9debeeefa292c4eb9714859f8015c2"><td class="memItemLeft" align="right" valign="top"><a id="adc9debeeefa292c4eb9714859f8015c2" name="adc9debeeefa292c4eb9714859f8015c2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isDeleteMethod</b></td></tr>
 <tr class="separator:adc9debeeefa292c4eb9714859f8015c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a983e17a24394cc7a586f0d84c16d9" id="r_a16a983e17a24394cc7a586f0d84c16d9"><td class="memItemLeft" align="right" valign="top"><a id="a16a983e17a24394cc7a586f0d84c16d9" name="a16a983e17a24394cc7a586f0d84c16d9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isDeleteBody</b></td></tr>
+<tr class="separator:a16a983e17a24394cc7a586f0d84c16d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eade9a654427609f59981b3e09375d5" id="r_a2eade9a654427609f59981b3e09375d5"><td class="memItemLeft" align="right" valign="top"><a id="a2eade9a654427609f59981b3e09375d5" name="a2eade9a654427609f59981b3e09375d5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isHeaderParsed</b></td></tr>
+<tr class="separator:a2eade9a654427609f59981b3e09375d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a066d443530a702b09fe0db5cd710ab20" id="r_a066d443530a702b09fe0db5cd710ab20"><td class="memItemLeft" align="right" valign="top"><a id="a066d443530a702b09fe0db5cd710ab20" name="a066d443530a702b09fe0db5cd710ab20"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isSamePort</b></td></tr>
 <tr class="separator:a066d443530a702b09fe0db5cd710ab20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3d83e5723ba00379c21f1116afa9d9e" id="r_ab3d83e5723ba00379c21f1116afa9d9e"><td class="memItemLeft" align="right" valign="top"><a id="ab3d83e5723ba00379c21f1116afa9d9e" name="ab3d83e5723ba00379c21f1116afa9d9e"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_reqValidAabsPath</b></td></tr>
 <tr class="separator:ab3d83e5723ba00379c21f1116afa9d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1302f35e1f64169f12c214848b9a6fd1" id="r_a1302f35e1f64169f12c214848b9a6fd1"><td class="memItemLeft" align="right" valign="top"><a id="a1302f35e1f64169f12c214848b9a6fd1" name="a1302f35e1f64169f12c214848b9a6fd1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_chunkSize</b></td></tr>
-<tr class="separator:a1302f35e1f64169f12c214848b9a6fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ada2b6bf2c0aa1372e2e80549f64634" id="r_a3ada2b6bf2c0aa1372e2e80549f64634"><td class="memItemLeft" align="right" valign="top"><a id="a3ada2b6bf2c0aa1372e2e80549f64634" name="a3ada2b6bf2c0aa1372e2e80549f64634"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>_totalChunkSize</b></td></tr>
+<tr class="separator:a3ada2b6bf2c0aa1372e2e80549f64634"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bb2ca3548c65ee75e187d586a08fdd1" id="r_a4bb2ca3548c65ee75e187d586a08fdd1"><td class="memItemLeft" align="right" valign="top"><a id="a4bb2ca3548c65ee75e187d586a08fdd1" name="a4bb2ca3548c65ee75e187d586a08fdd1"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isChunk</b></td></tr>
 <tr class="separator:a4bb2ca3548c65ee75e187d586a08fdd1"><td class="memSeparator" colspan="2">&#160;</td></tr>

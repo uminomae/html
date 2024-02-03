@@ -1,13 +1,4 @@
 var searchData=
 [
-  ['basecounter_0',['BaseCounter',['../class_base_counter.html',1,'']]],
-  ['bindaddr_1',['bindAddr',['../class_network_service.html#a76eb3eb24ee923721a827e11d5bf7234',1,'NetworkService']]],
-  ['build301movedpermanentlyheader_2',['build301MovedPermanentlyHeader',['../class_response_str_build_state.html#add60093e72dac4410f23bb31db759f5e',1,'ResponseStrBuildState']]],
-  ['buildabsolutefilepaths_3',['buildAbsoluteFilePaths',['../class_file_path_generation_state.html#ab9a85d03be875b1bc2e19046d93a630c',1,'FilePathGenerationState']]],
-  ['buildabsolutepath_4',['buildAbsolutePath',['../class_util_http_processing_step.html#a59d2ac26324fd367151fcfe6bb787864',1,'UtilHttpProcessingStep']]],
-  ['buildbody_5',['buildBody',['../class_auto_index_state.html#aeaf8392a5d89a5ef9f743fd174f9563d',1,'AutoIndexState']]],
-  ['buildcontenttypeheader_6',['buildContentTypeHeader',['../class_response_str_build_state.html#a71e4e179bf069803d09000ef75331d5d',1,'ResponseStrBuildState']]],
-  ['buildresponsebody_7',['buildResponseBody',['../class_response_str_build_state.html#a0f55d5f37e78c4ab37c97e40b74128e4',1,'ResponseStrBuildState']]],
-  ['buildresponseheader_8',['buildResponseHeader',['../class_response_str_build_state.html#aa9cd3a0aeb17b8500de1c08b89211fde',1,'ResponseStrBuildState']]],
-  ['buildresponsestatusline_9',['buildResponseStatusLine',['../class_response_str_build_state.html#a94307f5ba086893af9d589e97f7d73a5',1,'ResponseStrBuildState']]]
+  ['30x_0',['statusCode 30x',['../md_review_hioikawa_2oshinagaki.html#autotoc_md4',1,'']]]
 ];

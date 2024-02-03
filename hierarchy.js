@@ -19,8 +19,9 @@ var hierarchy =
       [ "DeleteMethodState", "class_delete_method_state.html", null ],
       [ "FilePathGenerationState", "class_file_path_generation_state.html", null ],
       [ "IdentifyLocationState", "class_identify_location_state.html", null ],
+      [ "ParsingBodyState", "class_parsing_body_state.html", null ],
+      [ "ParsingHeaderState", "class_parsing_header_state.html", null ],
       [ "ParsingMultiPartState", "class_parsing_multi_part_state.html", null ],
-      [ "ParsingRequestState", "class_parsing_request_state.html", null ],
       [ "RecvHeaderLexerState", "class_recv_header_lexer_state.html", null ],
       [ "ResponseStrBuildState", "class_response_str_build_state.html", null ]
     ] ],

@@ -1,13 +1,19 @@
 <map id="IdentifyLocationState::ValidationRequestInLocation" name="IdentifyLocationState::ValidationRequestInLocation">
-<area shape="rect" id="Node000001" title="現在のリクエストが特定のロケーションディレクティブに適合しているか検証します。" alt="" coords="1169,5,1363,46"/>
-<area shape="rect" id="Node000002" href="$class_identify_location_state.html#a6d6d0d17c501290cde9ac46f94425b86" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="977,5,1121,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1154,28,1122,28,1122,23,1154,23"/>
-<area shape="rect" id="Node000003" href="$class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="744,5,929,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="961,28,929,28,929,23,961,23"/>
-<area shape="rect" id="Node000004" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="494,5,696,46"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="729,28,697,28,697,23,729,23"/>
-<area shape="rect" id="Node000005" href="$class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,446,46"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="478,28,446,28,446,23,478,23"/>
-<area shape="rect" id="Node000006" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
+<area shape="rect" id="Node000001" title="現在のリクエストが特定のロケーションディレクティブに適合しているか検証します。" alt="" coords="1785,5,1979,46"/>
+<area shape="rect" id="Node000002" href="$class_identify_location_state.html#a6d6d0d17c501290cde9ac46f94425b86" title="クライアントのリクエストURIに基づいて適切なサーバーとロケーションを識別しセットします。" alt="" coords="1593,5,1737,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1770,28,1738,28,1738,23,1770,23"/>
+<area shape="rect" id="Node000003" href="$class_recv_header_lexer_state.html#a4ae035b54b871209e46b7a096663fe13" title="ヘッダーを解析します。終了したら次回以降の処理をスキップするためにフラグを立てます" alt="" coords="1387,5,1545,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1577,28,1545,28,1545,23,1577,23"/>
+<area shape="rect" id="Node000004" href="$class_recv_header_lexer_state.html#a1441b2cc3c6a1ec2dde32e9ce51401ce" title="ソケットからメッセージを受信します。" alt="" coords="1182,5,1339,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1372,28,1340,28,1340,23,1372,23"/>
+<area shape="rect" id="Node000005" href="$class_recv_header_lexer_state.html#ae494c259cb88bb3b824f6af8672d6376" title="データを逐次的に読み取りながら解析します。" alt="" coords="977,5,1134,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1167,28,1135,28,1135,23,1167,23"/>
+<area shape="rect" id="Node000006" href="$class_http_workflow_manager.html#a09d2f69d56764717d9c9f65192ab6737" title="HTTPトランザクションの状態に応じたハンドラを実行します。" alt="" coords="744,5,929,46"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="962,28,929,28,929,23,962,23"/>
+<area shape="rect" id="Node000007" href="$class_network_service.html#a1b6605ad0ddb71f1fc7a87ff616cf872" title="クライアントのHTTPセッションを実行します。" alt="" coords="494,5,696,46"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="729,28,697,28,697,23,729,23"/>
+<area shape="rect" id="Node000008" href="$class_network_service.html#afc2ce78b98367413538d7d84537b867e" title="すべてのクライアントソケットからのリクエストを処理します。" alt="" coords="255,5,446,46"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="478,28,446,28,446,23,478,23"/>
+<area shape="rect" id="Node000009" href="$class_server_maneger.html#aa1a8f96cfe9f844cafc8fc5e36255ed7" title="サーバーのメインループを実行します。" alt="" coords="5,13,207,39"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="239,28,207,28,207,23,239,23"/>
 </map>
